@@ -169,6 +169,13 @@ import Core
     "We are waiting for the deployment to finish.",
     "hozonnsakiha~/Projects/workflow/main.swift desu",
     "\\section{houhounosetsumei}"
+] + [
+    "konotooltipwokakuninshitekudasai",
+    "kononamespacewokakuninshitekudasai",
+    "konoavatarwokakuninshitekudasai",
+    "ashitanoavatarnolinkwookurimasu",
+    "konorefactorwokakuninshitekudasai",
+    "konostagingwokakuninshitekudasai"
 ]
         for raw in samples {
             session.reset(); var times: [Double] = []

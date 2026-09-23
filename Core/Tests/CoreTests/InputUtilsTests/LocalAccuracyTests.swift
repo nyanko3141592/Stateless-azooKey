@@ -20,13 +20,19 @@ private func accuracyLabels(_ d: JevMixedDecision) -> [Bool] {
     let root = URL(fileURLWithPath:#filePath).deletingLastPathComponent().deletingLastPathComponent().deletingLastPathComponent().deletingLastPathComponent().deletingLastPathComponent()
     let cases = try JSONDecoder().decode([AccuracyCase].self,from:Data(contentsOf:root.appendingPathComponent(fixture)))
     let baseline = try AccuracyBaselineRouter(); let model = try LocalLanguageRouter()
+    let latestBaseline = try AccuracyV3BaselineRouter()
+    let baselineVersion = ProcessInfo.processInfo.environment["LOCAL_ACCURACY_BASELINE"] == "bf0888d" ? "bf0888d" : "60a4e9f"
+    let baselineClassify: (String) -> JevMixedDecision = { raw in
+        if baselineVersion == "bf0888d" { return latestBaseline.classify(raw) }
+        return baseline.classify(raw)
+    }
     var rows: [[String:Any]] = []
     for c in cases {
         for range in c.japaneseRanges + c.englishRanges {
             try #require(range.count == 2)
             #expect(range[0] >= 0 && range[0] < range[1] && range[1] <= c.raw.count)
         }
-        for (version,classify) in [("60a4e9f",baseline.classify),("current",model.classify)] {
+        for (version,classify) in [(baselineVersion,baselineClassify),("current",model.classify)] {
             let expected = Array(c.raw).indices.map { i in c.japaneseRanges.contains { i >= $0[0] && i < $0[1] } }
             let final = classify(c.raw)
             let labels = accuracyLabels(final)
@@ -52,7 +58,12 @@ private func accuracyLabels(_ d: JevMixedDecision) -> [Bool] {
         }
     }
     try JSONSerialization.data(withJSONObject:rows,options:[.prettyPrinted,.sortedKeys]).write(to:URL(fileURLWithPath:output))
-    for version in ["60a4e9f","current"] {
+    for c in cases {
+        let previous = rows.first { $0["id"] as? String == c.id && $0["version"] as? String == baselineVersion }!
+        let current = rows.first { $0["id"] as? String == c.id && $0["version"] as? String == "current" }!
+        #expect(previous["exact"] as? Bool != true || current["exact"] as? Bool == true, "Lost a correct baseline partition: \(c.raw)")
+    }
+    for version in [baselineVersion,"current"] {
         let r = rows.filter { $0["version"] as? String == version }
         print("ACCURACY",version,r.filter { $0["exact"] as? Bool == true }.count,"/",r.count,
               "damage",r.reduce(0) { $0 + ($1["damagedEnglishFrames"] as! Int) },

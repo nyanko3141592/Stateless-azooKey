@@ -1,0 +1,878 @@
+[
+  {
+    "id": "v3-fresh-01",
+    "raw": "kyounonotebookwomisetekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        14,
+        29
+      ]
+    ],
+    "englishRanges": [
+      [
+        6,
+        14
+      ]
+    ]
+  },
+  {
+    "id": "v3-fresh-02",
+    "raw": "kononotebookwoSlackdekyouyuushimasu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        12,
+        14
+      ],
+      [
+        19,
+        35
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        12
+      ],
+      [
+        14,
+        19
+      ]
+    ]
+  },
+  {
+    "id": "v3-fresh-03",
+    "raw": "kyounowhiteboardwomisetekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        16,
+        31
+      ]
+    ],
+    "englishRanges": [
+      [
+        6,
+        16
+      ]
+    ]
+  },
+  {
+    "id": "v3-fresh-04",
+    "raw": "konowhiteboardwoSlackdekyouyuushimasu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        21,
+        37
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        14
+      ],
+      [
+        16,
+        21
+      ]
+    ]
+  },
+  {
+    "id": "v3-fresh-05",
+    "raw": "kyounochecklistwomisetekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        15,
+        30
+      ]
+    ],
+    "englishRanges": [
+      [
+        6,
+        15
+      ]
+    ]
+  },
+  {
+    "id": "v3-fresh-06",
+    "raw": "konochecklistwoSlackdekyouyuushimasu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        13,
+        15
+      ],
+      [
+        20,
+        36
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        13
+      ],
+      [
+        15,
+        20
+      ]
+    ]
+  },
+  {
+    "id": "v3-fresh-07",
+    "raw": "kyounotimesheetwomisetekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        15,
+        30
+      ]
+    ],
+    "englishRanges": [
+      [
+        6,
+        15
+      ]
+    ]
+  },
+  {
+    "id": "v3-fresh-08",
+    "raw": "konotimesheetwoSlackdekyouyuushimasu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        13,
+        15
+      ],
+      [
+        20,
+        36
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        13
+      ],
+      [
+        15,
+        20
+      ]
+    ]
+  },
+  {
+    "id": "v3-fresh-09",
+    "raw": "kyounobacklogwomisetekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        13,
+        28
+      ]
+    ],
+    "englishRanges": [
+      [
+        6,
+        13
+      ]
+    ]
+  },
+  {
+    "id": "v3-fresh-10",
+    "raw": "konobacklogwoSlackdekyouyuushimasu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        11,
+        13
+      ],
+      [
+        18,
+        34
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        11
+      ],
+      [
+        13,
+        18
+      ]
+    ]
+  },
+  {
+    "id": "v3-fresh-11",
+    "raw": "kyounoroadmapwomisetekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        13,
+        28
+      ]
+    ],
+    "englishRanges": [
+      [
+        6,
+        13
+      ]
+    ]
+  },
+  {
+    "id": "v3-fresh-12",
+    "raw": "konoroadmapwoSlackdekyouyuushimasu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        11,
+        13
+      ],
+      [
+        18,
+        34
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        11
+      ],
+      [
+        13,
+        18
+      ]
+    ]
+  },
+  {
+    "id": "v3-fresh-13",
+    "raw": "kyounoflowchartwomisetekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        15,
+        30
+      ]
+    ],
+    "englishRanges": [
+      [
+        6,
+        15
+      ]
+    ]
+  },
+  {
+    "id": "v3-fresh-14",
+    "raw": "konoflowchartwoSlackdekyouyuushimasu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        13,
+        15
+      ],
+      [
+        20,
+        36
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        13
+      ],
+      [
+        15,
+        20
+      ]
+    ]
+  },
+  {
+    "id": "v3-fresh-15",
+    "raw": "kyounowireframewomisetekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        15,
+        30
+      ]
+    ],
+    "englishRanges": [
+      [
+        6,
+        15
+      ]
+    ]
+  },
+  {
+    "id": "v3-fresh-16",
+    "raw": "konowireframewoSlackdekyouyuushimasu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        13,
+        15
+      ],
+      [
+        20,
+        36
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        13
+      ],
+      [
+        15,
+        20
+      ]
+    ]
+  },
+  {
+    "id": "v3-fresh-17",
+    "raw": "kyounoprototypewomisetekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        15,
+        30
+      ]
+    ],
+    "englishRanges": [
+      [
+        6,
+        15
+      ]
+    ]
+  },
+  {
+    "id": "v3-fresh-18",
+    "raw": "konoprototypewoSlackdekyouyuushimasu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        13,
+        15
+      ],
+      [
+        20,
+        36
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        13
+      ],
+      [
+        15,
+        20
+      ]
+    ]
+  },
+  {
+    "id": "v3-fresh-19",
+    "raw": "kyounoworkbookwomisetekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        14,
+        29
+      ]
+    ],
+    "englishRanges": [
+      [
+        6,
+        14
+      ]
+    ]
+  },
+  {
+    "id": "v3-fresh-20",
+    "raw": "konoworkbookwoSlackdekyouyuushimasu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        12,
+        14
+      ],
+      [
+        19,
+        35
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        12
+      ],
+      [
+        14,
+        19
+      ]
+    ]
+  },
+  {
+    "id": "v3-fresh-21",
+    "raw": "kyounonewsfeedwomisetekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        14,
+        29
+      ]
+    ],
+    "englishRanges": [
+      [
+        6,
+        14
+      ]
+    ]
+  },
+  {
+    "id": "v3-fresh-22",
+    "raw": "kononewsfeedwoSlackdekyouyuushimasu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        12,
+        14
+      ],
+      [
+        19,
+        35
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        12
+      ],
+      [
+        14,
+        19
+      ]
+    ]
+  },
+  {
+    "id": "v3-fresh-23",
+    "raw": "kyounoscreencastwomisetekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        16,
+        31
+      ]
+    ],
+    "englishRanges": [
+      [
+        6,
+        16
+      ]
+    ]
+  },
+  {
+    "id": "v3-fresh-24",
+    "raw": "konoscreencastwoSlackdekyouyuushimasu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        21,
+        37
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        14
+      ],
+      [
+        16,
+        21
+      ]
+    ]
+  },
+  {
+    "id": "v3-fresh-25",
+    "raw": "Could you send me the notebook today?",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        37
+      ]
+    ]
+  },
+  {
+    "id": "v3-fresh-26",
+    "raw": "Could you send me the whiteboard today?",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        39
+      ]
+    ]
+  },
+  {
+    "id": "v3-fresh-27",
+    "raw": "Could you send me the checklist today?",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        38
+      ]
+    ]
+  },
+  {
+    "id": "v3-fresh-28",
+    "raw": "Could you send me the timesheet today?",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        38
+      ]
+    ]
+  },
+  {
+    "id": "v3-fresh-29",
+    "raw": "Could you send me the backlog today?",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        36
+      ]
+    ]
+  },
+  {
+    "id": "v3-fresh-30",
+    "raw": "Could you send me the roadmap today?",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        36
+      ]
+    ]
+  },
+  {
+    "id": "v3-fresh-31",
+    "raw": "Could you send me the flowchart today?",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        38
+      ]
+    ]
+  },
+  {
+    "id": "v3-fresh-32",
+    "raw": "Could you send me the wireframe today?",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        38
+      ]
+    ]
+  },
+  {
+    "id": "v3-fresh-33",
+    "raw": "Could you send me the prototype today?",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        38
+      ]
+    ]
+  },
+  {
+    "id": "v3-fresh-34",
+    "raw": "Could you send me the workbook today?",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        37
+      ]
+    ]
+  },
+  {
+    "id": "v3-fresh-35",
+    "raw": "Could you send me the newsfeed today?",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        37
+      ]
+    ]
+  },
+  {
+    "id": "v3-fresh-36",
+    "raw": "Could you send me the screencast today?",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        39
+      ]
+    ]
+  },
+  {
+    "id": "v3-fresh-37",
+    "raw": "kyounosagyounaiyouwokakuninshimasu",
+    "japaneseRanges": [
+      [
+        0,
+        34
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "v3-fresh-38",
+    "raw": "ashitanoyoyakujikanwooshietekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        35
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "v3-fresh-39",
+    "raw": "konobunshouwohenkanshitekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        31
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "v3-fresh-40",
+    "raw": "raishuunoyoyakuwonaoshitai",
+    "japaneseRanges": [
+      [
+        0,
+        26
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "v3-fresh-41",
+    "raw": "atarashiishiryouwojunbishimasu",
+    "japaneseRanges": [
+      [
+        0,
+        30
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "v3-fresh-42",
+    "raw": "konosetsumeiwoyomikaeshimasu",
+    "japaneseRanges": [
+      [
+        0,
+        28
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "v3-fresh-43",
+    "raw": "sakinikekkanokakuninwoshimasu",
+    "japaneseRanges": [
+      [
+        0,
+        29
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "v3-fresh-44",
+    "raw": "kinounouchiawasenonaiyouwoomoidashitai",
+    "japaneseRanges": [
+      [
+        0,
+        38
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "v3-fresh-45",
+    "raw": "keisanshikiha$x^2+y^2=z^2$desu",
+    "japaneseRanges": [
+      [
+        0,
+        13
+      ],
+      [
+        26,
+        30
+      ]
+    ],
+    "englishRanges": [
+      [
+        13,
+        26
+      ]
+    ]
+  },
+  {
+    "id": "v3-fresh-46",
+    "raw": "\\section{kousatsunomatome}",
+    "japaneseRanges": [
+      [
+        9,
+        25
+      ]
+    ],
+    "englishRanges": [
+      [
+        0,
+        9
+      ],
+      [
+        25,
+        26
+      ]
+    ]
+  },
+  {
+    "id": "v3-fresh-47",
+    "raw": "kono`git diff HEAD`wotsukaimasu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        19,
+        31
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        19
+      ]
+    ]
+  },
+  {
+    "id": "v3-fresh-48",
+    "raw": "renrakusakiha editor@example.org desu",
+    "japaneseRanges": [
+      [
+        0,
+        13
+      ],
+      [
+        33,
+        37
+      ]
+    ],
+    "englishRanges": [
+      [
+        13,
+        33
+      ]
+    ]
+  }
+]

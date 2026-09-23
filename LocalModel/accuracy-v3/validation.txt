@@ -1,0 +1,1 @@
+49 selected Swift tests passed. Release build succeeded. Final signed sandboxed app ran 46 real-Zenzai samples. API key absent; middle-edit restoration and commit cleanup passed. Local IME and Demo updated. Final inference hashes unchanged after final-unseen evaluation. External-app IME verification remains pending.

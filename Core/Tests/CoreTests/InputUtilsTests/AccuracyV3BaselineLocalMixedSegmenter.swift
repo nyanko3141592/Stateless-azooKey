@@ -1,6 +1,8 @@
+// Frozen bf0888d inference for v3 comparison; test target only.
 import Foundation
+@testable import Core
 
-extension LocalLanguageRouter {
+extension AccuracyV3BaselineRouter {
     /// Refine a lexer word only when alternating literal words and plausible romaji explain it.
     /// Source characters are sliced verbatim; no generated text or persistent language state.
     func mixedSegments(_ word: String) -> [(text: String, japanese: Bool)]? {
@@ -83,24 +85,12 @@ extension LocalLanguageRouter {
                             && (probability(rest,context:true) > 0.8 || ["shite","shita","shimasu","saremasu","suru"].contains(where: { $0.hasPrefix(rest) }))
                     }
                 }
-                let lexicalJapanesePrefix = knownJapanese.contains(preceding)
-                    || ["no","ni","de","wo","ha","ga","to"].contains { particle in
-                        preceding.hasSuffix(particle) && knownJapanese.contains(String(preceding.dropLast(particle.count)))
-                    }
-                // Do not end an uncertain word inside a longer lexical word:
-                // e.g. an unknown prefix must not peel "co" off "code" as Japanese "de".
-                let crossesLexicalWord = ((start+1)...end).contains { lexicalStart in
-                    (compoundEnds[lexicalStart] ?? []).contains { lexicalEnd in
-                        lexicalEnd > end+1 && lexicalEnd-lexicalStart >= 4
-                    }
-                }
                 let unknown = !lexical && candidate.count >= 4 && candidate.count <= 20
                     && beforeJapanese && tail.count >= 2
                     && (start > 0 || ((isRomaji(tail) || isRomajiPrefix(tail)) && probability(tail,context:true) >= 0.88))
                     && (afterJapaneseParticle || (start == 0 && candidate.first?.isUppercase == true)
                         || (!isRomaji(candidate) && probability(candidate) < 0.02))
-                    && probability(candidate) < (lexicalJapanesePrefix ? 0.7 : 0.4)
-                    && !crossesLexicalWord && !hasJapaneseSuffix()
+                    && probability(candidate) < 0.4 && !hasJapaneseSuffix()
                 if lexical || partialEnglish || unknown { anchors[start,default:[]].append((end+1,candidate)) }
             }
         }
@@ -170,17 +160,7 @@ extension LocalLanguageRouter {
                         let afterParticle = ["no","ni","de","wo","ha","ga","to","mo","kara","made"].contains(where:preceding.hasSuffix)
                         let score = lexical ? 3 + Double(anchor.text.count)*0.2
                             : afterParticle ? 1.5 + Double(anchor.text.count)*0.12 : 1 - Double(anchor.text.count)*0.06
-                        // Strong Japanese morphology helps locate an uncertain English word,
-                        // but must not bias Japanese suffixes after an already identified word.
-                        let japanesePrefix = path.pieces.last?.japanese == true ? path.pieces.last!.text : ""
-                        var boundaryEvidence = 0.0
-                        if !lexical && anchor.end < characters.count && japanesePrefix.count >= 4 {
-                            if knownJapanese.contains(japanesePrefix) { boundaryEvidence = 2.5 }
-                            else if particles.contains(where: { japanesePrefix.hasSuffix($0) && knownJapanese.contains(String(japanesePrefix.dropLast($0.count))) }) {
-                                boundaryEvidence = 2.0
-                            }
-                        }
-                        offer(path,end:anchor.end,text:anchor.text,japanese:false,score:score + boundaryEvidence)
+                        offer(path,end:anchor.end,text:anchor.text,japanese:false,score:score)
                     }
                 }
                 if path.pieces.last?.japanese != true {

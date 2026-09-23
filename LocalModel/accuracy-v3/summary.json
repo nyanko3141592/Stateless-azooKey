@@ -1,0 +1,74 @@
+{
+  "prior80-final.json:bf0888d": {
+    "exact": 71,
+    "cases": 80,
+    "damagedEnglishFrames": 186,
+    "eligibleFrames": 883,
+    "labelReversalFrames": 183,
+    "meanMS": 1.7103250343876608,
+    "p95MS": 6.845998764038085
+  },
+  "prior80-final.json:current": {
+    "exact": 77,
+    "cases": 80,
+    "damagedEnglishFrames": 104,
+    "eligibleFrames": 883,
+    "labelReversalFrames": 188,
+    "meanMS": 1.9338576484778227,
+    "p95MS": 8.073925971984863
+  },
+  "prior24-final.json:bf0888d": {
+    "exact": 22,
+    "cases": 24,
+    "damagedEnglishFrames": 6,
+    "eligibleFrames": 243,
+    "labelReversalFrames": 85,
+    "meanMS": 1.8260501107739517,
+    "p95MS": 8.24929475784302
+  },
+  "prior24-final.json:current": {
+    "exact": 22,
+    "cases": 24,
+    "damagedEnglishFrames": 6,
+    "eligibleFrames": 243,
+    "labelReversalFrames": 81,
+    "meanMS": 2.010985932236325,
+    "p95MS": 8.890670537948612
+  },
+  "fresh-final.json:bf0888d": {
+    "exact": 45,
+    "cases": 48,
+    "damagedEnglishFrames": 67,
+    "eligibleFrames": 533,
+    "labelReversalFrames": 247,
+    "meanMS": 1.4614313840866089,
+    "p95MS": 5.363225936889644
+  },
+  "fresh-final.json:current": {
+    "exact": 46,
+    "cases": 48,
+    "damagedEnglishFrames": 54,
+    "eligibleFrames": 533,
+    "labelReversalFrames": 245,
+    "meanMS": 1.5847185506156427,
+    "p95MS": 5.8765947818756095
+  },
+  "final-unseen-result.json:bf0888d": {
+    "exact": 21,
+    "cases": 24,
+    "damagedEnglishFrames": 48,
+    "eligibleFrames": 372,
+    "labelReversalFrames": 128,
+    "meanMS": 1.8613155198559537,
+    "p95MS": 5.390805006027222
+  },
+  "final-unseen-result.json:current": {
+    "exact": 23,
+    "cases": 24,
+    "damagedEnglishFrames": 16,
+    "eligibleFrames": 372,
+    "labelReversalFrames": 129,
+    "meanMS": 2.215826940668587,
+    "p95MS": 6.365168094635007
+  }
+}

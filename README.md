@@ -2,7 +2,7 @@
 
 日英モードを切り替えず、現在の未確定入力から区間を判定するローカル実験版です。軽量分類器＋辞書・ルールで日英を分け、日本語区間をZenzaiで変換します。上流azooKeyの公式リリースではありません。
 
-[最新の精度改善と評価](LocalModel/ACCURACY_V2.md) / [公開準備・既知の問題](LocalModel/RELEASE_READINESS.md) / [評価の再現](LocalModel/check-quality.sh) / [動画用表示](LocalModel/VIDEO_PRESENTATION.md)
+[最新の精度改善と評価](LocalModel/ACCURACY_V3.md) / [公開準備・既知の問題](LocalModel/RELEASE_READINESS.md) / [評価の再現](LocalModel/check-quality.sh) / [動画用表示](LocalModel/VIDEO_PRESENTATION.md)
 
 以下は上流の導入説明です。Local版のビルドは `sh LocalModel/build.sh`、別名インストールは `python3 LocalModel/install.py .build-macos/Build/Products/Release/azooKeyMac.app`。現時点では開発版で、公証済み配布物はありません。
 

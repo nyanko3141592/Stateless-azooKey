@@ -1,0 +1,578 @@
+[
+  {
+    "id": "v3-final-01",
+    "raw": "sonositemapwomisetekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        11,
+        26
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        11
+      ]
+    ]
+  },
+  {
+    "id": "v3-final-02",
+    "raw": "kyounositemapnolinkwookutte",
+    "japaneseRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        13,
+        15
+      ],
+      [
+        19,
+        27
+      ]
+    ],
+    "englishRanges": [
+      [
+        6,
+        13
+      ],
+      [
+        15,
+        19
+      ]
+    ]
+  },
+  {
+    "id": "v3-final-03",
+    "raw": "sonostoryboardwomisetekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        14,
+        29
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        14
+      ]
+    ]
+  },
+  {
+    "id": "v3-final-04",
+    "raw": "kyounostoryboardnolinkwookutte",
+    "japaneseRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        16,
+        18
+      ],
+      [
+        22,
+        30
+      ]
+    ],
+    "englishRanges": [
+      [
+        6,
+        16
+      ],
+      [
+        18,
+        22
+      ]
+    ]
+  },
+  {
+    "id": "v3-final-05",
+    "raw": "sonoscoreboardwomisetekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        14,
+        29
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        14
+      ]
+    ]
+  },
+  {
+    "id": "v3-final-06",
+    "raw": "kyounoscoreboardnolinkwookutte",
+    "japaneseRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        16,
+        18
+      ],
+      [
+        22,
+        30
+      ]
+    ],
+    "englishRanges": [
+      [
+        6,
+        16
+      ],
+      [
+        18,
+        22
+      ]
+    ]
+  },
+  {
+    "id": "v3-final-07",
+    "raw": "sonoheadcountwomisetekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        13,
+        28
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        13
+      ]
+    ]
+  },
+  {
+    "id": "v3-final-08",
+    "raw": "kyounoheadcountnolinkwookutte",
+    "japaneseRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        15,
+        17
+      ],
+      [
+        21,
+        29
+      ]
+    ],
+    "englishRanges": [
+      [
+        6,
+        15
+      ],
+      [
+        17,
+        21
+      ]
+    ]
+  },
+  {
+    "id": "v3-final-09",
+    "raw": "sononewsletterwomisetekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        14,
+        29
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        14
+      ]
+    ]
+  },
+  {
+    "id": "v3-final-10",
+    "raw": "kyounonewsletternolinkwookutte",
+    "japaneseRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        16,
+        18
+      ],
+      [
+        22,
+        30
+      ]
+    ],
+    "englishRanges": [
+      [
+        6,
+        16
+      ],
+      [
+        18,
+        22
+      ]
+    ]
+  },
+  {
+    "id": "v3-final-11",
+    "raw": "sonoscreenreaderwomisetekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        16,
+        31
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        16
+      ]
+    ]
+  },
+  {
+    "id": "v3-final-12",
+    "raw": "kyounoscreenreadernolinkwookutte",
+    "japaneseRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        18,
+        20
+      ],
+      [
+        24,
+        32
+      ]
+    ],
+    "englishRanges": [
+      [
+        6,
+        18
+      ],
+      [
+        20,
+        24
+      ]
+    ]
+  },
+  {
+    "id": "v3-final-13",
+    "raw": "sonodropdownmenuwomisetekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        16,
+        31
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        16
+      ]
+    ]
+  },
+  {
+    "id": "v3-final-14",
+    "raw": "kyounodropdownmenunolinkwookutte",
+    "japaneseRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        18,
+        20
+      ],
+      [
+        24,
+        32
+      ]
+    ],
+    "englishRanges": [
+      [
+        6,
+        18
+      ],
+      [
+        20,
+        24
+      ]
+    ]
+  },
+  {
+    "id": "v3-final-15",
+    "raw": "sonotoolchainwomisetekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        13,
+        28
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        13
+      ]
+    ]
+  },
+  {
+    "id": "v3-final-16",
+    "raw": "kyounotoolchainnolinkwookutte",
+    "japaneseRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        15,
+        17
+      ],
+      [
+        21,
+        29
+      ]
+    ],
+    "englishRanges": [
+      [
+        6,
+        15
+      ],
+      [
+        17,
+        21
+      ]
+    ]
+  },
+  {
+    "id": "v3-final-17",
+    "raw": "sonolivestreamingwomisetekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        17,
+        32
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        17
+      ]
+    ]
+  },
+  {
+    "id": "v3-final-18",
+    "raw": "kyounolivestreamingnolinkwookutte",
+    "japaneseRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        19,
+        21
+      ],
+      [
+        25,
+        33
+      ]
+    ],
+    "englishRanges": [
+      [
+        6,
+        19
+      ],
+      [
+        21,
+        25
+      ]
+    ]
+  },
+  {
+    "id": "v3-final-19",
+    "raw": "sonopushnotificationwomisetekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        20,
+        35
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        20
+      ]
+    ]
+  },
+  {
+    "id": "v3-final-20",
+    "raw": "kyounopushnotificationnolinkwookutte",
+    "japaneseRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        22,
+        24
+      ],
+      [
+        28,
+        36
+      ]
+    ],
+    "englishRanges": [
+      [
+        6,
+        22
+      ],
+      [
+        24,
+        28
+      ]
+    ]
+  },
+  {
+    "id": "v3-final-21",
+    "raw": "sonosourcecodewomisetekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        14,
+        29
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        14
+      ]
+    ]
+  },
+  {
+    "id": "v3-final-22",
+    "raw": "kyounosourcecodenolinkwookutte",
+    "japaneseRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        16,
+        18
+      ],
+      [
+        22,
+        30
+      ]
+    ],
+    "englishRanges": [
+      [
+        6,
+        16
+      ],
+      [
+        18,
+        22
+      ]
+    ]
+  },
+  {
+    "id": "v3-final-23",
+    "raw": "sonotaskboardwomisetekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        13,
+        28
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        13
+      ]
+    ]
+  },
+  {
+    "id": "v3-final-24",
+    "raw": "kyounotaskboardnolinkwookutte",
+    "japaneseRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        15,
+        17
+      ],
+      [
+        21,
+        29
+      ]
+    ],
+    "englishRanges": [
+      [
+        6,
+        15
+      ],
+      [
+        17,
+        21
+      ]
+    ]
+  }
+]
