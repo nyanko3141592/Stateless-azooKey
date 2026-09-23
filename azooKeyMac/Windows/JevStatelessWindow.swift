@@ -175,7 +175,15 @@ import Core
     "konoavatarwokakuninshitekudasai",
     "ashitanoavatarnolinkwookurimasu",
     "konorefactorwokakuninshitekudasai",
-    "konostagingwokakuninshitekudasai"
+    "konostagingwokakuninshitekudasai",
+    "ashitamadenireviewwoonegai shimasu",
+    "konoquerynotimeoutwonobashitaidesu",
+    "sononotebookwohiraitemitekudasai",
+    "konopreviewdehafontgachigaimasu",
+    "sonotoolchainwomisetekudasai",
+    "ato de Chromedehirakimasu",
+    "sonowidgethadashboardnihyoujisaremasu",
+    "kononotificationhaoffnishitaidesu"
 ]
         for raw in samples {
             session.reset(); var times: [Double] = []

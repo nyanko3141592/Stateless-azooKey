@@ -13,12 +13,4 @@ LOCAL_MULTI_CASES=LocalModel/release-holdout.json \
 LOCAL_MULTI_REPORT="$report_dir/holdout.json" \
 swift test --package-path Core --filter localMultiSwitchFreshEvaluation
 
-LOCAL_ACCURACY_BASELINE=bf0888d \
-LOCAL_ACCURACY_CASES=LocalModel/accuracy-v2/fresh-evaluation.json \
-LOCAL_ACCURACY_REPORT="$report_dir/accuracy-v2-fresh.json" \
-swift test --package-path Core --filter localAccuracyComparison
-
-LOCAL_ACCURACY_BASELINE=bf0888d \
-LOCAL_ACCURACY_CASES=LocalModel/accuracy-v3/final-unseen.json \
-LOCAL_ACCURACY_REPORT="$report_dir/accuracy-v3-fresh.json" \
-swift test --package-path Core --filter localAccuracyComparison
+python3 LocalModel/check-accuracy-v4.py "$report_dir/v4"

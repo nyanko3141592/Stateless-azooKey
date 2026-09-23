@@ -1,0 +1,13 @@
+{
+  "samples": 54,
+  "warmMeanMS": 25.32383469866766,
+  "warmP95MS": 71.60401344299316,
+  "warmMaxMS": 646.0410356521606,
+  "coldFirstSampleMaxMS": 11430.539011955261,
+  "timingCaveat": "Concurrent diagnostic tests; not isolated performance benchmark.",
+  "apiKeyPresent": false,
+  "commitCleared": true,
+  "middleEditRestored": true,
+  "networkProbeBlocked": true,
+  "networkProbeError": "A server with the specified hostname could not be found."
+}

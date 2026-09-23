@@ -21,8 +21,10 @@ private func accuracyLabels(_ d: JevMixedDecision) -> [Bool] {
     let cases = try JSONDecoder().decode([AccuracyCase].self,from:Data(contentsOf:root.appendingPathComponent(fixture)))
     let baseline = try AccuracyBaselineRouter(); let model = try LocalLanguageRouter()
     let latestBaseline = try AccuracyV3BaselineRouter()
-    let baselineVersion = ProcessInfo.processInfo.environment["LOCAL_ACCURACY_BASELINE"] == "bf0888d" ? "bf0888d" : "60a4e9f"
+    let v4Baseline = try AccuracyV4BaselineRouter()
+    let baselineVersion = ProcessInfo.processInfo.environment["LOCAL_ACCURACY_BASELINE"] ?? "60a4e9f"
     let baselineClassify: (String) -> JevMixedDecision = { raw in
+        if baselineVersion == "781996f" { return v4Baseline.classify(raw) }
         if baselineVersion == "bf0888d" { return latestBaseline.classify(raw) }
         return baseline.classify(raw)
     }

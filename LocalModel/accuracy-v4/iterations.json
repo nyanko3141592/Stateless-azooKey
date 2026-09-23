@@ -1,0 +1,44 @@
+[
+  {
+    "attempt": 1,
+    "cases": 80,
+    "exact": 80,
+    "damage": 50,
+    "reversals": 188,
+    "lostCorrect": [],
+    "disposition": "intermediate",
+    "fixture": "accuracy-v2/fresh-evaluation.json"
+  },
+  {
+    "attempt": 2,
+    "cases": 48,
+    "exact": 42,
+    "damage": 23,
+    "reversals": 194,
+    "lostCorrect": [],
+    "disposition": "intermediate",
+    "fixture": "accuracy-v4/development.json"
+  },
+  {
+    "attempt": 3,
+    "cases": 48,
+    "exact": 43,
+    "damage": 31,
+    "reversals": 184,
+    "lostCorrect": [],
+    "disposition": "accepted final",
+    "fixture": "accuracy-v4/development.json"
+  },
+  {
+    "attempt": 4,
+    "cases": 48,
+    "exact": 43,
+    "damage": 35,
+    "reversals": 187,
+    "lostCorrect": [
+      "konodependencyhaoptionaldesu"
+    ],
+    "disposition": "rejected: regresses optional",
+    "fixture": "accuracy-v4/development.json"
+  }
+]
