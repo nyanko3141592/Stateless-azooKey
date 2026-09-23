@@ -83,3 +83,9 @@ Releaseビルド・署名検証成功。独立sandbox bundleで77入力を実行
 同じ推論で訂正1件を旧版/新版とも再評価し、他47件の既存結果と結合した訂正版は **30→32/48、破損221→203、反転244→243**。改善幅は元結果と同じ+2件。訂正後失敗16件。final-corrected-result.json / final-corrected-summary.json / final-corrected-failures.json参照。check-accuracy-v7.pyは今後、訂正fixtureで32/48以上・破損203以下を維持する。原結果の31/48は訂正前の数値として残す。
 
 FINAL-GOLD-REVIEW.md / final-gold-review.jsonに全件確認と理由を保存。明白な英語綴り混入は1件のみ。別文のkaemonoという誤字は日本語意図としてそのまま保持し、都合よく例文を除外していない。
+
+## Web版v7公開
+
+0aff807の推論差分をsimple UIへ移植し、38,793入力のSwift/Web構造比較で不一致0、確率差最大2.22e-15を確認。旧30,300入力を全保持し、新規48文の全prefix・全位置編集と略語の安全例を追加。区間移植の一致であり、Webモデル単体の漢字精度がMacと同じという意味ではない。
+
+既存Cloudflare URLを更新、version 3a8b9c18-219e-4309-8b38-3b406779cf8b。シンプルな入力→区間→変換UI、WASMモデル、Enter/reset/取消制御を保持。新UI目視QAの安全審査ブロックは未解消。親セッションevidence/web-playground-session/RESULT-V7.mdおよびRESULT-SIMPLE-UI.mdが公開側記録。
