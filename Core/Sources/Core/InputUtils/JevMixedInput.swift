@@ -24,7 +24,14 @@ public enum JevMixedLexer {
         func emit(_ a: Int, _ b: Int, _ protect: Bool) { if b > a { out.append(.init(text: String(c[a..<b]), protected: protect)) } }
         while i < c.count {
             let start = i
-            if starts("https://", at:i) || starts("http://", at:i) {
+            // Treat an email (even while the domain is unfinished) or filesystem path as opaque.
+            var tokenEnd = i
+            while tokenEnd < c.count && !c[tokenEnd].isWhitespace { tokenEnd += 1 }
+            let token = String(c[i..<tokenEnd])
+            if (letter(c[i]) && token.contains("@")) || starts("./",at:i) || starts("../",at:i) || starts("~/",at:i)
+                || (c[i] == "/" && i+1 < c.count && letter(c[i+1])) {
+                i = tokenEnd; emit(start,i,true)
+            } else if starts("https://", at:i) || starts("http://", at:i) {
                 while i < c.count && !c[i].isWhitespace { i += 1 }; emit(start,i,true)
             } else if c[i] == "`" {
                 i = end("`", from:i+1); emit(start,i,true)

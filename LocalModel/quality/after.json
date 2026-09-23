@@ -1,0 +1,2838 @@
+[
+  {
+    "category" : "mixed",
+    "characters" : 37,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "development-01",
+    "literalPrefixFrames" : 0,
+    "raw" : "Slackde shiryouwo kyouyuushitekudasai",
+    "routes" : [
+      {
+        "jpStart" : 5,
+        "text" : "Slackde"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "shiryouwo"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "kyouyuushitekudasai"
+      }
+    ],
+    "split" : "development",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "mixed",
+    "characters" : 30,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "development-02",
+    "literalPrefixFrames" : 0,
+    "raw" : "ashita Zoomde uchiawaseshimasu",
+    "routes" : [
+      {
+        "jpStart" : 0,
+        "text" : "ashita"
+      },
+      {
+        "jpStart" : 4,
+        "text" : "Zoomde"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "uchiawaseshimasu"
+      }
+    ],
+    "split" : "development",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "mixed",
+    "characters" : 35,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "development-03",
+    "literalPrefixFrames" : 0,
+    "raw" : "Notionni gijirokuwo matometemashita",
+    "routes" : [
+      {
+        "jpStart" : 6,
+        "text" : "Notionni"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "gijirokuwo"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "matometemashita"
+      }
+    ],
+    "split" : "development",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "mixed",
+    "characters" : 27,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "development-04",
+    "literalPrefixFrames" : 0,
+    "raw" : "kono READMEwo yomimashitaka",
+    "routes" : [
+      {
+        "jpStart" : 0,
+        "text" : "kono"
+      },
+      {
+        "jpStart" : 6,
+        "text" : "READMEwo"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "yomimashitaka"
+      }
+    ],
+    "split" : "development",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "mixed",
+    "characters" : 60,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "development-05",
+    "literalPrefixFrames" : 0,
+    "raw" : "hennshinha Let me know if you have any questions de iidesuka",
+    "routes" : [
+      {
+        "jpStart" : 0,
+        "text" : "hennshinha"
+      },
+      {
+        "jpStart" : null,
+        "text" : "Let"
+      },
+      {
+        "jpStart" : null,
+        "text" : "me"
+      },
+      {
+        "jpStart" : null,
+        "text" : "know"
+      },
+      {
+        "jpStart" : null,
+        "text" : "if"
+      },
+      {
+        "jpStart" : null,
+        "text" : "you"
+      },
+      {
+        "jpStart" : null,
+        "text" : "have"
+      },
+      {
+        "jpStart" : null,
+        "text" : "any"
+      },
+      {
+        "jpStart" : null,
+        "text" : "questions"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "de"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "iidesuka"
+      }
+    ],
+    "split" : "development",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "mixed",
+    "characters" : 36,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "development-06",
+    "literalPrefixFrames" : 0,
+    "raw" : "gamenni No more results to deteimasu",
+    "routes" : [
+      {
+        "jpStart" : 0,
+        "text" : "gamenni"
+      },
+      {
+        "jpStart" : null,
+        "text" : "No"
+      },
+      {
+        "jpStart" : null,
+        "text" : "more"
+      },
+      {
+        "jpStart" : null,
+        "text" : "results"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "to"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "deteimasu"
+      }
+    ],
+    "split" : "development",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "mixed",
+    "characters" : 25,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "development-07",
+    "literalPrefixFrames" : 0,
+    "raw" : "koreha made in Italy desu",
+    "routes" : [
+      {
+        "jpStart" : 0,
+        "text" : "koreha"
+      },
+      {
+        "jpStart" : null,
+        "text" : "made"
+      },
+      {
+        "jpStart" : null,
+        "text" : "in"
+      },
+      {
+        "jpStart" : null,
+        "text" : "Italy"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "desu"
+      }
+    ],
+    "split" : "development",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "joined",
+    "characters" : 26,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "development-08",
+    "literalPrefixFrames" : 0,
+    "raw" : "Slackdekyouyuushitekudasai",
+    "routes" : [
+      {
+        "jpStart" : 5,
+        "text" : "Slackdekyouyuushitekudasai"
+      }
+    ],
+    "split" : "development",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "joined",
+    "characters" : 29,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : false,
+    "id" : "development-09",
+    "literalPrefixFrames" : 0,
+    "raw" : "GitHubnoshoudaimailgakimasenn",
+    "routes" : [
+      {
+        "jpStart" : 19,
+        "text" : "GitHubnoshoudaimailgakimasenn"
+      }
+    ],
+    "split" : "development",
+    "wrongCharacters" : 9
+  },
+  {
+    "category" : "joined",
+    "characters" : 34,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "development-10",
+    "literalPrefixFrames" : 0,
+    "raw" : "ashitahaGoogle Meetdeuchiawasedesu",
+    "routes" : [
+      {
+        "jpStart" : 0,
+        "text" : "ashitaha"
+      },
+      {
+        "jpStart" : null,
+        "text" : "Google"
+      },
+      {
+        "jpStart" : 4,
+        "text" : "Meetdeuchiawasedesu"
+      }
+    ],
+    "split" : "development",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "literal",
+    "characters" : 37,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "development-11",
+    "literalPrefixFrames" : 37,
+    "raw" : "We have no more time to make changes.",
+    "routes" : [
+      {
+        "jpStart" : null,
+        "text" : "We"
+      },
+      {
+        "jpStart" : null,
+        "text" : "have"
+      },
+      {
+        "jpStart" : null,
+        "text" : "no"
+      },
+      {
+        "jpStart" : null,
+        "text" : "more"
+      },
+      {
+        "jpStart" : null,
+        "text" : "time"
+      },
+      {
+        "jpStart" : null,
+        "text" : "to"
+      },
+      {
+        "jpStart" : null,
+        "text" : "make"
+      },
+      {
+        "jpStart" : null,
+        "text" : "changes"
+      }
+    ],
+    "split" : "development",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "literal",
+    "characters" : 31,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "development-12",
+    "literalPrefixFrames" : 31,
+    "raw" : "Can you take a look at my code?",
+    "routes" : [
+      {
+        "jpStart" : null,
+        "text" : "Can"
+      },
+      {
+        "jpStart" : null,
+        "text" : "you"
+      },
+      {
+        "jpStart" : null,
+        "text" : "take"
+      },
+      {
+        "jpStart" : null,
+        "text" : "a"
+      },
+      {
+        "jpStart" : null,
+        "text" : "look"
+      },
+      {
+        "jpStart" : null,
+        "text" : "at"
+      },
+      {
+        "jpStart" : null,
+        "text" : "my"
+      },
+      {
+        "jpStart" : null,
+        "text" : "code"
+      }
+    ],
+    "split" : "development",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "literal",
+    "characters" : 37,
+    "corruptLiteralPrefixFrames" : 3,
+    "exact" : true,
+    "id" : "development-13",
+    "literalPrefixFrames" : 37,
+    "raw" : "My name is Naomi and I live in Tokyo.",
+    "routes" : [
+      {
+        "jpStart" : null,
+        "text" : "My"
+      },
+      {
+        "jpStart" : null,
+        "text" : "name"
+      },
+      {
+        "jpStart" : null,
+        "text" : "is"
+      },
+      {
+        "jpStart" : null,
+        "text" : "Naomi"
+      },
+      {
+        "jpStart" : null,
+        "text" : "and"
+      },
+      {
+        "jpStart" : null,
+        "text" : "I"
+      },
+      {
+        "jpStart" : null,
+        "text" : "live"
+      },
+      {
+        "jpStart" : null,
+        "text" : "in"
+      },
+      {
+        "jpStart" : null,
+        "text" : "Tokyo"
+      }
+    ],
+    "split" : "development",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "literal",
+    "characters" : 31,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "development-14",
+    "literalPrefixFrames" : 31,
+    "raw" : "You can use a piano or a radio.",
+    "routes" : [
+      {
+        "jpStart" : null,
+        "text" : "You"
+      },
+      {
+        "jpStart" : null,
+        "text" : "can"
+      },
+      {
+        "jpStart" : null,
+        "text" : "use"
+      },
+      {
+        "jpStart" : null,
+        "text" : "a"
+      },
+      {
+        "jpStart" : null,
+        "text" : "piano"
+      },
+      {
+        "jpStart" : null,
+        "text" : "or"
+      },
+      {
+        "jpStart" : null,
+        "text" : "a"
+      },
+      {
+        "jpStart" : null,
+        "text" : "radio"
+      }
+    ],
+    "split" : "development",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "identifier",
+    "characters" : 30,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "development-15",
+    "literalPrefixFrames" : 0,
+    "raw" : "kono user_name wo kaetekudasai",
+    "routes" : [
+      {
+        "jpStart" : 0,
+        "text" : "kono"
+      },
+      {
+        "jpStart" : null,
+        "text" : "user_name"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "wo"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "kaetekudasai"
+      }
+    ],
+    "split" : "development",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "identifier",
+    "characters" : 27,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "development-16",
+    "literalPrefixFrames" : 0,
+    "raw" : "kono firstName ha hissudesu",
+    "routes" : [
+      {
+        "jpStart" : 0,
+        "text" : "kono"
+      },
+      {
+        "jpStart" : null,
+        "text" : "first"
+      },
+      {
+        "jpStart" : null,
+        "text" : "Name"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "ha"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "hissudesu"
+      }
+    ],
+    "split" : "development",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "protection",
+    "characters" : 36,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "development-17",
+    "literalPrefixFrames" : 0,
+    "raw" : "renrakusakiha naomi@example.com desu",
+    "routes" : [
+      {
+        "jpStart" : 0,
+        "text" : "renrakusakiha"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "desu"
+      }
+    ],
+    "split" : "development",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "protection",
+    "characters" : 40,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "development-18",
+    "literalPrefixFrames" : 0,
+    "raw" : "hozonnsakiha \/Users\/naomi\/Documents desu",
+    "routes" : [
+      {
+        "jpStart" : 0,
+        "text" : "hozonnsakiha"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "desu"
+      }
+    ],
+    "split" : "development",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "protection",
+    "characters" : 38,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "development-19",
+    "literalPrefixFrames" : 0,
+    "raw" : "jikkousuru `npm run build` wo kakuninn",
+    "routes" : [
+      {
+        "jpStart" : 0,
+        "text" : "jikkousuru"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "wo"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "kakuninn"
+      }
+    ],
+    "split" : "development",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "tex",
+    "characters" : 28,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "development-20",
+    "literalPrefixFrames" : 0,
+    "raw" : "koreha $\\alpha + \\beta$ desu",
+    "routes" : [
+      {
+        "jpStart" : 0,
+        "text" : "koreha"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "desu"
+      }
+    ],
+    "split" : "development",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "jp",
+    "characters" : 45,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "development-21",
+    "literalPrefixFrames" : 0,
+    "raw" : "kinouokuttemorattashiryouwokakuninnshimashita",
+    "routes" : [
+      {
+        "jpStart" : 0,
+        "text" : "kinouokuttemorattashiryouwokakuninnshimashita"
+      }
+    ],
+    "split" : "development",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "jp",
+    "characters" : 17,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "development-22",
+    "literalPrefixFrames" : 0,
+    "raw" : "arigatougozaimasu",
+    "routes" : [
+      {
+        "jpStart" : 0,
+        "text" : "arigatougozaimasu"
+      }
+    ],
+    "split" : "development",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "jp",
+    "characters" : 33,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "development-23",
+    "literalPrefixFrames" : 0,
+    "raw" : "sumimasen mouichido onegaishimasu",
+    "routes" : [
+      {
+        "jpStart" : 0,
+        "text" : "sumimasen"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "mouichido"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "onegaishimasu"
+      }
+    ],
+    "split" : "development",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "literal",
+    "characters" : 31,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "development-24",
+    "literalPrefixFrames" : 31,
+    "raw" : "I made a cake for her birthday.",
+    "routes" : [
+      {
+        "jpStart" : null,
+        "text" : "I"
+      },
+      {
+        "jpStart" : null,
+        "text" : "made"
+      },
+      {
+        "jpStart" : null,
+        "text" : "a"
+      },
+      {
+        "jpStart" : null,
+        "text" : "cake"
+      },
+      {
+        "jpStart" : null,
+        "text" : "for"
+      },
+      {
+        "jpStart" : null,
+        "text" : "her"
+      },
+      {
+        "jpStart" : null,
+        "text" : "birthday"
+      }
+    ],
+    "split" : "development",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "mixed",
+    "characters" : 40,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "evaluation-01",
+    "literalPrefixFrames" : 0,
+    "raw" : "Discordde raishuunoyoteiwo soudanshimasu",
+    "routes" : [
+      {
+        "jpStart" : 7,
+        "text" : "Discordde"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "raishuunoyoteiwo"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "soudanshimasu"
+      }
+    ],
+    "split" : "evaluation",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "mixed",
+    "characters" : 41,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "evaluation-02",
+    "literalPrefixFrames" : 0,
+    "raw" : "Figmano prototype wo kakuninnshitekudasai",
+    "routes" : [
+      {
+        "jpStart" : 5,
+        "text" : "Figmano"
+      },
+      {
+        "jpStart" : null,
+        "text" : "prototype"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "wo"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "kakuninnshitekudasai"
+      }
+    ],
+    "split" : "evaluation",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "mixed",
+    "characters" : 35,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "evaluation-03",
+    "literalPrefixFrames" : 0,
+    "raw" : "kyouha Bluetooth ga tsunagarimasenn",
+    "routes" : [
+      {
+        "jpStart" : 0,
+        "text" : "kyouha"
+      },
+      {
+        "jpStart" : null,
+        "text" : "Bluetooth"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "ga"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "tsunagarimasenn"
+      }
+    ],
+    "split" : "evaluation",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "mixed",
+    "characters" : 42,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "evaluation-04",
+    "literalPrefixFrames" : 0,
+    "raw" : "kono spreadsheet wo PDFde hozonndekimasuka",
+    "routes" : [
+      {
+        "jpStart" : 0,
+        "text" : "kono"
+      },
+      {
+        "jpStart" : null,
+        "text" : "spreadsheet"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "wo"
+      },
+      {
+        "jpStart" : 3,
+        "text" : "PDFde"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "hozonndekimasuka"
+      }
+    ],
+    "split" : "evaluation",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "mixed",
+    "characters" : 37,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "evaluation-05",
+    "literalPrefixFrames" : 0,
+    "raw" : "atarashii dashboard ni kirikaemashita",
+    "routes" : [
+      {
+        "jpStart" : 0,
+        "text" : "atarashii"
+      },
+      {
+        "jpStart" : null,
+        "text" : "dashboard"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "ni"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "kirikaemashita"
+      }
+    ],
+    "split" : "evaluation",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "mixed",
+    "characters" : 37,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "evaluation-06",
+    "literalPrefixFrames" : 0,
+    "raw" : "kaigino agenda wo sakiniookurishimasu",
+    "routes" : [
+      {
+        "jpStart" : 0,
+        "text" : "kaigino"
+      },
+      {
+        "jpStart" : null,
+        "text" : "agenda"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "wo"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "sakiniookurishimasu"
+      }
+    ],
+    "split" : "evaluation",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "mixed",
+    "characters" : 44,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "evaluation-07",
+    "literalPrefixFrames" : 0,
+    "raw" : "kono repository ha public ni shinaidekudasai",
+    "routes" : [
+      {
+        "jpStart" : 0,
+        "text" : "kono"
+      },
+      {
+        "jpStart" : null,
+        "text" : "repository"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "ha"
+      },
+      {
+        "jpStart" : null,
+        "text" : "public"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "ni"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "shinaidekudasai"
+      }
+    ],
+    "split" : "evaluation",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "mixed",
+    "characters" : 37,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "evaluation-08",
+    "literalPrefixFrames" : 0,
+    "raw" : "henkouha staging de kakuninnshitemasu",
+    "routes" : [
+      {
+        "jpStart" : 0,
+        "text" : "henkouha"
+      },
+      {
+        "jpStart" : null,
+        "text" : "staging"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "de"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "kakuninnshitemasu"
+      }
+    ],
+    "split" : "evaluation",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "mixed",
+    "characters" : 46,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "evaluation-09",
+    "literalPrefixFrames" : 0,
+    "raw" : "gamenni Permission denied to hyoujisaremashita",
+    "routes" : [
+      {
+        "jpStart" : 0,
+        "text" : "gamenni"
+      },
+      {
+        "jpStart" : null,
+        "text" : "Permission"
+      },
+      {
+        "jpStart" : null,
+        "text" : "denied"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "to"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "hyoujisaremashita"
+      }
+    ],
+    "split" : "evaluation",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "mixed",
+    "characters" : 46,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "evaluation-10",
+    "literalPrefixFrames" : 0,
+    "raw" : "hennshinha Sounds good to me de daijoubudesuka",
+    "routes" : [
+      {
+        "jpStart" : 0,
+        "text" : "hennshinha"
+      },
+      {
+        "jpStart" : null,
+        "text" : "Sounds"
+      },
+      {
+        "jpStart" : null,
+        "text" : "good"
+      },
+      {
+        "jpStart" : null,
+        "text" : "to"
+      },
+      {
+        "jpStart" : null,
+        "text" : "me"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "de"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "daijoubudesuka"
+      }
+    ],
+    "split" : "evaluation",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "mixed",
+    "characters" : 51,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "evaluation-11",
+    "literalPrefixFrames" : 0,
+    "raw" : "saigoni Thank you for your patience to tsuikashitai",
+    "routes" : [
+      {
+        "jpStart" : 0,
+        "text" : "saigoni"
+      },
+      {
+        "jpStart" : null,
+        "text" : "Thank"
+      },
+      {
+        "jpStart" : null,
+        "text" : "you"
+      },
+      {
+        "jpStart" : null,
+        "text" : "for"
+      },
+      {
+        "jpStart" : null,
+        "text" : "your"
+      },
+      {
+        "jpStart" : null,
+        "text" : "patience"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "to"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "tsuikashitai"
+      }
+    ],
+    "split" : "evaluation",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "mixed",
+    "characters" : 39,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "evaluation-12",
+    "literalPrefixFrames" : 0,
+    "raw" : "soredemo no updates available to demasu",
+    "routes" : [
+      {
+        "jpStart" : 0,
+        "text" : "soredemo"
+      },
+      {
+        "jpStart" : null,
+        "text" : "no"
+      },
+      {
+        "jpStart" : null,
+        "text" : "updates"
+      },
+      {
+        "jpStart" : null,
+        "text" : "available"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "to"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "demasu"
+      }
+    ],
+    "split" : "evaluation",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "mixed",
+    "characters" : 34,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "evaluation-13",
+    "literalPrefixFrames" : 0,
+    "raw" : "konoshouhinnha made in Canada desu",
+    "routes" : [
+      {
+        "jpStart" : 0,
+        "text" : "konoshouhinnha"
+      },
+      {
+        "jpStart" : null,
+        "text" : "made"
+      },
+      {
+        "jpStart" : null,
+        "text" : "in"
+      },
+      {
+        "jpStart" : null,
+        "text" : "Canada"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "desu"
+      }
+    ],
+    "split" : "evaluation",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "mixed",
+    "characters" : 30,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "evaluation-14",
+    "literalPrefixFrames" : 0,
+    "raw" : "kono video ha saiseidekimasenn",
+    "routes" : [
+      {
+        "jpStart" : 0,
+        "text" : "kono"
+      },
+      {
+        "jpStart" : null,
+        "text" : "video"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "ha"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "saiseidekimasenn"
+      }
+    ],
+    "split" : "evaluation",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "mixed",
+    "characters" : 24,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "evaluation-15",
+    "literalPrefixFrames" : 0,
+    "raw" : "kono piano ha darenomono",
+    "routes" : [
+      {
+        "jpStart" : 0,
+        "text" : "kono"
+      },
+      {
+        "jpStart" : null,
+        "text" : "piano"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "ha"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "darenomono"
+      }
+    ],
+    "split" : "evaluation",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "joined",
+    "characters" : 22,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "evaluation-16",
+    "literalPrefixFrames" : 0,
+    "raw" : "Discorddesoudanshimasu",
+    "routes" : [
+      {
+        "jpStart" : 7,
+        "text" : "Discorddesoudanshimasu"
+      }
+    ],
+    "split" : "evaluation",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "joined",
+    "characters" : 27,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "evaluation-17",
+    "literalPrefixFrames" : 0,
+    "raw" : "Figmanofairuwohirakimashita",
+    "routes" : [
+      {
+        "jpStart" : 5,
+        "text" : "Figmanofairuwohirakimashita"
+      }
+    ],
+    "split" : "evaluation",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "joined",
+    "characters" : 21,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "evaluation-18",
+    "literalPrefixFrames" : 0,
+    "raw" : "PDFnihozonndekimasuka",
+    "routes" : [
+      {
+        "jpStart" : 3,
+        "text" : "PDFnihozonndekimasuka"
+      }
+    ],
+    "split" : "evaluation",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "joined",
+    "characters" : 24,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "evaluation-19",
+    "literalPrefixFrames" : 0,
+    "raw" : "kyouhaZoomdekaigishimasu",
+    "routes" : [
+      {
+        "jpStart" : 0,
+        "text" : "kyouha"
+      },
+      {
+        "jpStart" : 4,
+        "text" : "Zoomdekaigishimasu"
+      }
+    ],
+    "split" : "evaluation",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "joined",
+    "characters" : 27,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "evaluation-20",
+    "literalPrefixFrames" : 0,
+    "raw" : "atarashiiAPIwotsukaimashita",
+    "routes" : [
+      {
+        "jpStart" : 0,
+        "text" : "atarashii"
+      },
+      {
+        "jpStart" : 3,
+        "text" : "APIwotsukaimashita"
+      }
+    ],
+    "split" : "evaluation",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "literal",
+    "characters" : 35,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "evaluation-21",
+    "literalPrefixFrames" : 35,
+    "raw" : "There is no need to worry about it.",
+    "routes" : [
+      {
+        "jpStart" : null,
+        "text" : "There"
+      },
+      {
+        "jpStart" : null,
+        "text" : "is"
+      },
+      {
+        "jpStart" : null,
+        "text" : "no"
+      },
+      {
+        "jpStart" : null,
+        "text" : "need"
+      },
+      {
+        "jpStart" : null,
+        "text" : "to"
+      },
+      {
+        "jpStart" : null,
+        "text" : "worry"
+      },
+      {
+        "jpStart" : null,
+        "text" : "about"
+      },
+      {
+        "jpStart" : null,
+        "text" : "it"
+      }
+    ],
+    "split" : "evaluation",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "literal",
+    "characters" : 37,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "evaluation-22",
+    "literalPrefixFrames" : 37,
+    "raw" : "Could you send me the latest invoice?",
+    "routes" : [
+      {
+        "jpStart" : null,
+        "text" : "Could"
+      },
+      {
+        "jpStart" : null,
+        "text" : "you"
+      },
+      {
+        "jpStart" : null,
+        "text" : "send"
+      },
+      {
+        "jpStart" : null,
+        "text" : "me"
+      },
+      {
+        "jpStart" : null,
+        "text" : "the"
+      },
+      {
+        "jpStart" : null,
+        "text" : "latest"
+      },
+      {
+        "jpStart" : null,
+        "text" : "invoice"
+      }
+    ],
+    "split" : "evaluation",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "literal",
+    "characters" : 35,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "evaluation-23",
+    "literalPrefixFrames" : 35,
+    "raw" : "She made dinner before the meeting.",
+    "routes" : [
+      {
+        "jpStart" : null,
+        "text" : "She"
+      },
+      {
+        "jpStart" : null,
+        "text" : "made"
+      },
+      {
+        "jpStart" : null,
+        "text" : "dinner"
+      },
+      {
+        "jpStart" : null,
+        "text" : "before"
+      },
+      {
+        "jpStart" : null,
+        "text" : "the"
+      },
+      {
+        "jpStart" : null,
+        "text" : "meeting"
+      }
+    ],
+    "split" : "evaluation",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "literal",
+    "characters" : 35,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "evaluation-24",
+    "literalPrefixFrames" : 35,
+    "raw" : "I have been waiting for your reply.",
+    "routes" : [
+      {
+        "jpStart" : null,
+        "text" : "I"
+      },
+      {
+        "jpStart" : null,
+        "text" : "have"
+      },
+      {
+        "jpStart" : null,
+        "text" : "been"
+      },
+      {
+        "jpStart" : null,
+        "text" : "waiting"
+      },
+      {
+        "jpStart" : null,
+        "text" : "for"
+      },
+      {
+        "jpStart" : null,
+        "text" : "your"
+      },
+      {
+        "jpStart" : null,
+        "text" : "reply"
+      }
+    ],
+    "split" : "evaluation",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "literal",
+    "characters" : 40,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "evaluation-25",
+    "literalPrefixFrames" : 40,
+    "raw" : "We need to make sure it works on mobile.",
+    "routes" : [
+      {
+        "jpStart" : null,
+        "text" : "We"
+      },
+      {
+        "jpStart" : null,
+        "text" : "need"
+      },
+      {
+        "jpStart" : null,
+        "text" : "to"
+      },
+      {
+        "jpStart" : null,
+        "text" : "make"
+      },
+      {
+        "jpStart" : null,
+        "text" : "sure"
+      },
+      {
+        "jpStart" : null,
+        "text" : "it"
+      },
+      {
+        "jpStart" : null,
+        "text" : "works"
+      },
+      {
+        "jpStart" : null,
+        "text" : "on"
+      },
+      {
+        "jpStart" : null,
+        "text" : "mobile"
+      }
+    ],
+    "split" : "evaluation",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "literal",
+    "characters" : 38,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "evaluation-26",
+    "literalPrefixFrames" : 38,
+    "raw" : "Please let us know when you are ready.",
+    "routes" : [
+      {
+        "jpStart" : null,
+        "text" : "Please"
+      },
+      {
+        "jpStart" : null,
+        "text" : "let"
+      },
+      {
+        "jpStart" : null,
+        "text" : "us"
+      },
+      {
+        "jpStart" : null,
+        "text" : "know"
+      },
+      {
+        "jpStart" : null,
+        "text" : "when"
+      },
+      {
+        "jpStart" : null,
+        "text" : "you"
+      },
+      {
+        "jpStart" : null,
+        "text" : "are"
+      },
+      {
+        "jpStart" : null,
+        "text" : "ready"
+      }
+    ],
+    "split" : "evaluation",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "literal",
+    "characters" : 41,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "evaluation-27",
+    "literalPrefixFrames" : 41,
+    "raw" : "My camera and microphone are not working.",
+    "routes" : [
+      {
+        "jpStart" : null,
+        "text" : "My"
+      },
+      {
+        "jpStart" : null,
+        "text" : "camera"
+      },
+      {
+        "jpStart" : null,
+        "text" : "and"
+      },
+      {
+        "jpStart" : null,
+        "text" : "microphone"
+      },
+      {
+        "jpStart" : null,
+        "text" : "are"
+      },
+      {
+        "jpStart" : null,
+        "text" : "not"
+      },
+      {
+        "jpStart" : null,
+        "text" : "working"
+      }
+    ],
+    "split" : "evaluation",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "literal",
+    "characters" : 34,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "evaluation-28",
+    "literalPrefixFrames" : 34,
+    "raw" : "This is a photo of our new office.",
+    "routes" : [
+      {
+        "jpStart" : null,
+        "text" : "This"
+      },
+      {
+        "jpStart" : null,
+        "text" : "is"
+      },
+      {
+        "jpStart" : null,
+        "text" : "a"
+      },
+      {
+        "jpStart" : null,
+        "text" : "photo"
+      },
+      {
+        "jpStart" : null,
+        "text" : "of"
+      },
+      {
+        "jpStart" : null,
+        "text" : "our"
+      },
+      {
+        "jpStart" : null,
+        "text" : "new"
+      },
+      {
+        "jpStart" : null,
+        "text" : "office"
+      }
+    ],
+    "split" : "evaluation",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "literal",
+    "characters" : 33,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "evaluation-29",
+    "literalPrefixFrames" : 33,
+    "raw" : "There are no changes to the data.",
+    "routes" : [
+      {
+        "jpStart" : null,
+        "text" : "There"
+      },
+      {
+        "jpStart" : null,
+        "text" : "are"
+      },
+      {
+        "jpStart" : null,
+        "text" : "no"
+      },
+      {
+        "jpStart" : null,
+        "text" : "changes"
+      },
+      {
+        "jpStart" : null,
+        "text" : "to"
+      },
+      {
+        "jpStart" : null,
+        "text" : "the"
+      },
+      {
+        "jpStart" : null,
+        "text" : "data"
+      }
+    ],
+    "split" : "evaluation",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "literal",
+    "characters" : 31,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "evaluation-30",
+    "literalPrefixFrames" : 31,
+    "raw" : "Don't forget to save your work.",
+    "routes" : [
+      {
+        "jpStart" : null,
+        "text" : "Don't"
+      },
+      {
+        "jpStart" : null,
+        "text" : "forget"
+      },
+      {
+        "jpStart" : null,
+        "text" : "to"
+      },
+      {
+        "jpStart" : null,
+        "text" : "save"
+      },
+      {
+        "jpStart" : null,
+        "text" : "your"
+      },
+      {
+        "jpStart" : null,
+        "text" : "work"
+      }
+    ],
+    "split" : "evaluation",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "identifier",
+    "characters" : 30,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "evaluation-31",
+    "literalPrefixFrames" : 0,
+    "raw" : "kono accessToken ha yuukoudesu",
+    "routes" : [
+      {
+        "jpStart" : 0,
+        "text" : "kono"
+      },
+      {
+        "jpStart" : null,
+        "text" : "access"
+      },
+      {
+        "jpStart" : null,
+        "text" : "Token"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "ha"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "yuukoudesu"
+      }
+    ],
+    "split" : "evaluation",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "identifier",
+    "characters" : 32,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "evaluation-32",
+    "literalPrefixFrames" : 0,
+    "raw" : "kono retry_count wo fuyaushimasu",
+    "routes" : [
+      {
+        "jpStart" : 0,
+        "text" : "kono"
+      },
+      {
+        "jpStart" : null,
+        "text" : "retry_count"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "wo"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "fuyaushimasu"
+      }
+    ],
+    "split" : "evaluation",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "identifier",
+    "characters" : 24,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "evaluation-33",
+    "literalPrefixFrames" : 0,
+    "raw" : "shiteiha maxRetries desu",
+    "routes" : [
+      {
+        "jpStart" : 0,
+        "text" : "shiteiha"
+      },
+      {
+        "jpStart" : null,
+        "text" : "maxRetries"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "desu"
+      }
+    ],
+    "split" : "evaluation",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "protection",
+    "characters" : 36,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "evaluation-34",
+    "literalPrefixFrames" : 0,
+    "raw" : "atesakiha hana.sato@example.org desu",
+    "routes" : [
+      {
+        "jpStart" : 0,
+        "text" : "atesakiha"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "desu"
+      }
+    ],
+    "split" : "evaluation",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "protection",
+    "characters" : 47,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "evaluation-35",
+    "literalPrefixFrames" : 0,
+    "raw" : "kono https:\/\/example.org\/naomi?q=made wo hiraku",
+    "routes" : [
+      {
+        "jpStart" : 0,
+        "text" : "kono"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "wo"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "hiraku"
+      }
+    ],
+    "split" : "evaluation",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "protection",
+    "characters" : 35,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "evaluation-36",
+    "literalPrefixFrames" : 0,
+    "raw" : "fairuha .\/src\/main.swift ni arimasu",
+    "routes" : [
+      {
+        "jpStart" : 0,
+        "text" : "fairuha"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "ni"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "arimasu"
+      }
+    ],
+    "split" : "evaluation",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "protection",
+    "characters" : 38,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "evaluation-37",
+    "literalPrefixFrames" : 0,
+    "raw" : "kono `git rebase --continue` wo jikkou",
+    "routes" : [
+      {
+        "jpStart" : 0,
+        "text" : "kono"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "wo"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "jikkou"
+      }
+    ],
+    "split" : "evaluation",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "tex",
+    "characters" : 35,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "evaluation-38",
+    "literalPrefixFrames" : 0,
+    "raw" : "teigiha $f(x)=\\frac{1}{1+x^2}$ desu",
+    "routes" : [
+      {
+        "jpStart" : 0,
+        "text" : "teigiha"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "desu"
+      }
+    ],
+    "split" : "evaluation",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "tex",
+    "characters" : 32,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "evaluation-39",
+    "literalPrefixFrames" : 0,
+    "raw" : "kekka \\[x^2+y^2=z^2\\] wo shimesu",
+    "routes" : [
+      {
+        "jpStart" : 0,
+        "text" : "kekka"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "wo"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "shimesu"
+      }
+    ],
+    "split" : "evaluation",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "tex",
+    "characters" : 23,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "evaluation-40",
+    "literalPrefixFrames" : 0,
+    "raw" : "\\section{jikkennokekka}",
+    "routes" : [
+      {
+        "jpStart" : 0,
+        "text" : "jikkennokekka"
+      }
+    ],
+    "split" : "evaluation",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "tex",
+    "characters" : 36,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "evaluation-41",
+    "literalPrefixFrames" : 0,
+    "raw" : "\\cite{tanaka2025} wo sannshoushimasu",
+    "routes" : [
+      {
+        "jpStart" : 0,
+        "text" : "wo"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "sannshoushimasu"
+      }
+    ],
+    "split" : "evaluation",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "jp",
+    "characters" : 41,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "evaluation-42",
+    "literalPrefixFrames" : 0,
+    "raw" : "raishuunogetsuyoubimadenionegaidekimasuka",
+    "routes" : [
+      {
+        "jpStart" : 0,
+        "text" : "raishuunogetsuyoubimadenionegaidekimasuka"
+      }
+    ],
+    "split" : "evaluation",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "jp",
+    "characters" : 39,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "evaluation-43",
+    "literalPrefixFrames" : 0,
+    "raw" : "kinounouchiawasenonaiyouwomatomemashita",
+    "routes" : [
+      {
+        "jpStart" : 0,
+        "text" : "kinounouchiawasenonaiyouwomatomemashita"
+      }
+    ],
+    "split" : "evaluation",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "jp",
+    "characters" : 43,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "evaluation-44",
+    "literalPrefixFrames" : 0,
+    "raw" : "moushiwakearimasengashousaiwooshietekudasai",
+    "routes" : [
+      {
+        "jpStart" : 0,
+        "text" : "moushiwakearimasengashousaiwooshietekudasai"
+      }
+    ],
+    "split" : "evaluation",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "jp",
+    "characters" : 34,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "evaluation-45",
+    "literalPrefixFrames" : 0,
+    "raw" : "kakuninngadekishidairenrakushimasu",
+    "routes" : [
+      {
+        "jpStart" : 0,
+        "text" : "kakuninngadekishidairenrakushimasu"
+      }
+    ],
+    "split" : "evaluation",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "jp",
+    "characters" : 35,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "evaluation-46",
+    "literalPrefixFrames" : 0,
+    "raw" : "shiryounigofugaattaraoshietekudasai",
+    "routes" : [
+      {
+        "jpStart" : 0,
+        "text" : "shiryounigofugaattaraoshietekudasai"
+      }
+    ],
+    "split" : "evaluation",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "jp",
+    "characters" : 43,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "evaluation-47",
+    "literalPrefixFrames" : 0,
+    "raw" : "soredeha raishuuyori yoroshikuonegaishimasu",
+    "routes" : [
+      {
+        "jpStart" : 0,
+        "text" : "soredeha"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "raishuuyori"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "yoroshikuonegaishimasu"
+      }
+    ],
+    "split" : "evaluation",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "jp",
+    "characters" : 32,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "evaluation-48",
+    "literalPrefixFrames" : 0,
+    "raw" : "konokennitsuite ikenwo ukagaitai",
+    "routes" : [
+      {
+        "jpStart" : 0,
+        "text" : "konokennitsuite"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "ikenwo"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "ukagaitai"
+      }
+    ],
+    "split" : "evaluation",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "mixed",
+    "characters" : 38,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "challenge-01",
+    "literalPrefixFrames" : 0,
+    "raw" : "Bravede konosaitewo hiraitemitekudasai",
+    "routes" : [
+      {
+        "jpStart" : 5,
+        "text" : "Bravede"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "konosaitewo"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "hiraitemitekudasai"
+      }
+    ],
+    "split" : "challenge",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "mixed",
+    "characters" : 31,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "challenge-02",
+    "literalPrefixFrames" : 0,
+    "raw" : "atarashii bookmark ga kiechatta",
+    "routes" : [
+      {
+        "jpStart" : 0,
+        "text" : "atarashii"
+      },
+      {
+        "jpStart" : null,
+        "text" : "bookmark"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "ga"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "kiechatta"
+      }
+    ],
+    "split" : "challenge",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "mixed",
+    "characters" : 40,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "challenge-03",
+    "literalPrefixFrames" : 0,
+    "raw" : "gamenni Disk quota exceeded to demashita",
+    "routes" : [
+      {
+        "jpStart" : 0,
+        "text" : "gamenni"
+      },
+      {
+        "jpStart" : null,
+        "text" : "Disk"
+      },
+      {
+        "jpStart" : null,
+        "text" : "quota"
+      },
+      {
+        "jpStart" : null,
+        "text" : "exceeded"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "to"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "demashita"
+      }
+    ],
+    "split" : "challenge",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "mixed",
+    "characters" : 54,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "challenge-04",
+    "literalPrefixFrames" : 0,
+    "raw" : "hennshinha I will get back to you tomorrow de iidesuka",
+    "routes" : [
+      {
+        "jpStart" : 0,
+        "text" : "hennshinha"
+      },
+      {
+        "jpStart" : null,
+        "text" : "I"
+      },
+      {
+        "jpStart" : null,
+        "text" : "will"
+      },
+      {
+        "jpStart" : null,
+        "text" : "get"
+      },
+      {
+        "jpStart" : null,
+        "text" : "back"
+      },
+      {
+        "jpStart" : null,
+        "text" : "to"
+      },
+      {
+        "jpStart" : null,
+        "text" : "you"
+      },
+      {
+        "jpStart" : null,
+        "text" : "tomorrow"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "de"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "iidesuka"
+      }
+    ],
+    "split" : "challenge",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "mixed",
+    "characters" : 32,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "challenge-05",
+    "literalPrefixFrames" : 0,
+    "raw" : "kono CSV wo Numbersde hirakemasu",
+    "routes" : [
+      {
+        "jpStart" : 0,
+        "text" : "kono"
+      },
+      {
+        "jpStart" : null,
+        "text" : "CSV"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "wo"
+      },
+      {
+        "jpStart" : 7,
+        "text" : "Numbersde"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "hirakemasu"
+      }
+    ],
+    "split" : "challenge",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "mixed",
+    "characters" : 50,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "challenge-06",
+    "literalPrefixFrames" : 0,
+    "raw" : "ototoi Dropboxni okutta archive ga mitsukarimasenn",
+    "routes" : [
+      {
+        "jpStart" : 0,
+        "text" : "ototoi"
+      },
+      {
+        "jpStart" : 7,
+        "text" : "Dropboxni"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "okutta"
+      },
+      {
+        "jpStart" : null,
+        "text" : "archive"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "ga"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "mitsukarimasenn"
+      }
+    ],
+    "split" : "challenge",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "joined",
+    "characters" : 25,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "challenge-07",
+    "literalPrefixFrames" : 0,
+    "raw" : "Firefoxdeshirabeteokimasu",
+    "routes" : [
+      {
+        "jpStart" : 7,
+        "text" : "Firefoxdeshirabeteokimasu"
+      }
+    ],
+    "split" : "challenge",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "joined",
+    "characters" : 30,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "challenge-08",
+    "literalPrefixFrames" : 0,
+    "raw" : "Chromiumnoataraashiibajonndesu",
+    "routes" : [
+      {
+        "jpStart" : 8,
+        "text" : "Chromiumnoataraashiibajonndesu"
+      }
+    ],
+    "split" : "challenge",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "joined",
+    "characters" : 27,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "challenge-09",
+    "literalPrefixFrames" : 0,
+    "raw" : "Gmailnihenjishiteokimashita",
+    "routes" : [
+      {
+        "jpStart" : 5,
+        "text" : "Gmailnihenjishiteokimashita"
+      }
+    ],
+    "split" : "challenge",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "joined",
+    "characters" : 35,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "challenge-10",
+    "literalPrefixFrames" : 0,
+    "raw" : "konoshiryouwoKeynotedehenshuushitai",
+    "routes" : [
+      {
+        "jpStart" : 0,
+        "text" : "konoshiryouwo"
+      },
+      {
+        "jpStart" : 7,
+        "text" : "Keynotedehenshuushitai"
+      }
+    ],
+    "split" : "challenge",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "literal",
+    "characters" : 34,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "challenge-11",
+    "literalPrefixFrames" : 34,
+    "raw" : "Can we move the meeting to Friday?",
+    "routes" : [
+      {
+        "jpStart" : null,
+        "text" : "Can"
+      },
+      {
+        "jpStart" : null,
+        "text" : "we"
+      },
+      {
+        "jpStart" : null,
+        "text" : "move"
+      },
+      {
+        "jpStart" : null,
+        "text" : "the"
+      },
+      {
+        "jpStart" : null,
+        "text" : "meeting"
+      },
+      {
+        "jpStart" : null,
+        "text" : "to"
+      },
+      {
+        "jpStart" : null,
+        "text" : "Friday"
+      }
+    ],
+    "split" : "challenge",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "literal",
+    "characters" : 41,
+    "corruptLiteralPrefixFrames" : 1,
+    "exact" : true,
+    "id" : "challenge-12",
+    "literalPrefixFrames" : 41,
+    "raw" : "I would like a banana and a tomato salad.",
+    "routes" : [
+      {
+        "jpStart" : null,
+        "text" : "I"
+      },
+      {
+        "jpStart" : null,
+        "text" : "would"
+      },
+      {
+        "jpStart" : null,
+        "text" : "like"
+      },
+      {
+        "jpStart" : null,
+        "text" : "a"
+      },
+      {
+        "jpStart" : null,
+        "text" : "banana"
+      },
+      {
+        "jpStart" : null,
+        "text" : "and"
+      },
+      {
+        "jpStart" : null,
+        "text" : "a"
+      },
+      {
+        "jpStart" : null,
+        "text" : "tomato"
+      },
+      {
+        "jpStart" : null,
+        "text" : "salad"
+      }
+    ],
+    "split" : "challenge",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "literal",
+    "characters" : 36,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "challenge-13",
+    "literalPrefixFrames" : 36,
+    "raw" : "Everything seems fine on my machine.",
+    "routes" : [
+      {
+        "jpStart" : null,
+        "text" : "Everything"
+      },
+      {
+        "jpStart" : null,
+        "text" : "seems"
+      },
+      {
+        "jpStart" : null,
+        "text" : "fine"
+      },
+      {
+        "jpStart" : null,
+        "text" : "on"
+      },
+      {
+        "jpStart" : null,
+        "text" : "my"
+      },
+      {
+        "jpStart" : null,
+        "text" : "machine"
+      }
+    ],
+    "split" : "challenge",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "literal",
+    "characters" : 34,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "challenge-14",
+    "literalPrefixFrames" : 34,
+    "raw" : "It is safe to ignore this warning.",
+    "routes" : [
+      {
+        "jpStart" : null,
+        "text" : "It"
+      },
+      {
+        "jpStart" : null,
+        "text" : "is"
+      },
+      {
+        "jpStart" : null,
+        "text" : "safe"
+      },
+      {
+        "jpStart" : null,
+        "text" : "to"
+      },
+      {
+        "jpStart" : null,
+        "text" : "ignore"
+      },
+      {
+        "jpStart" : null,
+        "text" : "this"
+      },
+      {
+        "jpStart" : null,
+        "text" : "warning"
+      }
+    ],
+    "split" : "challenge",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "literal",
+    "characters" : 46,
+    "corruptLiteralPrefixFrames" : 7,
+    "exact" : true,
+    "id" : "challenge-15",
+    "literalPrefixFrames" : 46,
+    "raw" : "Please rename the folder before you upload it.",
+    "routes" : [
+      {
+        "jpStart" : null,
+        "text" : "Please"
+      },
+      {
+        "jpStart" : null,
+        "text" : "rename"
+      },
+      {
+        "jpStart" : null,
+        "text" : "the"
+      },
+      {
+        "jpStart" : null,
+        "text" : "folder"
+      },
+      {
+        "jpStart" : null,
+        "text" : "before"
+      },
+      {
+        "jpStart" : null,
+        "text" : "you"
+      },
+      {
+        "jpStart" : null,
+        "text" : "upload"
+      },
+      {
+        "jpStart" : null,
+        "text" : "it"
+      }
+    ],
+    "split" : "challenge",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "literal",
+    "characters" : 35,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "challenge-16",
+    "literalPrefixFrames" : 35,
+    "raw" : "Nobody has replied to my email yet.",
+    "routes" : [
+      {
+        "jpStart" : null,
+        "text" : "Nobody"
+      },
+      {
+        "jpStart" : null,
+        "text" : "has"
+      },
+      {
+        "jpStart" : null,
+        "text" : "replied"
+      },
+      {
+        "jpStart" : null,
+        "text" : "to"
+      },
+      {
+        "jpStart" : null,
+        "text" : "my"
+      },
+      {
+        "jpStart" : null,
+        "text" : "email"
+      },
+      {
+        "jpStart" : null,
+        "text" : "yet"
+      }
+    ],
+    "split" : "challenge",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "protection",
+    "characters" : 35,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "challenge-17",
+    "literalPrefixFrames" : 0,
+    "raw" : "atesakiha yuki+dev@example.net desu",
+    "routes" : [
+      {
+        "jpStart" : 0,
+        "text" : "atesakiha"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "desu"
+      }
+    ],
+    "split" : "challenge",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "protection",
+    "characters" : 39,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "challenge-18",
+    "literalPrefixFrames" : 0,
+    "raw" : "logha ~\/Library\/Logs\/app.log ni arimasu",
+    "routes" : [
+      {
+        "jpStart" : 3,
+        "text" : "logha"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "ni"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "arimasu"
+      }
+    ],
+    "split" : "challenge",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "protection",
+    "characters" : 35,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "challenge-19",
+    "literalPrefixFrames" : 0,
+    "raw" : "jikkouha `python -m pytest -q` desu",
+    "routes" : [
+      {
+        "jpStart" : 0,
+        "text" : "jikkouha"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "desu"
+      }
+    ],
+    "split" : "challenge",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "tex",
+    "characters" : 30,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "challenge-20",
+    "literalPrefixFrames" : 0,
+    "raw" : "koreha $\\sum_{i=1}^{n} i$ desu",
+    "routes" : [
+      {
+        "jpStart" : 0,
+        "text" : "koreha"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "desu"
+      }
+    ],
+    "split" : "challenge",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "tex",
+    "characters" : 23,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "challenge-21",
+    "literalPrefixFrames" : 0,
+    "raw" : "\\caption{hikakunokekka}",
+    "routes" : [
+      {
+        "jpStart" : 0,
+        "text" : "hikakunokekka"
+      }
+    ],
+    "split" : "challenge",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "jp",
+    "characters" : 41,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "challenge-22",
+    "literalPrefixFrames" : 0,
+    "raw" : "goannnaishiteitadaitearigatougozaimashita",
+    "routes" : [
+      {
+        "jpStart" : 0,
+        "text" : "goannnaishiteitadaitearigatougozaimashita"
+      }
+    ],
+    "split" : "challenge",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "jp",
+    "characters" : 45,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "challenge-23",
+    "literalPrefixFrames" : 0,
+    "raw" : "koushinnshitatokorogaarunodegokakuninnkudasai",
+    "routes" : [
+      {
+        "jpStart" : 0,
+        "text" : "koushinnshitatokorogaarunodegokakuninnkudasai"
+      }
+    ],
+    "split" : "challenge",
+    "wrongCharacters" : 0
+  },
+  {
+    "category" : "identifier",
+    "characters" : 37,
+    "corruptLiteralPrefixFrames" : 0,
+    "exact" : true,
+    "id" : "challenge-24",
+    "literalPrefixFrames" : 0,
+    "raw" : "kono maxConnectionCount wo herashitai",
+    "routes" : [
+      {
+        "jpStart" : 0,
+        "text" : "kono"
+      },
+      {
+        "jpStart" : null,
+        "text" : "maxConnection"
+      },
+      {
+        "jpStart" : null,
+        "text" : "Count"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "wo"
+      },
+      {
+        "jpStart" : 0,
+        "text" : "herashitai"
+      }
+    ],
+    "split" : "challenge",
+    "wrongCharacters" : 0
+  }
+]

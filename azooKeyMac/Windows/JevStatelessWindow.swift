@@ -92,11 +92,11 @@ import Core
             do {
                 try await Task.sleep(for: .milliseconds(500))
                 for raw in [
-                    "Google Meetno URL wo Slack de okuttemoraemasuka?",
-                    "Your session has expired tohyoujisarete, roguinshinaoshitemo sakinisusumemasenn.",
-                    "hennshinha Thank you for your help deiikana.mousukoshiteineinishitai.",
-                    "git pull shitara conflict ga detanode, kono PRno merge ha sukoshimattekudasai."
-                ] {
+    "ashitanoshiryouwoSlackdekyouyuushitekudasai.",
+    "hennshinha I will get back to you tomorrow deiidesuka?",
+    "renrakusakiha naomi@example.com desu.",
+    "suushikiha $E=mc^2$ desu."
+] {
                     documentText = ""; render()
                     try await resolve(raw, animate: true)
                     try await Task.sleep(for: .milliseconds(850))
@@ -113,12 +113,40 @@ import Core
     }
     func auditLocalModel() async {
         var rows: [[String:Any]] = []
-        let samples = ["Google Meetno URL wo Slack de okuttemoraemasuka?",
-            "Your session has expired tohyoujisarete, roguinshinaoshitemo sakinisusumemasenn.",
-            "hennshinha Thank you for your help deiikana.mousukoshiteineinishitai.",
-            "git pull shitara conflict ga detanode, kono PRno merge ha sukoshimattekudasai.",
-            #"suushikiha $E=mc^2$ desu"#, #"\section{hajimeni}"#,
-            "No problem, please send it to me", "made in Japan", "no errors"]
+        let samples = [
+    "Google Meetno URL wo Slack de okuttemoraemasuka?",
+    "Your session has expired tohyoujisarete, roguinshinaoshitemo sakinisusumemasenn.",
+    "hennshinha Thank you for your help deiikana.mousukoshiteineinishitai.",
+    "git pull shitara conflict ga detanode, kono PRno merge ha sukoshimattekudasai.",
+    "ashitanoshiryouwoSlackdekyouyuushitekudasai.",
+    "hennshinha I will get back to you tomorrow deiidesuka?",
+    "renrakusakiha naomi@example.com desu.",
+    "suushikiha $E=mc^2$ desu.",
+    "Bravede konosaitewo hiraitemitekudasai",
+    "atarashii bookmark ga kiechatta",
+    "gamenni Disk quota exceeded to demashita",
+    "hennshinha I will get back to you tomorrow de iidesuka",
+    "kono CSV wo Numbersde hirakemasu",
+    "ototoi Dropboxni okutta archive ga mitsukarimasenn",
+    "Firefoxdeshirabeteokimasu",
+    "Chromiumnoataraashiibajonndesu",
+    "Gmailnihenjishiteokimashita",
+    "konoshiryouwoKeynotedehenshuushitai",
+    "Can we move the meeting to Friday?",
+    "I would like a banana and a tomato salad.",
+    "Everything seems fine on my machine.",
+    "It is safe to ignore this warning.",
+    "Please rename the folder before you upload it.",
+    "Nobody has replied to my email yet.",
+    "atesakiha yuki+dev@example.net desu",
+    "logha ~/Library/Logs/app.log ni arimasu",
+    "jikkouha `python -m pytest -q` desu",
+    "koreha $\\sum_{i=1}^{n} i$ desu",
+    "\\caption{hikakunokekka}",
+    "goannnaishiteitadaitearigatougozaimashita",
+    "koushinnshitatokorogaarunodegokakuninnkudasai",
+    "kono maxConnectionCount wo herashitai"
+]
         for raw in samples {
             session.reset(); var times: [Double] = []
             for c in raw {
@@ -129,12 +157,20 @@ import Core
                          "decision":(try? JSONSerialization.jsonObject(with:JSONEncoder().encode(session.lastDecision))) ?? NSNull()])
             _ = session.commit()
         }
+        // Exercise a middle-of-sentence edit through the same session used by the IME.
+        session.reset(); session.replace(samples[0])
+        let beforeEdit = session.buffer.display
+        session.moveCaret(to: 20); session.append("x"); session.backspace()
+        session.moveCaret(to: session.buffer.raw.count)
+        let editRestored = session.buffer.raw == samples[0] && session.buffer.display == beforeEdit
+        _ = session.commit()
+        let commitCleared = session.buffer.raw.isEmpty && session.lastDecision == nil && session.task == nil
         var probeBlocked = false; var probeError = ""
         do {
             var request = URLRequest(url:URL(string:"https://example.com")!); request.timeoutInterval = 3
             _ = try await URLSession.shared.data(for:request)
         } catch { probeBlocked = true; probeError = error.localizedDescription }
-        let result: [String:Any] = ["samples":rows,"networkProbeBlocked":probeBlocked,"networkProbeError":probeError,
+        let result: [String:Any] = ["samples":rows,"middleEditRestored":editRestored,"commitCleared":commitCleared,"networkProbeBlocked":probeBlocked,"networkProbeError":probeError,
             "apiKeyPresent":FileManager.default.fileExists(atPath:JevLocalConfig.directory.appendingPathComponent("gateway.key").path)]
         if let data = try? JSONSerialization.data(withJSONObject:result, options:[.prettyPrinted,.sortedKeys]) {
             try? data.write(to:JevLocalConfig.directory.appendingPathComponent("local-model-audit.json"))

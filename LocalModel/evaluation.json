@@ -1,0 +1,1459 @@
+[
+  {
+    "id": "development-01",
+    "split": "development",
+    "category": "mixed",
+    "raw": "Slackde shiryouwo kyouyuushitekudasai",
+    "japaneseRanges": [
+      [
+        5,
+        7
+      ],
+      [
+        8,
+        17
+      ],
+      [
+        18,
+        37
+      ]
+    ]
+  },
+  {
+    "id": "development-02",
+    "split": "development",
+    "category": "mixed",
+    "raw": "ashita Zoomde uchiawaseshimasu",
+    "japaneseRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        11,
+        13
+      ],
+      [
+        14,
+        30
+      ]
+    ]
+  },
+  {
+    "id": "development-03",
+    "split": "development",
+    "category": "mixed",
+    "raw": "Notionni gijirokuwo matometemashita",
+    "japaneseRanges": [
+      [
+        6,
+        8
+      ],
+      [
+        9,
+        19
+      ],
+      [
+        20,
+        35
+      ]
+    ]
+  },
+  {
+    "id": "development-04",
+    "split": "development",
+    "category": "mixed",
+    "raw": "kono READMEwo yomimashitaka",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        11,
+        13
+      ],
+      [
+        14,
+        27
+      ]
+    ]
+  },
+  {
+    "id": "development-05",
+    "split": "development",
+    "category": "mixed",
+    "raw": "hennshinha Let me know if you have any questions de iidesuka",
+    "japaneseRanges": [
+      [
+        0,
+        10
+      ],
+      [
+        49,
+        51
+      ],
+      [
+        52,
+        60
+      ]
+    ]
+  },
+  {
+    "id": "development-06",
+    "split": "development",
+    "category": "mixed",
+    "raw": "gamenni No more results to deteimasu",
+    "japaneseRanges": [
+      [
+        0,
+        7
+      ],
+      [
+        24,
+        26
+      ],
+      [
+        27,
+        36
+      ]
+    ]
+  },
+  {
+    "id": "development-07",
+    "split": "development",
+    "category": "mixed",
+    "raw": "koreha made in Italy desu",
+    "japaneseRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        21,
+        25
+      ]
+    ]
+  },
+  {
+    "id": "development-08",
+    "split": "development",
+    "category": "joined",
+    "raw": "Slackdekyouyuushitekudasai",
+    "japaneseRanges": [
+      [
+        5,
+        26
+      ]
+    ]
+  },
+  {
+    "id": "development-09",
+    "split": "development",
+    "category": "joined",
+    "raw": "GitHubnoshoudaimailgakimasenn",
+    "japaneseRanges": [
+      [
+        6,
+        15
+      ],
+      [
+        19,
+        29
+      ]
+    ],
+    "annotationNote": "Corrected gold annotation: mail is literal English inside the unspaced Japanese run. Retained as a difficult failing multi-switch case."
+  },
+  {
+    "id": "development-10",
+    "split": "development",
+    "category": "joined",
+    "raw": "ashitahaGoogle Meetdeuchiawasedesu",
+    "japaneseRanges": [
+      [
+        0,
+        8
+      ],
+      [
+        19,
+        34
+      ]
+    ]
+  },
+  {
+    "id": "development-11",
+    "split": "development",
+    "category": "literal",
+    "raw": "We have no more time to make changes.",
+    "japaneseRanges": []
+  },
+  {
+    "id": "development-12",
+    "split": "development",
+    "category": "literal",
+    "raw": "Can you take a look at my code?",
+    "japaneseRanges": []
+  },
+  {
+    "id": "development-13",
+    "split": "development",
+    "category": "literal",
+    "raw": "My name is Naomi and I live in Tokyo.",
+    "japaneseRanges": []
+  },
+  {
+    "id": "development-14",
+    "split": "development",
+    "category": "literal",
+    "raw": "You can use a piano or a radio.",
+    "japaneseRanges": []
+  },
+  {
+    "id": "development-15",
+    "split": "development",
+    "category": "identifier",
+    "raw": "kono user_name wo kaetekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        15,
+        17
+      ],
+      [
+        18,
+        30
+      ]
+    ]
+  },
+  {
+    "id": "development-16",
+    "split": "development",
+    "category": "identifier",
+    "raw": "kono firstName ha hissudesu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        15,
+        17
+      ],
+      [
+        18,
+        27
+      ]
+    ]
+  },
+  {
+    "id": "development-17",
+    "split": "development",
+    "category": "protection",
+    "raw": "renrakusakiha naomi@example.com desu",
+    "japaneseRanges": [
+      [
+        0,
+        13
+      ],
+      [
+        32,
+        36
+      ]
+    ]
+  },
+  {
+    "id": "development-18",
+    "split": "development",
+    "category": "protection",
+    "raw": "hozonnsakiha /Users/naomi/Documents desu",
+    "japaneseRanges": [
+      [
+        0,
+        12
+      ],
+      [
+        36,
+        40
+      ]
+    ]
+  },
+  {
+    "id": "development-19",
+    "split": "development",
+    "category": "protection",
+    "raw": "jikkousuru `npm run build` wo kakuninn",
+    "japaneseRanges": [
+      [
+        0,
+        10
+      ],
+      [
+        27,
+        29
+      ],
+      [
+        30,
+        38
+      ]
+    ]
+  },
+  {
+    "id": "development-20",
+    "split": "development",
+    "category": "tex",
+    "raw": "koreha $\\alpha + \\beta$ desu",
+    "japaneseRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        24,
+        28
+      ]
+    ]
+  },
+  {
+    "id": "development-21",
+    "split": "development",
+    "category": "jp",
+    "raw": "kinouokuttemorattashiryouwokakuninnshimashita",
+    "japaneseRanges": [
+      [
+        0,
+        45
+      ]
+    ]
+  },
+  {
+    "id": "development-22",
+    "split": "development",
+    "category": "jp",
+    "raw": "arigatougozaimasu",
+    "japaneseRanges": [
+      [
+        0,
+        17
+      ]
+    ]
+  },
+  {
+    "id": "development-23",
+    "split": "development",
+    "category": "jp",
+    "raw": "sumimasen mouichido onegaishimasu",
+    "japaneseRanges": [
+      [
+        0,
+        9
+      ],
+      [
+        10,
+        19
+      ],
+      [
+        20,
+        33
+      ]
+    ]
+  },
+  {
+    "id": "development-24",
+    "split": "development",
+    "category": "literal",
+    "raw": "I made a cake for her birthday.",
+    "japaneseRanges": []
+  },
+  {
+    "id": "evaluation-01",
+    "split": "evaluation",
+    "category": "mixed",
+    "raw": "Discordde raishuunoyoteiwo soudanshimasu",
+    "japaneseRanges": [
+      [
+        7,
+        9
+      ],
+      [
+        10,
+        26
+      ],
+      [
+        27,
+        40
+      ]
+    ]
+  },
+  {
+    "id": "evaluation-02",
+    "split": "evaluation",
+    "category": "mixed",
+    "raw": "Figmano prototype wo kakuninnshitekudasai",
+    "japaneseRanges": [
+      [
+        5,
+        7
+      ],
+      [
+        18,
+        20
+      ],
+      [
+        21,
+        41
+      ]
+    ]
+  },
+  {
+    "id": "evaluation-03",
+    "split": "evaluation",
+    "category": "mixed",
+    "raw": "kyouha Bluetooth ga tsunagarimasenn",
+    "japaneseRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        17,
+        19
+      ],
+      [
+        20,
+        35
+      ]
+    ]
+  },
+  {
+    "id": "evaluation-04",
+    "split": "evaluation",
+    "category": "mixed",
+    "raw": "kono spreadsheet wo PDFde hozonndekimasuka",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        17,
+        19
+      ],
+      [
+        23,
+        25
+      ],
+      [
+        26,
+        42
+      ]
+    ]
+  },
+  {
+    "id": "evaluation-05",
+    "split": "evaluation",
+    "category": "mixed",
+    "raw": "atarashii dashboard ni kirikaemashita",
+    "japaneseRanges": [
+      [
+        0,
+        9
+      ],
+      [
+        20,
+        22
+      ],
+      [
+        23,
+        37
+      ]
+    ]
+  },
+  {
+    "id": "evaluation-06",
+    "split": "evaluation",
+    "category": "mixed",
+    "raw": "kaigino agenda wo sakiniookurishimasu",
+    "japaneseRanges": [
+      [
+        0,
+        7
+      ],
+      [
+        15,
+        17
+      ],
+      [
+        18,
+        37
+      ]
+    ]
+  },
+  {
+    "id": "evaluation-07",
+    "split": "evaluation",
+    "category": "mixed",
+    "raw": "kono repository ha public ni shinaidekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        16,
+        18
+      ],
+      [
+        26,
+        28
+      ],
+      [
+        29,
+        44
+      ]
+    ]
+  },
+  {
+    "id": "evaluation-08",
+    "split": "evaluation",
+    "category": "mixed",
+    "raw": "henkouha staging de kakuninnshitemasu",
+    "japaneseRanges": [
+      [
+        0,
+        8
+      ],
+      [
+        17,
+        19
+      ],
+      [
+        20,
+        37
+      ]
+    ]
+  },
+  {
+    "id": "evaluation-09",
+    "split": "evaluation",
+    "category": "mixed",
+    "raw": "gamenni Permission denied to hyoujisaremashita",
+    "japaneseRanges": [
+      [
+        0,
+        7
+      ],
+      [
+        26,
+        28
+      ],
+      [
+        29,
+        46
+      ]
+    ]
+  },
+  {
+    "id": "evaluation-10",
+    "split": "evaluation",
+    "category": "mixed",
+    "raw": "hennshinha Sounds good to me de daijoubudesuka",
+    "japaneseRanges": [
+      [
+        0,
+        10
+      ],
+      [
+        29,
+        31
+      ],
+      [
+        32,
+        46
+      ]
+    ]
+  },
+  {
+    "id": "evaluation-11",
+    "split": "evaluation",
+    "category": "mixed",
+    "raw": "saigoni Thank you for your patience to tsuikashitai",
+    "japaneseRanges": [
+      [
+        0,
+        7
+      ],
+      [
+        36,
+        38
+      ],
+      [
+        39,
+        51
+      ]
+    ]
+  },
+  {
+    "id": "evaluation-12",
+    "split": "evaluation",
+    "category": "mixed",
+    "raw": "soredemo no updates available to demasu",
+    "japaneseRanges": [
+      [
+        0,
+        8
+      ],
+      [
+        30,
+        32
+      ],
+      [
+        33,
+        39
+      ]
+    ]
+  },
+  {
+    "id": "evaluation-13",
+    "split": "evaluation",
+    "category": "mixed",
+    "raw": "konoshouhinnha made in Canada desu",
+    "japaneseRanges": [
+      [
+        0,
+        14
+      ],
+      [
+        30,
+        34
+      ]
+    ]
+  },
+  {
+    "id": "evaluation-14",
+    "split": "evaluation",
+    "category": "mixed",
+    "raw": "kono video ha saiseidekimasenn",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        11,
+        13
+      ],
+      [
+        14,
+        30
+      ]
+    ]
+  },
+  {
+    "id": "evaluation-15",
+    "split": "evaluation",
+    "category": "mixed",
+    "raw": "kono piano ha darenomono",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        11,
+        13
+      ],
+      [
+        14,
+        24
+      ]
+    ]
+  },
+  {
+    "id": "evaluation-16",
+    "split": "evaluation",
+    "category": "joined",
+    "raw": "Discorddesoudanshimasu",
+    "japaneseRanges": [
+      [
+        7,
+        22
+      ]
+    ]
+  },
+  {
+    "id": "evaluation-17",
+    "split": "evaluation",
+    "category": "joined",
+    "raw": "Figmanofairuwohirakimashita",
+    "japaneseRanges": [
+      [
+        5,
+        27
+      ]
+    ]
+  },
+  {
+    "id": "evaluation-18",
+    "split": "evaluation",
+    "category": "joined",
+    "raw": "PDFnihozonndekimasuka",
+    "japaneseRanges": [
+      [
+        3,
+        21
+      ]
+    ]
+  },
+  {
+    "id": "evaluation-19",
+    "split": "evaluation",
+    "category": "joined",
+    "raw": "kyouhaZoomdekaigishimasu",
+    "japaneseRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        10,
+        24
+      ]
+    ]
+  },
+  {
+    "id": "evaluation-20",
+    "split": "evaluation",
+    "category": "joined",
+    "raw": "atarashiiAPIwotsukaimashita",
+    "japaneseRanges": [
+      [
+        0,
+        9
+      ],
+      [
+        12,
+        27
+      ]
+    ]
+  },
+  {
+    "id": "evaluation-21",
+    "split": "evaluation",
+    "category": "literal",
+    "raw": "There is no need to worry about it.",
+    "japaneseRanges": []
+  },
+  {
+    "id": "evaluation-22",
+    "split": "evaluation",
+    "category": "literal",
+    "raw": "Could you send me the latest invoice?",
+    "japaneseRanges": []
+  },
+  {
+    "id": "evaluation-23",
+    "split": "evaluation",
+    "category": "literal",
+    "raw": "She made dinner before the meeting.",
+    "japaneseRanges": []
+  },
+  {
+    "id": "evaluation-24",
+    "split": "evaluation",
+    "category": "literal",
+    "raw": "I have been waiting for your reply.",
+    "japaneseRanges": []
+  },
+  {
+    "id": "evaluation-25",
+    "split": "evaluation",
+    "category": "literal",
+    "raw": "We need to make sure it works on mobile.",
+    "japaneseRanges": []
+  },
+  {
+    "id": "evaluation-26",
+    "split": "evaluation",
+    "category": "literal",
+    "raw": "Please let us know when you are ready.",
+    "japaneseRanges": []
+  },
+  {
+    "id": "evaluation-27",
+    "split": "evaluation",
+    "category": "literal",
+    "raw": "My camera and microphone are not working.",
+    "japaneseRanges": []
+  },
+  {
+    "id": "evaluation-28",
+    "split": "evaluation",
+    "category": "literal",
+    "raw": "This is a photo of our new office.",
+    "japaneseRanges": []
+  },
+  {
+    "id": "evaluation-29",
+    "split": "evaluation",
+    "category": "literal",
+    "raw": "There are no changes to the data.",
+    "japaneseRanges": []
+  },
+  {
+    "id": "evaluation-30",
+    "split": "evaluation",
+    "category": "literal",
+    "raw": "Don't forget to save your work.",
+    "japaneseRanges": []
+  },
+  {
+    "id": "evaluation-31",
+    "split": "evaluation",
+    "category": "identifier",
+    "raw": "kono accessToken ha yuukoudesu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        17,
+        19
+      ],
+      [
+        20,
+        30
+      ]
+    ]
+  },
+  {
+    "id": "evaluation-32",
+    "split": "evaluation",
+    "category": "identifier",
+    "raw": "kono retry_count wo fuyaushimasu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        17,
+        19
+      ],
+      [
+        20,
+        32
+      ]
+    ]
+  },
+  {
+    "id": "evaluation-33",
+    "split": "evaluation",
+    "category": "identifier",
+    "raw": "shiteiha maxRetries desu",
+    "japaneseRanges": [
+      [
+        0,
+        8
+      ],
+      [
+        20,
+        24
+      ]
+    ]
+  },
+  {
+    "id": "evaluation-34",
+    "split": "evaluation",
+    "category": "protection",
+    "raw": "atesakiha hana.sato@example.org desu",
+    "japaneseRanges": [
+      [
+        0,
+        9
+      ],
+      [
+        32,
+        36
+      ]
+    ]
+  },
+  {
+    "id": "evaluation-35",
+    "split": "evaluation",
+    "category": "protection",
+    "raw": "kono https://example.org/naomi?q=made wo hiraku",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        38,
+        40
+      ],
+      [
+        41,
+        47
+      ]
+    ]
+  },
+  {
+    "id": "evaluation-36",
+    "split": "evaluation",
+    "category": "protection",
+    "raw": "fairuha ./src/main.swift ni arimasu",
+    "japaneseRanges": [
+      [
+        0,
+        7
+      ],
+      [
+        25,
+        27
+      ],
+      [
+        28,
+        35
+      ]
+    ]
+  },
+  {
+    "id": "evaluation-37",
+    "split": "evaluation",
+    "category": "protection",
+    "raw": "kono `git rebase --continue` wo jikkou",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        29,
+        31
+      ],
+      [
+        32,
+        38
+      ]
+    ]
+  },
+  {
+    "id": "evaluation-38",
+    "split": "evaluation",
+    "category": "tex",
+    "raw": "teigiha $f(x)=\\frac{1}{1+x^2}$ desu",
+    "japaneseRanges": [
+      [
+        0,
+        7
+      ],
+      [
+        31,
+        35
+      ]
+    ]
+  },
+  {
+    "id": "evaluation-39",
+    "split": "evaluation",
+    "category": "tex",
+    "raw": "kekka \\[x^2+y^2=z^2\\] wo shimesu",
+    "japaneseRanges": [
+      [
+        0,
+        5
+      ],
+      [
+        22,
+        24
+      ],
+      [
+        25,
+        32
+      ]
+    ]
+  },
+  {
+    "id": "evaluation-40",
+    "split": "evaluation",
+    "category": "tex",
+    "raw": "\\section{jikkennokekka}",
+    "japaneseRanges": [
+      [
+        9,
+        22
+      ]
+    ]
+  },
+  {
+    "id": "evaluation-41",
+    "split": "evaluation",
+    "category": "tex",
+    "raw": "\\cite{tanaka2025} wo sannshoushimasu",
+    "japaneseRanges": [
+      [
+        18,
+        20
+      ],
+      [
+        21,
+        36
+      ]
+    ]
+  },
+  {
+    "id": "evaluation-42",
+    "split": "evaluation",
+    "category": "jp",
+    "raw": "raishuunogetsuyoubimadenionegaidekimasuka",
+    "japaneseRanges": [
+      [
+        0,
+        41
+      ]
+    ]
+  },
+  {
+    "id": "evaluation-43",
+    "split": "evaluation",
+    "category": "jp",
+    "raw": "kinounouchiawasenonaiyouwomatomemashita",
+    "japaneseRanges": [
+      [
+        0,
+        39
+      ]
+    ]
+  },
+  {
+    "id": "evaluation-44",
+    "split": "evaluation",
+    "category": "jp",
+    "raw": "moushiwakearimasengashousaiwooshietekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        43
+      ]
+    ]
+  },
+  {
+    "id": "evaluation-45",
+    "split": "evaluation",
+    "category": "jp",
+    "raw": "kakuninngadekishidairenrakushimasu",
+    "japaneseRanges": [
+      [
+        0,
+        34
+      ]
+    ]
+  },
+  {
+    "id": "evaluation-46",
+    "split": "evaluation",
+    "category": "jp",
+    "raw": "shiryounigofugaattaraoshietekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        35
+      ]
+    ]
+  },
+  {
+    "id": "evaluation-47",
+    "split": "evaluation",
+    "category": "jp",
+    "raw": "soredeha raishuuyori yoroshikuonegaishimasu",
+    "japaneseRanges": [
+      [
+        0,
+        8
+      ],
+      [
+        9,
+        20
+      ],
+      [
+        21,
+        43
+      ]
+    ]
+  },
+  {
+    "id": "evaluation-48",
+    "split": "evaluation",
+    "category": "jp",
+    "raw": "konokennitsuite ikenwo ukagaitai",
+    "japaneseRanges": [
+      [
+        0,
+        15
+      ],
+      [
+        16,
+        22
+      ],
+      [
+        23,
+        32
+      ]
+    ]
+  },
+  {
+    "id": "challenge-01",
+    "split": "challenge",
+    "category": "mixed",
+    "raw": "Bravede konosaitewo hiraitemitekudasai",
+    "japaneseRanges": [
+      [
+        5,
+        7
+      ],
+      [
+        8,
+        19
+      ],
+      [
+        20,
+        38
+      ]
+    ]
+  },
+  {
+    "id": "challenge-02",
+    "split": "challenge",
+    "category": "mixed",
+    "raw": "atarashii bookmark ga kiechatta",
+    "japaneseRanges": [
+      [
+        0,
+        9
+      ],
+      [
+        19,
+        21
+      ],
+      [
+        22,
+        31
+      ]
+    ]
+  },
+  {
+    "id": "challenge-03",
+    "split": "challenge",
+    "category": "mixed",
+    "raw": "gamenni Disk quota exceeded to demashita",
+    "japaneseRanges": [
+      [
+        0,
+        7
+      ],
+      [
+        28,
+        30
+      ],
+      [
+        31,
+        40
+      ]
+    ]
+  },
+  {
+    "id": "challenge-04",
+    "split": "challenge",
+    "category": "mixed",
+    "raw": "hennshinha I will get back to you tomorrow de iidesuka",
+    "japaneseRanges": [
+      [
+        0,
+        10
+      ],
+      [
+        43,
+        45
+      ],
+      [
+        46,
+        54
+      ]
+    ]
+  },
+  {
+    "id": "challenge-05",
+    "split": "challenge",
+    "category": "mixed",
+    "raw": "kono CSV wo Numbersde hirakemasu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        9,
+        11
+      ],
+      [
+        19,
+        21
+      ],
+      [
+        22,
+        32
+      ]
+    ]
+  },
+  {
+    "id": "challenge-06",
+    "split": "challenge",
+    "category": "mixed",
+    "raw": "ototoi Dropboxni okutta archive ga mitsukarimasenn",
+    "japaneseRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        17,
+        23
+      ],
+      [
+        32,
+        34
+      ],
+      [
+        35,
+        50
+      ]
+    ]
+  },
+  {
+    "id": "challenge-07",
+    "split": "challenge",
+    "category": "joined",
+    "raw": "Firefoxdeshirabeteokimasu",
+    "japaneseRanges": [
+      [
+        7,
+        25
+      ]
+    ]
+  },
+  {
+    "id": "challenge-08",
+    "split": "challenge",
+    "category": "joined",
+    "raw": "Chromiumnoataraashiibajonndesu",
+    "japaneseRanges": [
+      [
+        8,
+        30
+      ]
+    ]
+  },
+  {
+    "id": "challenge-09",
+    "split": "challenge",
+    "category": "joined",
+    "raw": "Gmailnihenjishiteokimashita",
+    "japaneseRanges": [
+      [
+        5,
+        27
+      ]
+    ]
+  },
+  {
+    "id": "challenge-10",
+    "split": "challenge",
+    "category": "joined",
+    "raw": "konoshiryouwoKeynotedehenshuushitai",
+    "japaneseRanges": [
+      [
+        0,
+        13
+      ],
+      [
+        20,
+        35
+      ]
+    ]
+  },
+  {
+    "id": "challenge-11",
+    "split": "challenge",
+    "category": "literal",
+    "raw": "Can we move the meeting to Friday?",
+    "japaneseRanges": []
+  },
+  {
+    "id": "challenge-12",
+    "split": "challenge",
+    "category": "literal",
+    "raw": "I would like a banana and a tomato salad.",
+    "japaneseRanges": []
+  },
+  {
+    "id": "challenge-13",
+    "split": "challenge",
+    "category": "literal",
+    "raw": "Everything seems fine on my machine.",
+    "japaneseRanges": []
+  },
+  {
+    "id": "challenge-14",
+    "split": "challenge",
+    "category": "literal",
+    "raw": "It is safe to ignore this warning.",
+    "japaneseRanges": []
+  },
+  {
+    "id": "challenge-15",
+    "split": "challenge",
+    "category": "literal",
+    "raw": "Please rename the folder before you upload it.",
+    "japaneseRanges": []
+  },
+  {
+    "id": "challenge-16",
+    "split": "challenge",
+    "category": "literal",
+    "raw": "Nobody has replied to my email yet.",
+    "japaneseRanges": []
+  },
+  {
+    "id": "challenge-17",
+    "split": "challenge",
+    "category": "protection",
+    "raw": "atesakiha yuki+dev@example.net desu",
+    "japaneseRanges": [
+      [
+        0,
+        9
+      ],
+      [
+        31,
+        35
+      ]
+    ]
+  },
+  {
+    "id": "challenge-18",
+    "split": "challenge",
+    "category": "protection",
+    "raw": "logha ~/Library/Logs/app.log ni arimasu",
+    "japaneseRanges": [
+      [
+        3,
+        5
+      ],
+      [
+        29,
+        31
+      ],
+      [
+        32,
+        39
+      ]
+    ],
+    "annotationNote": "Corrected gold annotation: log is English; ha is Japanese. Raw input unchanged."
+  },
+  {
+    "id": "challenge-19",
+    "split": "challenge",
+    "category": "protection",
+    "raw": "jikkouha `python -m pytest -q` desu",
+    "japaneseRanges": [
+      [
+        0,
+        8
+      ],
+      [
+        31,
+        35
+      ]
+    ]
+  },
+  {
+    "id": "challenge-20",
+    "split": "challenge",
+    "category": "tex",
+    "raw": "koreha $\\sum_{i=1}^{n} i$ desu",
+    "japaneseRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        26,
+        30
+      ]
+    ]
+  },
+  {
+    "id": "challenge-21",
+    "split": "challenge",
+    "category": "tex",
+    "raw": "\\caption{hikakunokekka}",
+    "japaneseRanges": [
+      [
+        9,
+        22
+      ]
+    ]
+  },
+  {
+    "id": "challenge-22",
+    "split": "challenge",
+    "category": "jp",
+    "raw": "goannnaishiteitadaitearigatougozaimashita",
+    "japaneseRanges": [
+      [
+        0,
+        41
+      ]
+    ]
+  },
+  {
+    "id": "challenge-23",
+    "split": "challenge",
+    "category": "jp",
+    "raw": "koushinnshitatokorogaarunodegokakuninnkudasai",
+    "japaneseRanges": [
+      [
+        0,
+        45
+      ]
+    ]
+  },
+  {
+    "id": "challenge-24",
+    "split": "challenge",
+    "category": "identifier",
+    "raw": "kono maxConnectionCount wo herashitai",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        24,
+        26
+      ],
+      [
+        27,
+        37
+      ]
+    ]
+  }
+]

@@ -4,13 +4,13 @@ import Testing
 
 @Test func localModelMatchesPythonExport() throws {
     let model = try LocalLanguageRouter()
-    #expect(abs(model.japaneseProbability("Google", context: true, left: "", right: "") - 0.000139548623990774) < 1e-10)
-    #expect(abs(model.japaneseProbability("no", context: true, left: "Meet", right: "URL") - 0.8631460956905836) < 1e-10)
-    #expect(abs(model.japaneseProbability("no", context: true, left: "", right: "errors") - 0.04778796073528099) < 1e-10)
-    #expect(abs(model.japaneseProbability("no", context: false, left: "", right: "") - 0.028838129692233976) < 1e-10)
-    #expect(abs(model.japaneseProbability("Reactde", context: true, left: "", right: "") - 0.0003321560693020903) < 1e-10)
-    #expect(abs(model.japaneseProbability("Meetno", context: true, left: "", right: "") - 0.0020264119383435154) < 1e-10)
-    #expect(abs(model.japaneseProbability("gadetanode", context: true, left: "", right: "") - 0.9984808243560673) < 1e-10)
+    #expect(abs(model.japaneseProbability("Google", context: true, left: "", right: "") - 1.9163443779027892e-05) < 1e-10)
+    #expect(abs(model.japaneseProbability("no", context: true, left: "Meet", right: "URL") - 0.4008281668015656) < 1e-10)
+    #expect(abs(model.japaneseProbability("no", context: true, left: "", right: "errors") - 0.065696449685893) < 1e-10)
+    #expect(abs(model.japaneseProbability("no", context: false, left: "", right: "") - 0.03494276746927694) < 1e-10)
+    #expect(abs(model.japaneseProbability("Reactde", context: true, left: "", right: "") - 4.4297097684638684e-05) < 1e-10)
+    #expect(abs(model.japaneseProbability("Meetno", context: true, left: "", right: "") - 2.3866936491466665e-05) < 1e-10)
+    #expect(abs(model.japaneseProbability("gadetanode", context: true, left: "", right: "") - 0.996789327101692) < 1e-10)
 }
 @Test func localModelRoutesMixedExamplesWithoutNetwork() throws {
     let model = try LocalLanguageRouter()
@@ -40,4 +40,46 @@ import Testing
     let start = Date()
     for _ in 0..<100 { _ = m.classify(raw) }
     print("LOCAL MODEL mean ms",Date().timeIntervalSince(start)*10)
+}
+
+@Test func localModelKeepsEnglishInEnglishSentences() throws {
+    let m = try LocalLanguageRouter()
+    for raw in ["I would like a banana and a tomato salad.", "Please rename the folder before you upload it.", "There are no changes to the data."] {
+        #expect(m.classify(raw).decisions.allSatisfy { $0.japaneseStart == nil }, "\(raw)")
+    }
+}
+@Test func localModelFindsEnglishNameThenLongJapaneseTail() throws {
+    let m = try LocalLanguageRouter()
+    for (raw,offset) in [("Slackdekyouyuushitekudasai",5),("Gmailnihenjishiteokimashita",5),("Keynotedehenshuushitai",7),("Figmanofairuwohirakimashita",5)] {
+        let d = m.classify(raw)
+        #expect(d.decisions.count == 1)
+        #expect(d.decisions.first?.japaneseStart == offset, "\(raw)")
+    }
+    #expect(m.classify("kyouha Bluetooth ga tsunagarimasenn").decisions[1].japaneseStart == nil)
+}
+@Test func localModelRestoresRoutingAfterMiddleEdit() throws {
+    let m = try LocalLanguageRouter()
+    let raw = "Google Meetno URL wo Slack de okuttemoraemasuka?"
+    let first = m.classify(raw)
+    let changed = String(raw.prefix(20)) + "x" + String(raw.dropFirst(20))
+    _ = m.classify(changed)
+    #expect(m.classify(raw).decisions.map(\.japaneseStart) == first.decisions.map(\.japaneseStart))
+    var composition = JevComposition(); composition.replace(raw)
+    composition.renderLocalLive(decision:first,decisionEpoch:composition.editEpoch,trustDecision:true) { "「" + $0 + "」" }
+    let originalDisplay = composition.display
+    composition.moveCaret(to:20); composition.insert("x"); composition.deleteBackward(); composition.moveCaret(to:raw.count)
+    composition.renderLocalLive(decision:m.classify(composition.raw),decisionEpoch:composition.editEpoch,trustDecision:true) { "「" + $0 + "」" }
+    #expect(composition.raw == raw)
+    #expect(composition.display == originalDisplay)
+    #expect(composition.commit() == originalDisplay)
+    #expect(composition.raw.isEmpty)
+}
+@Test func localModelPreservesOpaqueContentDuringLiveRendering() throws {
+    let m = try LocalLanguageRouter()
+    for literal in ["naomi@example.com","yuki+dev@example.net","/Users/naomi/Documents","~/Library/Logs/app.log",#"$\frac{a}{b}$"#,"`git rebase --continue`"] {
+        let raw = "koreha " + literal + " desu"
+        var c = JevComposition(); c.replace(raw)
+        c.renderLocalLive(decision:m.classify(raw),decisionEpoch:c.editEpoch,trustDecision:true) { "「" + $0 + "」" }
+        #expect(c.display.contains(literal), "\(literal)")
+    }
 }
