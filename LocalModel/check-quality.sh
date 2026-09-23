@@ -13,4 +13,4 @@ LOCAL_MULTI_CASES=LocalModel/release-holdout.json \
 LOCAL_MULTI_REPORT="$report_dir/holdout.json" \
 swift test --package-path Core --filter localMultiSwitchFreshEvaluation
 
-python3 LocalModel/check-accuracy-v5.py "$report_dir/v5"
+python3 LocalModel/check-accuracy-v6.py "$report_dir/v6"

@@ -1,0 +1,128 @@
+{
+  "prior80": {
+    "2108a60": {
+      "exact": 80,
+      "count": 80,
+      "damage": 50,
+      "reversals": 173
+    },
+    "current": {
+      "exact": 80,
+      "count": 80,
+      "damage": 50,
+      "reversals": 173
+    }
+  },
+  "multi": {
+    "2108a60": {
+      "exact": 35,
+      "count": 36,
+      "damage": 18,
+      "reversals": 106
+    },
+    "current": {
+      "exact": 35,
+      "count": 36,
+      "damage": 18,
+      "reversals": 102
+    }
+  },
+  "prior24": {
+    "2108a60": {
+      "exact": 23,
+      "count": 24,
+      "damage": 6,
+      "reversals": 79
+    },
+    "current": {
+      "exact": 23,
+      "count": 24,
+      "damage": 6,
+      "reversals": 75
+    }
+  },
+  "prior48": {
+    "2108a60": {
+      "exact": 47,
+      "count": 48,
+      "damage": 32,
+      "reversals": 232
+    },
+    "current": {
+      "exact": 47,
+      "count": 48,
+      "damage": 32,
+      "reversals": 160
+    }
+  },
+  "priorfinal24": {
+    "2108a60": {
+      "exact": 24,
+      "count": 24,
+      "damage": 13,
+      "reversals": 127
+    },
+    "current": {
+      "exact": 24,
+      "count": 24,
+      "damage": 7,
+      "reversals": 124
+    }
+  },
+  "development48": {
+    "2108a60": {
+      "exact": 48,
+      "count": 48,
+      "damage": 21,
+      "reversals": 182
+    },
+    "current": {
+      "exact": 48,
+      "count": 48,
+      "damage": 20,
+      "reversals": 180
+    }
+  },
+  "final40": {
+    "2108a60": {
+      "exact": 40,
+      "count": 40,
+      "damage": 14,
+      "reversals": 129
+    },
+    "current": {
+      "exact": 40,
+      "count": 40,
+      "damage": 14,
+      "reversals": 131
+    }
+  },
+  "fresh48": {
+    "2108a60": {
+      "exact": 41,
+      "count": 48,
+      "damage": 74,
+      "reversals": 166
+    },
+    "current": {
+      "exact": 45,
+      "count": 48,
+      "damage": 59,
+      "reversals": 171
+    }
+  },
+  "developmentV6": {
+    "2108a60": {
+      "exact": 38,
+      "count": 48,
+      "damage": 96,
+      "reversals": 169
+    },
+    "current": {
+      "exact": 46,
+      "count": 48,
+      "damage": 52,
+      "reversals": 152
+    }
+  }
+}

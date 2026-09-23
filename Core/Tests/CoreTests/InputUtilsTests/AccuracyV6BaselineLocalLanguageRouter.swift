@@ -1,7 +1,9 @@
+// Frozen 2108a60 inference; test target only.
+@testable import Core
 import Foundation
 
 /// A trained logistic language classifier. Inference is pure Swift and never opens a socket.
-public final class LocalLanguageRouter: @unchecked Sendable {
+public final class AccuracyV6BaselineRouter: @unchecked Sendable {
     private struct Model: Decodable { let version: Int; let weights: [String:Double]; let ambiguous: [String]; let boundaryWeights: [Double]; let knownEnglish: [String]; let knownJapanese: [String] }
     private let weights: [String:Double]
     let ambiguous: Set<String>
@@ -9,8 +11,8 @@ public final class LocalLanguageRouter: @unchecked Sendable {
     let knownEnglish: Set<String>
     let knownJapanese: Set<String>
     let englishPrefixes: Set<String>
-    public static let shared: LocalLanguageRouter = {
-        do { return try LocalLanguageRouter() }
+    public static let shared: AccuracyV6BaselineRouter = {
+        do { return try AccuracyV6BaselineRouter() }
         catch { fatalError("Bundled local language model is missing or invalid: \(error)") }
     }()
     public init() throws {
@@ -56,19 +58,12 @@ public final class LocalLanguageRouter: @unchecked Sendable {
     public func classify(_ raw: String) -> JevMixedDecision {
         let start = Date()
         var spans: [JevInputSpan] = []
-        var segmented: [Int:Int] = [:]
+        var segmented: [Int:Bool] = [:]
         for span in JevMixedLexer.spans(raw) {
             if !span.protected, let pieces = mixedSegments(span.text) {
-                // Preserve the established single-span English-prefix representation
-                // when refinement contains exactly one English/Japanese boundary.
-                if pieces.count == 2 && !pieces[0].japanese && pieces[1].japanese {
-                    segmented[spans.count] = pieces[0].text.count
-                    spans.append(span)
-                } else {
-                    for piece in pieces {
-                        segmented[spans.count] = piece.japanese ? 0 : -1
-                        spans.append(.init(text:piece.text,protected:false))
-                    }
+                for piece in pieces {
+                    segmented[spans.count] = piece.japanese
+                    spans.append(.init(text:piece.text,protected:false))
                 }
             } else { spans.append(span) }
         }
@@ -141,7 +136,7 @@ public final class LocalLanguageRouter: @unchecked Sendable {
                     }
                 }
             }
-            if let boundary = segmented[index] { offset = boundary >= 0 ? boundary : nil }
+            if let japanese = segmented[index] { offset = japanese ? 0 : nil }
             decisions.append(.init(index:index,japaneseStart:offset,probability:confidence))
         }
         // Revisit only completed, short romaji words once this same composition

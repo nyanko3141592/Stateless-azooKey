@@ -195,7 +195,8 @@ import Core
     "ima Notionnopagewohiraitemasu",
     "konotoolchainnoconfigwoshirabemasu",
     "mira ni link wookurimasu",
-    "meta no API wotsukaimasu"
+    "meta no API wotsukaimasu",
+    "konocachehaichijitekinamonodesu"
 ]
         for raw in samples {
             session.reset(); var times: [Double] = []
