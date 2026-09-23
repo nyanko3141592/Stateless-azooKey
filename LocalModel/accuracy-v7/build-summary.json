@@ -1,0 +1,12 @@
+{
+  "sourceBaseline": "ab8bc42",
+  "modelSha256": "e39825afc0a3badfc6e613d05fa600b7d0d0267816e46c45835e916f0dc9a69d",
+  "auditedBinarySha256": "200fc2ae505f693c1d31b8a175a20485aa34af5a22943369c7451fa473f0edd5",
+  "releaseBuildSucceeded": true,
+  "testCount": 50,
+  "runtimeSamples": 77,
+  "warmKeyP50Milliseconds": 29.48892116546631,
+  "warmKeyP95Milliseconds": 77.2179365158081,
+  "warmKeyMaxMilliseconds": 617.5370216369629,
+  "coldKeyMaxMilliseconds": 11627.349972724915
+}

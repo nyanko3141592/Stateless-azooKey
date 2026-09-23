@@ -196,7 +196,17 @@ import Core
     "konotoolchainnoconfigwoshirabemasu",
     "mira ni link wookurimasu",
     "meta no API wotsukaimasu",
-    "konocachehaichijitekinamonodesu"
+    "konocachehaichijitekinamonodesu",
+    "ashitanokaigideroadmapwokakuninshimasu",
+    "konogazounobackgroundwoshirokushitaidesu",
+    "konosetteihadefaultnomamadesu",
+    "sonobangouwospreadsheetnikinyuushimasu",
+    "konohennocodewomisetekudasai",
+    "konohenkounodiffwooshietekudasai",
+    "konobangounochecksumgachigaimasu",
+    "konotablehaCSVdesu",
+    "sononewlinehaLFdesu",
+    "konousernotimezonehaUTCdesu"
 ]
         for raw in samples {
             session.reset(); var times: [Double] = []

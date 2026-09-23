@@ -24,8 +24,10 @@ private func accuracyLabels(_ d: JevMixedDecision) -> [Bool] {
     let v4Baseline = try AccuracyV4BaselineRouter()
     let v5Baseline = try AccuracyV5BaselineRouter()
     let v6Baseline = try AccuracyV6BaselineRouter()
+    let v7Baseline = try AccuracyV7BaselineRouter()
     let baselineVersion = ProcessInfo.processInfo.environment["LOCAL_ACCURACY_BASELINE"] ?? "60a4e9f"
     let baselineClassify: (String) -> JevMixedDecision = { raw in
+        if baselineVersion == "ab8bc42" { return v7Baseline.classify(raw) }
         if baselineVersion == "2108a60" { return v6Baseline.classify(raw) }
         if baselineVersion == "707b161" { return v5Baseline.classify(raw) }
         if baselineVersion == "781996f" { return v4Baseline.classify(raw) }

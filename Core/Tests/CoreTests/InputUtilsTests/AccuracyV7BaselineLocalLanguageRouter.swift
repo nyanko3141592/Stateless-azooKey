@@ -1,7 +1,9 @@
+// Frozen ab8bc42 inference; test target only.
+@testable import Core
 import Foundation
 
 /// A trained logistic language classifier. Inference is pure Swift and never opens a socket.
-public final class LocalLanguageRouter: @unchecked Sendable {
+public final class AccuracyV7BaselineRouter: @unchecked Sendable {
     private struct Model: Decodable { let version: Int; let weights: [String:Double]; let ambiguous: [String]; let boundaryWeights: [Double]; let knownEnglish: [String]; let knownJapanese: [String] }
     private let weights: [String:Double]
     let ambiguous: Set<String>
@@ -9,8 +11,8 @@ public final class LocalLanguageRouter: @unchecked Sendable {
     let knownEnglish: Set<String>
     let knownJapanese: Set<String>
     let englishPrefixes: Set<String>
-    public static let shared: LocalLanguageRouter = {
-        do { return try LocalLanguageRouter() }
+    public static let shared: AccuracyV7BaselineRouter = {
+        do { return try AccuracyV7BaselineRouter() }
         catch { fatalError("Bundled local language model is missing or invalid: \(error)") }
     }()
     public init() throws {
@@ -142,21 +144,6 @@ public final class LocalLanguageRouter: @unchecked Sendable {
                 }
             }
             if let boundary = segmented[index] { offset = boundary >= 0 ? boundary : nil }
-            // An all-uppercase abbreviation can be unknown to the English lexicon.
-            // Preserve its literal prefix while recognizing a complete Japanese tail,
-            // even when the segmenter retained the whole suffix as an English run.
-            if offset == nil && !knownEnglish.contains(lower) {
-                let acronym = word.prefix { $0.isASCII && $0.isUppercase }
-                let suffix = String(word.dropFirst(acronym.count))
-                if (2...8).contains(acronym.count) && suffix.count >= 4
-                    && suffix.allSatisfy({ $0.isASCII && $0.isLowercase })
-                    && !knownEnglish.contains(suffix)
-                    && ["de","wo","ha","ni","ga","to","no","kara","made"].contains(where:suffix.hasPrefix)
-                    && isRomaji(suffix) {
-                    let japanese = japaneseProbability(suffix,context:true)
-                    if japanese >= 0.95 { offset = acronym.count; confidence = japanese }
-                }
-            }
             decisions.append(.init(index:index,japaneseStart:offset,probability:confidence))
         }
         // Revisit only completed, short romaji words once this same composition

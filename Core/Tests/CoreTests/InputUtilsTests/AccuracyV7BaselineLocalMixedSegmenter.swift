@@ -1,6 +1,8 @@
+// Frozen ab8bc42 inference; test target only.
+@testable import Core
 import Foundation
 
-extension LocalLanguageRouter {
+extension AccuracyV7BaselineRouter {
     /// Refine a lexer word only when alternating literal words and plausible romaji explain it.
     /// Source characters are sliced verbatim; no generated text or persistent language state.
     func mixedSegments(_ word: String) -> [(text: String, japanese: Bool)]? {
@@ -139,36 +141,6 @@ extension LocalLanguageRouter {
             guard completedEnglish || leadingEnglish else { return nil }
         }
         let particles: Set<String> = ["no","ni","de","wo","ha","ga","to","mo","kara","made"]
-        // Give a complete, high-confidence Japanese phrase the same boundary
-        // evidence as a short dictionary word. Otherwise a known prefix such as
-        // "kono" can win by swallowing the rest of the Japanese phrase into English.
-        var phraseEvidence: [String:Bool] = [:]
-        func strongJapanesePhrase(_ text: String, endingAt end: Int) -> Bool {
-            let key = "\(end):\(text)"
-            if let cached = phraseEvidence[key] { return cached }
-            let knownBoundary = knownJapanese.contains(text) || particles.contains { particle in
-                guard text.hasSuffix(particle) else { return false }
-                let stem = String(text.dropLast(particle.count))
-                return knownJapanese.contains(stem) || particles.contains {
-                    stem.hasSuffix($0) && knownJapanese.contains(String(stem.dropLast($0.count)))
-                }
-            }
-            var supported = !knownBoundary && text.count >= 6
-                && particles.contains { text.hasSuffix($0) && isRomaji(String(text.dropLast($0.count))) }
-                && probability(text,context:true) >= 0.995
-            if supported {
-                // Do not gain Japanese evidence by swallowing an English word,
-                // including a lexical word crossing this proposed boundary.
-                supported = !compoundEnds.contains { start, ends in
-                    start >= end-text.count && start < end && ends.contains { lexicalEnd in
-                        let word = String(characters[start..<lexicalEnd]).lowercased()
-                        return lexicalEnd-start >= 4 && knownEnglish.contains(word) && !knownJapanese.contains(word)
-                    }
-                }
-            }
-            phraseEvidence[key] = supported
-            return supported
-        }
         var jpScores: [String:Double] = [:]
         func japaneseScore(_ text: String, final: Bool) -> Double? {
             guard text.first?.isUppercase != true, isRomaji(text) || (final && isRomajiPrefix(text)) else { return nil }
@@ -257,9 +229,6 @@ extension LocalLanguageRouter {
                             }) {
                                 boundaryEvidence = 2.0
                             }
-                        }
-                        if anchor.end < characters.count && strongJapanesePhrase(japanesePrefix,endingAt:start) {
-                            boundaryEvidence = max(boundaryEvidence,2.5)
                         }
                         // Limit classifier influence to a small tie-break between
                         // uncertain boundaries; do not overwhelm morphological evidence.

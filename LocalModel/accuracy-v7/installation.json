@@ -1,0 +1,12 @@
+[
+  {
+    "path": "/Users/takahashinaoki/Applications/azooKey Local Demo.app",
+    "binarySha256": "566af1f83f360b66334ba74fe280217488b7456c0869a28e16ec6aff05d570b0",
+    "signatureVerified": true
+  },
+  {
+    "path": "/Users/takahashinaoki/Library/Input Methods/azooKeyLocal.app",
+    "binarySha256": "b913a4147bc1b8f17cc5e29220f566c5c365aa278f406c037af76c247525bcec",
+    "signatureVerified": true
+  }
+]

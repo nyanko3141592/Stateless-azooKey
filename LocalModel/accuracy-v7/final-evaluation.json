@@ -1,0 +1,1008 @@
+[
+  {
+    "id": "v7-final-001",
+    "raw": "senshuunouchiawasedekimetadeadlinewokakuninshitaidesu",
+    "japaneseRanges": [
+      [
+        0,
+        26
+      ],
+      [
+        34,
+        53
+      ]
+    ],
+    "englishRanges": [
+      [
+        26,
+        34
+      ]
+    ]
+  },
+  {
+    "id": "v7-final-002",
+    "raw": "gamennomigishitaniarucheckboxwohazushitekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        21
+      ],
+      [
+        29,
+        47
+      ]
+    ],
+    "englishRanges": [
+      [
+        21,
+        29
+      ]
+    ]
+  },
+  {
+    "id": "v7-final-003",
+    "raw": "yomikakenokijinobookmarkwoseirishimashita",
+    "japaneseRanges": [
+      [
+        0,
+        16
+      ],
+      [
+        24,
+        41
+      ]
+    ],
+    "englishRanges": [
+      [
+        16,
+        24
+      ]
+    ]
+  },
+  {
+    "id": "v7-final-004",
+    "raw": "kinoukarashirabeteiruregressionnoriyuugawakarimashita",
+    "japaneseRanges": [
+      [
+        0,
+        21
+      ],
+      [
+        31,
+        53
+      ]
+    ],
+    "englishRanges": [
+      [
+        21,
+        31
+      ]
+    ]
+  },
+  {
+    "id": "v7-final-005",
+    "raw": "kaiginomaeniokuttaattachmentgahirakemasenn",
+    "japaneseRanges": [
+      [
+        0,
+        18
+      ],
+      [
+        28,
+        42
+      ]
+    ],
+    "englishRanges": [
+      [
+        18,
+        28
+      ]
+    ]
+  },
+  {
+    "id": "v7-final-006",
+    "raw": "shuunohajimenitsukuttachecklistwominaoshimashou",
+    "japaneseRanges": [
+      [
+        0,
+        22
+      ],
+      [
+        31,
+        47
+      ]
+    ],
+    "englishRanges": [
+      [
+        22,
+        31
+      ]
+    ]
+  },
+  {
+    "id": "v7-final-007",
+    "raw": "konoshashinnohaikeiniaruwatermarkgakininarimasu",
+    "japaneseRanges": [
+      [
+        0,
+        24
+      ],
+      [
+        33,
+        47
+      ]
+    ],
+    "englishRanges": [
+      [
+        24,
+        33
+      ]
+    ]
+  },
+  {
+    "id": "v7-final-008",
+    "raw": "minnadehanashiattekimetamilestonewokaemashita",
+    "japaneseRanges": [
+      [
+        0,
+        24
+      ],
+      [
+        33,
+        45
+      ]
+    ],
+    "englishRanges": [
+      [
+        24,
+        33
+      ]
+    ]
+  },
+  {
+    "id": "v7-final-009",
+    "raw": "shoriganagabikutokinotimeoutwonobashitaidesu",
+    "japaneseRanges": [
+      [
+        0,
+        21
+      ],
+      [
+        28,
+        44
+      ]
+    ],
+    "englishRanges": [
+      [
+        21,
+        28
+      ]
+    ]
+  },
+  {
+    "id": "v7-final-010",
+    "raw": "atarashiipasokonnniutsushitaworkspacegamitsukarimasenn",
+    "japaneseRanges": [
+      [
+        0,
+        28
+      ],
+      [
+        37,
+        54
+      ]
+    ],
+    "englishRanges": [
+      [
+        28,
+        37
+      ]
+    ]
+  },
+  {
+    "id": "v7-final-011",
+    "raw": "hozonshitaonseinosaishonotimestampwooshietekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        25
+      ],
+      [
+        34,
+        50
+      ]
+    ],
+    "englishRanges": [
+      [
+        25,
+        34
+      ]
+    ]
+  },
+  {
+    "id": "v7-final-012",
+    "raw": "kaerumaenikakuninshitainvoicenikingakugahaitteimasenn",
+    "japaneseRanges": [
+      [
+        0,
+        22
+      ],
+      [
+        29,
+        53
+      ]
+    ],
+    "englishRanges": [
+      [
+        22,
+        29
+      ]
+    ]
+  },
+  {
+    "id": "v7-final-013",
+    "raw": "saigonominaoshidekizuitatypowonaoshimashita",
+    "japaneseRanges": [
+      [
+        0,
+        24
+      ],
+      [
+        28,
+        43
+      ]
+    ],
+    "englishRanges": [
+      [
+        24,
+        28
+      ]
+    ]
+  },
+  {
+    "id": "v7-final-014",
+    "raw": "tsuginojikkennitsukaudatasetwoyouishimasu",
+    "japaneseRanges": [
+      [
+        0,
+        21
+      ],
+      [
+        28,
+        41
+      ]
+    ],
+    "englishRanges": [
+      [
+        21,
+        28
+      ]
+    ]
+  },
+  {
+    "id": "v7-final-015",
+    "raw": "hitotsumaenogamennimodorushortcutwooboetaidesu",
+    "japaneseRanges": [
+      [
+        0,
+        25
+      ],
+      [
+        33,
+        46
+      ]
+    ],
+    "englishRanges": [
+      [
+        25,
+        33
+      ]
+    ]
+  },
+  {
+    "id": "v7-final-016",
+    "raw": "konohonndetokinikiniittachapterwoyomikaeshiteimasu",
+    "japaneseRanges": [
+      [
+        0,
+        24
+      ],
+      [
+        31,
+        50
+      ]
+    ],
+    "englishRanges": [
+      [
+        24,
+        31
+      ]
+    ]
+  },
+  {
+    "id": "v7-final-017",
+    "raw": "kinounoZoomnorecordingwoDrivenihozonshita",
+    "japaneseRanges": [
+      [
+        0,
+        7
+      ],
+      [
+        11,
+        13
+      ],
+      [
+        22,
+        24
+      ],
+      [
+        29,
+        41
+      ]
+    ],
+    "englishRanges": [
+      [
+        7,
+        11
+      ],
+      [
+        13,
+        22
+      ],
+      [
+        24,
+        29
+      ]
+    ]
+  },
+  {
+    "id": "v7-final-018",
+    "raw": "konoshashinwocropshitekarathumbnailnishimasu",
+    "japaneseRanges": [
+      [
+        0,
+        13
+      ],
+      [
+        17,
+        26
+      ],
+      [
+        35,
+        44
+      ]
+    ],
+    "englishRanges": [
+      [
+        13,
+        17
+      ],
+      [
+        26,
+        35
+      ]
+    ]
+  },
+  {
+    "id": "v7-final-019",
+    "raw": "asaichideinboxwokakuninshitenewsletterwoyomimashita",
+    "japaneseRanges": [
+      [
+        0,
+        9
+      ],
+      [
+        14,
+        28
+      ],
+      [
+        38,
+        51
+      ]
+    ],
+    "englishRanges": [
+      [
+        9,
+        14
+      ],
+      [
+        28,
+        38
+      ]
+    ]
+  },
+  {
+    "id": "v7-final-020",
+    "raw": "sonokijiwobookmarkshitetagwotsuketekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        10
+      ],
+      [
+        18,
+        23
+      ],
+      [
+        26,
+        42
+      ]
+    ],
+    "englishRanges": [
+      [
+        10,
+        18
+      ],
+      [
+        23,
+        26
+      ]
+    ]
+  },
+  {
+    "id": "v7-final-021",
+    "raw": "atarashiibranchdehotfixwocommitshimashita",
+    "japaneseRanges": [
+      [
+        0,
+        9
+      ],
+      [
+        15,
+        17
+      ],
+      [
+        23,
+        25
+      ],
+      [
+        31,
+        41
+      ]
+    ],
+    "englishRanges": [
+      [
+        9,
+        15
+      ],
+      [
+        17,
+        23
+      ],
+      [
+        25,
+        31
+      ]
+    ]
+  },
+  {
+    "id": "v7-final-022",
+    "raw": "sakkinoanimationnodurationwosukoshinagakushita",
+    "japaneseRanges": [
+      [
+        0,
+        7
+      ],
+      [
+        16,
+        18
+      ],
+      [
+        26,
+        46
+      ]
+    ],
+    "englishRanges": [
+      [
+        7,
+        16
+      ],
+      [
+        18,
+        26
+      ]
+    ]
+  },
+  {
+    "id": "v7-final-023",
+    "raw": "konotsuuchihamobiledakemutenishitaidesu",
+    "japaneseRanges": [
+      [
+        0,
+        13
+      ],
+      [
+        19,
+        23
+      ],
+      [
+        27,
+        39
+      ]
+    ],
+    "englishRanges": [
+      [
+        13,
+        19
+      ],
+      [
+        23,
+        27
+      ]
+    ]
+  },
+  {
+    "id": "v7-final-024",
+    "raw": "konogamennoheadertofooterdefontgachigaimasu",
+    "japaneseRanges": [
+      [
+        0,
+        11
+      ],
+      [
+        17,
+        19
+      ],
+      [
+        25,
+        27
+      ],
+      [
+        31,
+        43
+      ]
+    ],
+    "englishRanges": [
+      [
+        11,
+        17
+      ],
+      [
+        19,
+        25
+      ],
+      [
+        27,
+        31
+      ]
+    ]
+  },
+  {
+    "id": "v7-final-025",
+    "raw": "kesaokuttaproposalnofeedbackwomoraemashitaka",
+    "japaneseRanges": [
+      [
+        0,
+        10
+      ],
+      [
+        18,
+        20
+      ],
+      [
+        28,
+        44
+      ]
+    ],
+    "englishRanges": [
+      [
+        10,
+        18
+      ],
+      [
+        20,
+        28
+      ]
+    ]
+  },
+  {
+    "id": "v7-final-026",
+    "raw": "konotsuushinharetryshitemostatusgakawarimasenn",
+    "japaneseRanges": [
+      [
+        0,
+        14
+      ],
+      [
+        19,
+        26
+      ],
+      [
+        32,
+        46
+      ]
+    ],
+    "englishRanges": [
+      [
+        14,
+        19
+      ],
+      [
+        26,
+        32
+      ]
+    ]
+  },
+  {
+    "id": "v7-final-027",
+    "raw": "koukaimaenirelease noteswoyominaoshimashou",
+    "japaneseRanges": [
+      [
+        0,
+        11
+      ],
+      [
+        24,
+        42
+      ]
+    ],
+    "englishRanges": [
+      [
+        11,
+        24
+      ]
+    ]
+  },
+  {
+    "id": "v7-final-028",
+    "raw": "shuumatsumadenipull requestwomatometekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        15
+      ],
+      [
+        27,
+        44
+      ]
+    ],
+    "englishRanges": [
+      [
+        15,
+        27
+      ]
+    ]
+  },
+  {
+    "id": "v7-final-029",
+    "raw": "yorumadetsukautokidakedark modenikirikaetaidesu",
+    "japaneseRanges": [
+      [
+        0,
+        22
+      ],
+      [
+        31,
+        47
+      ]
+    ],
+    "englishRanges": [
+      [
+        22,
+        31
+      ]
+    ]
+  },
+  {
+    "id": "v7-final-030",
+    "raw": "shippaishitatokinoerror messagewosonomamaokuttekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        18
+      ],
+      [
+        31,
+        54
+      ]
+    ],
+    "englishRanges": [
+      [
+        18,
+        31
+      ]
+    ]
+  },
+  {
+    "id": "v7-final-031",
+    "raw": "kaishanosourcenohozonbashohaprivate repositorydesu",
+    "japaneseRanges": [
+      [
+        0,
+        28
+      ],
+      [
+        46,
+        50
+      ]
+    ],
+    "englishRanges": [
+      [
+        28,
+        46
+      ]
+    ]
+  },
+  {
+    "id": "v7-final-032",
+    "raw": "gamenzentainotouitsukannwodasutamenidesign systemwotsukurimasu",
+    "japaneseRanges": [
+      [
+        0,
+        36
+      ],
+      [
+        49,
+        62
+      ]
+    ],
+    "englishRanges": [
+      [
+        36,
+        49
+      ]
+    ]
+  },
+  {
+    "id": "v7-final-033",
+    "raw": "konoinsatsuyounoshiryouhaPDFdeokuttekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        25
+      ],
+      [
+        28,
+        43
+      ]
+    ],
+    "englishRanges": [
+      [
+        25,
+        28
+      ]
+    ]
+  },
+  {
+    "id": "v7-final-034",
+    "raw": "kakidashitasetteinohoushikihaYAMLdesu",
+    "japaneseRanges": [
+      [
+        0,
+        29
+      ],
+      [
+        33,
+        37
+      ]
+    ],
+    "englishRanges": [
+      [
+        29,
+        33
+      ]
+    ]
+  },
+  {
+    "id": "v7-final-035",
+    "raw": "konokeisannwoGPUdehayakushitaidesu",
+    "japaneseRanges": [
+      [
+        0,
+        13
+      ],
+      [
+        16,
+        34
+      ]
+    ],
+    "englishRanges": [
+      [
+        13,
+        16
+      ]
+    ]
+  },
+  {
+    "id": "v7-final-036",
+    "raw": "shorinishiyoushitaCPUnojikannwokeisokushita",
+    "japaneseRanges": [
+      [
+        0,
+        18
+      ],
+      [
+        21,
+        43
+      ]
+    ],
+    "englishRanges": [
+      [
+        18,
+        21
+      ]
+    ]
+  },
+  {
+    "id": "v7-final-037",
+    "raw": "konotsuushinohoushikihaHTTPSnishitekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        23
+      ],
+      [
+        28,
+        42
+      ]
+    ],
+    "englishRanges": [
+      [
+        23,
+        28
+      ]
+    ]
+  },
+  {
+    "id": "v7-final-038",
+    "raw": "jitakunodougasouchinoHDMIgasasatteimasenn",
+    "japaneseRanges": [
+      [
+        0,
+        21
+      ],
+      [
+        25,
+        41
+      ]
+    ],
+    "englishRanges": [
+      [
+        21,
+        25
+      ]
+    ]
+  },
+  {
+    "id": "v7-final-039",
+    "raw": "ashitahayakuokirunodekyouhamouyasumimasu",
+    "japaneseRanges": [
+      [
+        0,
+        40
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "v7-final-040",
+    "raw": "shigotonokaeriniekinomaedekaemonowoshimasu",
+    "japaneseRanges": [
+      [
+        0,
+        42
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "v7-final-041",
+    "raw": "maeniyondahonnonamaegadoushitemoomoidasemasenn",
+    "japaneseRanges": [
+      [
+        0,
+        46
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "v7-final-042",
+    "raw": "Please send the original image before tomorrow.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        47
+      ]
+    ]
+  },
+  {
+    "id": "v7-final-043",
+    "raw": "We need more time to review the proposed changes.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        49
+      ]
+    ]
+  },
+  {
+    "id": "v7-final-044",
+    "raw": "The download finished but the file is still missing.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        52
+      ]
+    ]
+  },
+  {
+    "id": "v7-final-045",
+    "raw": "futatsunoatainoheikinwo\\frac{x+y}{2}dearawashimasu",
+    "japaneseRanges": [
+      [
+        0,
+        23
+      ],
+      [
+        36,
+        50
+      ]
+    ],
+    "englishRanges": [
+      [
+        23,
+        36
+      ]
+    ]
+  },
+  {
+    "id": "v7-final-046",
+    "raw": "konoshikinojoukenha$x>0$desu",
+    "japaneseRanges": [
+      [
+        0,
+        19
+      ],
+      [
+        24,
+        28
+      ]
+    ],
+    "englishRanges": [
+      [
+        19,
+        24
+      ]
+    ]
+  },
+  {
+    "id": "v7-final-047",
+    "raw": "tsuikashitasetteiha`cache_max_age`desu",
+    "japaneseRanges": [
+      [
+        0,
+        19
+      ],
+      [
+        34,
+        38
+      ]
+    ],
+    "englishRanges": [
+      [
+        19,
+        34
+      ]
+    ]
+  },
+  {
+    "id": "v7-final-048",
+    "raw": "tsuzukihahttps://example.org/guide/setup",
+    "japaneseRanges": [
+      [
+        0,
+        9
+      ]
+    ],
+    "englishRanges": [
+      [
+        9,
+        40
+      ]
+    ]
+  }
+]

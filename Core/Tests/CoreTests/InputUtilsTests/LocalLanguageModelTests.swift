@@ -83,3 +83,16 @@ import Testing
         #expect(c.display.contains(literal), "\(literal)")
     }
 }
+
+@Test func localModelSeparatesUnspacedAcronymTailsWithoutSplittingEnglish() throws {
+    let model = try LocalLanguageRouter()
+    for (raw,offset) in [("CSVdesu",3),("LFdesu",2),("UTCdesu",3)] {
+        let d = model.classify(raw)
+        #expect(d.spans.map(\.text).joined() == raw)
+        #expect(d.decisions.count == 1)
+        #expect(d.decisions.first?.japaneseStart == offset)
+    }
+    for raw in ["USmade","HTMLParser","APInode","NASA","PDFdata","PDFdesk","PDFdelete"] {
+        #expect(model.classify(raw).decisions.allSatisfy { $0.japaneseStart == nil })
+    }
+}
