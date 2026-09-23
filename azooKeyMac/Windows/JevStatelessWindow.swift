@@ -25,6 +25,8 @@ import Core
 
 @MainActor final class JevStatelessWindow: NSWindowController {
     let session = JevStatelessSession()
+    let videoMode = Bundle.main.object(forInfoDictionaryKey:"SegmentationVideoDefault") as? Bool == true || CommandLine.arguments.contains("--segmentation-video")
+    var videoCanvas: SegmentationVideoView?
     var documentText = ""
     let editor = StatelessTextView()
     let recordButton = NSButton(title: "デモを再生", target: nil, action: nil)
@@ -52,13 +54,26 @@ import Core
         recordButton.frame = NSRect(x: 840,y: 12,width: 120,height: 30)
         recordButton.target = self; recordButton.action = #selector(play)
         root.addSubview(recordButton)
+        if videoMode {
+            window.setContentSize(NSSize(width:1200,height:675))
+            window.title = "azooKey Local — 区間判定"
+            let canvas = SegmentationVideoView(frame:NSRect(x:0,y:0,width:1200,height:675))
+            window.contentView = canvas; videoCanvas = canvas
+            recordButton.frame = NSRect(x:1010,y:644,width:148,height:26)
+            canvas.addSubview(recordButton)
+            window.center()
+        }
         session.changed = { [weak self] in self?.render() }
-        window.makeFirstResponder(editor)
+        if !videoMode { window.makeFirstResponder(editor) }
     }
     required init?(coder: NSCoder) { fatalError() }
     func render() {
         if recordingLive { trace.append(["t":Date().timeIntervalSince(captureStart),"raw":session.buffer.raw,"display":session.buffer.display,"busy":session.busy]) }
 
+        if let canvas = videoCanvas {
+            canvas.update(raw:session.buffer.raw,output:session.buffer.raw.isEmpty ? documentText : session.buffer.display,
+                          decision:session.lastDecision,committed:session.buffer.raw.isEmpty && !documentText.isEmpty)
+        }
         let all = NSMutableAttributedString(string: documentText, attributes: [.font:NSFont.systemFont(ofSize:31),.foregroundColor:NSColor.labelColor])
         all.append(NSAttributedString(string: session.buffer.display, attributes: [.font:NSFont.systemFont(ofSize:31),.foregroundColor:NSColor.labelColor,.underlineStyle:NSUnderlineStyle.single.rawValue]))
         editor.textStorage?.setAttributedString(all)
@@ -97,9 +112,9 @@ import Core
     "ashitanomeetingnolinkwooshietekudasai.",
     "konofilewoSlackdekyouyuushitekudasai."
 ] {
-                    documentText = ""; render()
+                    documentText = ""; videoCanvas?.clear(example:records.count+1); render()
                     try await resolve(raw, animate: true)
-                    try await Task.sleep(for: .milliseconds(850))
+                    try await Task.sleep(for: .milliseconds(videoMode ? 1600 : 850))
                     commitLine()
                     try await Task.sleep(for: .milliseconds(1200))
                 }
