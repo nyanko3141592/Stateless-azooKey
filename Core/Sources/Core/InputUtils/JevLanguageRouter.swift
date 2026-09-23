@@ -104,8 +104,11 @@ public struct JevComposition: Sendable {
     /// Synchronous baseline on EVERY edit, including before the first API response.
     /// Jev can override it, but cannot gate local Japanese conversion or TeX protection.
     public mutating func renderLocalLive(decision: JevMixedDecision?, decisionEpoch: UInt64?, trustDecision: Bool = false, convert: (String) -> String) {
-        let spans = JevMixedLexer.spans(raw)
         let validDecision = decisionEpoch == editEpoch ? decision : nil
+        // A local decision may refine one source token into several alternating language runs.
+        // Only trust exact current-source partitions; stale answers retain the legacy lexer path.
+        let spans = trustDecision && validDecision?.spans.map(\.text).joined() == raw
+            ? validDecision!.spans : JevMixedLexer.spans(raw)
         let oldSpans = validDecision?.spans ?? []
         let decisions = Dictionary((validDecision?.decisions ?? []).map { ($0.index,$0) }, uniquingKeysWith: { a,_ in a })
         var sourceOffset = 0

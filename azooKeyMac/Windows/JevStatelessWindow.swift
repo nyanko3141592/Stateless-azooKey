@@ -92,10 +92,10 @@ import Core
             do {
                 try await Task.sleep(for: .milliseconds(500))
                 for raw in [
-    "ashitanoshiryouwoSlackdekyouyuushitekudasai.",
-    "hennshinha I will get back to you tomorrow deiidesuka?",
-    "renrakusakiha naomi@example.com desu.",
-    "suushikiha $E=mc^2$ desu."
+    "Slacknoscreenshotwookuttekudasai.",
+    "GitHubnobranchwokaetekudasai.",
+    "ashitanomeetingnolinkwooshietekudasai.",
+    "konofilewoSlackdekyouyuushitekudasai."
 ] {
                     documentText = ""; render()
                     try await resolve(raw, animate: true)
@@ -114,38 +114,46 @@ import Core
     func auditLocalModel() async {
         var rows: [[String:Any]] = []
         let samples = [
-    "Google Meetno URL wo Slack de okuttemoraemasuka?",
-    "Your session has expired tohyoujisarete, roguinshinaoshitemo sakinisusumemasenn.",
-    "hennshinha Thank you for your help deiikana.mousukoshiteineinishitai.",
-    "git pull shitara conflict ga detanode, kono PRno merge ha sukoshimattekudasai.",
-    "ashitanoshiryouwoSlackdekyouyuushitekudasai.",
-    "hennshinha I will get back to you tomorrow deiidesuka?",
-    "renrakusakiha naomi@example.com desu.",
-    "suushikiha $E=mc^2$ desu.",
-    "Bravede konosaitewo hiraitemitekudasai",
-    "atarashii bookmark ga kiechatta",
-    "gamenni Disk quota exceeded to demashita",
-    "hennshinha I will get back to you tomorrow de iidesuka",
-    "kono CSV wo Numbersde hirakemasu",
-    "ototoi Dropboxni okutta archive ga mitsukarimasenn",
-    "Firefoxdeshirabeteokimasu",
-    "Chromiumnoataraashiibajonndesu",
-    "Gmailnihenjishiteokimashita",
-    "konoshiryouwoKeynotedehenshuushitai",
-    "Can we move the meeting to Friday?",
-    "I would like a banana and a tomato salad.",
-    "Everything seems fine on my machine.",
-    "It is safe to ignore this warning.",
-    "Please rename the folder before you upload it.",
-    "Nobody has replied to my email yet.",
-    "atesakiha yuki+dev@example.net desu",
-    "logha ~/Library/Logs/app.log ni arimasu",
-    "jikkouha `python -m pytest -q` desu",
-    "koreha $\\sum_{i=1}^{n} i$ desu",
-    "\\caption{hikakunokekka}",
-    "goannnaishiteitadaitearigatougozaimashita",
-    "koushinnshitatokorogaarunodegokakuninnkudasai",
-    "kono maxConnectionCount wo herashitai"
+    "Slacknoscreenshotwookuttekudasai.",
+    "GitHubnobranchwokaetekudasai.",
+    "ashitanomeetingnolinkwooshietekudasai.",
+    "konofilewoSlackdekyouyuushitekudasai.",
+    "NotionnodocumentwoSlackdekyouyuushimasu",
+    "GitHubnoworkflowgafailedninatteimasu",
+    "konorepositorynoREADMEwoyondekudasai",
+    "ashitanocalendarnolinkwookuttehoshii",
+    "raishuunomeetingnoagendawooshietekudasai",
+    "Chromenobookmarkgasyncsaremasenn",
+    "saishinnoscreenshotwomaildeokurimasu",
+    "konothumbnailwodownloadshitaidesu",
+    "shinkinopullrequestworeviewshitekudasai",
+    "konobackupnofolderwokeshita",
+    "kyounotranscriptwosummarynishitai",
+    "konodatasetnoschemawokakuninnshimasu",
+    "ashitanouchiawasenonaiyouwooshietekudasai",
+    "konogoronojikannnotsukaikatawominaoshitai",
+    "shiryouwohayakumatometeokimashou",
+    "notificationworkflow",
+    "Please open the notification settings.",
+    "The new thumbnail looks better than before.",
+    "I want to review the pull request tomorrow.",
+    "There is no reason to change the schema.",
+    "kono`git checkout feature/mail`wotsukau",
+    "atesakihateam+review@example.comdesu",
+    "koreha$\\frac{x}{y}$desu",
+    "\\label{sec:workflow} wotsukau",
+    "konoservernotimeoutwoconfigdekaeru",
+    "Slacknochannelnolinkwookurimasu",
+    "atarashiifeaturenotestwotsuikashimasu",
+    "konodashboardnowidgetwokesitai",
+    "saishinnochangelogwobrowserdehiraku",
+    "kaiginorecordingwouploadshita",
+    "raigetsunoyoyakuwotorinaoshitekudasai",
+    "uchiawasenotochinihaosokunarimasu",
+    "The screenshot was attached to the email.",
+    "We are waiting for the deployment to finish.",
+    "hozonnsakiha~/Projects/workflow/main.swift desu",
+    "\\section{houhounosetsumei}"
 ]
         for raw in samples {
             session.reset(); var times: [Double] = []

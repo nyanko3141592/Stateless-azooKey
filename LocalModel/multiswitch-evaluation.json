@@ -1,0 +1,982 @@
+[
+  {
+    "id": "fresh-01",
+    "category": "multi",
+    "raw": "NotionnodocumentwoSlackdekyouyuushimasu",
+    "japaneseRanges": [
+      [
+        6,
+        8
+      ],
+      [
+        16,
+        18
+      ],
+      [
+        23,
+        39
+      ]
+    ],
+    "englishRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        8,
+        16
+      ],
+      [
+        18,
+        23
+      ]
+    ]
+  },
+  {
+    "id": "fresh-02",
+    "category": "multi",
+    "raw": "GitHubnoworkflowgafailedninatteimasu",
+    "japaneseRanges": [
+      [
+        6,
+        8
+      ],
+      [
+        16,
+        18
+      ],
+      [
+        24,
+        36
+      ]
+    ],
+    "englishRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        8,
+        16
+      ],
+      [
+        18,
+        24
+      ]
+    ]
+  },
+  {
+    "id": "fresh-03",
+    "category": "multi",
+    "raw": "konorepositorynoREADMEwoyondekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        22,
+        36
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        14
+      ],
+      [
+        16,
+        22
+      ]
+    ]
+  },
+  {
+    "id": "fresh-04",
+    "category": "multi",
+    "raw": "ashitanocalendarnolinkwookuttehoshii",
+    "japaneseRanges": [
+      [
+        0,
+        8
+      ],
+      [
+        16,
+        18
+      ],
+      [
+        22,
+        36
+      ]
+    ],
+    "englishRanges": [
+      [
+        8,
+        16
+      ],
+      [
+        18,
+        22
+      ]
+    ]
+  },
+  {
+    "id": "fresh-05",
+    "category": "multi",
+    "raw": "raishuunomeetingnoagendawooshietekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        9
+      ],
+      [
+        16,
+        18
+      ],
+      [
+        24,
+        40
+      ]
+    ],
+    "englishRanges": [
+      [
+        9,
+        16
+      ],
+      [
+        18,
+        24
+      ]
+    ]
+  },
+  {
+    "id": "fresh-06",
+    "category": "multi",
+    "raw": "Chromenobookmarkgasyncsaremasenn",
+    "japaneseRanges": [
+      [
+        6,
+        8
+      ],
+      [
+        16,
+        18
+      ],
+      [
+        22,
+        32
+      ]
+    ],
+    "englishRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        8,
+        16
+      ],
+      [
+        18,
+        22
+      ]
+    ]
+  },
+  {
+    "id": "fresh-07",
+    "category": "multi",
+    "raw": "saishinnoscreenshotwomaildeokurimasu",
+    "japaneseRanges": [
+      [
+        0,
+        9
+      ],
+      [
+        19,
+        21
+      ],
+      [
+        25,
+        36
+      ]
+    ],
+    "englishRanges": [
+      [
+        9,
+        19
+      ],
+      [
+        21,
+        25
+      ]
+    ]
+  },
+  {
+    "id": "fresh-08",
+    "category": "multi",
+    "raw": "konothumbnailwodownloadshitaidesu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        13,
+        15
+      ],
+      [
+        23,
+        33
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        13
+      ],
+      [
+        15,
+        23
+      ]
+    ]
+  },
+  {
+    "id": "fresh-09",
+    "category": "multi",
+    "raw": "shinkinopullrequestworeviewshitekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        8
+      ],
+      [
+        19,
+        21
+      ],
+      [
+        27,
+        39
+      ]
+    ],
+    "englishRanges": [
+      [
+        8,
+        19
+      ],
+      [
+        21,
+        27
+      ]
+    ]
+  },
+  {
+    "id": "fresh-10",
+    "category": "multi",
+    "raw": "konobackupnofolderwokeshita",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        10,
+        12
+      ],
+      [
+        18,
+        27
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        10
+      ],
+      [
+        12,
+        18
+      ]
+    ]
+  },
+  {
+    "id": "fresh-11",
+    "category": "multi",
+    "raw": "kyounotranscriptwosummarynishitai",
+    "japaneseRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        16,
+        18
+      ],
+      [
+        25,
+        33
+      ]
+    ],
+    "englishRanges": [
+      [
+        6,
+        16
+      ],
+      [
+        18,
+        25
+      ]
+    ]
+  },
+  {
+    "id": "fresh-12",
+    "category": "multi",
+    "raw": "konodatasetnoschemawokakuninnshimasu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        11,
+        13
+      ],
+      [
+        19,
+        36
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        11
+      ],
+      [
+        13,
+        19
+      ]
+    ]
+  },
+  {
+    "id": "fresh-13",
+    "category": "jp",
+    "raw": "ashitanouchiawasenonaiyouwooshietekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        41
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "fresh-14",
+    "category": "jp",
+    "raw": "konogoronojikannnotsukaikatawominaoshitai",
+    "japaneseRanges": [
+      [
+        0,
+        41
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "fresh-15",
+    "category": "jp",
+    "raw": "shiryouwohayakumatometeokimashou",
+    "japaneseRanges": [
+      [
+        0,
+        32
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "fresh-16",
+    "category": "literal",
+    "raw": "notificationworkflow",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        20
+      ]
+    ]
+  },
+  {
+    "id": "fresh-17",
+    "category": "literal",
+    "raw": "Please open the notification settings.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        7,
+        11
+      ],
+      [
+        12,
+        15
+      ],
+      [
+        16,
+        28
+      ],
+      [
+        29,
+        37
+      ]
+    ]
+  },
+  {
+    "id": "fresh-18",
+    "category": "literal",
+    "raw": "The new thumbnail looks better than before.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        3
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        8,
+        17
+      ],
+      [
+        18,
+        23
+      ],
+      [
+        24,
+        30
+      ],
+      [
+        31,
+        35
+      ],
+      [
+        36,
+        42
+      ]
+    ]
+  },
+  {
+    "id": "fresh-19",
+    "category": "literal",
+    "raw": "I want to review the pull request tomorrow.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        2,
+        6
+      ],
+      [
+        10,
+        16
+      ],
+      [
+        17,
+        20
+      ],
+      [
+        21,
+        25
+      ],
+      [
+        26,
+        33
+      ],
+      [
+        34,
+        42
+      ]
+    ]
+  },
+  {
+    "id": "fresh-20",
+    "category": "literal",
+    "raw": "There is no reason to change the schema.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        5
+      ],
+      [
+        12,
+        18
+      ],
+      [
+        22,
+        28
+      ],
+      [
+        29,
+        32
+      ],
+      [
+        33,
+        39
+      ]
+    ]
+  },
+  {
+    "id": "fresh-21",
+    "category": "protected",
+    "raw": "kono`git checkout feature/mail`wotsukau",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        31,
+        39
+      ]
+    ],
+    "englishRanges": [
+      [
+        5,
+        8
+      ],
+      [
+        9,
+        17
+      ],
+      [
+        18,
+        25
+      ],
+      [
+        26,
+        30
+      ]
+    ]
+  },
+  {
+    "id": "fresh-22",
+    "category": "protected",
+    "raw": "atesakihateam+review@example.comdesu",
+    "japaneseRanges": [
+      [
+        0,
+        9
+      ],
+      [
+        32,
+        36
+      ]
+    ],
+    "englishRanges": [
+      [
+        9,
+        13
+      ],
+      [
+        14,
+        20
+      ],
+      [
+        21,
+        28
+      ],
+      [
+        29,
+        32
+      ]
+    ]
+  },
+  {
+    "id": "fresh-23",
+    "category": "protected",
+    "raw": "koreha$\\frac{x}{y}$desu",
+    "japaneseRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        19,
+        23
+      ]
+    ],
+    "englishRanges": [
+      [
+        8,
+        12
+      ]
+    ]
+  },
+  {
+    "id": "fresh-24",
+    "category": "protected",
+    "raw": "\\label{sec:workflow} wotsukau",
+    "japaneseRanges": [
+      [
+        21,
+        29
+      ]
+    ],
+    "englishRanges": [
+      [
+        1,
+        6
+      ],
+      [
+        7,
+        10
+      ],
+      [
+        11,
+        19
+      ]
+    ]
+  },
+  {
+    "id": "fresh-25",
+    "category": "multi",
+    "raw": "konoservernotimeoutwoconfigdekaeru",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        10,
+        12
+      ],
+      [
+        19,
+        21
+      ],
+      [
+        27,
+        34
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        10
+      ],
+      [
+        12,
+        19
+      ],
+      [
+        21,
+        27
+      ]
+    ],
+    "phase": "final-unadjusted"
+  },
+  {
+    "id": "fresh-26",
+    "category": "multi",
+    "raw": "Slacknochannelnolinkwookurimasu",
+    "japaneseRanges": [
+      [
+        5,
+        7
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        20,
+        31
+      ]
+    ],
+    "englishRanges": [
+      [
+        0,
+        5
+      ],
+      [
+        7,
+        14
+      ],
+      [
+        16,
+        20
+      ]
+    ],
+    "phase": "final-unadjusted"
+  },
+  {
+    "id": "fresh-27",
+    "category": "multi",
+    "raw": "atarashiifeaturenotestwotsuikashimasu",
+    "japaneseRanges": [
+      [
+        0,
+        9
+      ],
+      [
+        16,
+        18
+      ],
+      [
+        22,
+        37
+      ]
+    ],
+    "englishRanges": [
+      [
+        9,
+        16
+      ],
+      [
+        18,
+        22
+      ]
+    ],
+    "phase": "final-unadjusted"
+  },
+  {
+    "id": "fresh-28",
+    "category": "multi",
+    "raw": "konodashboardnowidgetwokesitai",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        13,
+        15
+      ],
+      [
+        21,
+        30
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        13
+      ],
+      [
+        15,
+        21
+      ]
+    ],
+    "phase": "final-unadjusted"
+  },
+  {
+    "id": "fresh-29",
+    "category": "multi",
+    "raw": "saishinnochangelogwobrowserdehiraku",
+    "japaneseRanges": [
+      [
+        0,
+        9
+      ],
+      [
+        18,
+        20
+      ],
+      [
+        27,
+        35
+      ]
+    ],
+    "englishRanges": [
+      [
+        9,
+        18
+      ],
+      [
+        20,
+        27
+      ]
+    ],
+    "phase": "final-unadjusted"
+  },
+  {
+    "id": "fresh-30",
+    "category": "multi",
+    "raw": "kaiginorecordingwouploadshita",
+    "japaneseRanges": [
+      [
+        0,
+        7
+      ],
+      [
+        16,
+        18
+      ],
+      [
+        24,
+        29
+      ]
+    ],
+    "englishRanges": [
+      [
+        7,
+        16
+      ],
+      [
+        18,
+        24
+      ]
+    ],
+    "phase": "final-unadjusted"
+  },
+  {
+    "id": "fresh-31",
+    "category": "jp",
+    "raw": "raigetsunoyoyakuwotorinaoshitekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        37
+      ]
+    ],
+    "englishRanges": [],
+    "phase": "final-unadjusted"
+  },
+  {
+    "id": "fresh-32",
+    "category": "jp",
+    "raw": "uchiawasenotochinihaosokunarimasu",
+    "japaneseRanges": [
+      [
+        0,
+        33
+      ]
+    ],
+    "englishRanges": [],
+    "phase": "final-unadjusted"
+  },
+  {
+    "id": "fresh-33",
+    "category": "literal",
+    "raw": "The screenshot was attached to the email.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        3
+      ],
+      [
+        4,
+        14
+      ],
+      [
+        15,
+        18
+      ],
+      [
+        19,
+        27
+      ],
+      [
+        31,
+        34
+      ],
+      [
+        35,
+        40
+      ]
+    ],
+    "phase": "final-unadjusted"
+  },
+  {
+    "id": "fresh-34",
+    "category": "literal",
+    "raw": "We are waiting for the deployment to finish.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        3,
+        6
+      ],
+      [
+        7,
+        14
+      ],
+      [
+        15,
+        18
+      ],
+      [
+        19,
+        22
+      ],
+      [
+        23,
+        33
+      ],
+      [
+        37,
+        43
+      ]
+    ],
+    "phase": "final-unadjusted"
+  },
+  {
+    "id": "fresh-35",
+    "category": "protected",
+    "raw": "hozonnsakiha~/Projects/workflow/main.swift desu",
+    "japaneseRanges": [
+      [
+        0,
+        12
+      ],
+      [
+        43,
+        47
+      ]
+    ],
+    "englishRanges": [
+      [
+        14,
+        22
+      ],
+      [
+        23,
+        31
+      ],
+      [
+        32,
+        36
+      ],
+      [
+        37,
+        42
+      ]
+    ],
+    "phase": "final-unadjusted"
+  },
+  {
+    "id": "fresh-36",
+    "category": "protected",
+    "raw": "\\section{houhounosetsumei}",
+    "japaneseRanges": [
+      [
+        9,
+        25
+      ]
+    ],
+    "englishRanges": [
+      [
+        1,
+        8
+      ]
+    ],
+    "phase": "final-unadjusted"
+  }
+]

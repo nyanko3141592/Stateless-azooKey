@@ -1,22 +1,22 @@
+// Frozen routing baseline from c177cb1. Only class name and model resource location changed.
 import Foundation
+@testable import Core
 
 /// A trained logistic language classifier. Inference is pure Swift and never opens a socket.
-public final class LocalLanguageRouter: @unchecked Sendable {
+public final class PreviousLocalLanguageRouter: @unchecked Sendable {
     private struct Model: Decodable { let version: Int; let weights: [String:Double]; let ambiguous: [String]; let boundaryWeights: [Double]; let knownEnglish: [String]; let knownJapanese: [String] }
     private let weights: [String:Double]
-    let ambiguous: Set<String>
+    private let ambiguous: Set<String>
     private let boundaryWeights: [Double]
-    let knownEnglish: Set<String>
-    let knownJapanese: Set<String>
-    let englishPrefixes: Set<String>
-    public static let shared: LocalLanguageRouter = {
-        do { return try LocalLanguageRouter() }
+    private let knownEnglish: Set<String>
+    private let knownJapanese: Set<String>
+    private let englishPrefixes: Set<String>
+    public static let shared: PreviousLocalLanguageRouter = {
+        do { return try PreviousLocalLanguageRouter() }
         catch { fatalError("Bundled local language model is missing or invalid: \(error)") }
     }()
     public init() throws {
-        guard let url = Bundle.module.url(forResource:"LocalLanguageModel",withExtension:"json") else {
-            throw CocoaError(.fileNoSuchFile)
-        }
+        let url = URL(fileURLWithPath:#filePath).deletingLastPathComponent().deletingLastPathComponent().deletingLastPathComponent().deletingLastPathComponent().deletingLastPathComponent().appendingPathComponent("Core/Sources/Core/Resources/LocalLanguageModel.json")
         let model = try JSONDecoder().decode(Model.self,from:Data(contentsOf:url))
         guard model.version == 3, !model.weights.isEmpty, model.weights.values.allSatisfy(\.isFinite) else { throw CocoaError(.fileReadCorruptFile) }
         weights = model.weights; ambiguous = Set(model.ambiguous)
@@ -32,8 +32,7 @@ public final class LocalLanguageRouter: @unchecked Sendable {
     private static func matches(_ regex: NSRegularExpression, _ word: String) -> Bool {
         regex.firstMatch(in:word,range:NSRange(word.startIndex...,in:word)) != nil
     }
-    func isRomaji(_ word: String) -> Bool { Self.matches(Self.completeRomaji,word.lowercased()) }
-    func isRomajiPrefix(_ word: String) -> Bool { Self.matches(Self.partialRomaji,word.lowercased()) }
+    private func isRomaji(_ word: String) -> Bool { Self.matches(Self.completeRomaji,word.lowercased()) }
     public func japaneseProbability(_ word: String, context: Bool = false, left: String = "", right: String = "", englishNeighbors: Bool = false) -> Double {
         let w = word.lowercased(); let chars = Array(w)
         var features: Set<String> = ["bias","w:" + w,"len:" + String(min(chars.count / 3,6))]
@@ -54,17 +53,7 @@ public final class LocalLanguageRouter: @unchecked Sendable {
         return 1 / (1 + exp(-max(-50,min(50,value))))
     }
     public func classify(_ raw: String) -> JevMixedDecision {
-        let start = Date()
-        var spans: [JevInputSpan] = []
-        var segmented: [Int:Bool] = [:]
-        for span in JevMixedLexer.spans(raw) {
-            if !span.protected, let pieces = mixedSegments(span.text) {
-                for piece in pieces {
-                    segmented[spans.count] = piece.japanese
-                    spans.append(.init(text:piece.text,protected:false))
-                }
-            } else { spans.append(span) }
-        }
+        let start = Date(); let spans = JevMixedLexer.spans(raw)
         let targets = spans.indices.filter { !spans[$0].protected }
         let initial = targets.map { japaneseProbability(spans[$0].text) }
         func strongJapanese(_ index: Int, _ probability: Double) -> Bool {
@@ -134,7 +123,6 @@ public final class LocalLanguageRouter: @unchecked Sendable {
                     }
                 }
             }
-            if let japanese = segmented[index] { offset = japanese ? 0 : nil }
             decisions.append(.init(index:index,japaneseStart:offset,probability:confidence))
         }
         return .init(spans:spans,decisions:decisions,elapsedMS:Int(Date().timeIntervalSince(start)*1000))
