@@ -107,10 +107,10 @@ import Core
             do {
                 try await Task.sleep(for: .milliseconds(500))
                 for raw in [
-    "Slacknoscreenshotwookuttekudasai.",
-    "GitHubnobranchwokaetekudasai.",
-    "ashitanomeetingnolinkwooshietekudasai.",
-    "konofilewoSlackdekyouyuushitekudasai."
+    "Chromenobookmarkgasyncsaremasenn",
+    "konothumbnailwodownloadshitaidesu",
+    "raishuunomeetingnoagendawooshietekudasai",
+    "kononamespacewokakuninshitekudasai"
 ] {
                     documentText = ""; videoCanvas?.clear(example:records.count+1); render()
                     try await resolve(raw, animate: true)
@@ -129,10 +129,10 @@ import Core
     func auditLocalModel() async {
         var rows: [[String:Any]] = []
         let samples = [
-    "Slacknoscreenshotwookuttekudasai.",
-    "GitHubnobranchwokaetekudasai.",
-    "ashitanomeetingnolinkwooshietekudasai.",
-    "konofilewoSlackdekyouyuushitekudasai.",
+    "Chromenobookmarkgasyncsaremasenn",
+    "konothumbnailwodownloadshitaidesu",
+    "raishuunomeetingnoagendawooshietekudasai",
+    "kononamespacewokakuninshitekudasai",
     "NotionnodocumentwoSlackdekyouyuushimasu",
     "GitHubnoworkflowgafailedninatteimasu",
     "konorepositorynoREADMEwoyondekudasai",
