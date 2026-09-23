@@ -19,7 +19,7 @@ fixtures = {
     "fresh48": "accuracy-v5/fresh-evaluation.json",
     "developmentV6": "accuracy-v6/fresh-evaluation.json",
     "finalV6": "accuracy-v6/final-evaluation.json",
-    "finalV7": "accuracy-v7/final-evaluation.json",
+    "finalV7": "accuracy-v7/final-evaluation-corrected.json",
 }
 summary = {}
 for name, fixture in fixtures.items():
@@ -51,6 +51,6 @@ for name, stats in summary.items():
     assert stats["current"]["damage"] <= stats["ab8bc42"]["damage"], name
 assert summary["finalV6"]["current"]["exact"] >= 37
 assert summary["finalV6"]["current"]["damage"] <= 117
-assert summary["finalV7"]["current"]["exact"] >= 31
+assert summary["finalV7"]["current"]["exact"] >= 32
 assert summary["finalV7"]["current"]["damage"] <= 203
 print("V7 goals passed. All sets are now development regressions; not new held-out evidence.")

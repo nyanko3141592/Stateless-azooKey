@@ -1,0 +1,259 @@
+{
+  "reviewedCount": 48,
+  "scope": "Independent review of authored gold only; no inference or predicted labels consulted. Original fixture and raw strings unchanged.",
+  "originalFixtureSha256": "69e80c4c802e2666b5a9f3802559a10b0fde8a473d4a0161741d02fa801957e4",
+  "correctionCount": 1,
+  "corrections": [
+    {
+      "id": "v7-final-031",
+      "raw": "kaishanosourcenohozonbashohaprivate repositorydesu",
+      "reason": "The Japanese-labeled prefix contains the English spelling source. If Japanese ソース was intended, its romaji would be so-su or soosu, not source. Preserve the existing raw and mark source as literal English.",
+      "originalJapaneseRanges": [
+        [
+          0,
+          28
+        ],
+        [
+          46,
+          50
+        ]
+      ],
+      "originalEnglishRanges": [
+        [
+          28,
+          46
+        ]
+      ],
+      "japaneseRanges": [
+        [
+          0,
+          8
+        ],
+        [
+          14,
+          28
+        ],
+        [
+          46,
+          50
+        ]
+      ],
+      "englishRanges": [
+        [
+          8,
+          14
+        ],
+        [
+          28,
+          46
+        ]
+      ],
+      "changedRange": [
+        8,
+        14
+      ],
+      "changedText": "source"
+    }
+  ],
+  "reviewedCases": [
+    {
+      "id": "v7-final-001",
+      "status": "no_english_spelling_contamination_identified"
+    },
+    {
+      "id": "v7-final-002",
+      "status": "no_english_spelling_contamination_identified"
+    },
+    {
+      "id": "v7-final-003",
+      "status": "no_english_spelling_contamination_identified"
+    },
+    {
+      "id": "v7-final-004",
+      "status": "no_english_spelling_contamination_identified"
+    },
+    {
+      "id": "v7-final-005",
+      "status": "no_english_spelling_contamination_identified"
+    },
+    {
+      "id": "v7-final-006",
+      "status": "no_english_spelling_contamination_identified"
+    },
+    {
+      "id": "v7-final-007",
+      "status": "no_english_spelling_contamination_identified"
+    },
+    {
+      "id": "v7-final-008",
+      "status": "no_english_spelling_contamination_identified"
+    },
+    {
+      "id": "v7-final-009",
+      "status": "no_english_spelling_contamination_identified"
+    },
+    {
+      "id": "v7-final-010",
+      "status": "no_english_spelling_contamination_identified"
+    },
+    {
+      "id": "v7-final-011",
+      "status": "no_english_spelling_contamination_identified"
+    },
+    {
+      "id": "v7-final-012",
+      "status": "no_english_spelling_contamination_identified"
+    },
+    {
+      "id": "v7-final-013",
+      "status": "no_english_spelling_contamination_identified"
+    },
+    {
+      "id": "v7-final-014",
+      "status": "no_english_spelling_contamination_identified"
+    },
+    {
+      "id": "v7-final-015",
+      "status": "no_english_spelling_contamination_identified"
+    },
+    {
+      "id": "v7-final-016",
+      "status": "no_english_spelling_contamination_identified"
+    },
+    {
+      "id": "v7-final-017",
+      "status": "no_english_spelling_contamination_identified"
+    },
+    {
+      "id": "v7-final-018",
+      "status": "no_english_spelling_contamination_identified"
+    },
+    {
+      "id": "v7-final-019",
+      "status": "no_english_spelling_contamination_identified"
+    },
+    {
+      "id": "v7-final-020",
+      "status": "no_english_spelling_contamination_identified"
+    },
+    {
+      "id": "v7-final-021",
+      "status": "no_english_spelling_contamination_identified"
+    },
+    {
+      "id": "v7-final-022",
+      "status": "no_english_spelling_contamination_identified"
+    },
+    {
+      "id": "v7-final-023",
+      "status": "no_english_spelling_contamination_identified"
+    },
+    {
+      "id": "v7-final-024",
+      "status": "no_english_spelling_contamination_identified"
+    },
+    {
+      "id": "v7-final-025",
+      "status": "no_english_spelling_contamination_identified"
+    },
+    {
+      "id": "v7-final-026",
+      "status": "no_english_spelling_contamination_identified"
+    },
+    {
+      "id": "v7-final-027",
+      "status": "no_english_spelling_contamination_identified"
+    },
+    {
+      "id": "v7-final-028",
+      "status": "no_english_spelling_contamination_identified"
+    },
+    {
+      "id": "v7-final-029",
+      "status": "no_english_spelling_contamination_identified"
+    },
+    {
+      "id": "v7-final-030",
+      "status": "no_english_spelling_contamination_identified"
+    },
+    {
+      "id": "v7-final-031",
+      "status": "range_correction_required"
+    },
+    {
+      "id": "v7-final-032",
+      "status": "no_english_spelling_contamination_identified"
+    },
+    {
+      "id": "v7-final-033",
+      "status": "no_english_spelling_contamination_identified"
+    },
+    {
+      "id": "v7-final-034",
+      "status": "no_english_spelling_contamination_identified"
+    },
+    {
+      "id": "v7-final-035",
+      "status": "no_english_spelling_contamination_identified"
+    },
+    {
+      "id": "v7-final-036",
+      "status": "no_english_spelling_contamination_identified"
+    },
+    {
+      "id": "v7-final-037",
+      "status": "no_english_spelling_contamination_identified"
+    },
+    {
+      "id": "v7-final-038",
+      "status": "no_english_spelling_contamination_identified"
+    },
+    {
+      "id": "v7-final-039",
+      "status": "no_english_spelling_contamination_identified"
+    },
+    {
+      "id": "v7-final-040",
+      "status": "no_english_spelling_contamination_identified"
+    },
+    {
+      "id": "v7-final-041",
+      "status": "no_english_spelling_contamination_identified"
+    },
+    {
+      "id": "v7-final-042",
+      "status": "no_english_spelling_contamination_identified"
+    },
+    {
+      "id": "v7-final-043",
+      "status": "no_english_spelling_contamination_identified"
+    },
+    {
+      "id": "v7-final-044",
+      "status": "no_english_spelling_contamination_identified"
+    },
+    {
+      "id": "v7-final-045",
+      "status": "no_english_spelling_contamination_identified"
+    },
+    {
+      "id": "v7-final-046",
+      "status": "no_english_spelling_contamination_identified"
+    },
+    {
+      "id": "v7-final-047",
+      "status": "no_english_spelling_contamination_identified"
+    },
+    {
+      "id": "v7-final-048",
+      "status": "no_english_spelling_contamination_identified"
+    }
+  ],
+  "retainedWordingIssues": [
+    {
+      "id": "v7-final-040",
+      "issue": "kaemono appears to be a typo for kaimono (買い物). It remains Japanese-intended romaji; no language-boundary correction or exclusion proposed."
+    }
+  ],
+  "excludedCaseCount": 0
+}

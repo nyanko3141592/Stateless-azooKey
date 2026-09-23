@@ -75,3 +75,11 @@ Releaseビルド・署名検証成功。独立sandbox bundleで77入力を実行
 - [例文の作成条件と限界](accuracy-v7/FINAL-FIXTURE-NOTES.md)
 - [リリース固定ハッシュ](accuracy-v7/frozen.sha256)
 - [実Zenzai77例](accuracy-v7/runtime-final.json) / [ビルド](accuracy-v7/build-summary.json) / [インストール](accuracy-v7/installation.json)
+
+### 正解ラベルの訂正（原結果保持）
+
+評価後のレビューでv7-final-031のsourceを日本語にした作問ミスが1件判明。作成担当が48文のraw/goldだけを再確認し、sourceの6文字だけ英語へ訂正した。raw変更・例文除外・推論変更はゼロ。元fixture/hash/全結果は保持。
+
+同じ推論で訂正1件を旧版/新版とも再評価し、他47件の既存結果と結合した訂正版は **30→32/48、破損221→203、反転244→243**。改善幅は元結果と同じ+2件。訂正後失敗16件。final-corrected-result.json / final-corrected-summary.json / final-corrected-failures.json参照。check-accuracy-v7.pyは今後、訂正fixtureで32/48以上・破損203以下を維持する。原結果の31/48は訂正前の数値として残す。
+
+FINAL-GOLD-REVIEW.md / final-gold-review.jsonに全件確認と理由を保存。明白な英語綴り混入は1件のみ。別文のkaemonoという誤字は日本語意図としてそのまま保持し、都合よく例文を除外していない。

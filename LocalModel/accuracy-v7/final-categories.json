@@ -1,0 +1,74 @@
+{
+  "日本語長句": {
+    "ab8bc42": {
+      "exact": 7,
+      "count": 16,
+      "damage": 106
+    },
+    "current": {
+      "exact": 7,
+      "count": 16,
+      "damage": 88
+    }
+  },
+  "複数切替": {
+    "ab8bc42": {
+      "exact": 4,
+      "count": 10,
+      "damage": 76
+    },
+    "current": {
+      "exact": 6,
+      "count": 10,
+      "damage": 76
+    }
+  },
+  "英語内部空白": {
+    "ab8bc42": {
+      "exact": 2,
+      "count": 6,
+      "damage": 39
+    },
+    "current": {
+      "exact": 2,
+      "count": 6,
+      "damage": 39
+    }
+  },
+  "略語": {
+    "ab8bc42": {
+      "exact": 6,
+      "count": 6,
+      "damage": 0
+    },
+    "current": {
+      "exact": 6,
+      "count": 6,
+      "damage": 0
+    }
+  },
+  "単言語": {
+    "ab8bc42": {
+      "exact": 6,
+      "count": 6,
+      "damage": 0
+    },
+    "current": {
+      "exact": 6,
+      "count": 6,
+      "damage": 0
+    }
+  },
+  "保護構文": {
+    "ab8bc42": {
+      "exact": 4,
+      "count": 4,
+      "damage": 0
+    },
+    "current": {
+      "exact": 4,
+      "count": 4,
+      "damage": 0
+    }
+  }
+}
