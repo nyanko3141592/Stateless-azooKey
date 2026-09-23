@@ -1,6 +1,8 @@
+// Frozen 707b161 inference; test target only.
+@testable import Core
 import Foundation
 
-extension LocalLanguageRouter {
+extension AccuracyV5BaselineRouter {
     /// Refine a lexer word only when alternating literal words and plausible romaji explain it.
     /// Source characters are sliced verbatim; no generated text or persistent language state.
     func mixedSegments(_ word: String) -> [(text: String, japanese: Bool)]? {
@@ -92,7 +94,6 @@ extension LocalLanguageRouter {
                 let crossesLexicalWord = ((start+1)...end).contains { lexicalStart in
                     (compoundEnds[lexicalStart] ?? []).contains { lexicalEnd in
                         lexicalEnd > end+1 && lexicalEnd-lexicalStart >= 4
-                            && knownEnglish.contains(String(characters[lexicalStart..<lexicalEnd]).lowercased())
                     }
                 }
                 // Do not merge an identifiable English word plus a Japanese particle
@@ -106,9 +107,7 @@ extension LocalLanguageRouter {
                     return ["no","ni","de","wo","ha","ga","to","mo","kara","made"].contains(head)
                         && (compoundEnds[middle] ?? []).contains(where: { $0 <= end+1 })
                 }
-                let shortEnglishPrefix = candidate.count == 3 && englishPrefixes.contains(candidate.lowercased())
-                    && !isRomaji(candidate) && probability(candidate) < 0.02 && afterJapaneseParticle
-                let unknown = !lexical && (candidate.count >= 4 || shortEnglishPrefix) && candidate.count <= 20
+                let unknown = !lexical && candidate.count >= 4 && candidate.count <= 20
                     && beforeJapanese && tail.count >= 2
                     && (start > 0 || ((isRomaji(tail) || isRomajiPrefix(tail)) && probability(tail,context:true) >= 0.88))
                     && (afterJapaneseParticle || (start == 0 && candidate.first?.isUppercase == true)
@@ -131,10 +130,7 @@ extension LocalLanguageRouter {
                                 && probability(anchor.text) < 0.1 && anchor.end < characters.count))
                     }
             }
-            let leadingEnglish = anchors[0]?.contains { anchor in
-                anchor.text.first?.isUppercase == true && knownEnglish.contains(anchor.text.lowercased())
-            } == true
-            guard completedEnglish || leadingEnglish else { return nil }
+            guard completedEnglish else { return nil }
         }
         let particles: Set<String> = ["no","ni","de","wo","ha","ga","to","mo","kara","made"]
         var jpScores: [String:Double] = [:]
@@ -187,11 +183,6 @@ extension LocalLanguageRouter {
                 if path.pieces.last?.japanese != false {
                     for anchor in anchors[start] ?? [] {
                         let lexical = compoundEnds[start]?.contains(anchor.end) == true
-                        // A very short unknown can only follow an already established
-                        // English + particle run, not peel a fragment off a longer word.
-                        if !lexical && anchor.text.count == 3
-                            && !(path.hasEnglish && path.pieces.last?.japanese == true
-                                && particles.contains(path.pieces.last!.text)) { continue }
                         let preceding = String(characters.prefix(start))
                         let afterParticle = ["no","ni","de","wo","ha","ga","to","mo","kara","made"].contains(where:preceding.hasSuffix)
                         let score = lexical ? 3 + Double(anchor.text.count)*0.2

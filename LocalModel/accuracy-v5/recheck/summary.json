@@ -1,0 +1,100 @@
+{
+  "prior80": {
+    "707b161": {
+      "exact": 80,
+      "count": 80,
+      "damage": 50,
+      "reversals": 188
+    },
+    "current": {
+      "exact": 80,
+      "count": 80,
+      "damage": 50,
+      "reversals": 173
+    }
+  },
+  "multi": {
+    "707b161": {
+      "exact": 35,
+      "count": 36,
+      "damage": 18,
+      "reversals": 106
+    },
+    "current": {
+      "exact": 35,
+      "count": 36,
+      "damage": 18,
+      "reversals": 106
+    }
+  },
+  "prior24": {
+    "707b161": {
+      "exact": 23,
+      "count": 24,
+      "damage": 6,
+      "reversals": 81
+    },
+    "current": {
+      "exact": 23,
+      "count": 24,
+      "damage": 6,
+      "reversals": 79
+    }
+  },
+  "prior48": {
+    "707b161": {
+      "exact": 47,
+      "count": 48,
+      "damage": 32,
+      "reversals": 240
+    },
+    "current": {
+      "exact": 47,
+      "count": 48,
+      "damage": 32,
+      "reversals": 232
+    }
+  },
+  "priorfinal24": {
+    "707b161": {
+      "exact": 24,
+      "count": 24,
+      "damage": 13,
+      "reversals": 126
+    },
+    "current": {
+      "exact": 24,
+      "count": 24,
+      "damage": 13,
+      "reversals": 127
+    }
+  },
+  "development48": {
+    "707b161": {
+      "exact": 43,
+      "count": 48,
+      "damage": 31,
+      "reversals": 184
+    },
+    "current": {
+      "exact": 48,
+      "count": 48,
+      "damage": 21,
+      "reversals": 182
+    }
+  },
+  "final40": {
+    "707b161": {
+      "exact": 37,
+      "count": 40,
+      "damage": 18,
+      "reversals": 131
+    },
+    "current": {
+      "exact": 40,
+      "count": 40,
+      "damage": 14,
+      "reversals": 129
+    }
+  }
+}

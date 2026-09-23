@@ -1,7 +1,9 @@
+// Frozen 707b161 inference; test target only.
+@testable import Core
 import Foundation
 
 /// A trained logistic language classifier. Inference is pure Swift and never opens a socket.
-public final class LocalLanguageRouter: @unchecked Sendable {
+public final class AccuracyV5BaselineRouter: @unchecked Sendable {
     private struct Model: Decodable { let version: Int; let weights: [String:Double]; let ambiguous: [String]; let boundaryWeights: [Double]; let knownEnglish: [String]; let knownJapanese: [String] }
     private let weights: [String:Double]
     let ambiguous: Set<String>
@@ -9,8 +11,8 @@ public final class LocalLanguageRouter: @unchecked Sendable {
     let knownEnglish: Set<String>
     let knownJapanese: Set<String>
     let englishPrefixes: Set<String>
-    public static let shared: LocalLanguageRouter = {
-        do { return try LocalLanguageRouter() }
+    public static let shared: AccuracyV5BaselineRouter = {
+        do { return try AccuracyV5BaselineRouter() }
         catch { fatalError("Bundled local language model is missing or invalid: \(error)") }
     }()
     public init() throws {
@@ -136,31 +138,6 @@ public final class LocalLanguageRouter: @unchecked Sendable {
             }
             if let japanese = segmented[index] { offset = japanese ? 0 : nil }
             decisions.append(.init(index:index,japaneseStart:offset,probability:confidence))
-        }
-        // Revisit only completed, short romaji words once this same composition
-        // contains a confidently converted Japanese phrase. A growing English prefix
-        // stays literal until whitespace closes it; names and known English stay intact.
-        let resolvedJapaneseContext = decisions.contains { decision in
-            guard let offset = decision.japaneseStart else { return false }
-            let suffix = String(spans[decision.index].text.dropFirst(offset))
-            return suffix.count >= 4 && (isRomaji(suffix) || isRomajiPrefix(suffix))
-                && japaneseProbability(suffix,context:true) >= 0.88
-        }
-        if resolvedJapaneseContext {
-            decisions = decisions.map { decision in
-                let index = decision.index
-                let word = spans[index].text
-                let lower = word.lowercased()
-                guard decision.japaneseStart == nil, segmented[index] == nil,
-                      word == lower, !knownEnglish.contains(lower), isRomaji(word),
-                      index+1 < spans.count, spans[index+1].protected,
-                      spans[index+1].text.allSatisfy(\.isWhitespace) else { return decision }
-                let contextual = japaneseProbability(word,context:true)
-                let particle = word.count <= 2 && ambiguous.contains(lower) && contextual >= 0.8
-                let shortRomaji = (3...4).contains(word.count) && !ambiguous.contains(lower) && contextual >= 0.25
-                guard particle || shortRomaji else { return decision }
-                return .init(index:index,japaneseStart:0,probability:particle ? contextual : decision.probability)
-            }
         }
         return .init(spans:spans,decisions:decisions,elapsedMS:Int(Date().timeIntervalSince(start)*1000))
     }

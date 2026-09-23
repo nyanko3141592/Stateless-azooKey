@@ -183,7 +183,19 @@ import Core
     "sonotoolchainwomisetekudasai",
     "ato de Chromedehirakimasu",
     "sonowidgethadashboardnihyoujisaremasu",
-    "kononotificationhaoffnishitaidesu"
+    "kononotificationhaoffnishitaidesu",
+    "konoAPInoresponsewomisetekudasai",
+    "ima Slackdemessagewookurimasu",
+    "ato de GitHubnoissuewomimasu",
+    "konoAPI notimeoutwokaetaidesu",
+    "sonosettinghaoffnishitaidesu",
+    "sonoAPInoresponsehaJSONdesu",
+    "kyounoprototypewodemodemisemasu",
+    "ashitamadenicallbacknotestwokakimasu",
+    "ima Notionnopagewohiraitemasu",
+    "konotoolchainnoconfigwoshirabemasu",
+    "mira ni link wookurimasu",
+    "meta no API wotsukaimasu"
 ]
         for raw in samples {
             session.reset(); var times: [Double] = []
