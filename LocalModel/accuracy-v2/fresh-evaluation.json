@@ -1,0 +1,1474 @@
+[
+  {
+    "id": "accuracy-v2-001",
+    "raw": "konospreadsheetwokakuninshitekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        15,
+        36
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        15
+      ]
+    ]
+  },
+  {
+    "id": "accuracy-v2-002",
+    "raw": "ashitanospreadsheetnolinkwookurimasu",
+    "japaneseRanges": [
+      [
+        0,
+        8
+      ],
+      [
+        19,
+        21
+      ],
+      [
+        25,
+        36
+      ]
+    ],
+    "englishRanges": [
+      [
+        8,
+        19
+      ],
+      [
+        21,
+        25
+      ]
+    ]
+  },
+  {
+    "id": "accuracy-v2-003",
+    "raw": "konoclipboardwokakuninshitekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        13,
+        34
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        13
+      ]
+    ]
+  },
+  {
+    "id": "accuracy-v2-004",
+    "raw": "ashitanoclipboardnolinkwookurimasu",
+    "japaneseRanges": [
+      [
+        0,
+        8
+      ],
+      [
+        17,
+        19
+      ],
+      [
+        23,
+        34
+      ]
+    ],
+    "englishRanges": [
+      [
+        8,
+        17
+      ],
+      [
+        19,
+        23
+      ]
+    ]
+  },
+  {
+    "id": "accuracy-v2-005",
+    "raw": "konocheckboxwokakuninshitekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        12,
+        33
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        12
+      ]
+    ]
+  },
+  {
+    "id": "accuracy-v2-006",
+    "raw": "ashitanocheckboxnolinkwookurimasu",
+    "japaneseRanges": [
+      [
+        0,
+        8
+      ],
+      [
+        16,
+        18
+      ],
+      [
+        22,
+        33
+      ]
+    ],
+    "englishRanges": [
+      [
+        8,
+        16
+      ],
+      [
+        18,
+        22
+      ]
+    ]
+  },
+  {
+    "id": "accuracy-v2-007",
+    "raw": "konodropdownwokakuninshitekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        12,
+        33
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        12
+      ]
+    ]
+  },
+  {
+    "id": "accuracy-v2-008",
+    "raw": "ashitanodropdownnolinkwookurimasu",
+    "japaneseRanges": [
+      [
+        0,
+        8
+      ],
+      [
+        16,
+        18
+      ],
+      [
+        22,
+        33
+      ]
+    ],
+    "englishRanges": [
+      [
+        8,
+        16
+      ],
+      [
+        18,
+        22
+      ]
+    ]
+  },
+  {
+    "id": "accuracy-v2-009",
+    "raw": "konotooltipwokakuninshitekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        11,
+        32
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        11
+      ]
+    ]
+  },
+  {
+    "id": "accuracy-v2-010",
+    "raw": "ashitanotooltipnolinkwookurimasu",
+    "japaneseRanges": [
+      [
+        0,
+        8
+      ],
+      [
+        15,
+        17
+      ],
+      [
+        21,
+        32
+      ]
+    ],
+    "englishRanges": [
+      [
+        8,
+        15
+      ],
+      [
+        17,
+        21
+      ]
+    ]
+  },
+  {
+    "id": "accuracy-v2-011",
+    "raw": "konobreakpointwokakuninshitekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        14,
+        35
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        14
+      ]
+    ]
+  },
+  {
+    "id": "accuracy-v2-012",
+    "raw": "ashitanobreakpointnolinkwookurimasu",
+    "japaneseRanges": [
+      [
+        0,
+        8
+      ],
+      [
+        18,
+        20
+      ],
+      [
+        24,
+        35
+      ]
+    ],
+    "englishRanges": [
+      [
+        8,
+        18
+      ],
+      [
+        20,
+        24
+      ]
+    ]
+  },
+  {
+    "id": "accuracy-v2-013",
+    "raw": "konowebsocketwokakuninshitekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        13,
+        34
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        13
+      ]
+    ]
+  },
+  {
+    "id": "accuracy-v2-014",
+    "raw": "ashitanowebsocketnolinkwookurimasu",
+    "japaneseRanges": [
+      [
+        0,
+        8
+      ],
+      [
+        17,
+        19
+      ],
+      [
+        23,
+        34
+      ]
+    ],
+    "englishRanges": [
+      [
+        8,
+        17
+      ],
+      [
+        19,
+        23
+      ]
+    ]
+  },
+  {
+    "id": "accuracy-v2-015",
+    "raw": "konowebhookwokakuninshitekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        11,
+        32
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        11
+      ]
+    ]
+  },
+  {
+    "id": "accuracy-v2-016",
+    "raw": "ashitanowebhooknolinkwookurimasu",
+    "japaneseRanges": [
+      [
+        0,
+        8
+      ],
+      [
+        15,
+        17
+      ],
+      [
+        21,
+        32
+      ]
+    ],
+    "englishRanges": [
+      [
+        8,
+        15
+      ],
+      [
+        17,
+        21
+      ]
+    ]
+  },
+  {
+    "id": "accuracy-v2-017",
+    "raw": "konomiddlewarewokakuninshitekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        14,
+        35
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        14
+      ]
+    ]
+  },
+  {
+    "id": "accuracy-v2-018",
+    "raw": "ashitanomiddlewarenolinkwookurimasu",
+    "japaneseRanges": [
+      [
+        0,
+        8
+      ],
+      [
+        18,
+        20
+      ],
+      [
+        24,
+        35
+      ]
+    ],
+    "englishRanges": [
+      [
+        8,
+        18
+      ],
+      [
+        20,
+        24
+      ]
+    ]
+  },
+  {
+    "id": "accuracy-v2-019",
+    "raw": "kononamespacewokakuninshitekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        13,
+        34
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        13
+      ]
+    ]
+  },
+  {
+    "id": "accuracy-v2-020",
+    "raw": "ashitanonamespacenolinkwookurimasu",
+    "japaneseRanges": [
+      [
+        0,
+        8
+      ],
+      [
+        17,
+        19
+      ],
+      [
+        23,
+        34
+      ]
+    ],
+    "englishRanges": [
+      [
+        8,
+        17
+      ],
+      [
+        19,
+        23
+      ]
+    ]
+  },
+  {
+    "id": "accuracy-v2-021",
+    "raw": "konorefactorwokakuninshitekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        12,
+        33
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        12
+      ]
+    ]
+  },
+  {
+    "id": "accuracy-v2-022",
+    "raw": "ashitanorefactornolinkwookurimasu",
+    "japaneseRanges": [
+      [
+        0,
+        8
+      ],
+      [
+        16,
+        18
+      ],
+      [
+        22,
+        33
+      ]
+    ],
+    "englishRanges": [
+      [
+        8,
+        16
+      ],
+      [
+        18,
+        22
+      ]
+    ]
+  },
+  {
+    "id": "accuracy-v2-023",
+    "raw": "konostagingwokakuninshitekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        11,
+        32
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        11
+      ]
+    ]
+  },
+  {
+    "id": "accuracy-v2-024",
+    "raw": "ashitanostagingnolinkwookurimasu",
+    "japaneseRanges": [
+      [
+        0,
+        8
+      ],
+      [
+        15,
+        17
+      ],
+      [
+        21,
+        32
+      ]
+    ],
+    "englishRanges": [
+      [
+        8,
+        15
+      ],
+      [
+        17,
+        21
+      ]
+    ]
+  },
+  {
+    "id": "accuracy-v2-025",
+    "raw": "konocredentialwokakuninshitekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        14,
+        35
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        14
+      ]
+    ]
+  },
+  {
+    "id": "accuracy-v2-026",
+    "raw": "ashitanocredentialnolinkwookurimasu",
+    "japaneseRanges": [
+      [
+        0,
+        8
+      ],
+      [
+        18,
+        20
+      ],
+      [
+        24,
+        35
+      ]
+    ],
+    "englishRanges": [
+      [
+        8,
+        18
+      ],
+      [
+        20,
+        24
+      ]
+    ]
+  },
+  {
+    "id": "accuracy-v2-027",
+    "raw": "konotelemetrywokakuninshitekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        13,
+        34
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        13
+      ]
+    ]
+  },
+  {
+    "id": "accuracy-v2-028",
+    "raw": "ashitanotelemetrynolinkwookurimasu",
+    "japaneseRanges": [
+      [
+        0,
+        8
+      ],
+      [
+        17,
+        19
+      ],
+      [
+        23,
+        34
+      ]
+    ],
+    "englishRanges": [
+      [
+        8,
+        17
+      ],
+      [
+        19,
+        23
+      ]
+    ]
+  },
+  {
+    "id": "accuracy-v2-029",
+    "raw": "konoavatarwokakuninshitekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        10,
+        31
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        10
+      ]
+    ]
+  },
+  {
+    "id": "accuracy-v2-030",
+    "raw": "ashitanoavatarnolinkwookurimasu",
+    "japaneseRanges": [
+      [
+        0,
+        8
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        20,
+        31
+      ]
+    ],
+    "englishRanges": [
+      [
+        8,
+        14
+      ],
+      [
+        16,
+        20
+      ]
+    ]
+  },
+  {
+    "id": "accuracy-v2-031",
+    "raw": "konocarouselwokakuninshitekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        12,
+        33
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        12
+      ]
+    ]
+  },
+  {
+    "id": "accuracy-v2-032",
+    "raw": "ashitanocarouselnolinkwookurimasu",
+    "japaneseRanges": [
+      [
+        0,
+        8
+      ],
+      [
+        16,
+        18
+      ],
+      [
+        22,
+        33
+      ]
+    ],
+    "englishRanges": [
+      [
+        8,
+        16
+      ],
+      [
+        18,
+        22
+      ]
+    ]
+  },
+  {
+    "id": "accuracy-v2-033",
+    "raw": "konosubtitlewokakuninshitekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        12,
+        33
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        12
+      ]
+    ]
+  },
+  {
+    "id": "accuracy-v2-034",
+    "raw": "ashitanosubtitlenolinkwookurimasu",
+    "japaneseRanges": [
+      [
+        0,
+        8
+      ],
+      [
+        16,
+        18
+      ],
+      [
+        22,
+        33
+      ]
+    ],
+    "englishRanges": [
+      [
+        8,
+        16
+      ],
+      [
+        18,
+        22
+      ]
+    ]
+  },
+  {
+    "id": "accuracy-v2-035",
+    "raw": "konolivestreamwokakuninshitekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        14,
+        35
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        14
+      ]
+    ]
+  },
+  {
+    "id": "accuracy-v2-036",
+    "raw": "ashitanolivestreamnolinkwookurimasu",
+    "japaneseRanges": [
+      [
+        0,
+        8
+      ],
+      [
+        18,
+        20
+      ],
+      [
+        24,
+        35
+      ]
+    ],
+    "englishRanges": [
+      [
+        8,
+        18
+      ],
+      [
+        20,
+        24
+      ]
+    ]
+  },
+  {
+    "id": "accuracy-v2-037",
+    "raw": "konowatermarkwokakuninshitekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        13,
+        34
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        13
+      ]
+    ]
+  },
+  {
+    "id": "accuracy-v2-038",
+    "raw": "ashitanowatermarknolinkwookurimasu",
+    "japaneseRanges": [
+      [
+        0,
+        8
+      ],
+      [
+        17,
+        19
+      ],
+      [
+        23,
+        34
+      ]
+    ],
+    "englishRanges": [
+      [
+        8,
+        17
+      ],
+      [
+        19,
+        23
+      ]
+    ]
+  },
+  {
+    "id": "accuracy-v2-039",
+    "raw": "konoplaybackwokakuninshitekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        12,
+        33
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        12
+      ]
+    ]
+  },
+  {
+    "id": "accuracy-v2-040",
+    "raw": "ashitanoplaybacknolinkwookurimasu",
+    "japaneseRanges": [
+      [
+        0,
+        8
+      ],
+      [
+        16,
+        18
+      ],
+      [
+        22,
+        33
+      ]
+    ],
+    "englishRanges": [
+      [
+        8,
+        16
+      ],
+      [
+        18,
+        22
+      ]
+    ]
+  },
+  {
+    "id": "accuracy-v2-041",
+    "raw": "Please check the spreadsheet before the meeting.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        48
+      ]
+    ]
+  },
+  {
+    "id": "accuracy-v2-042",
+    "raw": "Please check the clipboard before the meeting.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        46
+      ]
+    ]
+  },
+  {
+    "id": "accuracy-v2-043",
+    "raw": "Please check the checkbox before the meeting.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        45
+      ]
+    ]
+  },
+  {
+    "id": "accuracy-v2-044",
+    "raw": "Please check the dropdown before the meeting.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        45
+      ]
+    ]
+  },
+  {
+    "id": "accuracy-v2-045",
+    "raw": "Please check the tooltip before the meeting.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        44
+      ]
+    ]
+  },
+  {
+    "id": "accuracy-v2-046",
+    "raw": "Please check the breakpoint before the meeting.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        47
+      ]
+    ]
+  },
+  {
+    "id": "accuracy-v2-047",
+    "raw": "Please check the websocket before the meeting.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        46
+      ]
+    ]
+  },
+  {
+    "id": "accuracy-v2-048",
+    "raw": "Please check the webhook before the meeting.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        44
+      ]
+    ]
+  },
+  {
+    "id": "accuracy-v2-049",
+    "raw": "Please check the middleware before the meeting.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        47
+      ]
+    ]
+  },
+  {
+    "id": "accuracy-v2-050",
+    "raw": "Please check the namespace before the meeting.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        46
+      ]
+    ]
+  },
+  {
+    "id": "accuracy-v2-051",
+    "raw": "Please check the refactor before the meeting.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        45
+      ]
+    ]
+  },
+  {
+    "id": "accuracy-v2-052",
+    "raw": "Please check the staging before the meeting.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        44
+      ]
+    ]
+  },
+  {
+    "id": "accuracy-v2-053",
+    "raw": "Please check the credential before the meeting.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        47
+      ]
+    ]
+  },
+  {
+    "id": "accuracy-v2-054",
+    "raw": "Please check the telemetry before the meeting.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        46
+      ]
+    ]
+  },
+  {
+    "id": "accuracy-v2-055",
+    "raw": "Please check the avatar before the meeting.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        43
+      ]
+    ]
+  },
+  {
+    "id": "accuracy-v2-056",
+    "raw": "Please check the carousel before the meeting.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        45
+      ]
+    ]
+  },
+  {
+    "id": "accuracy-v2-057",
+    "raw": "Please check the subtitle before the meeting.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        45
+      ]
+    ]
+  },
+  {
+    "id": "accuracy-v2-058",
+    "raw": "Please check the livestream before the meeting.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        47
+      ]
+    ]
+  },
+  {
+    "id": "accuracy-v2-059",
+    "raw": "Please check the watermark before the meeting.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        46
+      ]
+    ]
+  },
+  {
+    "id": "accuracy-v2-060",
+    "raw": "Please check the playback before the meeting.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        45
+      ]
+    ]
+  },
+  {
+    "id": "accuracy-v2-061",
+    "raw": "kyounoyoyakuwokakuninshitekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        33
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "accuracy-v2-062",
+    "raw": "ashitanoshiryouwojunbishimasu",
+    "japaneseRanges": [
+      [
+        0,
+        29
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "accuracy-v2-063",
+    "raw": "raishuunouchiawasewotorikeshimasu",
+    "japaneseRanges": [
+      [
+        0,
+        33
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "accuracy-v2-064",
+    "raw": "konohenkanhamachigatteimasu",
+    "japaneseRanges": [
+      [
+        0,
+        27
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "accuracy-v2-065",
+    "raw": "shigotonosusumekatawominaoshitai",
+    "japaneseRanges": [
+      [
+        0,
+        32
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "accuracy-v2-066",
+    "raw": "mousukoshimattekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        22
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "accuracy-v2-067",
+    "raw": "konokekkanitsuitesetsumeishimasu",
+    "japaneseRanges": [
+      [
+        0,
+        32
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "accuracy-v2-068",
+    "raw": "raigetsunoyoyakuwotorinaoshimasu",
+    "japaneseRanges": [
+      [
+        0,
+        32
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "accuracy-v2-069",
+    "raw": "tsuginojikanwoshirabeteokimasu",
+    "japaneseRanges": [
+      [
+        0,
+        30
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "accuracy-v2-070",
+    "raw": "konoshiryouwohayakumatometekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        34
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "accuracy-v2-071",
+    "raw": "suushikiha$\\alpha+\\beta=1$desu",
+    "japaneseRanges": [
+      [
+        0,
+        10
+      ],
+      [
+        26,
+        30
+      ]
+    ],
+    "englishRanges": [
+      [
+        10,
+        26
+      ]
+    ]
+  },
+  {
+    "id": "accuracy-v2-072",
+    "raw": "koreha$\\int_0^1 f(x)dx$desu",
+    "japaneseRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        23,
+        27
+      ]
+    ],
+    "englishRanges": [
+      [
+        6,
+        23
+      ]
+    ]
+  },
+  {
+    "id": "accuracy-v2-073",
+    "raw": "\\section{jikkenhouhou}",
+    "japaneseRanges": [
+      [
+        9,
+        21
+      ]
+    ],
+    "englishRanges": [
+      [
+        0,
+        9
+      ],
+      [
+        21,
+        22
+      ]
+    ]
+  },
+  {
+    "id": "accuracy-v2-074",
+    "raw": "\\label{sec:experiments}",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        23
+      ]
+    ]
+  },
+  {
+    "id": "accuracy-v2-075",
+    "raw": "kono`npm run test`wotsukaimasu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        18,
+        30
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        18
+      ]
+    ]
+  },
+  {
+    "id": "accuracy-v2-076",
+    "raw": "kono`git status --short`wotsukau",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        24,
+        32
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        24
+      ]
+    ]
+  },
+  {
+    "id": "accuracy-v2-077",
+    "raw": "renrakusakiha hello+team@example.net desu",
+    "japaneseRanges": [
+      [
+        0,
+        13
+      ],
+      [
+        37,
+        41
+      ]
+    ],
+    "englishRanges": [
+      [
+        13,
+        37
+      ]
+    ]
+  },
+  {
+    "id": "accuracy-v2-078",
+    "raw": "hozonnsakiha ~/Downloads/report.csv desu",
+    "japaneseRanges": [
+      [
+        0,
+        12
+      ],
+      [
+        36,
+        40
+      ]
+    ],
+    "englishRanges": [
+      [
+        12,
+        36
+      ]
+    ]
+  },
+  {
+    "id": "accuracy-v2-079",
+    "raw": "koreha https://example.net/docs?a=1 desu",
+    "japaneseRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        36,
+        40
+      ]
+    ],
+    "englishRanges": [
+      [
+        6,
+        36
+      ]
+    ]
+  },
+  {
+    "id": "accuracy-v2-080",
+    "raw": "Please open https://example.net/docs.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        37
+      ]
+    ]
+  }
+]

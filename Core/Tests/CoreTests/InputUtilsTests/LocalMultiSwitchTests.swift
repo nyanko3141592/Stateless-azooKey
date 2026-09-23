@@ -80,8 +80,8 @@ private struct MultiCase: Decodable {
     if ProcessInfo.processInfo.environment["LOCAL_MULTI_CASES"] == nil {
         let current = rows.filter { $0["version"] as? String == "after" }
         // Release regression floors; these are development fixtures, not a held-out accuracy claim.
-        #expect(current.filter { $0["exact"] as? Bool == true }.count >= 31)
-        #expect(current.reduce(0) { $0 + ($1["damagedEnglishFrames"] as! Int) } <= 96)
+        #expect(current.filter { $0["exact"] as? Bool == true }.count >= 35)
+        #expect(current.reduce(0) { $0 + ($1["damagedEnglishFrames"] as! Int) } <= 18)
         #expect(current.reduce(0) { $0 + ($1["labelReversalFrames"] as! Int) } <= 106)
     }
     for name in ["before","after"] {

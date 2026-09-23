@@ -1,0 +1,10 @@
+{
+  "samples": 40,
+  "middleEditRestored": true,
+  "commitCleared": true,
+  "apiKeyPresent": false,
+  "meanMS": 18.502664340789927,
+  "p95MS": 59.8987340927124,
+  "maxMS": 419.6000099182129,
+  "coldMaxMS": 12254.501938819885
+}

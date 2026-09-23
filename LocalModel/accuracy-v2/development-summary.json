@@ -1,0 +1,154 @@
+[
+  {
+    "attempt": 1,
+    "multiExact": 32,
+    "damagedEnglishFrames": 88,
+    "labelReversalFrames": 109,
+    "regressionExact": 96,
+    "selected": false
+  },
+  {
+    "attempt": 2,
+    "multiExact": 22,
+    "damagedEnglishFrames": 69,
+    "labelReversalFrames": 207,
+    "regressionExact": 95,
+    "selected": false
+  },
+  {
+    "attempt": 3,
+    "multiExact": 35,
+    "damagedEnglishFrames": 34,
+    "labelReversalFrames": 134,
+    "regressionExact": 95,
+    "selected": false
+  },
+  {
+    "attempt": 4,
+    "multiExact": 35,
+    "damagedEnglishFrames": 40,
+    "labelReversalFrames": 135,
+    "regressionExact": 95,
+    "selected": false
+  },
+  {
+    "attempt": 5,
+    "multiExact": 30,
+    "damagedEnglishFrames": 43,
+    "labelReversalFrames": 136,
+    "regressionExact": 96,
+    "selected": false
+  },
+  {
+    "attempt": 6,
+    "multiExact": 35,
+    "damagedEnglishFrames": 37,
+    "labelReversalFrames": 134,
+    "regressionExact": 96,
+    "selected": false
+  },
+  {
+    "attempt": 7,
+    "multiExact": 33,
+    "damagedEnglishFrames": 38,
+    "labelReversalFrames": 146,
+    "regressionExact": 96,
+    "selected": false
+  },
+  {
+    "attempt": 8,
+    "multiExact": 35,
+    "damagedEnglishFrames": 30,
+    "labelReversalFrames": 134,
+    "regressionExact": 96,
+    "selected": false
+  },
+  {
+    "attempt": 9,
+    "multiExact": 35,
+    "damagedEnglishFrames": 21,
+    "labelReversalFrames": 114,
+    "regressionExact": 95,
+    "selected": false
+  },
+  {
+    "attempt": 10,
+    "multiExact": 35,
+    "damagedEnglishFrames": 17,
+    "labelReversalFrames": 110,
+    "regressionExact": 96,
+    "selected": false
+  },
+  {
+    "attempt": 11,
+    "multiExact": 35,
+    "damagedEnglishFrames": 17,
+    "labelReversalFrames": 112,
+    "regressionExact": 96,
+    "selected": false
+  },
+  {
+    "attempt": 12,
+    "multiExact": 35,
+    "damagedEnglishFrames": 17,
+    "labelReversalFrames": 110,
+    "regressionExact": 96,
+    "selected": false
+  },
+  {
+    "attempt": 13,
+    "multiExact": 35,
+    "damagedEnglishFrames": 21,
+    "labelReversalFrames": 140,
+    "regressionExact": 96,
+    "selected": false
+  },
+  {
+    "attempt": 14,
+    "multiExact": 35,
+    "damagedEnglishFrames": 8,
+    "labelReversalFrames": 109,
+    "regressionExact": 93,
+    "selected": false
+  },
+  {
+    "attempt": 15,
+    "multiExact": 35,
+    "damagedEnglishFrames": 17,
+    "labelReversalFrames": 111,
+    "regressionExact": 96,
+    "selected": false
+  },
+  {
+    "attempt": 16,
+    "multiExact": 35,
+    "damagedEnglishFrames": 17,
+    "labelReversalFrames": 109,
+    "regressionExact": 96,
+    "selected": false
+  },
+  {
+    "attempt": 17,
+    "multiExact": 35,
+    "damagedEnglishFrames": 17,
+    "labelReversalFrames": 167,
+    "regressionExact": 96,
+    "selected": false
+  },
+  {
+    "attempt": 18,
+    "multiExact": 35,
+    "damagedEnglishFrames": 17,
+    "labelReversalFrames": 166,
+    "regressionExact": 96,
+    "selected": false
+  },
+  {
+    "attempt": 19,
+    "multiExact": 35,
+    "damagedEnglishFrames": 18,
+    "labelReversalFrames": 106,
+    "regressionExact": 96,
+    "selected": true
+  }
+]

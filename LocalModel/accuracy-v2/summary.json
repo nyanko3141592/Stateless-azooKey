@@ -1,0 +1,38 @@
+{
+  "fresh-result.json:60a4e9f": {
+    "exact": 60,
+    "cases": 80,
+    "damage": 451,
+    "eligible": 883,
+    "reversals": 257,
+    "meanMS": 1.2463514239227411,
+    "p95MS": 5.349349975585935
+  },
+  "fresh-result.json:current": {
+    "exact": 71,
+    "cases": 80,
+    "damage": 186,
+    "eligible": 883,
+    "reversals": 183,
+    "meanMS": 1.7597534541414612,
+    "p95MS": 7.041716575622557
+  },
+  "prior-holdout-result.json:60a4e9f": {
+    "exact": 20,
+    "cases": 24,
+    "damage": 73,
+    "eligible": 243,
+    "reversals": 82,
+    "meanMS": 1.0980386632823185,
+    "p95MS": 5.004459619522096
+  },
+  "prior-holdout-result.json:current": {
+    "exact": 22,
+    "cases": 24,
+    "damage": 6,
+    "eligible": 243,
+    "reversals": 85,
+    "meanMS": 1.702023121659256,
+    "p95MS": 7.23140835762024
+  }
+}
