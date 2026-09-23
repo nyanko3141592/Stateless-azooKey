@@ -1,0 +1,14 @@
+{
+  "architecture": "trained character 1-4gram + word/shape/context logistic classifier",
+  "seed": 731,
+  "trainRows": 6394,
+  "features": 7665,
+  "heldOutWords": 121,
+  "heldOutFullTokenAccuracy": 0.9504132231404959,
+  "unseenPrefixAccuracy": 0.9253333333333333,
+  "seconds": 1.0287249088287354,
+  "limitations": "Authored synthetic lexicon; held-out words from same author/distribution. Not natural-text benchmark. Short prefixes inherently ambiguous.",
+  "boundaryTrainingRows": 5246,
+  "sha256": "37a46dd8d91a1e8339730e9d08886f1a4d441ad8aef9bc0cdedaab8d9fe03b2c",
+  "bytes": 150605
+}

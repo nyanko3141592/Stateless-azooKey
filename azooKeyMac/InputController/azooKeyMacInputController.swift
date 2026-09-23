@@ -5,6 +5,10 @@ import KanaKanjiConverterModuleWithDefaultDictionary
 
 @objc(azooKeyMacInputController)
 class azooKeyMacInputController: IMKInputController, NSMenuItemValidation { // swiftlint:disable:this type_name
+    @MainActor lazy var statelessSession = JevStatelessSession()
+    var statelessEnabled = Bundle.main.bundleIdentifier == "dev.naoki.inputmethod.azooKeyLocal"
+    var jevTask: Task<Void, Never>?
+    var jevRequestGeneration: UInt64 = 0
     var segmentsManager: SegmentsManager
     private(set) var inputState: InputState = .none
     private var inputLanguage: InputLanguage = .japanese
@@ -179,6 +183,11 @@ class azooKeyMacInputController: IMKInputController, NSMenuItemValidation { // s
 
     @MainActor
     override func deactivateServer(_ sender: Any!) {
+        self.jevTask?.cancel()
+        self.jevRequestGeneration &+= 1
+        if statelessEnabled, let client = sender as? IMKTextInput, !statelessSession.buffer.raw.isEmpty { commitStateless(client) }
+        statelessSession.changed = nil
+        statelessSession.reset()
         self.segmentsManager.deactivate()
         self.candidatesWindow.orderOut(nil)
         self.predictionWindow.orderOut(nil)
@@ -189,6 +198,9 @@ class azooKeyMacInputController: IMKInputController, NSMenuItemValidation { // s
 
     @MainActor
     override func commitComposition(_ sender: Any!) {
+        if statelessEnabled, let client = sender as? IMKTextInput, !statelessSession.buffer.raw.isEmpty {
+            commitStateless(client); return
+        }
         // Unicode入力モードの場合は状態だけリセットして終了
         // マウスクリック等でOSがMarkedTextを確定した場合、IME側からは消せないため
         if case .unicodeInput = self.inputState {
@@ -262,6 +274,18 @@ class azooKeyMacInputController: IMKInputController, NSMenuItemValidation { // s
         }
         guard event.type == .keyDown else {
             return false
+        }
+
+        if statelessEnabled { return handleStateless(event, client: client) }
+
+        // Any key invalidates an outstanding selection, including manual candidate navigation.
+        self.jevTask?.cancel()
+        self.jevRequestGeneration &+= 1
+        if event.modifierFlags.intersection([.command, .control, .option, .shift]) == [.control],
+           event.charactersIgnoringModifiers?.lowercased() == "j",
+           !self.segmentsManager.isEmpty {
+            self.performJevSelection(nil)
+            return true
         }
 
         // カスタムプロンプトショートカットのチェック
@@ -387,6 +411,12 @@ class azooKeyMacInputController: IMKInputController, NSMenuItemValidation { // s
 
     // この種のコードは複雑にしかならないので、lintを無効にする
     // swiftlint:disable:next cyclomatic_complexity
+    @MainActor func presentJevChoice() {
+        self.inputState = .selecting
+        self.refreshMarkedText()
+        self.refreshCandidateWindow()
+    }
+
     @MainActor func handleClientAction(_ clientAction: ClientAction, clientActionCallback: ClientActionCallback, client: IMKTextInput) -> Bool {
         // return only false
         switch clientAction {

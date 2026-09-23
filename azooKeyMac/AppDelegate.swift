@@ -29,6 +29,8 @@ class NSManualApplication: NSApplication {
 @main
 class AppDelegate: NSObject, NSApplicationDelegate {
     var server = IMKServer()
+    var statelessDemo: JevStatelessWindow?
+    var jevDemo: JevDemoWindow?
     weak var configWindow: NSWindow?
     weak var userDictionaryEditorWindow: NSWindow?
     var configWindowController: NSWindowController?
@@ -134,13 +136,46 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     }
 
     func applicationDidFinishLaunching(_ notification: Notification) {
+        Config.Learning().value = .nothing
+        Config.LiveConversion().value = true
+        if Bundle.main.object(forInfoDictionaryKey: "StatelessDemoDefault") as? Bool == true || CommandLine.arguments.contains("--stateless-demo") || CommandLine.arguments.contains("--stateless-audit") || CommandLine.arguments.contains("--live-local-audit") || CommandLine.arguments.contains("--local-model-audit") {
+            Config.Learning().value = .nothing
+            Config.LiveConversion().value = true
+            self.statelessDemo = JevStatelessWindow()
+            if CommandLine.arguments.contains("--local-model-audit") {
+                Task { await self.statelessDemo?.auditLocalModel() }
+            } else if CommandLine.arguments.contains("--live-local-audit") {
+                Task { await self.statelessDemo?.auditLocalLive() }
+            } else if CommandLine.arguments.contains("--stateless-audit") {
+                Task { await self.statelessDemo?.audit() }
+            } else {
+                NSApp.setActivationPolicy(.regular)
+                self.statelessDemo?.showWindow(nil)
+                NSApp.activate(ignoringOtherApps: true)
+            }
+            return
+        }
+        if Bundle.main.object(forInfoDictionaryKey: "JevDemoDefault") as? Bool == true || CommandLine.arguments.contains("--jev-demo") || CommandLine.arguments.contains("--jev-benchmark") {
+            Config.Learning().value = .nothing
+            self.jevDemo = JevDemoWindow()
+            if CommandLine.arguments.contains("--jev-benchmark") {
+                Task { await self.jevDemo?.model.benchmark() }
+            } else {
+                NSApp.setActivationPolicy(.regular)
+                self.jevDemo?.showWindow(nil)
+                NSApp.activate(ignoringOtherApps: true)
+            }
+            return
+        }
         // Insert code here to initialize your application
         self.server = IMKServer(name: Bundle.main.infoDictionary?["InputMethodConnectionName"] as? String, bundleIdentifier: Bundle.main.bundleIdentifier)
         NSLog("tried connection")
 
         // Keychainから設定値を非同期で読み込み
-        Task {
-            await Config.OpenAiApiKey.loadFromKeychain()
+        // The experimental Jev build uses its dedicated gateway credential.
+        // Do not request access to another azooKey installation's OpenAI key.
+        if Bundle.main.bundleIdentifier == "dev.ensan.inputmethod.azooKeyMac" {
+            Task { await Config.OpenAiApiKey.loadFromKeychain() }
         }
         self.exportInitialUserDictionaryIfNeeded()
 

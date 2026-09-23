@@ -23,3 +23,8 @@ DerivedData/
 !*.xcodeproj/xcshareddata/
 **/xcshareddata/WorkspaceSettings.xcsettings
 !*.xcworkspace/contents.xcworkspacedata
+
+# Local fork build and audit artifacts
+.build-macos/
+LocalModel/*.log
+LocalModel/local-model-audit.json

@@ -40,6 +40,8 @@ public final class SegmentsManager {
         Config.ZenzaiPersonalizationLevel().value
     }
     private var rawCandidates: ConversionResult?
+    private var jevCandidates: [Candidate]?
+    public private(set) var jevRevision: UInt64 = 0
 
     private var selectionIndex: Int?
     private var didExperienceSegmentEdition = false
@@ -218,6 +220,8 @@ public final class SegmentsManager {
         self.kanaKanjiConverter.stopComposition()
         self.kanaKanjiConverter.commitUpdateLearningData()
         self.rawCandidates = nil
+        self.jevCandidates = nil
+        self.jevRevision &+= 1
         self.didExperienceSegmentEdition = false
         self.lastOperation = .other
         self.composingText.stopComposition()
@@ -235,6 +239,8 @@ public final class SegmentsManager {
         self.composingText.stopComposition()
         self.kanaKanjiConverter.stopComposition()
         self.rawCandidates = nil
+        self.jevCandidates = nil
+        self.jevRevision &+= 1
         self.didExperienceSegmentEdition = false
         self.lastOperation = .other
         self.shouldShowCandidateWindow = false
@@ -249,6 +255,8 @@ public final class SegmentsManager {
     /// 日本語入力自体をやめる
     public func stopJapaneseInput() {
         self.rawCandidates = nil
+        self.jevCandidates = nil
+        self.jevRevision &+= 1
         self.didExperienceSegmentEdition = false
         self.lastOperation = .other
         self.kanaKanjiConverter.commitUpdateLearningData()
@@ -395,6 +403,7 @@ public final class SegmentsManager {
     }
 
     private var rawCandidatesList: [Candidate]? {
+        if let jevCandidates { return jevCandidates }
         guard let rawCandidates else {
             return nil
         }
@@ -432,6 +441,33 @@ public final class SegmentsManager {
         return Array(self.additionalCandidates.suffix(self.candidateOffsetByAdditionalCandidates))
     }
 
+    /// Only whole-reading candidates enter a Jev request; never partial clauses.
+    public func jevSnapshot(leftContext: String) -> JevSnapshot? {
+        guard !self.isEmpty, !self.didExperienceSegmentEdition, let base = self.rawCandidates?.mainResults else { return nil }
+        var seen = Set<String>()
+        let whole = base.filter {
+            self.composingText.isWholeComposingText(composingCount: $0.composingCount)
+                && seen.insert($0.text).inserted
+        }.prefix(12)
+        guard whole.count >= 2 else { return nil }
+        return JevSnapshot(revision: self.jevRevision, reading: self.convertTarget,
+                           leftContext: String(leftContext.suffix(120)), candidates: whole.map(\.text))
+    }
+
+    @discardableResult
+    public func applyJevChoice(_ choice: String, snapshot: JevSnapshot) -> Bool {
+        guard snapshot.revision == self.jevRevision, snapshot.reading == self.convertTarget,
+              snapshot.candidates.contains(choice), let base = self.rawCandidates?.mainResults,
+              let chosen = base.first(where: { $0.text == choice && self.composingText.isWholeComposingText(composingCount: $0.composingCount) }) else { return false }
+        let ordered = [chosen] + base.filter { $0.text != choice }
+        self.rawCandidates?.mainResults = ordered
+        self.jevCandidates = ordered
+        self.resetAdditionalCandidates()
+        self.selectionIndex = 0
+        self.shouldShowCandidateWindow = true
+        return true
+    }
+
     public var convertTarget: String {
         self.composingText.convertTarget
     }
@@ -441,7 +477,7 @@ public final class SegmentsManager {
     }
 
     public func getCleanLeftSideContext(maxCount: Int) -> String? {
-        self.delegate?.getLeftSideContext(maxCount: 30).map {
+        self.delegate?.getLeftSideContext(maxCount: maxCount).map {
             var last = $0.split(separator: "\n", omittingEmptySubsequences: false).last ?? $0[...]
             // 前方の空白を削除する
             while last.first?.isWhitespace ?? false {
@@ -464,6 +500,8 @@ public final class SegmentsManager {
     /// - Note:
     ///   This function is executed on the `@MainActor` to ensure UI consistency.
     @MainActor private func updateRawCandidate(requestRichCandidates: Bool = false, forcedLeftSideContext: String? = nil) {
+        self.jevCandidates = nil
+        self.jevRevision &+= 1
         if self.lastOperation != .delete {
             self.backspaceAdjustedPredictionCandidate = nil
             self.backspaceTypoCorrectionLock = nil
@@ -472,6 +510,8 @@ public final class SegmentsManager {
         // 不要
         if composingText.isEmpty {
             self.rawCandidates = nil
+        self.jevCandidates = nil
+        self.jevRevision &+= 1
             self.kanaKanjiConverter.stopComposition()
             return
         }
@@ -557,12 +597,14 @@ public final class SegmentsManager {
 
     @MainActor
     public func requestSelectingNextCandidate() {
+        self.jevRevision &+= 1
         self.isFixingAdditionalCandidateTop = false
         self.selectionIndex = (self.selectionIndex ?? -1) + 1
     }
 
     @MainActor
     public func requestSelectingPrevCandidate() {
+        self.jevRevision &+= 1
         let selectionIndex = self.selectionIndex ?? 0
 
         if self.isFixingAdditionalCandidateTop && self.isShowingAdditionalCandidates {
@@ -592,6 +634,7 @@ public final class SegmentsManager {
     }
 
     public func requestSelectingRow(_ index: Int) {
+        self.jevRevision &+= 1
         if self.isFixingAdditionalCandidateTop, index != 0 {
             self.isFixingAdditionalCandidateTop = false
         }

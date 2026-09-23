@@ -7,12 +7,13 @@ extension azooKeyMacInputController {
 
     func setupMenu() {
         self.appMenu.autoenablesItems = true
+        let stateless = NSMenuItem(title: "日英自動判定（ローカル）", action: #selector(self.toggleJevStateless(_:)), keyEquivalent: "")
+        stateless.target = self
+        stateless.state = self.statelessEnabled ? .on : .off
+        self.appMenu.addItem(stateless)
         self.liveConversionToggleMenuItem = NSMenuItem(title: "ライブ変換", action: #selector(self.toggleLiveConversion(_:)), keyEquivalent: "")
         self.appMenu.addItem(self.liveConversionToggleMenuItem)
-        self.transformSelectedTextMenuItem = NSMenuItem(title: TransformMenuTitle.normal, action: #selector(self.performTransformSelectedText(_:)), keyEquivalent: "s")
-        self.transformSelectedTextMenuItem.keyEquivalentModifierMask = [.control]
-        self.transformSelectedTextMenuItem.target = self
-        self.appMenu.addItem(self.transformSelectedTextMenuItem)
+        self.transformSelectedTextMenuItem = NSMenuItem(title: TransformMenuTitle.normal, action: nil, keyEquivalent: "")
         self.appMenu.addItem(NSMenuItem.separator())
         self.appMenu.addItem(NSMenuItem(title: "設定…", action: #selector(self.openConfigWindow(_:)), keyEquivalent: ""))
         self.appMenu.addItem(NSMenuItem(title: "View on GitHub…", action: #selector(self.openGitHubRepository(_:)), keyEquivalent: ""))
