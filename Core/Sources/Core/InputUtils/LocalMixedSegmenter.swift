@@ -8,6 +8,22 @@ extension LocalLanguageRouter {
         guard characters.count >= 9, characters.count <= 160,
               characters.allSatisfy({ $0.isASCII && $0.isLetter }),
               !knownEnglish.contains(word.lowercased()), !englishPrefixes.contains(word.lowercased()), !isRomaji(word) else { return nil }
+        // Recognize compound English anchors using the existing lexicon, without adding
+        // evaluation words to it. Every component must be a non-ambiguous word.
+        var compoundEnds: [Int:Set<Int>] = [:]
+        for start in 0..<characters.count {
+            var ends: Set<Int> = [start]
+            let limit = min(characters.count,start+32)
+            for cursor in start..<limit where ends.contains(cursor) {
+                for end in (cursor+1)...limit {
+                    let part = String(characters[cursor..<end]).lowercased()
+                    if part.count >= 3 && knownEnglish.contains(part) && !ambiguous.contains(part) {
+                        ends.insert(end)
+                    }
+                }
+            }
+            ends.remove(start); compoundEnds[start] = ends
+        }
         // Do not invent a Japanese particle inside concatenated English words, e.g. notificationworkflow.
         var englishEnds: Set<Int> = [0]
         for start in 0..<characters.count where englishEnds.contains(start) {
@@ -31,10 +47,10 @@ extension LocalLanguageRouter {
             var candidate = ""
             for end in start..<min(characters.count,start+32) {
                 candidate.append(characters[end])
+                let lexical = compoundEnds[start]?.contains(end+1) == true
                 guard candidate.count >= 3, !ambiguous.contains(candidate.lowercased()),
                       !knownJapanese.contains(candidate.lowercased()),
-                      !isRomaji(candidate) || candidate.first?.isUppercase == true else { continue }
-                let lexical = knownEnglish.contains(candidate.lowercased())
+                      !isRomaji(candidate) || candidate.first?.isUppercase == true || (lexical && candidate.count >= 5) else { continue }
                 let tail = String(characters.dropFirst(end+1))
                 let beforeJapanese = ["no","ni","de","wo","ha","ga","to","kara"].contains(where:tail.hasPrefix)
                     || ["n","d","w","h","g","t","k"].contains(tail)
@@ -101,7 +117,7 @@ extension LocalLanguageRouter {
                 }
                 if path.pieces.last?.japanese != false {
                     for anchor in anchors[start] ?? [] {
-                        let lexical = knownEnglish.contains(anchor.text.lowercased())
+                        let lexical = compoundEnds[start]?.contains(anchor.end) == true
                         let score = lexical ? 1 + Double(anchor.text.count)*0.2 : 1 - Double(anchor.text.count)*0.06
                         offer(path,end:anchor.end,text:anchor.text,japanese:false,score:score)
                     }

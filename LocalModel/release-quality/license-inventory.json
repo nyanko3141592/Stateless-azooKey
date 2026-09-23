@@ -1,0 +1,110 @@
+[
+  {
+    "package": "AzooKeyKanaKanjiConverter",
+    "revision": "bbef9d2d99a2e9e69ac3f7e2e07b08474de59a81",
+    "files": [
+      {
+        "name": "LICENSE",
+        "sha256": "ad63300bdfe1af28669bac3b982f318389b0ce26678f534f56351ff4300363f1"
+      }
+    ]
+  },
+  {
+    "package": "Jinja",
+    "revision": "31c4dd39bcdc07eaa42a384bdc88ea599022b800",
+    "files": [
+      {
+        "name": "LICENSE",
+        "sha256": "fb2e2daac54953cb820d24a607ac7beb6731dd6a3802bd5ae48fe466bc6a0030"
+      }
+    ]
+  },
+  {
+    "package": "SwiftyMarisa",
+    "revision": "91acc3cb0e747e0bd4b0e0813d42fb273d10e62f",
+    "files": [
+      {
+        "name": "LICENSE.md",
+        "sha256": "1555db02696d6ec35e70e884ce13dd4cb39e30aa0a5c2b2e2d2149b9e0075c0d"
+      }
+    ]
+  },
+  {
+    "package": "ZIPFoundation",
+    "revision": "22787ffb59de99e5dc1fbfe80b19c97a904ad48d",
+    "files": [
+      {
+        "name": "LICENSE",
+        "sha256": "93a5b6f4c4fcfbca71aaf17f5758d249cf205d5d1c237becc37f14e43af09f6b"
+      }
+    ]
+  },
+  {
+    "package": "swift-algorithms",
+    "revision": "87e50f483c54e6efd60e885f7f5aa946cee68023",
+    "files": [
+      {
+        "name": "LICENSE.txt",
+        "sha256": "770af8291f708538d8ff885a0bbc4e045cd700531741c4f99528d435c14d7f55"
+      }
+    ]
+  },
+  {
+    "package": "swift-asn1",
+    "revision": "3b6410f7dee09eb33cdd26260c5fd47fda19b0e2",
+    "files": [
+      {
+        "name": "NOTICE.txt",
+        "sha256": "11dd3b3b783e6ec26098dd38ebc962986ea109b85447e28e62867b83bd0f8c5b"
+      },
+      {
+        "name": "LICENSE.txt",
+        "sha256": "8c6db340475136df3c1201d458fa5755698eace76e510471ecc9d857d6083dac"
+      }
+    ]
+  },
+  {
+    "package": "swift-collections",
+    "revision": "a0cb0954ecb21e4e31b0070e6ed5674e8556685a",
+    "files": [
+      {
+        "name": "LICENSE.txt",
+        "sha256": "770af8291f708538d8ff885a0bbc4e045cd700531741c4f99528d435c14d7f55"
+      }
+    ]
+  },
+  {
+    "package": "swift-crypto",
+    "revision": "95ba0316a9b733e92bb6b071255ff46263bbe7dc",
+    "files": [
+      {
+        "name": "NOTICE.txt",
+        "sha256": "b3ddc2ae068e76b3beb71be03c0400f90090f9469aa491bf7b1ac42320af37b8"
+      },
+      {
+        "name": "LICENSE.txt",
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+      }
+    ]
+  },
+  {
+    "package": "swift-numerics",
+    "revision": "0c0290ff6b24942dadb83a929ffaaa1481df04a2",
+    "files": [
+      {
+        "name": "LICENSE.txt",
+        "sha256": "770af8291f708538d8ff885a0bbc4e045cd700531741c4f99528d435c14d7f55"
+      }
+    ]
+  },
+  {
+    "package": "swift-tokenizers",
+    "revision": "4a606f66e0cc4d7d9f0197649e812f7fc86a4c34",
+    "files": [
+      {
+        "name": "LICENSE",
+        "sha256": "648b81e6c6f9975c3b6cf6d630229b6c8d6f1ddaef55f5770f576adda19f3495"
+      }
+    ]
+  }
+]

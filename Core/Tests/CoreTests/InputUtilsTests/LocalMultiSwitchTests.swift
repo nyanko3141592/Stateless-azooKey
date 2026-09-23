@@ -37,10 +37,17 @@ private struct MultiCase: Decodable {
 }
 @Test func localMultiSwitchFreshEvaluation() throws {
     let root = URL(fileURLWithPath:#filePath).deletingLastPathComponent().deletingLastPathComponent().deletingLastPathComponent().deletingLastPathComponent().deletingLastPathComponent()
-    let cases = try JSONDecoder().decode([MultiCase].self,from:Data(contentsOf:root.appendingPathComponent("LocalModel/multiswitch-evaluation.json")))
+    let fixture = ProcessInfo.processInfo.environment["LOCAL_MULTI_CASES"] ?? "LocalModel/multiswitch-evaluation.json"
+    let cases = try JSONDecoder().decode([MultiCase].self,from:Data(contentsOf:root.appendingPathComponent(fixture)))
     let current = try LocalLanguageRouter(); let previous = try PreviousLocalLanguageRouter()
     var rows: [[String:Any]] = []
+    #expect(Set(cases.map(\.id)).count == cases.count)
     for c in cases {
+        for range in c.japaneseRanges + c.englishRanges {
+            try #require(range.count == 2)
+            #expect(range[0] >= 0 && range[0] < range[1] && range[1] <= c.raw.count)
+        }
+        #expect(!c.japaneseRanges.contains { j in c.englishRanges.contains { e in max(j[0],e[0]) < min(j[1],e[1]) } })
         for (name,classify) in [("before",previous.classify),("after",current.classify)] {
             let d = classify(c.raw)
             #expect(d.spans.map(\.text).joined() == c.raw)
@@ -69,6 +76,13 @@ private struct MultiCase: Decodable {
     }
     if let path = ProcessInfo.processInfo.environment["LOCAL_MULTI_REPORT"] {
         try JSONSerialization.data(withJSONObject:rows,options:[.prettyPrinted,.sortedKeys]).write(to:URL(fileURLWithPath:path))
+    }
+    if ProcessInfo.processInfo.environment["LOCAL_MULTI_CASES"] == nil {
+        let current = rows.filter { $0["version"] as? String == "after" }
+        // Release regression floors; these are development fixtures, not a held-out accuracy claim.
+        #expect(current.filter { $0["exact"] as? Bool == true }.count >= 31)
+        #expect(current.reduce(0) { $0 + ($1["damagedEnglishFrames"] as! Int) } <= 96)
+        #expect(current.reduce(0) { $0 + ($1["labelReversalFrames"] as! Int) } <= 106)
     }
     for name in ["before","after"] {
         let r = rows.filter { $0["version"] as? String == name }

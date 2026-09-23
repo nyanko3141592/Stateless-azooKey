@@ -1,0 +1,531 @@
+[
+  {
+    "id": "release-holdout-01",
+    "category": "mixed",
+    "raw": "kononokeyboardsettingwokaetai",
+    "japaneseRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        21,
+        29
+      ]
+    ],
+    "englishRanges": [
+      [
+        6,
+        21
+      ]
+    ]
+  },
+  {
+    "id": "release-holdout-02",
+    "category": "mixed",
+    "raw": "ashitanocodereviewnolinkwookutte",
+    "japaneseRanges": [
+      [
+        0,
+        8
+      ],
+      [
+        18,
+        20
+      ],
+      [
+        24,
+        32
+      ]
+    ],
+    "englishRanges": [
+      [
+        8,
+        18
+      ],
+      [
+        20,
+        24
+      ]
+    ]
+  },
+  {
+    "id": "release-holdout-03",
+    "category": "mixed",
+    "raw": "konodatabasenobackupwotoritai",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        12,
+        14
+      ],
+      [
+        20,
+        29
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        12
+      ],
+      [
+        14,
+        20
+      ]
+    ]
+  },
+  {
+    "id": "release-holdout-04",
+    "category": "mixed",
+    "raw": "saishinnoreleasenotewoSlackdeokuru",
+    "japaneseRanges": [
+      [
+        0,
+        9
+      ],
+      [
+        20,
+        22
+      ],
+      [
+        27,
+        34
+      ]
+    ],
+    "englishRanges": [
+      [
+        9,
+        20
+      ],
+      [
+        22,
+        27
+      ]
+    ]
+  },
+  {
+    "id": "release-holdout-05",
+    "category": "mixed",
+    "raw": "konoscreenshotwofilenihozon",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        20,
+        27
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        14
+      ],
+      [
+        16,
+        20
+      ]
+    ]
+  },
+  {
+    "id": "release-holdout-06",
+    "category": "mixed",
+    "raw": "raishuunoteammeetingnoschedulewokakunin",
+    "japaneseRanges": [
+      [
+        0,
+        9
+      ],
+      [
+        20,
+        22
+      ],
+      [
+        30,
+        39
+      ]
+    ],
+    "englishRanges": [
+      [
+        9,
+        20
+      ],
+      [
+        22,
+        30
+      ]
+    ]
+  },
+  {
+    "id": "release-holdout-07",
+    "category": "mixed",
+    "raw": "konoerrormessagenoreasonwooshiete",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        16,
+        18
+      ],
+      [
+        24,
+        33
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        16
+      ],
+      [
+        18,
+        24
+      ]
+    ]
+  },
+  {
+    "id": "release-holdout-08",
+    "category": "mixed",
+    "raw": "atarashiifeaturenopreviewwomitai",
+    "japaneseRanges": [
+      [
+        0,
+        9
+      ],
+      [
+        16,
+        18
+      ],
+      [
+        25,
+        32
+      ]
+    ],
+    "englishRanges": [
+      [
+        9,
+        16
+      ],
+      [
+        18,
+        25
+      ]
+    ]
+  },
+  {
+    "id": "release-holdout-09",
+    "category": "mixed",
+    "raw": "konohyperlinkwobrowserdehiraku",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        13,
+        15
+      ],
+      [
+        22,
+        30
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        13
+      ],
+      [
+        15,
+        22
+      ]
+    ]
+  },
+  {
+    "id": "release-holdout-10",
+    "category": "mixed",
+    "raw": "ashitanowebinarnoinvitationwookuru",
+    "japaneseRanges": [
+      [
+        0,
+        8
+      ],
+      [
+        15,
+        17
+      ],
+      [
+        27,
+        34
+      ]
+    ],
+    "englishRanges": [
+      [
+        8,
+        15
+      ],
+      [
+        17,
+        27
+      ]
+    ]
+  },
+  {
+    "id": "release-holdout-11",
+    "category": "mixed",
+    "raw": "konosnapshotwoarchiveniirete",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        12,
+        14
+      ],
+      [
+        21,
+        28
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        12
+      ],
+      [
+        14,
+        21
+      ]
+    ]
+  },
+  {
+    "id": "release-holdout-12",
+    "category": "mixed",
+    "raw": "konoplaylistwoSpotifydehiraku",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        12,
+        14
+      ],
+      [
+        21,
+        29
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        12
+      ],
+      [
+        14,
+        21
+      ]
+    ]
+  },
+  {
+    "id": "release-holdout-13",
+    "category": "literal",
+    "raw": "notificationsettings",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        20
+      ]
+    ]
+  },
+  {
+    "id": "release-holdout-14",
+    "category": "literal",
+    "raw": "keyboardshortcut",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        16
+      ]
+    ]
+  },
+  {
+    "id": "release-holdout-15",
+    "category": "literal",
+    "raw": "databasebackup",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        14
+      ]
+    ]
+  },
+  {
+    "id": "release-holdout-16",
+    "category": "literal",
+    "raw": "Please review the release notes before the meeting.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        51
+      ]
+    ]
+  },
+  {
+    "id": "release-holdout-17",
+    "category": "literal",
+    "raw": "There is no need to change the database.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        40
+      ]
+    ]
+  },
+  {
+    "id": "release-holdout-18",
+    "category": "jp",
+    "raw": "ashitanoyoyakunonaiyouwokakuninshimasu",
+    "japaneseRanges": [
+      [
+        0,
+        38
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "release-holdout-19",
+    "category": "jp",
+    "raw": "konoshiryouwohayakumatometekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        34
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "release-holdout-20",
+    "category": "mixed",
+    "raw": "suushikiha$\\sum_{i=1}^{n}x_i$desu",
+    "japaneseRanges": [
+      [
+        0,
+        10
+      ],
+      [
+        29,
+        33
+      ]
+    ],
+    "englishRanges": [
+      [
+        10,
+        29
+      ]
+    ]
+  },
+  {
+    "id": "release-holdout-21",
+    "category": "mixed",
+    "raw": "kono`git diff --stat`wotsukau",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        21,
+        29
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        21
+      ]
+    ]
+  },
+  {
+    "id": "release-holdout-22",
+    "category": "mixed",
+    "raw": "renrakusakiha test+demo@example.org desu",
+    "japaneseRanges": [
+      [
+        0,
+        13
+      ],
+      [
+        36,
+        40
+      ]
+    ],
+    "englishRanges": [
+      [
+        13,
+        36
+      ]
+    ]
+  },
+  {
+    "id": "release-holdout-23",
+    "category": "mixed",
+    "raw": "hozonnsakiha ~/Documents/report.txt desu",
+    "japaneseRanges": [
+      [
+        0,
+        12
+      ],
+      [
+        36,
+        40
+      ]
+    ],
+    "englishRanges": [
+      [
+        12,
+        36
+      ]
+    ]
+  },
+  {
+    "id": "release-holdout-24",
+    "category": "mixed",
+    "raw": "\\section{jikkennokekka}",
+    "japaneseRanges": [
+      [
+        9,
+        22
+      ]
+    ],
+    "englishRanges": [
+      [
+        0,
+        9
+      ],
+      [
+        22,
+        23
+      ]
+    ]
+  }
+]

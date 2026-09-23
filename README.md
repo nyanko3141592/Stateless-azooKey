@@ -1,4 +1,12 @@
-# azooKey on macOS
+# azooKey Local — experimental fork
+
+日英モードを切り替えず、現在の未確定入力から区間を判定するローカル実験版です。軽量分類器＋辞書・ルールで日英を分け、日本語区間をZenzaiで変換します。上流azooKeyの公式リリースではありません。
+
+[公開準備・評価と既知の問題](LocalModel/RELEASE_READINESS.md) / [評価の再現](LocalModel/check-quality.sh) / [動画用表示](LocalModel/VIDEO_PRESENTATION.md)
+
+以下は上流の導入説明です。Local版のビルドは `sh LocalModel/build.sh`、別名インストールは `python3 LocalModel/install.py .build-macos/Build/Products/Release/azooKeyMac.app`。現時点では開発版で、公証済み配布物はありません。
+
+## azooKey on macOS
 
 [azooKey](https://github.com/ensan-hcl/azooKey)のmacOS版です。高精度なニューラルかな漢字変換エンジン「Zenzai」を導入した、オープンソースの日本語入力システムです。
 
@@ -84,14 +92,14 @@ cd azooKey-Desktop
 
 ```bash
 git submodule update --init
-git -C azooKeyMac/Resources/zenz-v3.1-small-gguf lfs pull
+git -C azooKeyMac/Resources/gguf lfs pull
 git -C azooKeyMac/Resources/base_n5_lm lfs pull
 ```
 
 重みファイルが正しく取得できているか、サイズで確認できます（数十MB以上あればLFSの実体、134B程度ならポインタのままです）。
 
 ```bash
-ls -lh azooKeyMac/Resources/zenz-v3.1-small-gguf/ggml-model-Q5_K_M.gguf
+ls -lh azooKeyMac/Resources/gguf/ggml-model-Q5_K_M.gguf
 ```
 
 #### 2. 署名の設定（初回のみ）
@@ -121,7 +129,7 @@ ls -lh azooKeyMac/Resources/zenz-v3.1-small-gguf/ggml-model-Q5_K_M.gguf
 * Xcode 26.0ではビルドできない可能性があります。Xcode 16系または26.1以降をご利用ください。
 
 変換精度がリリース版に比べて悪いと感じた場合、以下をご確認ください。
-* Git LFSが導入されていない環境では、重みファイルがローカル環境に落とせていない場合があります。`azooKeyMac/Resources/zenz-v3.1-small-gguf/ggml-model-Q5_K_M.gguf` が数十MB以上あるかを確認し、ポインタのままであれば `git -C azooKeyMac/Resources/zenz-v3.1-small-gguf lfs pull` を実行してください
+* Git LFSが導入されていない環境では、重みファイルがローカル環境に落とせていない場合があります。`azooKeyMac/Resources/gguf/ggml-model-Q5_K_M.gguf` が数十MB以上あるかを確認し、ポインタのままであれば `git -C azooKeyMac/Resources/gguf lfs pull` を実行してください
 
 ### pkgファイルの作成
 `pkgbuild.sh`によって配布用のdmgファイルを作成できます。`build/azooKeyMac.app` としてDeveloper IDで署名済みの.appを配置してください。

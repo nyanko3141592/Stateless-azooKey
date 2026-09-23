@@ -22,6 +22,10 @@ private func labels(_ decision: JevMixedDecision) -> [Bool] {
     let model = try LocalLanguageRouter()
     var rows: [[String:Any]] = []
     for c in cases {
+        for range in c.japaneseRanges {
+            try #require(range.count == 2)
+            #expect(range[0] >= 0 && range[0] < range[1] && range[1] <= c.raw.count)
+        }
         let d = model.classify(c.raw)
         #expect(d.spans.map(\.text).joined() == c.raw)
         let actual = labels(d)
@@ -41,6 +45,7 @@ private func labels(_ decision: JevMixedDecision) -> [Bool] {
             }
         }
         let bad = zip(actual,expected).filter { $0 != $1 }.count
+        #expect(bad == 0, "Routing regression: \(c.raw)")
         let routes = d.decisions.map { x in ["text":d.spans[x.index].text,"jpStart":x.japaneseStart as Any? ?? NSNull()] as [String:Any] }
         rows.append(["id":c.id,"split":c.split,"category":c.category,"raw":c.raw,"exact":bad == 0,"wrongCharacters":bad,"characters":actual.count,"routes":routes,"literalPrefixFrames":prefixFrames,"corruptLiteralPrefixFrames":corruptLiteralPrefixFrames])
     }

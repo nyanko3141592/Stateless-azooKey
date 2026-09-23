@@ -1,0 +1,4 @@
+48 selected Swift tests passed.
+Release build: BUILD SUCCEEDED.
+Signed sandboxed audit: 40 real Zenzai samples, commit cleanup and middle edit restoration passed.
+Installed local fork and demo; system IME across external apps still unverified.
