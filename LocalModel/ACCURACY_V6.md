@@ -72,7 +72,7 @@ Releaseビルド成功。署名済み独立bundleで67入力を実Zenzaiに通�
 
 67文すべての漢字正解を保証する検査ではない。全出力はruntime-final.jsonに保存。初回文を除く打鍵時間p50 23.2ms、p95 67.7ms、最大494.7ms。冷起動の最大11.6秒は未解決。別評価と並行した1回の測定で、厳密な速度比較ではない。
 
-[実出力](accuracy-v6/runtime-final.json) / [ビルド概要](accuracy-v6/build-summary.json)。署名済みローカルIMEとDemoアプリへ反映する。
+[実出力](accuracy-v6/runtime-final.json) / [ビルド概要](accuracy-v6/build-summary.json)。署名済みローカルIMEとDemoアプリへ反映済み（installation.json）。
 
 ## Web引き継ぎ
 

@@ -8,5 +8,6 @@
   "warmKeyP50Milliseconds": 23.200571537017822,
   "warmKeyP95Milliseconds": 67.6640272140503,
   "warmKeyMaxMilliseconds": 494.72594261169434,
-  "coldKeyMaxMilliseconds": 11600.3919839859
+  "coldKeyMaxMilliseconds": 11600.3919839859,
+  "sourceCommit": "ef66a1e"
 }
