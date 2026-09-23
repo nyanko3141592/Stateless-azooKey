@@ -1,0 +1,37 @@
+[
+  {
+    "attempt": 1,
+    "count": 40,
+    "exact": 38,
+    "damage": 14,
+    "reversals": 129
+  },
+  {
+    "attempt": 2,
+    "count": 48,
+    "exact": 45,
+    "damage": 31,
+    "reversals": 204
+  },
+  {
+    "attempt": 3,
+    "count": 48,
+    "exact": 46,
+    "damage": 31,
+    "reversals": 205
+  },
+  {
+    "attempt": 4,
+    "count": 48,
+    "exact": 47,
+    "damage": 22,
+    "reversals": 188
+  },
+  {
+    "attempt": 5,
+    "count": 48,
+    "exact": 48,
+    "damage": 21,
+    "reversals": 182
+  }
+]

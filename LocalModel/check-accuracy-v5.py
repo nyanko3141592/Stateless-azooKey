@@ -16,6 +16,7 @@ fixtures = {
     "priorfinal24": "accuracy-v3/final-unseen.json",
     "development48": "accuracy-v4/development.json",
     "final40": "accuracy-v4/final-evaluation.json",
+    "fresh48": "accuracy-v5/fresh-evaluation.json",
 }
 summary = {}
 for name, fixture in fixtures.items():
@@ -41,6 +42,8 @@ assert summary["prior80"]["current"]["exact"] >= 80
 assert summary["prior80"]["current"]["damage"] <= 50
 assert summary["final40"]["current"]["exact"] >= 38
 assert summary["development48"]["current"]["exact"] >= 45
+assert summary["fresh48"]["current"]["exact"] >= 41
+assert summary["fresh48"]["current"]["damage"] <= 74
 for name, stats in summary.items():
     assert stats["current"]["damage"] <= stats["707b161"]["damage"], name
 print("V5 goals passed. All sets are now development regressions; not new held-out evidence.")

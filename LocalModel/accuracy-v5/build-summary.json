@@ -1,0 +1,7 @@
+{
+  "sourceCommit": "b20132df431abcf8f9cb6c953bf05e6090e32415",
+  "modelSha256": "e39825afc0a3badfc6e613d05fa600b7d0d0267816e46c45835e916f0dc9a69d",
+  "auditedBinarySha256": "2c6cf324d30b5009db30b7b675500c9db5669947bb114565fd48bc2858651937",
+  "releaseBuildSucceeded": true,
+  "testCount": 49
+}

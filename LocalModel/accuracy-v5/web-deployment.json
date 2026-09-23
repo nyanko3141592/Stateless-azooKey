@@ -1,0 +1,46 @@
+{
+  "url": "https://azookey-local-playground-20260923.takahashinaoki521.workers.dev",
+  "version": "328daf47-4744-4bec-9f19-c5e8b4cb417d",
+  "checks": [
+    {
+      "path": "/",
+      "identicalToLocal": true,
+      "bytes": 4852
+    },
+    {
+      "path": "/router.js",
+      "identicalToLocal": true,
+      "bytes": 17902
+    },
+    {
+      "path": "/app.js",
+      "identicalToLocal": true,
+      "bytes": 5478
+    },
+    {
+      "path": "/worker.js",
+      "identicalToLocal": true,
+      "bytes": 687
+    },
+    {
+      "path": "/LocalLanguageModel.json",
+      "identicalToLocal": true,
+      "bytes": 473661
+    },
+    {
+      "path": "/NOTICE.txt",
+      "identicalToLocal": true,
+      "bytes": 1856
+    },
+    {
+      "path": "/style.css",
+      "identicalToLocal": true,
+      "bytes": 6085
+    },
+    {
+      "path": "/LICENSE.txt",
+      "identicalToLocal": true,
+      "bytes": 1067
+    }
+  ]
+}

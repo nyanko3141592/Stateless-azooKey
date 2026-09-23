@@ -96,5 +96,19 @@
       "damage": 14,
       "reversals": 129
     }
+  },
+  "fresh48": {
+    "707b161": {
+      "exact": 30,
+      "count": 48,
+      "damage": 83,
+      "reversals": 157
+    },
+    "current": {
+      "exact": 41,
+      "count": 48,
+      "damage": 74,
+      "reversals": 166
+    }
   }
 }

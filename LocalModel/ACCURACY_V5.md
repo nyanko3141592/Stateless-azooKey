@@ -56,7 +56,7 @@
 ./LocalModel/check-quality.sh
 ```
 
-v5の比較は`check-accuracy-v5.py`。80文80/80・破損50以下、開発48文45以上、前回40文38以上を下限にし、各セットの英語破損総数がv4を超えないことも検査します。文単位の完成区間退行はSwiftテストで検出。
+v5の比較は`check-accuracy-v5.py`。80文80/80・破損50以下、開発48文45以上、前回40文38以上を下限にし、各セットの英語破損総数がv4を超えないことも検査します。文単位の完成区間退行はSwiftテストで検出。今回48文も初回評価後は回帰対象に追加し、41/48以上・英語破損74以下を固定する。
 
 - [目標](accuracy-v5/GOAL.md)
 - [固定ハッシュ](accuracy-v5/frozen.sha256)
@@ -66,4 +66,23 @@ v5の比較は`check-accuracy-v5.py`。80文80/80・破損50以下、開発48文
 
 ## Web版への反映
 
-別セッションに確定版を引き継ぎ、Swiftとの各prefix一致を再検証して既存Cloudflareサイトに反映する。Web版は区間判定体験であり、Zenzaiかな漢字変換は未搭載。
+別セッションに確定版を引き継ぎ、18,591入力でSwiftとWebの区間・保護領域・日本語開始位置の不一致ゼロを確認。既存Cloudflareサイトを更新し、公開ブラウザで重点ケース・Enter・TeX・途中編集・リセットも検証済み。Web版は区間判定体験であり、Zenzaiかな漢字変換は未搭載。
+
+## 実Zenzaiと最終ビルド
+
+Releaseビルド・署名検証成功。ネットワークentitlementなし・APIキーなしの独立bundleで66例を実行。文中編集の復元と確定後の状態消去が成功。DNSエラーだけをオフライン証明とはせず、署名entitlementも確認。
+
+改善を確認した実出力:
+- このAPIのresponseを見せてください
+- そのwidgetはdashboardに表示されます
+- このnotificationはoffにしたいです
+- 今 Slackでmessageを送ります
+- あと で GitHubのissueを見ます
+
+空白は入力どおり保持。新規評価の失敗も実機で保存（JSONdesu、nicallback、toolc/innoconfig等）。既存の言語境界の失敗は隠していない。
+
+キー処理の参考値は初例以外で平均21.4 ms、p95 66.1 ms、最大480.6 ms。冷起動初例の最大11252.4 ms。Web作業と並行して測定したため単独の性能比較ではなく、描画込み遅延でもない。冷起動は今回も未解決。
+
+[66例の実出力](accuracy-v5/runtime-final.json) / [編集検証と時間](accuracy-v5/runtime-summary.json) / [ビルド・モデルハッシュ](accuracy-v5/build-summary.json)
+
+Local版IMEとDemoアプリへの署名済みインストールも完了。
