@@ -20,4 +20,14 @@
 
 今回はWeb向け区間改善と説明/公開ソース整備。MacのRelease再ビルド・アプリ再インストール・実Zenzai再監査はこの版では実施していない。既存インストール版はv8。Web新版も実ブラウザURL制約のためCLI/HTTP検証とし、実ブラウザ操作確認とは呼ばない。
 
-Web最終反映は後続へ記録する。
+## Web公開
+
+source63639eeを移植し54,687入力（既存47,359を保持、新46+24文のprefix/編集追加）でSwift/Webの区間構造不一致0。確率最大差1.9984e-15。既存queue/load/interaction/区間worker復帰テストも維持。Cloudflare version ae1836f6-2242-4e25-86b8-f813d0481bec。サイトcommit a85bf535d74f21d61ddaeee885acce18bffe38c0。7配布ファイルをHTTP取得してbyte一致、公開source.zip内routerも一致。
+
+URL: https://azookey-local-playground-20260923.takahashinaoki521.workers.dev
+
+about.htmlで仕組み・通信/保存・制約・Macとの差・ライセンスを説明。source.zipはWeb再現用コード・小モデル・読み表・必要なライセンスと第三者資産取得手順を含む。学習/Swift/アプリの完全な公開アーカイブとは主張しない。秘密・内部ログ・個人絶対パスはallowlist方式で除外。主要Web変更と自作区間モデルはMIT、Zenz GGUFは公式モデルカードのApache-2.0、wllama/llama.cpp等は個別の全文を保持。配布物の監査であり、権利全般の保証・法的助言ではない。
+
+ライセンス監査と公開用ソースについては別WebセッションのRESULT-OPEN.md、dist/license-audit.json、dist/source-manifest.jsonを参照。一般向けの変更は入力画面の小リンクと別説明ページに分離した。
+
+独立24文で残った全8失敗はaccuracy-v9/RESIDUAL_ERRORS.mdにgold/実区間を併記。screen sharing、meeting room、Google Maps、CPU fan、paperless、microblog、Readwise、deskmatを含む文が未解決。

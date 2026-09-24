@@ -1,0 +1,51 @@
+{
+  "url": "https://azookey-local-playground-20260923.takahashinaoki521.workers.dev",
+  "version": "ae1836f6-2242-4e25-86b8-f813d0481bec",
+  "siteCommit": "a85bf535d74f21d61ddaeee885acce18bffe38c0",
+  "sourceCommit": "63639ee3f6aee104b25447b79780937168c55f6c",
+  "readyConfirmedBeforeDeployment": true,
+  "http": [
+    {
+      "file": "index.html",
+      "sha256": "e8b4f29b0f0a77b81cab0be5e4623899acaf9a257ff584a145c539b6d43bb29f",
+      "bytes": 5716,
+      "match": true
+    },
+    {
+      "file": "about.html",
+      "sha256": "d0648206453394b3f33e24f540a9a8f9d14242508532d13957d0a8b4d909c678",
+      "bytes": 8931,
+      "match": true
+    },
+    {
+      "file": "NOTICE.txt",
+      "sha256": "76eda3e996c03a8dbf370ab291027926298c5b6a0cf167cf21a0dccb8e0124df",
+      "bytes": 40446,
+      "match": true
+    },
+    {
+      "file": "router.js",
+      "sha256": "b724737e46c2bda872fc7b5db8798cd6147062815aa0e52bbf4f530fd03a1d64",
+      "bytes": 21013,
+      "match": true
+    },
+    {
+      "file": "source-manifest.json",
+      "sha256": "f042fecc2f101beb3ba6ea7678a5a9f77b0374c21ed4b6b9e1154148bffcf755",
+      "bytes": 6924,
+      "match": true
+    },
+    {
+      "file": "source.zip",
+      "sha256": "8c76e1b139ac7a8a30c738e7018cc2759c3c228f3b52c48369d6fd1e9820827e",
+      "bytes": 215638,
+      "match": true
+    },
+    {
+      "file": "LocalLanguageModel.json",
+      "sha256": "e39825afc0a3badfc6e613d05fa600b7d0d0267816e46c45835e916f0dc9a69d",
+      "bytes": 473661,
+      "match": true
+    }
+  ]
+}
