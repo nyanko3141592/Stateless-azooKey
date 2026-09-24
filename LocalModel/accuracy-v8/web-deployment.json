@@ -1,0 +1,41 @@
+{
+  "url": "https://azookey-local-playground-20260923.takahashinaoki521.workers.dev",
+  "version": "cacdc35d-8f62-4fca-849f-0b42085d2c71",
+  "checks": [
+    {
+      "file": "index.html",
+      "http": 200,
+      "sha256": "80010f6a4f1c747551f57fd04e6fdfe8398dd7ca01fdf1c8104172bd594fe9db"
+    },
+    {
+      "file": "router.js",
+      "http": 200,
+      "sha256": "fa6cf6c597ce770d120beca575a89cd1706f9c4968a0c8b68659453bfbed78fe"
+    },
+    {
+      "file": "NOTICE.txt",
+      "http": 200,
+      "sha256": "4abe3d7f5d88117373a739f2846f5fbff518bd1eb667e896e1fa9217a978d0e0"
+    },
+    {
+      "file": "app.js",
+      "http": 200,
+      "sha256": "8a20e4b5e1dcb3da74b69c2156edca136e9c5d4a9291fa9ef5abe9bd167d7ef2"
+    },
+    {
+      "file": "style.css",
+      "http": 200,
+      "sha256": "9a1c994f0db6d5db4f1be26133c225aa9ce6c58f1bb62e2c52e1112635972432"
+    },
+    {
+      "file": "zenzai.js",
+      "http": 200,
+      "sha256": "f85c6f7d090ea40057c2346462fd9f0dc04153c3458ffa6ff021f2ac1e58dc17"
+    },
+    {
+      "file": "LocalLanguageModel.json",
+      "http": 200,
+      "sha256": "e39825afc0a3badfc6e613d05fa600b7d0d0267816e46c45835e916f0dc9a69d"
+    }
+  ]
+}

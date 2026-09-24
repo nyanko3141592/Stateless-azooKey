@@ -1,0 +1,8 @@
+{
+  "inputs": 47359,
+  "mismatches": 0,
+  "maxProbabilityDelta": 1.5543122344752192e-15,
+  "jsMilliseconds": 100544.986958,
+  "sourceCommit": "055b8a40a66684f803c4b76b3ef46d4e5f5176a6",
+  "testedAt": "2026-09-24T00:58:17.110Z"
+}

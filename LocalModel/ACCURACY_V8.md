@@ -59,3 +59,11 @@ LocalModel/install.pyで別名のLocal IMEとDemoを更新。Developer ID署名�
 ## 再現と独立レビュー
 
 リポジトリで `swift test --package-path Core` を実行してから `python3 LocalModel/check-accuracy-v8.py`。または `LocalModel/check-quality.sh`。比較runnerはビルド済みテストを使う。全12セット540文/版の件数・ID・rawを独立レビューで照合し、保存結果の欠落なしを確認。runnerにも件数とID照合を追加。残る全21失敗の期待区間/実区間はaccuracy-v8/RESIDUAL_ERRORS.md。
+
+## Web反映
+
+独立セッションで推論055b8a4を移植、既存simple UIとWASMモデル・入力制御を保持。47,359入力でSwift/Webの区間・保護・japaneseStart不一致0、確率最大差1.5543e-15。12セットの旧新集計も一致。Cloudflare version cacdc35d-8f62-4fca-849f-0b42085d2c71へ公開し、7ファイルHTTP200と内容SHA一致を確認。web-parity.json / web-deployment.jsonを参照。
+
+URL: https://azookey-local-playground-20260923.takahashinaoki521.workers.dev
+
+WebはZenzaiモデル単体生成でMac辞書候補選択とは異なる。新UI/v8の実ブラウザ操作・漢字品質は未検証。ブラウザURL policyによる拒否後の再試行/迂回は行っていない。CLIの操作制御テストとHTTP配信確認を実ブラウザ検証とは呼ばない。
