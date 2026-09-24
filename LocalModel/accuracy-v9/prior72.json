@@ -1,0 +1,963 @@
+[
+  {
+    "id": "prior80-accuracy-v2-041",
+    "raw": "Please check the spreadsheet before the meeting.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        48
+      ]
+    ]
+  },
+  {
+    "id": "prior80-accuracy-v2-042",
+    "raw": "Please check the clipboard before the meeting.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        46
+      ]
+    ]
+  },
+  {
+    "id": "prior80-accuracy-v2-043",
+    "raw": "Please check the checkbox before the meeting.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        45
+      ]
+    ]
+  },
+  {
+    "id": "prior80-accuracy-v2-044",
+    "raw": "Please check the dropdown before the meeting.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        45
+      ]
+    ]
+  },
+  {
+    "id": "prior80-accuracy-v2-045",
+    "raw": "Please check the tooltip before the meeting.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        44
+      ]
+    ]
+  },
+  {
+    "id": "prior80-accuracy-v2-046",
+    "raw": "Please check the breakpoint before the meeting.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        47
+      ]
+    ]
+  },
+  {
+    "id": "prior80-accuracy-v2-047",
+    "raw": "Please check the websocket before the meeting.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        46
+      ]
+    ]
+  },
+  {
+    "id": "prior80-accuracy-v2-048",
+    "raw": "Please check the webhook before the meeting.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        44
+      ]
+    ]
+  },
+  {
+    "id": "prior80-accuracy-v2-049",
+    "raw": "Please check the middleware before the meeting.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        47
+      ]
+    ]
+  },
+  {
+    "id": "prior80-accuracy-v2-050",
+    "raw": "Please check the namespace before the meeting.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        46
+      ]
+    ]
+  },
+  {
+    "id": "prior80-accuracy-v2-051",
+    "raw": "Please check the refactor before the meeting.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        45
+      ]
+    ]
+  },
+  {
+    "id": "prior80-accuracy-v2-052",
+    "raw": "Please check the staging before the meeting.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        44
+      ]
+    ]
+  },
+  {
+    "id": "prior80-accuracy-v2-053",
+    "raw": "Please check the credential before the meeting.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        47
+      ]
+    ]
+  },
+  {
+    "id": "prior80-accuracy-v2-054",
+    "raw": "Please check the telemetry before the meeting.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        46
+      ]
+    ]
+  },
+  {
+    "id": "prior80-accuracy-v2-055",
+    "raw": "Please check the avatar before the meeting.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        43
+      ]
+    ]
+  },
+  {
+    "id": "prior80-accuracy-v2-056",
+    "raw": "Please check the carousel before the meeting.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        45
+      ]
+    ]
+  },
+  {
+    "id": "prior80-accuracy-v2-057",
+    "raw": "Please check the subtitle before the meeting.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        45
+      ]
+    ]
+  },
+  {
+    "id": "prior80-accuracy-v2-058",
+    "raw": "Please check the livestream before the meeting.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        47
+      ]
+    ]
+  },
+  {
+    "id": "prior80-accuracy-v2-059",
+    "raw": "Please check the watermark before the meeting.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        46
+      ]
+    ]
+  },
+  {
+    "id": "prior80-accuracy-v2-060",
+    "raw": "Please check the playback before the meeting.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        45
+      ]
+    ]
+  },
+  {
+    "id": "prior80-accuracy-v2-080",
+    "raw": "Please open https://example.net/docs.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        37
+      ]
+    ]
+  },
+  {
+    "id": "multi-fresh-01",
+    "category": "multi",
+    "raw": "NotionnodocumentwoSlackdekyouyuushimasu",
+    "japaneseRanges": [
+      [
+        6,
+        8
+      ],
+      [
+        16,
+        18
+      ],
+      [
+        23,
+        39
+      ]
+    ],
+    "englishRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        8,
+        16
+      ],
+      [
+        18,
+        23
+      ]
+    ]
+  },
+  {
+    "id": "multi-fresh-02",
+    "category": "multi",
+    "raw": "GitHubnoworkflowgafailedninatteimasu",
+    "japaneseRanges": [
+      [
+        6,
+        8
+      ],
+      [
+        16,
+        18
+      ],
+      [
+        24,
+        36
+      ]
+    ],
+    "englishRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        8,
+        16
+      ],
+      [
+        18,
+        24
+      ]
+    ]
+  },
+  {
+    "id": "multi-fresh-06",
+    "category": "multi",
+    "raw": "Chromenobookmarkgasyncsaremasenn",
+    "japaneseRanges": [
+      [
+        6,
+        8
+      ],
+      [
+        16,
+        18
+      ],
+      [
+        22,
+        32
+      ]
+    ],
+    "englishRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        8,
+        16
+      ],
+      [
+        18,
+        22
+      ]
+    ]
+  },
+  {
+    "id": "multi-fresh-16",
+    "category": "literal",
+    "raw": "notificationworkflow",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        20
+      ]
+    ]
+  },
+  {
+    "id": "multi-fresh-17",
+    "category": "literal",
+    "raw": "Please open the notification settings.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        7,
+        11
+      ],
+      [
+        12,
+        15
+      ],
+      [
+        16,
+        28
+      ],
+      [
+        29,
+        37
+      ]
+    ]
+  },
+  {
+    "id": "multi-fresh-20",
+    "category": "literal",
+    "raw": "There is no reason to change the schema.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        5
+      ],
+      [
+        12,
+        18
+      ],
+      [
+        22,
+        28
+      ],
+      [
+        29,
+        32
+      ],
+      [
+        33,
+        39
+      ]
+    ]
+  },
+  {
+    "id": "multi-fresh-26",
+    "category": "multi",
+    "raw": "Slacknochannelnolinkwookurimasu",
+    "japaneseRanges": [
+      [
+        5,
+        7
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        20,
+        31
+      ]
+    ],
+    "englishRanges": [
+      [
+        0,
+        5
+      ],
+      [
+        7,
+        14
+      ],
+      [
+        16,
+        20
+      ]
+    ],
+    "phase": "final-unadjusted"
+  },
+  {
+    "id": "prior24-release-holdout-13",
+    "category": "literal",
+    "raw": "notificationsettings",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        20
+      ]
+    ]
+  },
+  {
+    "id": "prior24-release-holdout-14",
+    "category": "literal",
+    "raw": "keyboardshortcut",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        16
+      ]
+    ]
+  },
+  {
+    "id": "prior24-release-holdout-15",
+    "category": "literal",
+    "raw": "databasebackup",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        14
+      ]
+    ]
+  },
+  {
+    "id": "prior24-release-holdout-16",
+    "category": "literal",
+    "raw": "Please review the release notes before the meeting.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        51
+      ]
+    ]
+  },
+  {
+    "id": "prior24-release-holdout-17",
+    "category": "literal",
+    "raw": "There is no need to change the database.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        40
+      ]
+    ]
+  },
+  {
+    "id": "prior48-v3-fresh-25",
+    "raw": "Could you send me the notebook today?",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        37
+      ]
+    ]
+  },
+  {
+    "id": "prior48-v3-fresh-26",
+    "raw": "Could you send me the whiteboard today?",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        39
+      ]
+    ]
+  },
+  {
+    "id": "prior48-v3-fresh-27",
+    "raw": "Could you send me the checklist today?",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        38
+      ]
+    ]
+  },
+  {
+    "id": "prior48-v3-fresh-28",
+    "raw": "Could you send me the timesheet today?",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        38
+      ]
+    ]
+  },
+  {
+    "id": "prior48-v3-fresh-29",
+    "raw": "Could you send me the backlog today?",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        36
+      ]
+    ]
+  },
+  {
+    "id": "prior48-v3-fresh-30",
+    "raw": "Could you send me the roadmap today?",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        36
+      ]
+    ]
+  },
+  {
+    "id": "prior48-v3-fresh-31",
+    "raw": "Could you send me the flowchart today?",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        38
+      ]
+    ]
+  },
+  {
+    "id": "prior48-v3-fresh-32",
+    "raw": "Could you send me the wireframe today?",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        38
+      ]
+    ]
+  },
+  {
+    "id": "prior48-v3-fresh-33",
+    "raw": "Could you send me the prototype today?",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        38
+      ]
+    ]
+  },
+  {
+    "id": "prior48-v3-fresh-34",
+    "raw": "Could you send me the workbook today?",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        37
+      ]
+    ]
+  },
+  {
+    "id": "prior48-v3-fresh-35",
+    "raw": "Could you send me the newsfeed today?",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        37
+      ]
+    ]
+  },
+  {
+    "id": "prior48-v3-fresh-36",
+    "raw": "Could you send me the screencast today?",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        39
+      ]
+    ]
+  },
+  {
+    "id": "development48-v4-new-037",
+    "raw": "Please send me the meeting notes.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        33
+      ]
+    ]
+  },
+  {
+    "id": "development48-v4-new-038",
+    "raw": "There is no change to the schedule.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        35
+      ]
+    ]
+  },
+  {
+    "id": "final40-v4-final-025",
+    "raw": "Please keep the original filename.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        34
+      ]
+    ]
+  },
+  {
+    "id": "final40-v4-final-027",
+    "raw": "This feature is ready for review.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        33
+      ]
+    ]
+  },
+  {
+    "id": "fresh48-v5-fresh-030",
+    "raw": "Please keep the credential in a secure location.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        48
+      ]
+    ]
+  },
+  {
+    "id": "developmentV6-v6-fresh-025",
+    "raw": "Please read the next page before the meeting.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        45
+      ]
+    ]
+  },
+  {
+    "id": "developmentV6-v6-fresh-027",
+    "raw": "This date format is used in the JSON response.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        46
+      ]
+    ]
+  },
+  {
+    "id": "developmentV6-v6-fresh-029",
+    "raw": "There is no callback in this example.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        37
+      ]
+    ]
+  },
+  {
+    "id": "developmentV6-v6-fresh-032",
+    "raw": "Send the API response to me tomorrow.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        37
+      ]
+    ]
+  },
+  {
+    "id": "finalV7-v7-final-042",
+    "raw": "Please send the original image before tomorrow.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        47
+      ]
+    ]
+  },
+  {
+    "id": "finalV8-v8-final-025",
+    "raw": "ChromenotabwotojitekaraSafaridehirakinaoshimashita",
+    "japaneseRanges": [
+      [
+        6,
+        8
+      ],
+      [
+        11,
+        23
+      ],
+      [
+        29,
+        50
+      ]
+    ],
+    "englishRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        8,
+        11
+      ],
+      [
+        23,
+        29
+      ]
+    ]
+  },
+  {
+    "id": "finalV8-v8-final-040",
+    "raw": "Could you leave the package by the front door?",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        46
+      ]
+    ]
+  },
+  {
+    "id": "quality-development-01",
+    "split": "development",
+    "category": "mixed",
+    "raw": "Slackde shiryouwo kyouyuushitekudasai",
+    "japaneseRanges": [
+      [
+        5,
+        7
+      ],
+      [
+        8,
+        17
+      ],
+      [
+        18,
+        37
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "quality-development-03",
+    "split": "development",
+    "category": "mixed",
+    "raw": "Notionni gijirokuwo matometemashita",
+    "japaneseRanges": [
+      [
+        6,
+        8
+      ],
+      [
+        9,
+        19
+      ],
+      [
+        20,
+        35
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "quality-development-08",
+    "split": "development",
+    "category": "joined",
+    "raw": "Slackdekyouyuushitekudasai",
+    "japaneseRanges": [
+      [
+        5,
+        26
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "quality-development-09",
+    "split": "development",
+    "category": "joined",
+    "raw": "GitHubnoshoudaimailgakimasenn",
+    "japaneseRanges": [
+      [
+        6,
+        15
+      ],
+      [
+        19,
+        29
+      ]
+    ],
+    "annotationNote": "Corrected gold annotation: mail is literal English inside the unspaced Japanese run. Retained as a difficult failing multi-switch case.",
+    "englishRanges": []
+  },
+  {
+    "id": "quality-evaluation-02",
+    "split": "evaluation",
+    "category": "mixed",
+    "raw": "Figmano prototype wo kakuninnshitekudasai",
+    "japaneseRanges": [
+      [
+        5,
+        7
+      ],
+      [
+        18,
+        20
+      ],
+      [
+        21,
+        41
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "quality-evaluation-17",
+    "split": "evaluation",
+    "category": "joined",
+    "raw": "Figmanofairuwohirakimashita",
+    "japaneseRanges": [
+      [
+        5,
+        27
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "quality-evaluation-21",
+    "split": "evaluation",
+    "category": "literal",
+    "raw": "There is no need to worry about it.",
+    "japaneseRanges": [],
+    "englishRanges": []
+  },
+  {
+    "id": "quality-evaluation-22",
+    "split": "evaluation",
+    "category": "literal",
+    "raw": "Could you send me the latest invoice?",
+    "japaneseRanges": [],
+    "englishRanges": []
+  },
+  {
+    "id": "quality-evaluation-26",
+    "split": "evaluation",
+    "category": "literal",
+    "raw": "Please let us know when you are ready.",
+    "japaneseRanges": [],
+    "englishRanges": []
+  },
+  {
+    "id": "quality-evaluation-28",
+    "split": "evaluation",
+    "category": "literal",
+    "raw": "This is a photo of our new office.",
+    "japaneseRanges": [],
+    "englishRanges": []
+  },
+  {
+    "id": "quality-evaluation-29",
+    "split": "evaluation",
+    "category": "literal",
+    "raw": "There are no changes to the data.",
+    "japaneseRanges": [],
+    "englishRanges": []
+  },
+  {
+    "id": "quality-challenge-07",
+    "split": "challenge",
+    "category": "joined",
+    "raw": "Firefoxdeshirabeteokimasu",
+    "japaneseRanges": [
+      [
+        7,
+        25
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "quality-challenge-13",
+    "split": "challenge",
+    "category": "literal",
+    "raw": "Everything seems fine on my machine.",
+    "japaneseRanges": [],
+    "englishRanges": []
+  },
+  {
+    "id": "quality-challenge-15",
+    "split": "challenge",
+    "category": "literal",
+    "raw": "Please rename the folder before you upload it.",
+    "japaneseRanges": [],
+    "englishRanges": []
+  },
+  {
+    "id": "quality-challenge-16",
+    "split": "challenge",
+    "category": "literal",
+    "raw": "Nobody has replied to my email yet.",
+    "japaneseRanges": [],
+    "englishRanges": []
+  }
+]

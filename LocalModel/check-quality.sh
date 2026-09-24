@@ -14,3 +14,5 @@ LOCAL_MULTI_REPORT="$report_dir/holdout.json" \
 swift test --package-path Core --filter localMultiSwitchFreshEvaluation
 
 python3 LocalModel/check-accuracy-v8.py "$report_dir/v8"
+
+python3 LocalModel/accuracy-v9/run-comparisons.py

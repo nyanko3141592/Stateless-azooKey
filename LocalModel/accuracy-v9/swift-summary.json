@@ -1,0 +1,44 @@
+{
+  "development46": {
+    "055b8a4": {
+      "count": 46,
+      "exact": 41,
+      "damage": 58,
+      "reversals": 127
+    },
+    "current": {
+      "count": 46,
+      "exact": 42,
+      "damage": 21,
+      "reversals": 85
+    }
+  },
+  "final24": {
+    "055b8a4": {
+      "count": 24,
+      "exact": 15,
+      "damage": 158,
+      "reversals": 185
+    },
+    "current": {
+      "count": 24,
+      "exact": 16,
+      "damage": 146,
+      "reversals": 156
+    }
+  },
+  "prior72": {
+    "055b8a4": {
+      "count": 72,
+      "exact": 71,
+      "damage": 0,
+      "reversals": 37
+    },
+    "current": {
+      "count": 72,
+      "exact": 71,
+      "damage": 0,
+      "reversals": 37
+    }
+  }
+}
