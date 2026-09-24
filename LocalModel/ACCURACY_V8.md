@@ -55,3 +55,7 @@ Releaseビルド成功。別名の監査アプリで84入力を実行し、途�
 1回の実行で初回最大13.02秒、先頭文を除くキー処理中央値50.65ms / p95 147.80ms / 最大2.75秒。他の評価と並行した非隔離測定で、速度向上の比較証拠ではない。初回ロードと長い停止は未解決。
 
 LocalModel/install.pyで別名のLocal IMEとDemoを更新。Developer ID署名のdeep/strict検証成功。インストール後の実行ファイルSHAはinstallation.json。既に起動中のIMEプロセスへの切替は再起動または入力ソース再選択が必要な場合がある。
+
+## 再現と独立レビュー
+
+リポジトリで `swift test --package-path Core` を実行してから `python3 LocalModel/check-accuracy-v8.py`。または `LocalModel/check-quality.sh`。比較runnerはビルド済みテストを使う。全12セット540文/版の件数・ID・rawを独立レビューで照合し、保存結果の欠落なしを確認。runnerにも件数とID照合を追加。残る全21失敗の期待区間/実区間はaccuracy-v8/RESIDUAL_ERRORS.md。

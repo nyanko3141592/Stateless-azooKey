@@ -1,4 +1,6 @@
-"""Reproduce frozen-v7 comparisons and enforce v8 development release floors."""
+"""Reproduce frozen-v7 comparisons and enforce v8 development release floors.
+Run swift test --package-path Core first, or use LocalModel/check-quality.sh.
+"""
 import json
 import os
 from pathlib import Path
@@ -33,9 +35,13 @@ for name, fixture in fixtures.items():
                         "--filter", "localAccuracyComparison"], env=env, stdout=log,
                        stderr=subprocess.STDOUT, check=True)
     rows = json.loads(report.read_text())
+    expected = {x["id"]: x["raw"] for x in json.loads((root / "LocalModel" / fixture).read_text())}
+    assert len(rows) == 2 * len(expected), name
+    assert {x["version"] for x in rows} == {"45e8da8", "current"}, name
     stats = {}
     for version in ["45e8da8", "current"]:
         r = [x for x in rows if x["version"] == version]
+        assert len(r) == len(expected) and {x["id"]: x["raw"] for x in r} == expected, name
         stats[version] = dict(exact=sum(x["exact"] for x in r), count=len(r),
                              damage=sum(x["damagedEnglishFrames"] for x in r),
                              reversals=sum(x["labelReversalFrames"] for x in r))
