@@ -1,0 +1,11636 @@
+[
+  {
+    "id": "prior80-accuracy-v2-001",
+    "raw": "konospreadsheetwokakuninshitekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        15,
+        36
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        15
+      ]
+    ]
+  },
+  {
+    "id": "prior80-accuracy-v2-002",
+    "raw": "ashitanospreadsheetnolinkwookurimasu",
+    "japaneseRanges": [
+      [
+        0,
+        8
+      ],
+      [
+        19,
+        21
+      ],
+      [
+        25,
+        36
+      ]
+    ],
+    "englishRanges": [
+      [
+        8,
+        19
+      ],
+      [
+        21,
+        25
+      ]
+    ]
+  },
+  {
+    "id": "prior80-accuracy-v2-003",
+    "raw": "konoclipboardwokakuninshitekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        13,
+        34
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        13
+      ]
+    ]
+  },
+  {
+    "id": "prior80-accuracy-v2-004",
+    "raw": "ashitanoclipboardnolinkwookurimasu",
+    "japaneseRanges": [
+      [
+        0,
+        8
+      ],
+      [
+        17,
+        19
+      ],
+      [
+        23,
+        34
+      ]
+    ],
+    "englishRanges": [
+      [
+        8,
+        17
+      ],
+      [
+        19,
+        23
+      ]
+    ]
+  },
+  {
+    "id": "prior80-accuracy-v2-005",
+    "raw": "konocheckboxwokakuninshitekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        12,
+        33
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        12
+      ]
+    ]
+  },
+  {
+    "id": "prior80-accuracy-v2-006",
+    "raw": "ashitanocheckboxnolinkwookurimasu",
+    "japaneseRanges": [
+      [
+        0,
+        8
+      ],
+      [
+        16,
+        18
+      ],
+      [
+        22,
+        33
+      ]
+    ],
+    "englishRanges": [
+      [
+        8,
+        16
+      ],
+      [
+        18,
+        22
+      ]
+    ]
+  },
+  {
+    "id": "prior80-accuracy-v2-007",
+    "raw": "konodropdownwokakuninshitekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        12,
+        33
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        12
+      ]
+    ]
+  },
+  {
+    "id": "prior80-accuracy-v2-008",
+    "raw": "ashitanodropdownnolinkwookurimasu",
+    "japaneseRanges": [
+      [
+        0,
+        8
+      ],
+      [
+        16,
+        18
+      ],
+      [
+        22,
+        33
+      ]
+    ],
+    "englishRanges": [
+      [
+        8,
+        16
+      ],
+      [
+        18,
+        22
+      ]
+    ]
+  },
+  {
+    "id": "prior80-accuracy-v2-009",
+    "raw": "konotooltipwokakuninshitekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        11,
+        32
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        11
+      ]
+    ]
+  },
+  {
+    "id": "prior80-accuracy-v2-010",
+    "raw": "ashitanotooltipnolinkwookurimasu",
+    "japaneseRanges": [
+      [
+        0,
+        8
+      ],
+      [
+        15,
+        17
+      ],
+      [
+        21,
+        32
+      ]
+    ],
+    "englishRanges": [
+      [
+        8,
+        15
+      ],
+      [
+        17,
+        21
+      ]
+    ]
+  },
+  {
+    "id": "prior80-accuracy-v2-011",
+    "raw": "konobreakpointwokakuninshitekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        14,
+        35
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        14
+      ]
+    ]
+  },
+  {
+    "id": "prior80-accuracy-v2-012",
+    "raw": "ashitanobreakpointnolinkwookurimasu",
+    "japaneseRanges": [
+      [
+        0,
+        8
+      ],
+      [
+        18,
+        20
+      ],
+      [
+        24,
+        35
+      ]
+    ],
+    "englishRanges": [
+      [
+        8,
+        18
+      ],
+      [
+        20,
+        24
+      ]
+    ]
+  },
+  {
+    "id": "prior80-accuracy-v2-013",
+    "raw": "konowebsocketwokakuninshitekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        13,
+        34
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        13
+      ]
+    ]
+  },
+  {
+    "id": "prior80-accuracy-v2-014",
+    "raw": "ashitanowebsocketnolinkwookurimasu",
+    "japaneseRanges": [
+      [
+        0,
+        8
+      ],
+      [
+        17,
+        19
+      ],
+      [
+        23,
+        34
+      ]
+    ],
+    "englishRanges": [
+      [
+        8,
+        17
+      ],
+      [
+        19,
+        23
+      ]
+    ]
+  },
+  {
+    "id": "prior80-accuracy-v2-015",
+    "raw": "konowebhookwokakuninshitekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        11,
+        32
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        11
+      ]
+    ]
+  },
+  {
+    "id": "prior80-accuracy-v2-016",
+    "raw": "ashitanowebhooknolinkwookurimasu",
+    "japaneseRanges": [
+      [
+        0,
+        8
+      ],
+      [
+        15,
+        17
+      ],
+      [
+        21,
+        32
+      ]
+    ],
+    "englishRanges": [
+      [
+        8,
+        15
+      ],
+      [
+        17,
+        21
+      ]
+    ]
+  },
+  {
+    "id": "prior80-accuracy-v2-017",
+    "raw": "konomiddlewarewokakuninshitekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        14,
+        35
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        14
+      ]
+    ]
+  },
+  {
+    "id": "prior80-accuracy-v2-018",
+    "raw": "ashitanomiddlewarenolinkwookurimasu",
+    "japaneseRanges": [
+      [
+        0,
+        8
+      ],
+      [
+        18,
+        20
+      ],
+      [
+        24,
+        35
+      ]
+    ],
+    "englishRanges": [
+      [
+        8,
+        18
+      ],
+      [
+        20,
+        24
+      ]
+    ]
+  },
+  {
+    "id": "prior80-accuracy-v2-019",
+    "raw": "kononamespacewokakuninshitekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        13,
+        34
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        13
+      ]
+    ]
+  },
+  {
+    "id": "prior80-accuracy-v2-020",
+    "raw": "ashitanonamespacenolinkwookurimasu",
+    "japaneseRanges": [
+      [
+        0,
+        8
+      ],
+      [
+        17,
+        19
+      ],
+      [
+        23,
+        34
+      ]
+    ],
+    "englishRanges": [
+      [
+        8,
+        17
+      ],
+      [
+        19,
+        23
+      ]
+    ]
+  },
+  {
+    "id": "prior80-accuracy-v2-021",
+    "raw": "konorefactorwokakuninshitekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        12,
+        33
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        12
+      ]
+    ]
+  },
+  {
+    "id": "prior80-accuracy-v2-022",
+    "raw": "ashitanorefactornolinkwookurimasu",
+    "japaneseRanges": [
+      [
+        0,
+        8
+      ],
+      [
+        16,
+        18
+      ],
+      [
+        22,
+        33
+      ]
+    ],
+    "englishRanges": [
+      [
+        8,
+        16
+      ],
+      [
+        18,
+        22
+      ]
+    ]
+  },
+  {
+    "id": "prior80-accuracy-v2-023",
+    "raw": "konostagingwokakuninshitekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        11,
+        32
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        11
+      ]
+    ]
+  },
+  {
+    "id": "prior80-accuracy-v2-024",
+    "raw": "ashitanostagingnolinkwookurimasu",
+    "japaneseRanges": [
+      [
+        0,
+        8
+      ],
+      [
+        15,
+        17
+      ],
+      [
+        21,
+        32
+      ]
+    ],
+    "englishRanges": [
+      [
+        8,
+        15
+      ],
+      [
+        17,
+        21
+      ]
+    ]
+  },
+  {
+    "id": "prior80-accuracy-v2-025",
+    "raw": "konocredentialwokakuninshitekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        14,
+        35
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        14
+      ]
+    ]
+  },
+  {
+    "id": "prior80-accuracy-v2-026",
+    "raw": "ashitanocredentialnolinkwookurimasu",
+    "japaneseRanges": [
+      [
+        0,
+        8
+      ],
+      [
+        18,
+        20
+      ],
+      [
+        24,
+        35
+      ]
+    ],
+    "englishRanges": [
+      [
+        8,
+        18
+      ],
+      [
+        20,
+        24
+      ]
+    ]
+  },
+  {
+    "id": "prior80-accuracy-v2-027",
+    "raw": "konotelemetrywokakuninshitekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        13,
+        34
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        13
+      ]
+    ]
+  },
+  {
+    "id": "prior80-accuracy-v2-028",
+    "raw": "ashitanotelemetrynolinkwookurimasu",
+    "japaneseRanges": [
+      [
+        0,
+        8
+      ],
+      [
+        17,
+        19
+      ],
+      [
+        23,
+        34
+      ]
+    ],
+    "englishRanges": [
+      [
+        8,
+        17
+      ],
+      [
+        19,
+        23
+      ]
+    ]
+  },
+  {
+    "id": "prior80-accuracy-v2-029",
+    "raw": "konoavatarwokakuninshitekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        10,
+        31
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        10
+      ]
+    ]
+  },
+  {
+    "id": "prior80-accuracy-v2-030",
+    "raw": "ashitanoavatarnolinkwookurimasu",
+    "japaneseRanges": [
+      [
+        0,
+        8
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        20,
+        31
+      ]
+    ],
+    "englishRanges": [
+      [
+        8,
+        14
+      ],
+      [
+        16,
+        20
+      ]
+    ]
+  },
+  {
+    "id": "prior80-accuracy-v2-031",
+    "raw": "konocarouselwokakuninshitekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        12,
+        33
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        12
+      ]
+    ]
+  },
+  {
+    "id": "prior80-accuracy-v2-032",
+    "raw": "ashitanocarouselnolinkwookurimasu",
+    "japaneseRanges": [
+      [
+        0,
+        8
+      ],
+      [
+        16,
+        18
+      ],
+      [
+        22,
+        33
+      ]
+    ],
+    "englishRanges": [
+      [
+        8,
+        16
+      ],
+      [
+        18,
+        22
+      ]
+    ]
+  },
+  {
+    "id": "prior80-accuracy-v2-033",
+    "raw": "konosubtitlewokakuninshitekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        12,
+        33
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        12
+      ]
+    ]
+  },
+  {
+    "id": "prior80-accuracy-v2-034",
+    "raw": "ashitanosubtitlenolinkwookurimasu",
+    "japaneseRanges": [
+      [
+        0,
+        8
+      ],
+      [
+        16,
+        18
+      ],
+      [
+        22,
+        33
+      ]
+    ],
+    "englishRanges": [
+      [
+        8,
+        16
+      ],
+      [
+        18,
+        22
+      ]
+    ]
+  },
+  {
+    "id": "prior80-accuracy-v2-035",
+    "raw": "konolivestreamwokakuninshitekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        14,
+        35
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        14
+      ]
+    ]
+  },
+  {
+    "id": "prior80-accuracy-v2-036",
+    "raw": "ashitanolivestreamnolinkwookurimasu",
+    "japaneseRanges": [
+      [
+        0,
+        8
+      ],
+      [
+        18,
+        20
+      ],
+      [
+        24,
+        35
+      ]
+    ],
+    "englishRanges": [
+      [
+        8,
+        18
+      ],
+      [
+        20,
+        24
+      ]
+    ]
+  },
+  {
+    "id": "prior80-accuracy-v2-037",
+    "raw": "konowatermarkwokakuninshitekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        13,
+        34
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        13
+      ]
+    ]
+  },
+  {
+    "id": "prior80-accuracy-v2-038",
+    "raw": "ashitanowatermarknolinkwookurimasu",
+    "japaneseRanges": [
+      [
+        0,
+        8
+      ],
+      [
+        17,
+        19
+      ],
+      [
+        23,
+        34
+      ]
+    ],
+    "englishRanges": [
+      [
+        8,
+        17
+      ],
+      [
+        19,
+        23
+      ]
+    ]
+  },
+  {
+    "id": "prior80-accuracy-v2-039",
+    "raw": "konoplaybackwokakuninshitekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        12,
+        33
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        12
+      ]
+    ]
+  },
+  {
+    "id": "prior80-accuracy-v2-040",
+    "raw": "ashitanoplaybacknolinkwookurimasu",
+    "japaneseRanges": [
+      [
+        0,
+        8
+      ],
+      [
+        16,
+        18
+      ],
+      [
+        22,
+        33
+      ]
+    ],
+    "englishRanges": [
+      [
+        8,
+        16
+      ],
+      [
+        18,
+        22
+      ]
+    ]
+  },
+  {
+    "id": "prior80-accuracy-v2-041",
+    "raw": "Please check the spreadsheet before the meeting.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        48
+      ]
+    ]
+  },
+  {
+    "id": "prior80-accuracy-v2-042",
+    "raw": "Please check the clipboard before the meeting.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        46
+      ]
+    ]
+  },
+  {
+    "id": "prior80-accuracy-v2-043",
+    "raw": "Please check the checkbox before the meeting.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        45
+      ]
+    ]
+  },
+  {
+    "id": "prior80-accuracy-v2-044",
+    "raw": "Please check the dropdown before the meeting.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        45
+      ]
+    ]
+  },
+  {
+    "id": "prior80-accuracy-v2-045",
+    "raw": "Please check the tooltip before the meeting.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        44
+      ]
+    ]
+  },
+  {
+    "id": "prior80-accuracy-v2-046",
+    "raw": "Please check the breakpoint before the meeting.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        47
+      ]
+    ]
+  },
+  {
+    "id": "prior80-accuracy-v2-047",
+    "raw": "Please check the websocket before the meeting.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        46
+      ]
+    ]
+  },
+  {
+    "id": "prior80-accuracy-v2-048",
+    "raw": "Please check the webhook before the meeting.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        44
+      ]
+    ]
+  },
+  {
+    "id": "prior80-accuracy-v2-049",
+    "raw": "Please check the middleware before the meeting.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        47
+      ]
+    ]
+  },
+  {
+    "id": "prior80-accuracy-v2-050",
+    "raw": "Please check the namespace before the meeting.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        46
+      ]
+    ]
+  },
+  {
+    "id": "prior80-accuracy-v2-051",
+    "raw": "Please check the refactor before the meeting.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        45
+      ]
+    ]
+  },
+  {
+    "id": "prior80-accuracy-v2-052",
+    "raw": "Please check the staging before the meeting.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        44
+      ]
+    ]
+  },
+  {
+    "id": "prior80-accuracy-v2-053",
+    "raw": "Please check the credential before the meeting.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        47
+      ]
+    ]
+  },
+  {
+    "id": "prior80-accuracy-v2-054",
+    "raw": "Please check the telemetry before the meeting.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        46
+      ]
+    ]
+  },
+  {
+    "id": "prior80-accuracy-v2-055",
+    "raw": "Please check the avatar before the meeting.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        43
+      ]
+    ]
+  },
+  {
+    "id": "prior80-accuracy-v2-056",
+    "raw": "Please check the carousel before the meeting.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        45
+      ]
+    ]
+  },
+  {
+    "id": "prior80-accuracy-v2-057",
+    "raw": "Please check the subtitle before the meeting.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        45
+      ]
+    ]
+  },
+  {
+    "id": "prior80-accuracy-v2-058",
+    "raw": "Please check the livestream before the meeting.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        47
+      ]
+    ]
+  },
+  {
+    "id": "prior80-accuracy-v2-059",
+    "raw": "Please check the watermark before the meeting.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        46
+      ]
+    ]
+  },
+  {
+    "id": "prior80-accuracy-v2-060",
+    "raw": "Please check the playback before the meeting.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        45
+      ]
+    ]
+  },
+  {
+    "id": "prior80-accuracy-v2-061",
+    "raw": "kyounoyoyakuwokakuninshitekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        33
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "prior80-accuracy-v2-062",
+    "raw": "ashitanoshiryouwojunbishimasu",
+    "japaneseRanges": [
+      [
+        0,
+        29
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "prior80-accuracy-v2-063",
+    "raw": "raishuunouchiawasewotorikeshimasu",
+    "japaneseRanges": [
+      [
+        0,
+        33
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "prior80-accuracy-v2-064",
+    "raw": "konohenkanhamachigatteimasu",
+    "japaneseRanges": [
+      [
+        0,
+        27
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "prior80-accuracy-v2-065",
+    "raw": "shigotonosusumekatawominaoshitai",
+    "japaneseRanges": [
+      [
+        0,
+        32
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "prior80-accuracy-v2-066",
+    "raw": "mousukoshimattekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        22
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "prior80-accuracy-v2-067",
+    "raw": "konokekkanitsuitesetsumeishimasu",
+    "japaneseRanges": [
+      [
+        0,
+        32
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "prior80-accuracy-v2-068",
+    "raw": "raigetsunoyoyakuwotorinaoshimasu",
+    "japaneseRanges": [
+      [
+        0,
+        32
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "prior80-accuracy-v2-069",
+    "raw": "tsuginojikanwoshirabeteokimasu",
+    "japaneseRanges": [
+      [
+        0,
+        30
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "prior80-accuracy-v2-070",
+    "raw": "konoshiryouwohayakumatometekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        34
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "prior80-accuracy-v2-071",
+    "raw": "suushikiha$\\alpha+\\beta=1$desu",
+    "japaneseRanges": [
+      [
+        0,
+        10
+      ],
+      [
+        26,
+        30
+      ]
+    ],
+    "englishRanges": [
+      [
+        10,
+        26
+      ]
+    ]
+  },
+  {
+    "id": "prior80-accuracy-v2-072",
+    "raw": "koreha$\\int_0^1 f(x)dx$desu",
+    "japaneseRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        23,
+        27
+      ]
+    ],
+    "englishRanges": [
+      [
+        6,
+        23
+      ]
+    ]
+  },
+  {
+    "id": "prior80-accuracy-v2-073",
+    "raw": "\\section{jikkenhouhou}",
+    "japaneseRanges": [
+      [
+        9,
+        21
+      ]
+    ],
+    "englishRanges": [
+      [
+        0,
+        9
+      ],
+      [
+        21,
+        22
+      ]
+    ]
+  },
+  {
+    "id": "prior80-accuracy-v2-074",
+    "raw": "\\label{sec:experiments}",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        23
+      ]
+    ]
+  },
+  {
+    "id": "prior80-accuracy-v2-075",
+    "raw": "kono`npm run test`wotsukaimasu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        18,
+        30
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        18
+      ]
+    ]
+  },
+  {
+    "id": "prior80-accuracy-v2-076",
+    "raw": "kono`git status --short`wotsukau",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        24,
+        32
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        24
+      ]
+    ]
+  },
+  {
+    "id": "prior80-accuracy-v2-077",
+    "raw": "renrakusakiha hello+team@example.net desu",
+    "japaneseRanges": [
+      [
+        0,
+        13
+      ],
+      [
+        37,
+        41
+      ]
+    ],
+    "englishRanges": [
+      [
+        13,
+        37
+      ]
+    ]
+  },
+  {
+    "id": "prior80-accuracy-v2-078",
+    "raw": "hozonnsakiha ~/Downloads/report.csv desu",
+    "japaneseRanges": [
+      [
+        0,
+        12
+      ],
+      [
+        36,
+        40
+      ]
+    ],
+    "englishRanges": [
+      [
+        12,
+        36
+      ]
+    ]
+  },
+  {
+    "id": "prior80-accuracy-v2-079",
+    "raw": "koreha https://example.net/docs?a=1 desu",
+    "japaneseRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        36,
+        40
+      ]
+    ],
+    "englishRanges": [
+      [
+        6,
+        36
+      ]
+    ]
+  },
+  {
+    "id": "prior80-accuracy-v2-080",
+    "raw": "Please open https://example.net/docs.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        37
+      ]
+    ]
+  },
+  {
+    "id": "multi-fresh-01",
+    "category": "multi",
+    "raw": "NotionnodocumentwoSlackdekyouyuushimasu",
+    "japaneseRanges": [
+      [
+        6,
+        8
+      ],
+      [
+        16,
+        18
+      ],
+      [
+        23,
+        39
+      ]
+    ],
+    "englishRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        8,
+        16
+      ],
+      [
+        18,
+        23
+      ]
+    ]
+  },
+  {
+    "id": "multi-fresh-02",
+    "category": "multi",
+    "raw": "GitHubnoworkflowgafailedninatteimasu",
+    "japaneseRanges": [
+      [
+        6,
+        8
+      ],
+      [
+        16,
+        18
+      ],
+      [
+        24,
+        36
+      ]
+    ],
+    "englishRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        8,
+        16
+      ],
+      [
+        18,
+        24
+      ]
+    ]
+  },
+  {
+    "id": "multi-fresh-03",
+    "category": "multi",
+    "raw": "konorepositorynoREADMEwoyondekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        22,
+        36
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        14
+      ],
+      [
+        16,
+        22
+      ]
+    ]
+  },
+  {
+    "id": "multi-fresh-04",
+    "category": "multi",
+    "raw": "ashitanocalendarnolinkwookuttehoshii",
+    "japaneseRanges": [
+      [
+        0,
+        8
+      ],
+      [
+        16,
+        18
+      ],
+      [
+        22,
+        36
+      ]
+    ],
+    "englishRanges": [
+      [
+        8,
+        16
+      ],
+      [
+        18,
+        22
+      ]
+    ]
+  },
+  {
+    "id": "multi-fresh-05",
+    "category": "multi",
+    "raw": "raishuunomeetingnoagendawooshietekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        9
+      ],
+      [
+        16,
+        18
+      ],
+      [
+        24,
+        40
+      ]
+    ],
+    "englishRanges": [
+      [
+        9,
+        16
+      ],
+      [
+        18,
+        24
+      ]
+    ]
+  },
+  {
+    "id": "multi-fresh-06",
+    "category": "multi",
+    "raw": "Chromenobookmarkgasyncsaremasenn",
+    "japaneseRanges": [
+      [
+        6,
+        8
+      ],
+      [
+        16,
+        18
+      ],
+      [
+        22,
+        32
+      ]
+    ],
+    "englishRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        8,
+        16
+      ],
+      [
+        18,
+        22
+      ]
+    ]
+  },
+  {
+    "id": "multi-fresh-07",
+    "category": "multi",
+    "raw": "saishinnoscreenshotwomaildeokurimasu",
+    "japaneseRanges": [
+      [
+        0,
+        9
+      ],
+      [
+        19,
+        21
+      ],
+      [
+        25,
+        36
+      ]
+    ],
+    "englishRanges": [
+      [
+        9,
+        19
+      ],
+      [
+        21,
+        25
+      ]
+    ]
+  },
+  {
+    "id": "multi-fresh-08",
+    "category": "multi",
+    "raw": "konothumbnailwodownloadshitaidesu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        13,
+        15
+      ],
+      [
+        23,
+        33
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        13
+      ],
+      [
+        15,
+        23
+      ]
+    ]
+  },
+  {
+    "id": "multi-fresh-09",
+    "category": "multi",
+    "raw": "shinkinopullrequestworeviewshitekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        8
+      ],
+      [
+        19,
+        21
+      ],
+      [
+        27,
+        39
+      ]
+    ],
+    "englishRanges": [
+      [
+        8,
+        19
+      ],
+      [
+        21,
+        27
+      ]
+    ]
+  },
+  {
+    "id": "multi-fresh-10",
+    "category": "multi",
+    "raw": "konobackupnofolderwokeshita",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        10,
+        12
+      ],
+      [
+        18,
+        27
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        10
+      ],
+      [
+        12,
+        18
+      ]
+    ]
+  },
+  {
+    "id": "multi-fresh-11",
+    "category": "multi",
+    "raw": "kyounotranscriptwosummarynishitai",
+    "japaneseRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        16,
+        18
+      ],
+      [
+        25,
+        33
+      ]
+    ],
+    "englishRanges": [
+      [
+        6,
+        16
+      ],
+      [
+        18,
+        25
+      ]
+    ]
+  },
+  {
+    "id": "multi-fresh-12",
+    "category": "multi",
+    "raw": "konodatasetnoschemawokakuninnshimasu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        11,
+        13
+      ],
+      [
+        19,
+        36
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        11
+      ],
+      [
+        13,
+        19
+      ]
+    ]
+  },
+  {
+    "id": "multi-fresh-13",
+    "category": "jp",
+    "raw": "ashitanouchiawasenonaiyouwooshietekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        41
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "multi-fresh-14",
+    "category": "jp",
+    "raw": "konogoronojikannnotsukaikatawominaoshitai",
+    "japaneseRanges": [
+      [
+        0,
+        41
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "multi-fresh-15",
+    "category": "jp",
+    "raw": "shiryouwohayakumatometeokimashou",
+    "japaneseRanges": [
+      [
+        0,
+        32
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "multi-fresh-16",
+    "category": "literal",
+    "raw": "notificationworkflow",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        20
+      ]
+    ]
+  },
+  {
+    "id": "multi-fresh-17",
+    "category": "literal",
+    "raw": "Please open the notification settings.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        7,
+        11
+      ],
+      [
+        12,
+        15
+      ],
+      [
+        16,
+        28
+      ],
+      [
+        29,
+        37
+      ]
+    ]
+  },
+  {
+    "id": "multi-fresh-18",
+    "category": "literal",
+    "raw": "The new thumbnail looks better than before.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        3
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        8,
+        17
+      ],
+      [
+        18,
+        23
+      ],
+      [
+        24,
+        30
+      ],
+      [
+        31,
+        35
+      ],
+      [
+        36,
+        42
+      ]
+    ]
+  },
+  {
+    "id": "multi-fresh-19",
+    "category": "literal",
+    "raw": "I want to review the pull request tomorrow.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        2,
+        6
+      ],
+      [
+        10,
+        16
+      ],
+      [
+        17,
+        20
+      ],
+      [
+        21,
+        25
+      ],
+      [
+        26,
+        33
+      ],
+      [
+        34,
+        42
+      ]
+    ]
+  },
+  {
+    "id": "multi-fresh-20",
+    "category": "literal",
+    "raw": "There is no reason to change the schema.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        5
+      ],
+      [
+        12,
+        18
+      ],
+      [
+        22,
+        28
+      ],
+      [
+        29,
+        32
+      ],
+      [
+        33,
+        39
+      ]
+    ]
+  },
+  {
+    "id": "multi-fresh-21",
+    "category": "protected",
+    "raw": "kono`git checkout feature/mail`wotsukau",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        31,
+        39
+      ]
+    ],
+    "englishRanges": [
+      [
+        5,
+        8
+      ],
+      [
+        9,
+        17
+      ],
+      [
+        18,
+        25
+      ],
+      [
+        26,
+        30
+      ]
+    ]
+  },
+  {
+    "id": "multi-fresh-22",
+    "category": "protected",
+    "raw": "atesakihateam+review@example.comdesu",
+    "japaneseRanges": [
+      [
+        0,
+        9
+      ],
+      [
+        32,
+        36
+      ]
+    ],
+    "englishRanges": [
+      [
+        9,
+        13
+      ],
+      [
+        14,
+        20
+      ],
+      [
+        21,
+        28
+      ],
+      [
+        29,
+        32
+      ]
+    ]
+  },
+  {
+    "id": "multi-fresh-23",
+    "category": "protected",
+    "raw": "koreha$\\frac{x}{y}$desu",
+    "japaneseRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        19,
+        23
+      ]
+    ],
+    "englishRanges": [
+      [
+        8,
+        12
+      ]
+    ]
+  },
+  {
+    "id": "multi-fresh-24",
+    "category": "protected",
+    "raw": "\\label{sec:workflow} wotsukau",
+    "japaneseRanges": [
+      [
+        21,
+        29
+      ]
+    ],
+    "englishRanges": [
+      [
+        1,
+        6
+      ],
+      [
+        7,
+        10
+      ],
+      [
+        11,
+        19
+      ]
+    ]
+  },
+  {
+    "id": "multi-fresh-25",
+    "category": "multi",
+    "raw": "konoservernotimeoutwoconfigdekaeru",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        10,
+        12
+      ],
+      [
+        19,
+        21
+      ],
+      [
+        27,
+        34
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        10
+      ],
+      [
+        12,
+        19
+      ],
+      [
+        21,
+        27
+      ]
+    ],
+    "phase": "final-unadjusted"
+  },
+  {
+    "id": "multi-fresh-26",
+    "category": "multi",
+    "raw": "Slacknochannelnolinkwookurimasu",
+    "japaneseRanges": [
+      [
+        5,
+        7
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        20,
+        31
+      ]
+    ],
+    "englishRanges": [
+      [
+        0,
+        5
+      ],
+      [
+        7,
+        14
+      ],
+      [
+        16,
+        20
+      ]
+    ],
+    "phase": "final-unadjusted"
+  },
+  {
+    "id": "multi-fresh-27",
+    "category": "multi",
+    "raw": "atarashiifeaturenotestwotsuikashimasu",
+    "japaneseRanges": [
+      [
+        0,
+        9
+      ],
+      [
+        16,
+        18
+      ],
+      [
+        22,
+        37
+      ]
+    ],
+    "englishRanges": [
+      [
+        9,
+        16
+      ],
+      [
+        18,
+        22
+      ]
+    ],
+    "phase": "final-unadjusted"
+  },
+  {
+    "id": "multi-fresh-28",
+    "category": "multi",
+    "raw": "konodashboardnowidgetwokesitai",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        13,
+        15
+      ],
+      [
+        21,
+        30
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        13
+      ],
+      [
+        15,
+        21
+      ]
+    ],
+    "phase": "final-unadjusted"
+  },
+  {
+    "id": "multi-fresh-29",
+    "category": "multi",
+    "raw": "saishinnochangelogwobrowserdehiraku",
+    "japaneseRanges": [
+      [
+        0,
+        9
+      ],
+      [
+        18,
+        20
+      ],
+      [
+        27,
+        35
+      ]
+    ],
+    "englishRanges": [
+      [
+        9,
+        18
+      ],
+      [
+        20,
+        27
+      ]
+    ],
+    "phase": "final-unadjusted"
+  },
+  {
+    "id": "multi-fresh-30",
+    "category": "multi",
+    "raw": "kaiginorecordingwouploadshita",
+    "japaneseRanges": [
+      [
+        0,
+        7
+      ],
+      [
+        16,
+        18
+      ],
+      [
+        24,
+        29
+      ]
+    ],
+    "englishRanges": [
+      [
+        7,
+        16
+      ],
+      [
+        18,
+        24
+      ]
+    ],
+    "phase": "final-unadjusted"
+  },
+  {
+    "id": "multi-fresh-31",
+    "category": "jp",
+    "raw": "raigetsunoyoyakuwotorinaoshitekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        37
+      ]
+    ],
+    "englishRanges": [],
+    "phase": "final-unadjusted"
+  },
+  {
+    "id": "multi-fresh-32",
+    "category": "jp",
+    "raw": "uchiawasenotochinihaosokunarimasu",
+    "japaneseRanges": [
+      [
+        0,
+        33
+      ]
+    ],
+    "englishRanges": [],
+    "phase": "final-unadjusted"
+  },
+  {
+    "id": "multi-fresh-33",
+    "category": "literal",
+    "raw": "The screenshot was attached to the email.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        3
+      ],
+      [
+        4,
+        14
+      ],
+      [
+        15,
+        18
+      ],
+      [
+        19,
+        27
+      ],
+      [
+        31,
+        34
+      ],
+      [
+        35,
+        40
+      ]
+    ],
+    "phase": "final-unadjusted"
+  },
+  {
+    "id": "multi-fresh-34",
+    "category": "literal",
+    "raw": "We are waiting for the deployment to finish.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        3,
+        6
+      ],
+      [
+        7,
+        14
+      ],
+      [
+        15,
+        18
+      ],
+      [
+        19,
+        22
+      ],
+      [
+        23,
+        33
+      ],
+      [
+        37,
+        43
+      ]
+    ],
+    "phase": "final-unadjusted"
+  },
+  {
+    "id": "multi-fresh-35",
+    "category": "protected",
+    "raw": "hozonnsakiha~/Projects/workflow/main.swift desu",
+    "japaneseRanges": [
+      [
+        0,
+        12
+      ],
+      [
+        43,
+        47
+      ]
+    ],
+    "englishRanges": [
+      [
+        14,
+        22
+      ],
+      [
+        23,
+        31
+      ],
+      [
+        32,
+        36
+      ],
+      [
+        37,
+        42
+      ]
+    ],
+    "phase": "final-unadjusted"
+  },
+  {
+    "id": "multi-fresh-36",
+    "category": "protected",
+    "raw": "\\section{houhounosetsumei}",
+    "japaneseRanges": [
+      [
+        9,
+        25
+      ]
+    ],
+    "englishRanges": [
+      [
+        1,
+        8
+      ]
+    ],
+    "phase": "final-unadjusted"
+  },
+  {
+    "id": "prior24-release-holdout-01",
+    "category": "mixed",
+    "raw": "kononokeyboardsettingwokaetai",
+    "japaneseRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        21,
+        29
+      ]
+    ],
+    "englishRanges": [
+      [
+        6,
+        21
+      ]
+    ]
+  },
+  {
+    "id": "prior24-release-holdout-02",
+    "category": "mixed",
+    "raw": "ashitanocodereviewnolinkwookutte",
+    "japaneseRanges": [
+      [
+        0,
+        8
+      ],
+      [
+        18,
+        20
+      ],
+      [
+        24,
+        32
+      ]
+    ],
+    "englishRanges": [
+      [
+        8,
+        18
+      ],
+      [
+        20,
+        24
+      ]
+    ]
+  },
+  {
+    "id": "prior24-release-holdout-03",
+    "category": "mixed",
+    "raw": "konodatabasenobackupwotoritai",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        12,
+        14
+      ],
+      [
+        20,
+        29
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        12
+      ],
+      [
+        14,
+        20
+      ]
+    ]
+  },
+  {
+    "id": "prior24-release-holdout-04",
+    "category": "mixed",
+    "raw": "saishinnoreleasenotewoSlackdeokuru",
+    "japaneseRanges": [
+      [
+        0,
+        9
+      ],
+      [
+        20,
+        22
+      ],
+      [
+        27,
+        34
+      ]
+    ],
+    "englishRanges": [
+      [
+        9,
+        20
+      ],
+      [
+        22,
+        27
+      ]
+    ]
+  },
+  {
+    "id": "prior24-release-holdout-05",
+    "category": "mixed",
+    "raw": "konoscreenshotwofilenihozon",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        20,
+        27
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        14
+      ],
+      [
+        16,
+        20
+      ]
+    ]
+  },
+  {
+    "id": "prior24-release-holdout-06",
+    "category": "mixed",
+    "raw": "raishuunoteammeetingnoschedulewokakunin",
+    "japaneseRanges": [
+      [
+        0,
+        9
+      ],
+      [
+        20,
+        22
+      ],
+      [
+        30,
+        39
+      ]
+    ],
+    "englishRanges": [
+      [
+        9,
+        20
+      ],
+      [
+        22,
+        30
+      ]
+    ]
+  },
+  {
+    "id": "prior24-release-holdout-07",
+    "category": "mixed",
+    "raw": "konoerrormessagenoreasonwooshiete",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        16,
+        18
+      ],
+      [
+        24,
+        33
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        16
+      ],
+      [
+        18,
+        24
+      ]
+    ]
+  },
+  {
+    "id": "prior24-release-holdout-08",
+    "category": "mixed",
+    "raw": "atarashiifeaturenopreviewwomitai",
+    "japaneseRanges": [
+      [
+        0,
+        9
+      ],
+      [
+        16,
+        18
+      ],
+      [
+        25,
+        32
+      ]
+    ],
+    "englishRanges": [
+      [
+        9,
+        16
+      ],
+      [
+        18,
+        25
+      ]
+    ]
+  },
+  {
+    "id": "prior24-release-holdout-09",
+    "category": "mixed",
+    "raw": "konohyperlinkwobrowserdehiraku",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        13,
+        15
+      ],
+      [
+        22,
+        30
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        13
+      ],
+      [
+        15,
+        22
+      ]
+    ]
+  },
+  {
+    "id": "prior24-release-holdout-10",
+    "category": "mixed",
+    "raw": "ashitanowebinarnoinvitationwookuru",
+    "japaneseRanges": [
+      [
+        0,
+        8
+      ],
+      [
+        15,
+        17
+      ],
+      [
+        27,
+        34
+      ]
+    ],
+    "englishRanges": [
+      [
+        8,
+        15
+      ],
+      [
+        17,
+        27
+      ]
+    ]
+  },
+  {
+    "id": "prior24-release-holdout-11",
+    "category": "mixed",
+    "raw": "konosnapshotwoarchiveniirete",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        12,
+        14
+      ],
+      [
+        21,
+        28
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        12
+      ],
+      [
+        14,
+        21
+      ]
+    ]
+  },
+  {
+    "id": "prior24-release-holdout-12",
+    "category": "mixed",
+    "raw": "konoplaylistwoSpotifydehiraku",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        12,
+        14
+      ],
+      [
+        21,
+        29
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        12
+      ],
+      [
+        14,
+        21
+      ]
+    ]
+  },
+  {
+    "id": "prior24-release-holdout-13",
+    "category": "literal",
+    "raw": "notificationsettings",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        20
+      ]
+    ]
+  },
+  {
+    "id": "prior24-release-holdout-14",
+    "category": "literal",
+    "raw": "keyboardshortcut",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        16
+      ]
+    ]
+  },
+  {
+    "id": "prior24-release-holdout-15",
+    "category": "literal",
+    "raw": "databasebackup",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        14
+      ]
+    ]
+  },
+  {
+    "id": "prior24-release-holdout-16",
+    "category": "literal",
+    "raw": "Please review the release notes before the meeting.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        51
+      ]
+    ]
+  },
+  {
+    "id": "prior24-release-holdout-17",
+    "category": "literal",
+    "raw": "There is no need to change the database.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        40
+      ]
+    ]
+  },
+  {
+    "id": "prior24-release-holdout-18",
+    "category": "jp",
+    "raw": "ashitanoyoyakunonaiyouwokakuninshimasu",
+    "japaneseRanges": [
+      [
+        0,
+        38
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "prior24-release-holdout-19",
+    "category": "jp",
+    "raw": "konoshiryouwohayakumatometekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        34
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "prior24-release-holdout-20",
+    "category": "mixed",
+    "raw": "suushikiha$\\sum_{i=1}^{n}x_i$desu",
+    "japaneseRanges": [
+      [
+        0,
+        10
+      ],
+      [
+        29,
+        33
+      ]
+    ],
+    "englishRanges": [
+      [
+        10,
+        29
+      ]
+    ]
+  },
+  {
+    "id": "prior24-release-holdout-21",
+    "category": "mixed",
+    "raw": "kono`git diff --stat`wotsukau",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        21,
+        29
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        21
+      ]
+    ]
+  },
+  {
+    "id": "prior24-release-holdout-22",
+    "category": "mixed",
+    "raw": "renrakusakiha test+demo@example.org desu",
+    "japaneseRanges": [
+      [
+        0,
+        13
+      ],
+      [
+        36,
+        40
+      ]
+    ],
+    "englishRanges": [
+      [
+        13,
+        36
+      ]
+    ]
+  },
+  {
+    "id": "prior24-release-holdout-23",
+    "category": "mixed",
+    "raw": "hozonnsakiha ~/Documents/report.txt desu",
+    "japaneseRanges": [
+      [
+        0,
+        12
+      ],
+      [
+        36,
+        40
+      ]
+    ],
+    "englishRanges": [
+      [
+        12,
+        36
+      ]
+    ]
+  },
+  {
+    "id": "prior24-release-holdout-24",
+    "category": "mixed",
+    "raw": "\\section{jikkennokekka}",
+    "japaneseRanges": [
+      [
+        9,
+        22
+      ]
+    ],
+    "englishRanges": [
+      [
+        0,
+        9
+      ],
+      [
+        22,
+        23
+      ]
+    ]
+  },
+  {
+    "id": "prior48-v3-fresh-01",
+    "raw": "kyounonotebookwomisetekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        14,
+        29
+      ]
+    ],
+    "englishRanges": [
+      [
+        6,
+        14
+      ]
+    ]
+  },
+  {
+    "id": "prior48-v3-fresh-02",
+    "raw": "kononotebookwoSlackdekyouyuushimasu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        12,
+        14
+      ],
+      [
+        19,
+        35
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        12
+      ],
+      [
+        14,
+        19
+      ]
+    ]
+  },
+  {
+    "id": "prior48-v3-fresh-03",
+    "raw": "kyounowhiteboardwomisetekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        16,
+        31
+      ]
+    ],
+    "englishRanges": [
+      [
+        6,
+        16
+      ]
+    ]
+  },
+  {
+    "id": "prior48-v3-fresh-04",
+    "raw": "konowhiteboardwoSlackdekyouyuushimasu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        21,
+        37
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        14
+      ],
+      [
+        16,
+        21
+      ]
+    ]
+  },
+  {
+    "id": "prior48-v3-fresh-05",
+    "raw": "kyounochecklistwomisetekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        15,
+        30
+      ]
+    ],
+    "englishRanges": [
+      [
+        6,
+        15
+      ]
+    ]
+  },
+  {
+    "id": "prior48-v3-fresh-06",
+    "raw": "konochecklistwoSlackdekyouyuushimasu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        13,
+        15
+      ],
+      [
+        20,
+        36
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        13
+      ],
+      [
+        15,
+        20
+      ]
+    ]
+  },
+  {
+    "id": "prior48-v3-fresh-07",
+    "raw": "kyounotimesheetwomisetekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        15,
+        30
+      ]
+    ],
+    "englishRanges": [
+      [
+        6,
+        15
+      ]
+    ]
+  },
+  {
+    "id": "prior48-v3-fresh-08",
+    "raw": "konotimesheetwoSlackdekyouyuushimasu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        13,
+        15
+      ],
+      [
+        20,
+        36
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        13
+      ],
+      [
+        15,
+        20
+      ]
+    ]
+  },
+  {
+    "id": "prior48-v3-fresh-09",
+    "raw": "kyounobacklogwomisetekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        13,
+        28
+      ]
+    ],
+    "englishRanges": [
+      [
+        6,
+        13
+      ]
+    ]
+  },
+  {
+    "id": "prior48-v3-fresh-10",
+    "raw": "konobacklogwoSlackdekyouyuushimasu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        11,
+        13
+      ],
+      [
+        18,
+        34
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        11
+      ],
+      [
+        13,
+        18
+      ]
+    ]
+  },
+  {
+    "id": "prior48-v3-fresh-11",
+    "raw": "kyounoroadmapwomisetekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        13,
+        28
+      ]
+    ],
+    "englishRanges": [
+      [
+        6,
+        13
+      ]
+    ]
+  },
+  {
+    "id": "prior48-v3-fresh-12",
+    "raw": "konoroadmapwoSlackdekyouyuushimasu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        11,
+        13
+      ],
+      [
+        18,
+        34
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        11
+      ],
+      [
+        13,
+        18
+      ]
+    ]
+  },
+  {
+    "id": "prior48-v3-fresh-13",
+    "raw": "kyounoflowchartwomisetekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        15,
+        30
+      ]
+    ],
+    "englishRanges": [
+      [
+        6,
+        15
+      ]
+    ]
+  },
+  {
+    "id": "prior48-v3-fresh-14",
+    "raw": "konoflowchartwoSlackdekyouyuushimasu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        13,
+        15
+      ],
+      [
+        20,
+        36
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        13
+      ],
+      [
+        15,
+        20
+      ]
+    ]
+  },
+  {
+    "id": "prior48-v3-fresh-15",
+    "raw": "kyounowireframewomisetekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        15,
+        30
+      ]
+    ],
+    "englishRanges": [
+      [
+        6,
+        15
+      ]
+    ]
+  },
+  {
+    "id": "prior48-v3-fresh-16",
+    "raw": "konowireframewoSlackdekyouyuushimasu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        13,
+        15
+      ],
+      [
+        20,
+        36
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        13
+      ],
+      [
+        15,
+        20
+      ]
+    ]
+  },
+  {
+    "id": "prior48-v3-fresh-17",
+    "raw": "kyounoprototypewomisetekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        15,
+        30
+      ]
+    ],
+    "englishRanges": [
+      [
+        6,
+        15
+      ]
+    ]
+  },
+  {
+    "id": "prior48-v3-fresh-18",
+    "raw": "konoprototypewoSlackdekyouyuushimasu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        13,
+        15
+      ],
+      [
+        20,
+        36
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        13
+      ],
+      [
+        15,
+        20
+      ]
+    ]
+  },
+  {
+    "id": "prior48-v3-fresh-19",
+    "raw": "kyounoworkbookwomisetekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        14,
+        29
+      ]
+    ],
+    "englishRanges": [
+      [
+        6,
+        14
+      ]
+    ]
+  },
+  {
+    "id": "prior48-v3-fresh-20",
+    "raw": "konoworkbookwoSlackdekyouyuushimasu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        12,
+        14
+      ],
+      [
+        19,
+        35
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        12
+      ],
+      [
+        14,
+        19
+      ]
+    ]
+  },
+  {
+    "id": "prior48-v3-fresh-21",
+    "raw": "kyounonewsfeedwomisetekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        14,
+        29
+      ]
+    ],
+    "englishRanges": [
+      [
+        6,
+        14
+      ]
+    ]
+  },
+  {
+    "id": "prior48-v3-fresh-22",
+    "raw": "kononewsfeedwoSlackdekyouyuushimasu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        12,
+        14
+      ],
+      [
+        19,
+        35
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        12
+      ],
+      [
+        14,
+        19
+      ]
+    ]
+  },
+  {
+    "id": "prior48-v3-fresh-23",
+    "raw": "kyounoscreencastwomisetekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        16,
+        31
+      ]
+    ],
+    "englishRanges": [
+      [
+        6,
+        16
+      ]
+    ]
+  },
+  {
+    "id": "prior48-v3-fresh-24",
+    "raw": "konoscreencastwoSlackdekyouyuushimasu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        21,
+        37
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        14
+      ],
+      [
+        16,
+        21
+      ]
+    ]
+  },
+  {
+    "id": "prior48-v3-fresh-25",
+    "raw": "Could you send me the notebook today?",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        37
+      ]
+    ]
+  },
+  {
+    "id": "prior48-v3-fresh-26",
+    "raw": "Could you send me the whiteboard today?",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        39
+      ]
+    ]
+  },
+  {
+    "id": "prior48-v3-fresh-27",
+    "raw": "Could you send me the checklist today?",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        38
+      ]
+    ]
+  },
+  {
+    "id": "prior48-v3-fresh-28",
+    "raw": "Could you send me the timesheet today?",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        38
+      ]
+    ]
+  },
+  {
+    "id": "prior48-v3-fresh-29",
+    "raw": "Could you send me the backlog today?",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        36
+      ]
+    ]
+  },
+  {
+    "id": "prior48-v3-fresh-30",
+    "raw": "Could you send me the roadmap today?",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        36
+      ]
+    ]
+  },
+  {
+    "id": "prior48-v3-fresh-31",
+    "raw": "Could you send me the flowchart today?",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        38
+      ]
+    ]
+  },
+  {
+    "id": "prior48-v3-fresh-32",
+    "raw": "Could you send me the wireframe today?",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        38
+      ]
+    ]
+  },
+  {
+    "id": "prior48-v3-fresh-33",
+    "raw": "Could you send me the prototype today?",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        38
+      ]
+    ]
+  },
+  {
+    "id": "prior48-v3-fresh-34",
+    "raw": "Could you send me the workbook today?",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        37
+      ]
+    ]
+  },
+  {
+    "id": "prior48-v3-fresh-35",
+    "raw": "Could you send me the newsfeed today?",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        37
+      ]
+    ]
+  },
+  {
+    "id": "prior48-v3-fresh-36",
+    "raw": "Could you send me the screencast today?",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        39
+      ]
+    ]
+  },
+  {
+    "id": "prior48-v3-fresh-37",
+    "raw": "kyounosagyounaiyouwokakuninshimasu",
+    "japaneseRanges": [
+      [
+        0,
+        34
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "prior48-v3-fresh-38",
+    "raw": "ashitanoyoyakujikanwooshietekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        35
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "prior48-v3-fresh-39",
+    "raw": "konobunshouwohenkanshitekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        31
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "prior48-v3-fresh-40",
+    "raw": "raishuunoyoyakuwonaoshitai",
+    "japaneseRanges": [
+      [
+        0,
+        26
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "prior48-v3-fresh-41",
+    "raw": "atarashiishiryouwojunbishimasu",
+    "japaneseRanges": [
+      [
+        0,
+        30
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "prior48-v3-fresh-42",
+    "raw": "konosetsumeiwoyomikaeshimasu",
+    "japaneseRanges": [
+      [
+        0,
+        28
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "prior48-v3-fresh-43",
+    "raw": "sakinikekkanokakuninwoshimasu",
+    "japaneseRanges": [
+      [
+        0,
+        29
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "prior48-v3-fresh-44",
+    "raw": "kinounouchiawasenonaiyouwoomoidashitai",
+    "japaneseRanges": [
+      [
+        0,
+        38
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "prior48-v3-fresh-45",
+    "raw": "keisanshikiha$x^2+y^2=z^2$desu",
+    "japaneseRanges": [
+      [
+        0,
+        13
+      ],
+      [
+        26,
+        30
+      ]
+    ],
+    "englishRanges": [
+      [
+        13,
+        26
+      ]
+    ]
+  },
+  {
+    "id": "prior48-v3-fresh-46",
+    "raw": "\\section{kousatsunomatome}",
+    "japaneseRanges": [
+      [
+        9,
+        25
+      ]
+    ],
+    "englishRanges": [
+      [
+        0,
+        9
+      ],
+      [
+        25,
+        26
+      ]
+    ]
+  },
+  {
+    "id": "prior48-v3-fresh-47",
+    "raw": "kono`git diff HEAD`wotsukaimasu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        19,
+        31
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        19
+      ]
+    ]
+  },
+  {
+    "id": "prior48-v3-fresh-48",
+    "raw": "renrakusakiha editor@example.org desu",
+    "japaneseRanges": [
+      [
+        0,
+        13
+      ],
+      [
+        33,
+        37
+      ]
+    ],
+    "englishRanges": [
+      [
+        13,
+        33
+      ]
+    ]
+  },
+  {
+    "id": "priorfinal24-v3-final-01",
+    "raw": "sonositemapwomisetekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        11,
+        26
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        11
+      ]
+    ]
+  },
+  {
+    "id": "priorfinal24-v3-final-02",
+    "raw": "kyounositemapnolinkwookutte",
+    "japaneseRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        13,
+        15
+      ],
+      [
+        19,
+        27
+      ]
+    ],
+    "englishRanges": [
+      [
+        6,
+        13
+      ],
+      [
+        15,
+        19
+      ]
+    ]
+  },
+  {
+    "id": "priorfinal24-v3-final-03",
+    "raw": "sonostoryboardwomisetekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        14,
+        29
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        14
+      ]
+    ]
+  },
+  {
+    "id": "priorfinal24-v3-final-04",
+    "raw": "kyounostoryboardnolinkwookutte",
+    "japaneseRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        16,
+        18
+      ],
+      [
+        22,
+        30
+      ]
+    ],
+    "englishRanges": [
+      [
+        6,
+        16
+      ],
+      [
+        18,
+        22
+      ]
+    ]
+  },
+  {
+    "id": "priorfinal24-v3-final-05",
+    "raw": "sonoscoreboardwomisetekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        14,
+        29
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        14
+      ]
+    ]
+  },
+  {
+    "id": "priorfinal24-v3-final-06",
+    "raw": "kyounoscoreboardnolinkwookutte",
+    "japaneseRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        16,
+        18
+      ],
+      [
+        22,
+        30
+      ]
+    ],
+    "englishRanges": [
+      [
+        6,
+        16
+      ],
+      [
+        18,
+        22
+      ]
+    ]
+  },
+  {
+    "id": "priorfinal24-v3-final-07",
+    "raw": "sonoheadcountwomisetekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        13,
+        28
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        13
+      ]
+    ]
+  },
+  {
+    "id": "priorfinal24-v3-final-08",
+    "raw": "kyounoheadcountnolinkwookutte",
+    "japaneseRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        15,
+        17
+      ],
+      [
+        21,
+        29
+      ]
+    ],
+    "englishRanges": [
+      [
+        6,
+        15
+      ],
+      [
+        17,
+        21
+      ]
+    ]
+  },
+  {
+    "id": "priorfinal24-v3-final-09",
+    "raw": "sononewsletterwomisetekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        14,
+        29
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        14
+      ]
+    ]
+  },
+  {
+    "id": "priorfinal24-v3-final-10",
+    "raw": "kyounonewsletternolinkwookutte",
+    "japaneseRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        16,
+        18
+      ],
+      [
+        22,
+        30
+      ]
+    ],
+    "englishRanges": [
+      [
+        6,
+        16
+      ],
+      [
+        18,
+        22
+      ]
+    ]
+  },
+  {
+    "id": "priorfinal24-v3-final-11",
+    "raw": "sonoscreenreaderwomisetekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        16,
+        31
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        16
+      ]
+    ]
+  },
+  {
+    "id": "priorfinal24-v3-final-12",
+    "raw": "kyounoscreenreadernolinkwookutte",
+    "japaneseRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        18,
+        20
+      ],
+      [
+        24,
+        32
+      ]
+    ],
+    "englishRanges": [
+      [
+        6,
+        18
+      ],
+      [
+        20,
+        24
+      ]
+    ]
+  },
+  {
+    "id": "priorfinal24-v3-final-13",
+    "raw": "sonodropdownmenuwomisetekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        16,
+        31
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        16
+      ]
+    ]
+  },
+  {
+    "id": "priorfinal24-v3-final-14",
+    "raw": "kyounodropdownmenunolinkwookutte",
+    "japaneseRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        18,
+        20
+      ],
+      [
+        24,
+        32
+      ]
+    ],
+    "englishRanges": [
+      [
+        6,
+        18
+      ],
+      [
+        20,
+        24
+      ]
+    ]
+  },
+  {
+    "id": "priorfinal24-v3-final-15",
+    "raw": "sonotoolchainwomisetekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        13,
+        28
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        13
+      ]
+    ]
+  },
+  {
+    "id": "priorfinal24-v3-final-16",
+    "raw": "kyounotoolchainnolinkwookutte",
+    "japaneseRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        15,
+        17
+      ],
+      [
+        21,
+        29
+      ]
+    ],
+    "englishRanges": [
+      [
+        6,
+        15
+      ],
+      [
+        17,
+        21
+      ]
+    ]
+  },
+  {
+    "id": "priorfinal24-v3-final-17",
+    "raw": "sonolivestreamingwomisetekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        17,
+        32
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        17
+      ]
+    ]
+  },
+  {
+    "id": "priorfinal24-v3-final-18",
+    "raw": "kyounolivestreamingnolinkwookutte",
+    "japaneseRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        19,
+        21
+      ],
+      [
+        25,
+        33
+      ]
+    ],
+    "englishRanges": [
+      [
+        6,
+        19
+      ],
+      [
+        21,
+        25
+      ]
+    ]
+  },
+  {
+    "id": "priorfinal24-v3-final-19",
+    "raw": "sonopushnotificationwomisetekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        20,
+        35
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        20
+      ]
+    ]
+  },
+  {
+    "id": "priorfinal24-v3-final-20",
+    "raw": "kyounopushnotificationnolinkwookutte",
+    "japaneseRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        22,
+        24
+      ],
+      [
+        28,
+        36
+      ]
+    ],
+    "englishRanges": [
+      [
+        6,
+        22
+      ],
+      [
+        24,
+        28
+      ]
+    ]
+  },
+  {
+    "id": "priorfinal24-v3-final-21",
+    "raw": "sonosourcecodewomisetekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        14,
+        29
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        14
+      ]
+    ]
+  },
+  {
+    "id": "priorfinal24-v3-final-22",
+    "raw": "kyounosourcecodenolinkwookutte",
+    "japaneseRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        16,
+        18
+      ],
+      [
+        22,
+        30
+      ]
+    ],
+    "englishRanges": [
+      [
+        6,
+        16
+      ],
+      [
+        18,
+        22
+      ]
+    ]
+  },
+  {
+    "id": "priorfinal24-v3-final-23",
+    "raw": "sonotaskboardwomisetekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        13,
+        28
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        13
+      ]
+    ]
+  },
+  {
+    "id": "priorfinal24-v3-final-24",
+    "raw": "kyounotaskboardnolinkwookutte",
+    "japaneseRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        15,
+        17
+      ],
+      [
+        21,
+        29
+      ]
+    ],
+    "englishRanges": [
+      [
+        6,
+        15
+      ],
+      [
+        17,
+        21
+      ]
+    ]
+  },
+  {
+    "id": "development48-v4-new-001",
+    "raw": "kyounomeetinghaonlinedesu",
+    "japaneseRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        13,
+        15
+      ],
+      [
+        21,
+        25
+      ]
+    ],
+    "englishRanges": [
+      [
+        6,
+        13
+      ],
+      [
+        15,
+        21
+      ]
+    ]
+  },
+  {
+    "id": "development48-v4-new-002",
+    "raw": "ato de Slacknilinkwoharimasu",
+    "japaneseRanges": [
+      [
+        0,
+        3
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        12,
+        14
+      ],
+      [
+        18,
+        28
+      ]
+    ],
+    "englishRanges": [
+      [
+        7,
+        12
+      ],
+      [
+        14,
+        18
+      ]
+    ]
+  },
+  {
+    "id": "development48-v4-new-003",
+    "raw": "konobranchnicommitshinaidekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        10,
+        12
+      ],
+      [
+        18,
+        33
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        10
+      ],
+      [
+        12,
+        18
+      ]
+    ]
+  },
+  {
+    "id": "development48-v4-new-004",
+    "raw": "saishinnobackupkarafukugenshimasu",
+    "japaneseRanges": [
+      [
+        0,
+        9
+      ],
+      [
+        15,
+        33
+      ]
+    ],
+    "englishRanges": [
+      [
+        9,
+        15
+      ]
+    ]
+  },
+  {
+    "id": "development48-v4-new-005",
+    "raw": "ashitamadenireviewwoonegai shimasu",
+    "japaneseRanges": [
+      [
+        0,
+        12
+      ],
+      [
+        18,
+        26
+      ],
+      [
+        27,
+        34
+      ]
+    ],
+    "englishRanges": [
+      [
+        12,
+        18
+      ]
+    ]
+  },
+  {
+    "id": "development48-v4-new-006",
+    "raw": "sonoscreenshotwomaildeokuttekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        20,
+        35
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        14
+      ],
+      [
+        16,
+        20
+      ]
+    ]
+  },
+  {
+    "id": "development48-v4-new-007",
+    "raw": "konofolderniPDFwohozonshimasu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        10,
+        12
+      ],
+      [
+        15,
+        29
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        10
+      ],
+      [
+        12,
+        15
+      ]
+    ]
+  },
+  {
+    "id": "development48-v4-new-008",
+    "raw": "ato de Chromedehirakimasu",
+    "japaneseRanges": [
+      [
+        0,
+        3
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        13,
+        25
+      ]
+    ],
+    "englishRanges": [
+      [
+        7,
+        13
+      ]
+    ]
+  },
+  {
+    "id": "development48-v4-new-009",
+    "raw": "konoquerynotimeoutwonobashitaidesu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        9,
+        11
+      ],
+      [
+        18,
+        34
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        9
+      ],
+      [
+        11,
+        18
+      ]
+    ]
+  },
+  {
+    "id": "development48-v4-new-010",
+    "raw": "sonowidgethadashboardnihyoujisaremasu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        10,
+        12
+      ],
+      [
+        21,
+        37
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        10
+      ],
+      [
+        12,
+        21
+      ]
+    ]
+  },
+  {
+    "id": "development48-v4-new-011",
+    "raw": "kyounoreleasehaenchoushimasu",
+    "japaneseRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        13,
+        28
+      ]
+    ],
+    "englishRanges": [
+      [
+        6,
+        13
+      ]
+    ]
+  },
+  {
+    "id": "development48-v4-new-012",
+    "raw": "konoservernologwokakuninshimasu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        10,
+        12
+      ],
+      [
+        15,
+        31
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        10
+      ],
+      [
+        12,
+        15
+      ]
+    ]
+  },
+  {
+    "id": "development48-v4-new-013",
+    "raw": "tsuginosprintderefactorshimasu",
+    "japaneseRanges": [
+      [
+        0,
+        7
+      ],
+      [
+        13,
+        15
+      ],
+      [
+        23,
+        30
+      ]
+    ],
+    "englishRanges": [
+      [
+        7,
+        13
+      ],
+      [
+        15,
+        23
+      ]
+    ]
+  },
+  {
+    "id": "development48-v4-new-014",
+    "raw": "konostagingnoURLwookuttekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        11,
+        13
+      ],
+      [
+        16,
+        31
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        11
+      ],
+      [
+        13,
+        16
+      ]
+    ]
+  },
+  {
+    "id": "development48-v4-new-015",
+    "raw": "sononotebookwohiraitemitekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        12,
+        32
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        12
+      ]
+    ]
+  },
+  {
+    "id": "development48-v4-new-016",
+    "raw": "konotoolchainnoversionwoageru",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        13,
+        15
+      ],
+      [
+        22,
+        29
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        13
+      ],
+      [
+        15,
+        22
+      ]
+    ]
+  },
+  {
+    "id": "development48-v4-new-017",
+    "raw": "konocallbackhaichidodakeyobaremasu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        12,
+        34
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        12
+      ]
+    ]
+  },
+  {
+    "id": "development48-v4-new-018",
+    "raw": "sonoshortcutwooshietekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        12,
+        28
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        12
+      ]
+    ]
+  },
+  {
+    "id": "development48-v4-new-019",
+    "raw": "konoplaylistwokyouyuushitaidesu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        12,
+        31
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        12
+      ]
+    ]
+  },
+  {
+    "id": "development48-v4-new-020",
+    "raw": "kyounoworkshophasanjikaradesu",
+    "japaneseRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        14,
+        29
+      ]
+    ],
+    "englishRanges": [
+      [
+        6,
+        14
+      ]
+    ]
+  },
+  {
+    "id": "development48-v4-new-021",
+    "raw": "konofilenamewonihongonishitaidesu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        12,
+        33
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        12
+      ]
+    ]
+  },
+  {
+    "id": "development48-v4-new-022",
+    "raw": "sonoprogresswomisetekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        12,
+        27
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        12
+      ]
+    ]
+  },
+  {
+    "id": "development48-v4-new-023",
+    "raw": "konopopuphaido dekimasu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        9,
+        14
+      ],
+      [
+        15,
+        23
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        9
+      ]
+    ]
+  },
+  {
+    "id": "development48-v4-new-024",
+    "raw": "sonoattachmentwosakujoshitekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        14,
+        34
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        14
+      ]
+    ]
+  },
+  {
+    "id": "development48-v4-new-025",
+    "raw": "kononotificationhaoffnishitaidesu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        16,
+        18
+      ],
+      [
+        21,
+        33
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        16
+      ],
+      [
+        18,
+        21
+      ]
+    ]
+  },
+  {
+    "id": "development48-v4-new-026",
+    "raw": "konopreviewdehafontgachigaimasu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        11,
+        15
+      ],
+      [
+        19,
+        31
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        11
+      ],
+      [
+        15,
+        19
+      ]
+    ]
+  },
+  {
+    "id": "development48-v4-new-027",
+    "raw": "tsuginobuilddecachewokeshimasu",
+    "japaneseRanges": [
+      [
+        0,
+        7
+      ],
+      [
+        12,
+        14
+      ],
+      [
+        19,
+        30
+      ]
+    ],
+    "englishRanges": [
+      [
+        7,
+        12
+      ],
+      [
+        14,
+        19
+      ]
+    ]
+  },
+  {
+    "id": "development48-v4-new-028",
+    "raw": "konotokenhaclientniwatasanaidekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        9,
+        11
+      ],
+      [
+        17,
+        37
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        9
+      ],
+      [
+        11,
+        17
+      ]
+    ]
+  },
+  {
+    "id": "development48-v4-new-029",
+    "raw": "sonoworkspacenimemberwotsuikashimasu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        13,
+        15
+      ],
+      [
+        21,
+        36
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        13
+      ],
+      [
+        15,
+        21
+      ]
+    ]
+  },
+  {
+    "id": "development48-v4-new-030",
+    "raw": "konodependencyhaoptionaldesu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        24,
+        28
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        14
+      ],
+      [
+        16,
+        24
+      ]
+    ]
+  },
+  {
+    "id": "development48-v4-new-031",
+    "raw": "kyouhaamegafutteimasu",
+    "japaneseRanges": [
+      [
+        0,
+        21
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "development48-v4-new-032",
+    "raw": "ashitahahayakuokitaidesu",
+    "japaneseRanges": [
+      [
+        0,
+        24
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "development48-v4-new-033",
+    "raw": "konoshiryouwokakuninshitekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        32
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "development48-v4-new-034",
+    "raw": "raishuunoouchiawasehaenkininattayo",
+    "japaneseRanges": [
+      [
+        0,
+        34
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "development48-v4-new-035",
+    "raw": "sonoatodenanika tabeniyukou",
+    "japaneseRanges": [
+      [
+        0,
+        15
+      ],
+      [
+        16,
+        27
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "development48-v4-new-036",
+    "raw": "ima mitsuketanodesuguokurimasu",
+    "japaneseRanges": [
+      [
+        0,
+        3
+      ],
+      [
+        4,
+        30
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "development48-v4-new-037",
+    "raw": "Please send me the meeting notes.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        33
+      ]
+    ]
+  },
+  {
+    "id": "development48-v4-new-038",
+    "raw": "There is no change to the schedule.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        35
+      ]
+    ]
+  },
+  {
+    "id": "development48-v4-new-039",
+    "raw": "Can you review this pull request?",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        33
+      ]
+    ]
+  },
+  {
+    "id": "development48-v4-new-040",
+    "raw": "Do not delete the staging database.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        35
+      ]
+    ]
+  },
+  {
+    "id": "development48-v4-new-041",
+    "raw": "The notebook contains a callback example.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        41
+      ]
+    ]
+  },
+  {
+    "id": "development48-v4-new-042",
+    "raw": "We made a new playlist for the workshop.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        40
+      ]
+    ]
+  },
+  {
+    "id": "development48-v4-new-043",
+    "raw": "suushikiha $E=mc^2$ desu",
+    "japaneseRanges": [
+      [
+        0,
+        10
+      ],
+      [
+        20,
+        24
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "development48-v4-new-044",
+    "raw": "tsugino \\frac{a+b}{c} wokakuninshimasu",
+    "japaneseRanges": [
+      [
+        0,
+        7
+      ],
+      [
+        22,
+        38
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "development48-v4-new-045",
+    "raw": "kono https://example.com/docs?q=cache wo hirakimasu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        38,
+        40
+      ],
+      [
+        41,
+        51
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "development48-v4-new-046",
+    "raw": "renrakusakiha team@example.com desu",
+    "japaneseRanges": [
+      [
+        0,
+        13
+      ],
+      [
+        31,
+        35
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "development48-v4-new-047",
+    "raw": "kono `git status` wo jikkoushimasu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        18,
+        20
+      ],
+      [
+        21,
+        34
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "development48-v4-new-048",
+    "raw": "kono /tmp/report.json wo hirakimasu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        22,
+        24
+      ],
+      [
+        25,
+        35
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "final40-v4-final-001",
+    "raw": "kinounomeetingnorecordingwomitaidesu",
+    "japaneseRanges": [
+      [
+        0,
+        7
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        25,
+        36
+      ]
+    ],
+    "englishRanges": [
+      [
+        7,
+        14
+      ],
+      [
+        16,
+        25
+      ]
+    ]
+  },
+  {
+    "id": "final40-v4-final-002",
+    "raw": "konobranchkarareleaseshimasu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        10,
+        14
+      ],
+      [
+        21,
+        28
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        10
+      ],
+      [
+        14,
+        21
+      ]
+    ]
+  },
+  {
+    "id": "final40-v4-final-003",
+    "raw": "saishinnobuildwodownloadshitekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        9
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        24,
+        36
+      ]
+    ],
+    "englishRanges": [
+      [
+        9,
+        14
+      ],
+      [
+        16,
+        24
+      ]
+    ]
+  },
+  {
+    "id": "final40-v4-final-004",
+    "raw": "sonoissuenicommentwokakimashita",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        9,
+        11
+      ],
+      [
+        18,
+        31
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        9
+      ],
+      [
+        11,
+        18
+      ]
+    ]
+  },
+  {
+    "id": "final40-v4-final-005",
+    "raw": "konodocumentwoNotiondehirakimasu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        12,
+        14
+      ],
+      [
+        20,
+        32
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        12
+      ],
+      [
+        14,
+        20
+      ]
+    ]
+  },
+  {
+    "id": "final40-v4-final-006",
+    "raw": "ashitanoworkshopnolinkwookuttehoshii",
+    "japaneseRanges": [
+      [
+        0,
+        8
+      ],
+      [
+        16,
+        18
+      ],
+      [
+        22,
+        36
+      ]
+    ],
+    "englishRanges": [
+      [
+        8,
+        16
+      ],
+      [
+        18,
+        22
+      ]
+    ]
+  },
+  {
+    "id": "final40-v4-final-007",
+    "raw": "konoserverhabackupga hitsuyoudesu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        10,
+        12
+      ],
+      [
+        18,
+        20
+      ],
+      [
+        21,
+        33
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        10
+      ],
+      [
+        12,
+        18
+      ]
+    ]
+  },
+  {
+    "id": "final40-v4-final-008",
+    "raw": "sonotaskhareviewmachidesu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        16,
+        25
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        8
+      ],
+      [
+        10,
+        16
+      ]
+    ]
+  },
+  {
+    "id": "final40-v4-final-009",
+    "raw": "konoconfigdetimeoutwokaemasu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        10,
+        12
+      ],
+      [
+        19,
+        28
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        10
+      ],
+      [
+        12,
+        19
+      ]
+    ]
+  },
+  {
+    "id": "final40-v4-final-010",
+    "raw": "sonobuttonwooshitemitekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        10,
+        29
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        10
+      ]
+    ]
+  },
+  {
+    "id": "final40-v4-final-011",
+    "raw": "konofolderhareadonlydesu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        10,
+        12
+      ],
+      [
+        20,
+        24
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        10
+      ],
+      [
+        12,
+        20
+      ]
+    ]
+  },
+  {
+    "id": "final40-v4-final-012",
+    "raw": "kyounodeploymentha nakushimashita",
+    "japaneseRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        16,
+        18
+      ],
+      [
+        19,
+        33
+      ]
+    ],
+    "englishRanges": [
+      [
+        6,
+        16
+      ]
+    ]
+  },
+  {
+    "id": "final40-v4-final-013",
+    "raw": "konorefactorhatestnoatodesu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        12,
+        14
+      ],
+      [
+        18,
+        27
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        12
+      ],
+      [
+        14,
+        18
+      ]
+    ]
+  },
+  {
+    "id": "final40-v4-final-014",
+    "raw": "sonostagingnologwomisemasu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        11,
+        13
+      ],
+      [
+        16,
+        26
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        11
+      ],
+      [
+        13,
+        16
+      ]
+    ]
+  },
+  {
+    "id": "final40-v4-final-015",
+    "raw": "kononamespaceniservicewotsuikashimasu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        13,
+        15
+      ],
+      [
+        22,
+        37
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        13
+      ],
+      [
+        15,
+        22
+      ]
+    ]
+  },
+  {
+    "id": "final40-v4-final-016",
+    "raw": "sonoavatarwohenkoushitaidesu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        10,
+        28
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        10
+      ]
+    ]
+  },
+  {
+    "id": "final40-v4-final-017",
+    "raw": "konotooltiphamobiledehakakuremasu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        11,
+        13
+      ],
+      [
+        19,
+        33
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        11
+      ],
+      [
+        13,
+        19
+      ]
+    ]
+  },
+  {
+    "id": "final40-v4-final-018",
+    "raw": "sonothumbnailwopreviewshitaidesu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        13,
+        15
+      ],
+      [
+        22,
+        32
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        13
+      ],
+      [
+        15,
+        22
+      ]
+    ]
+  },
+  {
+    "id": "final40-v4-final-019",
+    "raw": "konocachehaichijitekinamonodesu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        9,
+        31
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        9
+      ]
+    ]
+  },
+  {
+    "id": "final40-v4-final-020",
+    "raw": "raishuunoschedulewokakuninshimasu",
+    "japaneseRanges": [
+      [
+        0,
+        9
+      ],
+      [
+        17,
+        33
+      ]
+    ],
+    "englishRanges": [
+      [
+        9,
+        17
+      ]
+    ]
+  },
+  {
+    "id": "final40-v4-final-021",
+    "raw": "konoAPInoresponsewomisetekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        17,
+        32
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        7
+      ],
+      [
+        9,
+        17
+      ]
+    ]
+  },
+  {
+    "id": "final40-v4-final-022",
+    "raw": "konoREADMEnisamplewotsuikashimasu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        10,
+        12
+      ],
+      [
+        18,
+        33
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        10
+      ],
+      [
+        12,
+        18
+      ]
+    ]
+  },
+  {
+    "id": "final40-v4-final-023",
+    "raw": "ima Slackdemessagewookurimasu",
+    "japaneseRanges": [
+      [
+        0,
+        3
+      ],
+      [
+        9,
+        11
+      ],
+      [
+        18,
+        29
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        9
+      ],
+      [
+        11,
+        18
+      ]
+    ]
+  },
+  {
+    "id": "final40-v4-final-024",
+    "raw": "ato de GitHubnoissuewomimasu",
+    "japaneseRanges": [
+      [
+        0,
+        3
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        13,
+        15
+      ],
+      [
+        20,
+        28
+      ]
+    ],
+    "englishRanges": [
+      [
+        7,
+        13
+      ],
+      [
+        15,
+        20
+      ]
+    ]
+  },
+  {
+    "id": "final40-v4-final-025",
+    "raw": "Please keep the original filename.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        34
+      ]
+    ]
+  },
+  {
+    "id": "final40-v4-final-026",
+    "raw": "I will send the agenda after lunch.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        35
+      ]
+    ]
+  },
+  {
+    "id": "final40-v4-final-027",
+    "raw": "This feature is ready for review.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        33
+      ]
+    ]
+  },
+  {
+    "id": "final40-v4-final-028",
+    "raw": "We need no more changes today.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        30
+      ]
+    ]
+  },
+  {
+    "id": "final40-v4-final-029",
+    "raw": "The callback returns an optional value.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        39
+      ]
+    ]
+  },
+  {
+    "id": "final40-v4-final-030",
+    "raw": "Can you open the dashboard in Chrome?",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        37
+      ]
+    ]
+  },
+  {
+    "id": "final40-v4-final-031",
+    "raw": "ashitanouchiawasewosanji ni henkoushimasu",
+    "japaneseRanges": [
+      [
+        0,
+        24
+      ],
+      [
+        25,
+        27
+      ],
+      [
+        28,
+        41
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "final40-v4-final-032",
+    "raw": "kyouha sukoshi hayaku kaerimasu",
+    "japaneseRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        7,
+        14
+      ],
+      [
+        15,
+        21
+      ],
+      [
+        22,
+        31
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "final40-v4-final-033",
+    "raw": "shiryounokakuningaowarimashita",
+    "japaneseRanges": [
+      [
+        0,
+        30
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "final40-v4-final-034",
+    "raw": "konokekkanitsuitehanashitaidesu",
+    "japaneseRanges": [
+      [
+        0,
+        31
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "final40-v4-final-035",
+    "raw": "raishuukarashigoto gahajimarimasu",
+    "japaneseRanges": [
+      [
+        0,
+        18
+      ],
+      [
+        19,
+        33
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "final40-v4-final-036",
+    "raw": "sonokenhamouichidokangaemasu",
+    "japaneseRanges": [
+      [
+        0,
+        28
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "final40-v4-final-037",
+    "raw": "kono https://example.org/guide wo kakuninshimasu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        31,
+        33
+      ],
+      [
+        34,
+        48
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "final40-v4-final-038",
+    "raw": "renrakusakiha hello@example.org desu",
+    "japaneseRanges": [
+      [
+        0,
+        13
+      ],
+      [
+        32,
+        36
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "final40-v4-final-039",
+    "raw": "kotaeha $x_i^2+y_i^2$ desu",
+    "japaneseRanges": [
+      [
+        0,
+        7
+      ],
+      [
+        22,
+        26
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "final40-v4-final-040",
+    "raw": "kono `npm run build` wo tsukaimasu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        21,
+        23
+      ],
+      [
+        24,
+        34
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "fresh48-v5-fresh-001",
+    "raw": "ima GitHubdereviewwoshiteimasu",
+    "japaneseRanges": [
+      [
+        0,
+        3
+      ],
+      [
+        10,
+        12
+      ],
+      [
+        18,
+        30
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        10
+      ],
+      [
+        12,
+        18
+      ]
+    ]
+  },
+  {
+    "id": "fresh48-v5-fresh-002",
+    "raw": "ato de Slacknisummarywookurimasu",
+    "japaneseRanges": [
+      [
+        0,
+        3
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        12,
+        14
+      ],
+      [
+        21,
+        32
+      ]
+    ],
+    "englishRanges": [
+      [
+        7,
+        12
+      ],
+      [
+        14,
+        21
+      ]
+    ]
+  },
+  {
+    "id": "fresh48-v5-fresh-003",
+    "raw": "ato de Chromededashboardwohirakimasu",
+    "japaneseRanges": [
+      [
+        0,
+        3
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        13,
+        15
+      ],
+      [
+        24,
+        36
+      ]
+    ],
+    "englishRanges": [
+      [
+        7,
+        13
+      ],
+      [
+        15,
+        24
+      ]
+    ]
+  },
+  {
+    "id": "fresh48-v5-fresh-004",
+    "raw": "konoAPInotimeoutwokaetaidesu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        16,
+        28
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        7
+      ],
+      [
+        9,
+        16
+      ]
+    ]
+  },
+  {
+    "id": "fresh48-v5-fresh-005",
+    "raw": "sonoAPInoresponsehaJSONdesu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        17,
+        19
+      ],
+      [
+        23,
+        27
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        7
+      ],
+      [
+        9,
+        17
+      ],
+      [
+        19,
+        23
+      ]
+    ]
+  },
+  {
+    "id": "fresh48-v5-fresh-006",
+    "raw": "konoSQLnoquerywohozonshimasu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        14,
+        28
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        7
+      ],
+      [
+        9,
+        14
+      ]
+    ]
+  },
+  {
+    "id": "fresh48-v5-fresh-007",
+    "raw": "konoHTTPnoheaderwokakuninshimasu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        16,
+        32
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        8
+      ],
+      [
+        10,
+        16
+      ]
+    ]
+  },
+  {
+    "id": "fresh48-v5-fresh-008",
+    "raw": "konowidgethasidebarnihyoujishimasu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        10,
+        12
+      ],
+      [
+        19,
+        34
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        10
+      ],
+      [
+        12,
+        19
+      ]
+    ]
+  },
+  {
+    "id": "fresh48-v5-fresh-009",
+    "raw": "sonoavatarhathumbnailtoshitemotsukaimasu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        10,
+        12
+      ],
+      [
+        21,
+        40
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        10
+      ],
+      [
+        12,
+        21
+      ]
+    ]
+  },
+  {
+    "id": "fresh48-v5-fresh-010",
+    "raw": "kononotificationhaoffnishimasu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        16,
+        18
+      ],
+      [
+        21,
+        30
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        16
+      ],
+      [
+        18,
+        21
+      ]
+    ]
+  },
+  {
+    "id": "fresh48-v5-fresh-011",
+    "raw": "sonosettinghaoffnishitaidesu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        11,
+        13
+      ],
+      [
+        16,
+        28
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        11
+      ],
+      [
+        13,
+        16
+      ]
+    ]
+  },
+  {
+    "id": "fresh48-v5-fresh-012",
+    "raw": "konodependencynoversionwokaemasu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        23,
+        32
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        14
+      ],
+      [
+        16,
+        23
+      ]
+    ]
+  },
+  {
+    "id": "fresh48-v5-fresh-013",
+    "raw": "kyounoprototypewodemodemisemasu",
+    "japaneseRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        15,
+        17
+      ],
+      [
+        21,
+        31
+      ]
+    ],
+    "englishRanges": [
+      [
+        6,
+        15
+      ],
+      [
+        17,
+        21
+      ]
+    ]
+  },
+  {
+    "id": "fresh48-v5-fresh-014",
+    "raw": "ashitamadenicallbacknotestwokakimasu",
+    "japaneseRanges": [
+      [
+        0,
+        12
+      ],
+      [
+        20,
+        22
+      ],
+      [
+        26,
+        36
+      ]
+    ],
+    "englishRanges": [
+      [
+        12,
+        20
+      ],
+      [
+        22,
+        26
+      ]
+    ]
+  },
+  {
+    "id": "fresh48-v5-fresh-015",
+    "raw": "kononamespacekaraservicewosakujoshimasu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        13,
+        17
+      ],
+      [
+        24,
+        39
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        13
+      ],
+      [
+        17,
+        24
+      ]
+    ]
+  },
+  {
+    "id": "fresh48-v5-fresh-016",
+    "raw": "sonopreviewwomobiledemitaidesu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        11,
+        13
+      ],
+      [
+        19,
+        30
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        11
+      ],
+      [
+        13,
+        19
+      ]
+    ]
+  },
+  {
+    "id": "fresh48-v5-fresh-017",
+    "raw": "konocachehabrowserninokorimasu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        9,
+        11
+      ],
+      [
+        18,
+        30
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        9
+      ],
+      [
+        11,
+        18
+      ]
+    ]
+  },
+  {
+    "id": "fresh48-v5-fresh-018",
+    "raw": "konobranchnodiffworeviewshitekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        10,
+        12
+      ],
+      [
+        16,
+        18
+      ],
+      [
+        24,
+        36
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        10
+      ],
+      [
+        12,
+        16
+      ],
+      [
+        18,
+        24
+      ]
+    ]
+  },
+  {
+    "id": "fresh48-v5-fresh-019",
+    "raw": "sonotooltiphabuttonnitsukemasu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        11,
+        13
+      ],
+      [
+        19,
+        30
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        11
+      ],
+      [
+        13,
+        19
+      ]
+    ]
+  },
+  {
+    "id": "fresh48-v5-fresh-020",
+    "raw": "konostagingderefactornokekka wokakuninshimasu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        11,
+        13
+      ],
+      [
+        21,
+        28
+      ],
+      [
+        29,
+        45
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        11
+      ],
+      [
+        13,
+        21
+      ]
+    ]
+  },
+  {
+    "id": "fresh48-v5-fresh-021",
+    "raw": "ato meetingmadeniagendawookurimasu",
+    "japaneseRanges": [
+      [
+        0,
+        3
+      ],
+      [
+        11,
+        17
+      ],
+      [
+        23,
+        34
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        11
+      ],
+      [
+        17,
+        23
+      ]
+    ]
+  },
+  {
+    "id": "fresh48-v5-fresh-022",
+    "raw": "ima Notionnopagewohiraitemasu",
+    "japaneseRanges": [
+      [
+        0,
+        3
+      ],
+      [
+        10,
+        12
+      ],
+      [
+        16,
+        29
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        10
+      ],
+      [
+        12,
+        16
+      ]
+    ]
+  },
+  {
+    "id": "fresh48-v5-fresh-023",
+    "raw": "konotoolchainnoconfigwoshirabemasu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        13,
+        15
+      ],
+      [
+        21,
+        34
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        13
+      ],
+      [
+        15,
+        21
+      ]
+    ]
+  },
+  {
+    "id": "fresh48-v5-fresh-024",
+    "raw": "sononotebookhareadonlydesu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        12,
+        14
+      ],
+      [
+        22,
+        26
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        12
+      ],
+      [
+        14,
+        22
+      ]
+    ]
+  },
+  {
+    "id": "fresh48-v5-fresh-025",
+    "raw": "konomiddlewaredetokenwokakuninshimasu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        21,
+        37
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        14
+      ],
+      [
+        16,
+        21
+      ]
+    ]
+  },
+  {
+    "id": "fresh48-v5-fresh-026",
+    "raw": "kyounoworkshopnorecordingwohozonshimasu",
+    "japaneseRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        25,
+        39
+      ]
+    ],
+    "englishRanges": [
+      [
+        6,
+        14
+      ],
+      [
+        16,
+        25
+      ]
+    ]
+  },
+  {
+    "id": "fresh48-v5-fresh-027",
+    "raw": "konodatasetnoschemawoJSONdekakimasu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        11,
+        13
+      ],
+      [
+        19,
+        21
+      ],
+      [
+        25,
+        35
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        11
+      ],
+      [
+        13,
+        19
+      ],
+      [
+        21,
+        25
+      ]
+    ]
+  },
+  {
+    "id": "fresh48-v5-fresh-028",
+    "raw": "sonoclipboardnotextwoeditornihari tsukemasu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        13,
+        15
+      ],
+      [
+        19,
+        21
+      ],
+      [
+        27,
+        33
+      ],
+      [
+        34,
+        43
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        13
+      ],
+      [
+        15,
+        19
+      ],
+      [
+        21,
+        27
+      ]
+    ]
+  },
+  {
+    "id": "fresh48-v5-fresh-029",
+    "raw": "The prototype is ready for the next demo.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        41
+      ]
+    ]
+  },
+  {
+    "id": "fresh48-v5-fresh-030",
+    "raw": "Please keep the credential in a secure location.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        48
+      ]
+    ]
+  },
+  {
+    "id": "fresh48-v5-fresh-031",
+    "raw": "Turn the notification off before the workshop.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        46
+      ]
+    ]
+  },
+  {
+    "id": "fresh48-v5-fresh-032",
+    "raw": "The API response contains no optional fields.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        45
+      ]
+    ]
+  },
+  {
+    "id": "fresh48-v5-fresh-033",
+    "raw": "We had a widget on the dashboard.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        33
+      ]
+    ]
+  },
+  {
+    "id": "fresh48-v5-fresh-034",
+    "raw": "Can you send the SQL query to me?",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        33
+      ]
+    ]
+  },
+  {
+    "id": "fresh48-v5-fresh-035",
+    "raw": "Ima will review the HTTP header tomorrow.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        41
+      ]
+    ]
+  },
+  {
+    "id": "fresh48-v5-fresh-036",
+    "raw": "Ato is the name of this service.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        32
+      ]
+    ]
+  },
+  {
+    "id": "fresh48-v5-fresh-037",
+    "raw": "mira ni link wookurimasu",
+    "japaneseRanges": [
+      [
+        5,
+        7
+      ],
+      [
+        13,
+        24
+      ]
+    ],
+    "englishRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        8,
+        12
+      ]
+    ]
+  },
+  {
+    "id": "fresh48-v5-fresh-038",
+    "raw": "meta no API wotsukaimasu",
+    "japaneseRanges": [
+      [
+        5,
+        7
+      ],
+      [
+        12,
+        24
+      ]
+    ],
+    "englishRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        8,
+        11
+      ]
+    ]
+  },
+  {
+    "id": "fresh48-v5-fresh-039",
+    "raw": "ima shiryouwomatometemasu",
+    "japaneseRanges": [
+      [
+        0,
+        3
+      ],
+      [
+        4,
+        25
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "fresh48-v5-fresh-040",
+    "raw": "ato de kekkawooshietekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        3
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        7,
+        28
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "fresh48-v5-fresh-041",
+    "raw": "konoshigotohaashitamadenioeruyoteidesu",
+    "japaneseRanges": [
+      [
+        0,
+        38
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "fresh48-v5-fresh-042",
+    "raw": "sonoshiryounosaishuupejiwomitehoshii",
+    "japaneseRanges": [
+      [
+        0,
+        36
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "fresh48-v5-fresh-043",
+    "raw": "kyouhananijiniowarisoudesuka",
+    "japaneseRanges": [
+      [
+        0,
+        28
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "fresh48-v5-fresh-044",
+    "raw": "konosetteihamotonimodoshimashou",
+    "japaneseRanges": [
+      [
+        0,
+        31
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "fresh48-v5-fresh-045",
+    "raw": "kono $\\sum_{i=1}^{n}x_i$ wo tsukaimasu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        25,
+        27
+      ],
+      [
+        28,
+        38
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "fresh48-v5-fresh-046",
+    "raw": "ato de https://example.net/api?q=off wo hirakimasu",
+    "japaneseRanges": [
+      [
+        0,
+        3
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        37,
+        39
+      ],
+      [
+        40,
+        50
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "fresh48-v5-fresh-047",
+    "raw": "ima `git diff --stat` wo jikkoushimasu",
+    "japaneseRanges": [
+      [
+        0,
+        3
+      ],
+      [
+        22,
+        24
+      ],
+      [
+        25,
+        38
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "fresh48-v5-fresh-048",
+    "raw": "atesakiha api+test@example.net desu",
+    "japaneseRanges": [
+      [
+        0,
+        9
+      ],
+      [
+        31,
+        35
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "developmentV6-v6-fresh-001",
+    "raw": "konopagewoChromedehirakimasu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        16,
+        28
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        8
+      ],
+      [
+        10,
+        16
+      ]
+    ]
+  },
+  {
+    "id": "developmentV6-v6-fresh-002",
+    "raw": "sononodenologwokakuninshimasu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        13,
+        29
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        8
+      ],
+      [
+        10,
+        13
+      ]
+    ]
+  },
+  {
+    "id": "developmentV6-v6-fresh-003",
+    "raw": "konomodedepreviewshimasu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        17,
+        24
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        8
+      ],
+      [
+        10,
+        17
+      ]
+    ]
+  },
+  {
+    "id": "developmentV6-v6-fresh-004",
+    "raw": "sonodatenoformatwokaemasu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        16,
+        25
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        8
+      ],
+      [
+        10,
+        16
+      ]
+    ]
+  },
+  {
+    "id": "developmentV6-v6-fresh-005",
+    "raw": "korehaJSONdesu",
+    "japaneseRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        10,
+        14
+      ]
+    ],
+    "englishRanges": [
+      [
+        6,
+        10
+      ]
+    ]
+  },
+  {
+    "id": "developmentV6-v6-fresh-006",
+    "raw": "konoresponsehaHTMLdesu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        12,
+        14
+      ],
+      [
+        18,
+        22
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        12
+      ],
+      [
+        14,
+        18
+      ]
+    ]
+  },
+  {
+    "id": "developmentV6-v6-fresh-007",
+    "raw": "shutsuryokuhaCSVdesu",
+    "japaneseRanges": [
+      [
+        0,
+        13
+      ],
+      [
+        16,
+        20
+      ]
+    ],
+    "englishRanges": [
+      [
+        13,
+        16
+      ]
+    ]
+  },
+  {
+    "id": "developmentV6-v6-fresh-008",
+    "raw": "konoqueryhaSQLdesu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        9,
+        11
+      ],
+      [
+        14,
+        18
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        9
+      ],
+      [
+        11,
+        14
+      ]
+    ]
+  },
+  {
+    "id": "developmentV6-v6-fresh-009",
+    "raw": "ashitamadeniwebhooknotestwoowarasemasu",
+    "japaneseRanges": [
+      [
+        0,
+        12
+      ],
+      [
+        19,
+        21
+      ],
+      [
+        25,
+        38
+      ]
+    ],
+    "englishRanges": [
+      [
+        12,
+        19
+      ],
+      [
+        21,
+        25
+      ]
+    ]
+  },
+  {
+    "id": "developmentV6-v6-fresh-010",
+    "raw": "raishuumadenicallbacknoreviewwoonegaishimasu",
+    "japaneseRanges": [
+      [
+        0,
+        13
+      ],
+      [
+        21,
+        23
+      ],
+      [
+        29,
+        44
+      ]
+    ],
+    "englishRanges": [
+      [
+        13,
+        21
+      ],
+      [
+        23,
+        29
+      ]
+    ]
+  },
+  {
+    "id": "developmentV6-v6-fresh-011",
+    "raw": "kyoumadenibackupwotorimasu",
+    "japaneseRanges": [
+      [
+        0,
+        10
+      ],
+      [
+        16,
+        26
+      ]
+    ],
+    "englishRanges": [
+      [
+        10,
+        16
+      ]
+    ]
+  },
+  {
+    "id": "developmentV6-v6-fresh-012",
+    "raw": "kyoukaranoworkflowwomisetekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        10
+      ],
+      [
+        18,
+        33
+      ]
+    ],
+    "englishRanges": [
+      [
+        10,
+        18
+      ]
+    ]
+  },
+  {
+    "id": "developmentV6-v6-fresh-013",
+    "raw": "konotoolchaindebuildshimasu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        13,
+        15
+      ],
+      [
+        20,
+        27
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        13
+      ],
+      [
+        15,
+        20
+      ]
+    ]
+  },
+  {
+    "id": "developmentV6-v6-fresh-014",
+    "raw": "sonotoolchainnoversionwokaemasu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        13,
+        15
+      ],
+      [
+        22,
+        31
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        13
+      ],
+      [
+        15,
+        22
+      ]
+    ]
+  },
+  {
+    "id": "developmentV6-v6-fresh-015",
+    "raw": "konocallbackhatimeoutdeyobaremasu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        12,
+        14
+      ],
+      [
+        21,
+        33
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        12
+      ],
+      [
+        14,
+        21
+      ]
+    ]
+  },
+  {
+    "id": "developmentV6-v6-fresh-016",
+    "raw": "sononamespacenoconfigwoshirabemasu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        13,
+        15
+      ],
+      [
+        21,
+        34
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        13
+      ],
+      [
+        15,
+        21
+      ]
+    ]
+  },
+  {
+    "id": "developmentV6-v6-fresh-017",
+    "raw": "ato de Notionnopagewomitaidesu",
+    "japaneseRanges": [
+      [
+        0,
+        3
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        13,
+        15
+      ],
+      [
+        19,
+        30
+      ]
+    ],
+    "englishRanges": [
+      [
+        7,
+        13
+      ],
+      [
+        15,
+        19
+      ]
+    ]
+  },
+  {
+    "id": "developmentV6-v6-fresh-018",
+    "raw": "ima GitHubnoreleasewotsukurimasu",
+    "japaneseRanges": [
+      [
+        0,
+        3
+      ],
+      [
+        10,
+        12
+      ],
+      [
+        19,
+        32
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        10
+      ],
+      [
+        12,
+        19
+      ]
+    ]
+  },
+  {
+    "id": "developmentV6-v6-fresh-019",
+    "raw": "konoAPInoresponsewohozonshimasu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        17,
+        31
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        7
+      ],
+      [
+        9,
+        17
+      ]
+    ]
+  },
+  {
+    "id": "developmentV6-v6-fresh-020",
+    "raw": "sononotificationhaoffdesu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        16,
+        18
+      ],
+      [
+        21,
+        25
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        16
+      ],
+      [
+        18,
+        21
+      ]
+    ]
+  },
+  {
+    "id": "developmentV6-v6-fresh-021",
+    "raw": "konowidgethadashboardnitsukaimasu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        10,
+        12
+      ],
+      [
+        21,
+        33
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        10
+      ],
+      [
+        12,
+        21
+      ]
+    ]
+  },
+  {
+    "id": "developmentV6-v6-fresh-022",
+    "raw": "kyounomeetingnoagendawomisemasu",
+    "japaneseRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        13,
+        15
+      ],
+      [
+        21,
+        31
+      ]
+    ],
+    "englishRanges": [
+      [
+        6,
+        13
+      ],
+      [
+        15,
+        21
+      ]
+    ]
+  },
+  {
+    "id": "developmentV6-v6-fresh-023",
+    "raw": "konoprototypeworeviewshimasu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        13,
+        15
+      ],
+      [
+        21,
+        28
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        13
+      ],
+      [
+        15,
+        21
+      ]
+    ]
+  },
+  {
+    "id": "developmentV6-v6-fresh-024",
+    "raw": "sonocredentialhaservernihozonshimasu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        22,
+        36
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        14
+      ],
+      [
+        16,
+        22
+      ]
+    ]
+  },
+  {
+    "id": "developmentV6-v6-fresh-025",
+    "raw": "Please read the next page before the meeting.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        45
+      ]
+    ]
+  },
+  {
+    "id": "developmentV6-v6-fresh-026",
+    "raw": "The node is running in debug mode.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        34
+      ]
+    ]
+  },
+  {
+    "id": "developmentV6-v6-fresh-027",
+    "raw": "This date format is used in the JSON response.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        46
+      ]
+    ]
+  },
+  {
+    "id": "developmentV6-v6-fresh-028",
+    "raw": "We will call back after the workshop.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        37
+      ]
+    ]
+  },
+  {
+    "id": "developmentV6-v6-fresh-029",
+    "raw": "There is no callback in this example.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        37
+      ]
+    ]
+  },
+  {
+    "id": "developmentV6-v6-fresh-030",
+    "raw": "The toolchain supports HTML and CSV output.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        43
+      ]
+    ]
+  },
+  {
+    "id": "developmentV6-v6-fresh-031",
+    "raw": "My name is Mira and I work at Meta.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        35
+      ]
+    ]
+  },
+  {
+    "id": "developmentV6-v6-fresh-032",
+    "raw": "Send the API response to me tomorrow.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        37
+      ]
+    ]
+  },
+  {
+    "id": "developmentV6-v6-fresh-033",
+    "raw": "ashitamadeniowaraseruyoteidesu",
+    "japaneseRanges": [
+      [
+        0,
+        30
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "developmentV6-v6-fresh-034",
+    "raw": "raishuukaranooshigotowotanoshiminishiteimasu",
+    "japaneseRanges": [
+      [
+        0,
+        44
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "developmentV6-v6-fresh-035",
+    "raw": "konoyoyakuhaashitamadenihenkoudekimasu",
+    "japaneseRanges": [
+      [
+        0,
+        38
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "developmentV6-v6-fresh-036",
+    "raw": "sonohahanonamaewowasuremashita",
+    "japaneseRanges": [
+      [
+        0,
+        30
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "developmentV6-v6-fresh-037",
+    "raw": "konoshiryouhatotemowakariyasuidesu",
+    "japaneseRanges": [
+      [
+        0,
+        34
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "developmentV6-v6-fresh-038",
+    "raw": "ima atarashiihouhou wotameshiteimasu",
+    "japaneseRanges": [
+      [
+        0,
+        3
+      ],
+      [
+        4,
+        19
+      ],
+      [
+        20,
+        36
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "developmentV6-v6-fresh-039",
+    "raw": "ato de denwawokakenaoshimasu",
+    "japaneseRanges": [
+      [
+        0,
+        3
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        7,
+        28
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "developmentV6-v6-fresh-040",
+    "raw": "konojikankaranohenkouhamuzukashiidesu",
+    "japaneseRanges": [
+      [
+        0,
+        37
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "developmentV6-v6-fresh-041",
+    "raw": "kono $\\frac{a+b}{c}$ wo kakuninshimasu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        21,
+        23
+      ],
+      [
+        24,
+        38
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "developmentV6-v6-fresh-042",
+    "raw": "suushikiha \\(x+y=z\\) desu",
+    "japaneseRanges": [
+      [
+        0,
+        10
+      ],
+      [
+        21,
+        25
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "developmentV6-v6-fresh-043",
+    "raw": "kono `node --version` wo tsukaimasu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        22,
+        24
+      ],
+      [
+        25,
+        35
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "developmentV6-v6-fresh-044",
+    "raw": "kono https://example.org/page?mode=debug wo hirakimasu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        41,
+        43
+      ],
+      [
+        44,
+        54
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "developmentV6-v6-fresh-045",
+    "raw": "atesakiha review+api@example.org desu",
+    "japaneseRanges": [
+      [
+        0,
+        9
+      ],
+      [
+        33,
+        37
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "developmentV6-v6-fresh-046",
+    "raw": "kono ~/Documents/data.json wo yomimasu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        27,
+        29
+      ],
+      [
+        30,
+        38
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "developmentV6-v6-fresh-047",
+    "raw": "hozonnsakiha /tmp/output.csv desu",
+    "japaneseRanges": [
+      [
+        0,
+        12
+      ],
+      [
+        29,
+        33
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "developmentV6-v6-fresh-048",
+    "raw": "sono $x_i$ no ataini tsuite hanashimasu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        11,
+        13
+      ],
+      [
+        14,
+        20
+      ],
+      [
+        21,
+        27
+      ],
+      [
+        28,
+        39
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "finalV6-v6-final-001",
+    "raw": "ashitanokaigideroadmapwokakuninshimasu",
+    "japaneseRanges": [
+      [
+        0,
+        15
+      ],
+      [
+        22,
+        38
+      ]
+    ],
+    "englishRanges": [
+      [
+        15,
+        22
+      ]
+    ]
+  },
+  {
+    "id": "finalV6-v6-final-002",
+    "raw": "konoshiryouhaGooglenoDriveniokimashita",
+    "japaneseRanges": [
+      [
+        0,
+        13
+      ],
+      [
+        19,
+        21
+      ],
+      [
+        26,
+        38
+      ]
+    ],
+    "englishRanges": [
+      [
+        13,
+        19
+      ],
+      [
+        21,
+        26
+      ]
+    ]
+  },
+  {
+    "id": "finalV6-v6-final-003",
+    "raw": "kaerumadeniSlacknomessagenihenjishimasu",
+    "japaneseRanges": [
+      [
+        0,
+        11
+      ],
+      [
+        16,
+        18
+      ],
+      [
+        25,
+        39
+      ]
+    ],
+    "englishRanges": [
+      [
+        11,
+        16
+      ],
+      [
+        18,
+        25
+      ]
+    ]
+  },
+  {
+    "id": "finalV6-v6-final-004",
+    "raw": "konogazounobackgroundwoshirokushitaidesu",
+    "japaneseRanges": [
+      [
+        0,
+        11
+      ],
+      [
+        21,
+        40
+      ]
+    ],
+    "englishRanges": [
+      [
+        11,
+        21
+      ]
+    ]
+  },
+  {
+    "id": "finalV6-v6-final-005",
+    "raw": "sonobashodescreenshotwotottekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        11
+      ],
+      [
+        21,
+        35
+      ]
+    ],
+    "englishRanges": [
+      [
+        11,
+        21
+      ]
+    ]
+  },
+  {
+    "id": "finalV6-v6-final-006",
+    "raw": "konosetteihadefaultnomamadesu",
+    "japaneseRanges": [
+      [
+        0,
+        12
+      ],
+      [
+        19,
+        29
+      ]
+    ],
+    "englishRanges": [
+      [
+        12,
+        19
+      ]
+    ]
+  },
+  {
+    "id": "finalV6-v6-final-007",
+    "raw": "shimekirimaenipullrequestwodashimasu",
+    "japaneseRanges": [
+      [
+        0,
+        14
+      ],
+      [
+        25,
+        36
+      ]
+    ],
+    "englishRanges": [
+      [
+        14,
+        25
+      ]
+    ]
+  },
+  {
+    "id": "finalV6-v6-final-008",
+    "raw": "imaZoomnomeetingnisankashiteimasu",
+    "japaneseRanges": [
+      [
+        0,
+        3
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        16,
+        33
+      ]
+    ],
+    "englishRanges": [
+      [
+        3,
+        7
+      ],
+      [
+        9,
+        16
+      ]
+    ]
+  },
+  {
+    "id": "finalV6-v6-final-009",
+    "raw": "konohenkouhareleasenifukumemasu",
+    "japaneseRanges": [
+      [
+        0,
+        12
+      ],
+      [
+        19,
+        31
+      ]
+    ],
+    "englishRanges": [
+      [
+        12,
+        19
+      ]
+    ]
+  },
+  {
+    "id": "finalV6-v6-final-010",
+    "raw": "sonobangouwospreadsheetnikinyuushimasu",
+    "japaneseRanges": [
+      [
+        0,
+        12
+      ],
+      [
+        23,
+        38
+      ]
+    ],
+    "englishRanges": [
+      [
+        12,
+        23
+      ]
+    ]
+  },
+  {
+    "id": "finalV6-v6-final-011",
+    "raw": "konokijiwobookmarknitsuiakashimasu",
+    "japaneseRanges": [
+      [
+        0,
+        10
+      ],
+      [
+        18,
+        34
+      ]
+    ],
+    "englishRanges": [
+      [
+        10,
+        18
+      ]
+    ]
+  },
+  {
+    "id": "finalV6-v6-final-012",
+    "raw": "konogamennosidebarwotojimasu",
+    "japaneseRanges": [
+      [
+        0,
+        11
+      ],
+      [
+        18,
+        28
+      ]
+    ],
+    "englishRanges": [
+      [
+        11,
+        18
+      ]
+    ]
+  },
+  {
+    "id": "finalV6-v6-final-013",
+    "raw": "sonoshiryouwoPDFdehozonshimasu",
+    "japaneseRanges": [
+      [
+        0,
+        13
+      ],
+      [
+        16,
+        30
+      ]
+    ],
+    "englishRanges": [
+      [
+        13,
+        16
+      ]
+    ]
+  },
+  {
+    "id": "finalV6-v6-final-014",
+    "raw": "konotablehaCSVdesu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        9,
+        11
+      ],
+      [
+        14,
+        18
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        9
+      ],
+      [
+        11,
+        14
+      ]
+    ]
+  },
+  {
+    "id": "finalV6-v6-final-015",
+    "raw": "ashitamadeniwebhooknodousawotashikamemasu",
+    "japaneseRanges": [
+      [
+        0,
+        12
+      ],
+      [
+        19,
+        41
+      ]
+    ],
+    "englishRanges": [
+      [
+        12,
+        19
+      ]
+    ]
+  },
+  {
+    "id": "finalV6-v6-final-016",
+    "raw": "raishuumadenimigrationnojunkanoshiryouwojunbishimasu",
+    "japaneseRanges": [
+      [
+        0,
+        13
+      ],
+      [
+        22,
+        52
+      ]
+    ],
+    "englishRanges": [
+      [
+        13,
+        22
+      ]
+    ]
+  },
+  {
+    "id": "finalV6-v6-final-017",
+    "raw": "konotoolchainnoversionwoageruyoteidesu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        13,
+        15
+      ],
+      [
+        22,
+        38
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        13
+      ],
+      [
+        15,
+        22
+      ]
+    ]
+  },
+  {
+    "id": "finalV6-v6-final-018",
+    "raw": "konopagehaReactdetsukurimashita",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        15,
+        31
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        8
+      ],
+      [
+        10,
+        15
+      ]
+    ]
+  },
+  {
+    "id": "finalV6-v6-final-019",
+    "raw": "konocachehaichijitekinamonodesu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        9,
+        31
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        9
+      ]
+    ]
+  },
+  {
+    "id": "finalV6-v6-final-020",
+    "raw": "konohenkouhamadafukakuteinamonodesu",
+    "japaneseRanges": [
+      [
+        0,
+        35
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "finalV6-v6-final-021",
+    "raw": "konoshigotohaashitamadeniowarasemasu",
+    "japaneseRanges": [
+      [
+        0,
+        36
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "finalV6-v6-final-022",
+    "raw": "sorehamonodesuwanakunatsukashiiomoidedesu",
+    "japaneseRanges": [
+      [
+        0,
+        41
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "finalV6-v6-final-023",
+    "raw": "konohennocodewomisetekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        9
+      ],
+      [
+        13,
+        28
+      ]
+    ],
+    "englishRanges": [
+      [
+        9,
+        13
+      ]
+    ]
+  },
+  {
+    "id": "finalV6-v6-final-024",
+    "raw": "sononodehaservernitsunagatteimasu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        16,
+        33
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        8
+      ],
+      [
+        10,
+        16
+      ]
+    ]
+  },
+  {
+    "id": "finalV6-v6-final-025",
+    "raw": "sonosettinghaonnishitaidesu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        11,
+        13
+      ],
+      [
+        15,
+        27
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        11
+      ],
+      [
+        13,
+        15
+      ]
+    ]
+  },
+  {
+    "id": "finalV6-v6-final-026",
+    "raw": "konoAPInoresponsehaJSONdeshita",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        17,
+        19
+      ],
+      [
+        23,
+        30
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        7
+      ],
+      [
+        9,
+        17
+      ],
+      [
+        19,
+        23
+      ]
+    ]
+  },
+  {
+    "id": "finalV6-v6-final-027",
+    "raw": "kyouhaFigmadebuttonnoirokaemasu",
+    "japaneseRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        11,
+        13
+      ],
+      [
+        19,
+        31
+      ]
+    ],
+    "englishRanges": [
+      [
+        6,
+        11
+      ],
+      [
+        13,
+        19
+      ]
+    ]
+  },
+  {
+    "id": "finalV6-v6-final-028",
+    "raw": "ato de GitHubnoREADMEwoyomimasu",
+    "japaneseRanges": [
+      [
+        0,
+        3
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        13,
+        15
+      ],
+      [
+        21,
+        31
+      ]
+    ],
+    "englishRanges": [
+      [
+        3,
+        4
+      ],
+      [
+        6,
+        13
+      ],
+      [
+        15,
+        21
+      ]
+    ]
+  },
+  {
+    "id": "finalV6-v6-final-029",
+    "raw": "konohenkounodiffwooshietekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        12
+      ],
+      [
+        16,
+        32
+      ]
+    ],
+    "englishRanges": [
+      [
+        12,
+        16
+      ]
+    ]
+  },
+  {
+    "id": "finalV6-v6-final-030",
+    "raw": "saishoniloginshitekarasusumimasu",
+    "japaneseRanges": [
+      [
+        0,
+        8
+      ],
+      [
+        13,
+        32
+      ]
+    ],
+    "englishRanges": [
+      [
+        8,
+        13
+      ]
+    ]
+  },
+  {
+    "id": "finalV6-v6-final-031",
+    "raw": "konokekka ha false desu",
+    "japaneseRanges": [
+      [
+        0,
+        9
+      ],
+      [
+        10,
+        12
+      ],
+      [
+        19,
+        23
+      ]
+    ],
+    "englishRanges": [
+      [
+        9,
+        10
+      ],
+      [
+        12,
+        19
+      ]
+    ]
+  },
+  {
+    "id": "finalV6-v6-final-032",
+    "raw": "sonoflaghatruenishitearimasu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        14,
+        28
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        8
+      ],
+      [
+        10,
+        14
+      ]
+    ]
+  },
+  {
+    "id": "finalV6-v6-final-033",
+    "raw": "konocallbacknoargumentwoshirabetemasu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        12,
+        14
+      ],
+      [
+        22,
+        37
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        12
+      ],
+      [
+        14,
+        22
+      ]
+    ]
+  },
+  {
+    "id": "finalV6-v6-final-034",
+    "raw": "konobranchnonamaeha`feature/login`desu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        10,
+        19
+      ],
+      [
+        34,
+        38
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        10
+      ],
+      [
+        19,
+        34
+      ]
+    ]
+  },
+  {
+    "id": "finalV6-v6-final-035",
+    "raw": "shiryouhahttps://example.com/docsniarimasu",
+    "japaneseRanges": [
+      [
+        0,
+        9
+      ],
+      [
+        33,
+        42
+      ]
+    ],
+    "englishRanges": [
+      [
+        9,
+        33
+      ]
+    ]
+  },
+  {
+    "id": "finalV6-v6-final-036",
+    "raw": "konotokenha`access_token`desu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        9,
+        11
+      ],
+      [
+        25,
+        29
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        9
+      ],
+      [
+        11,
+        25
+      ]
+    ]
+  },
+  {
+    "id": "finalV6-v6-final-037",
+    "raw": "shikiha$a^2+b^2=c^2$desu",
+    "japaneseRanges": [
+      [
+        0,
+        7
+      ],
+      [
+        20,
+        24
+      ]
+    ],
+    "englishRanges": [
+      [
+        7,
+        20
+      ]
+    ]
+  },
+  {
+    "id": "finalV6-v6-final-038",
+    "raw": "heikinwo\\frac{a+b}{2}dearawashimasu",
+    "japaneseRanges": [
+      [
+        0,
+        8
+      ],
+      [
+        21,
+        35
+      ]
+    ],
+    "englishRanges": [
+      [
+        8,
+        21
+      ]
+    ]
+  },
+  {
+    "id": "finalV6-v6-final-039",
+    "raw": "kyounoprototypehademodeugokimasu",
+    "japaneseRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        15,
+        17
+      ],
+      [
+        21,
+        32
+      ]
+    ],
+    "englishRanges": [
+      [
+        6,
+        15
+      ],
+      [
+        17,
+        21
+      ]
+    ]
+  },
+  {
+    "id": "finalV6-v6-final-040",
+    "raw": "ato de mira ni message wookurimasu",
+    "japaneseRanges": [
+      [
+        0,
+        3
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        12,
+        14
+      ],
+      [
+        23,
+        34
+      ]
+    ],
+    "englishRanges": [
+      [
+        3,
+        4
+      ],
+      [
+        6,
+        12
+      ],
+      [
+        14,
+        23
+      ]
+    ]
+  },
+  {
+    "id": "finalV6-v6-final-041",
+    "raw": "sonokijihameta no blogniarimasu",
+    "japaneseRanges": [
+      [
+        0,
+        10
+      ],
+      [
+        15,
+        17
+      ],
+      [
+        22,
+        31
+      ]
+    ],
+    "englishRanges": [
+      [
+        10,
+        15
+      ],
+      [
+        17,
+        22
+      ]
+    ]
+  },
+  {
+    "id": "finalV6-v6-final-042",
+    "raw": "konocontainernohealthcheckwomimasu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        13,
+        15
+      ],
+      [
+        26,
+        34
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        13
+      ],
+      [
+        15,
+        26
+      ]
+    ]
+  },
+  {
+    "id": "finalV6-v6-final-043",
+    "raw": "konohostnamewokaemasu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        12,
+        21
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        12
+      ]
+    ]
+  },
+  {
+    "id": "finalV6-v6-final-044",
+    "raw": "konosaishinnocheckpointwohozonshimasu",
+    "japaneseRanges": [
+      [
+        0,
+        13
+      ],
+      [
+        23,
+        37
+      ]
+    ],
+    "englishRanges": [
+      [
+        13,
+        23
+      ]
+    ]
+  },
+  {
+    "id": "finalV6-v6-final-045",
+    "raw": "konobangounochecksumgachigaimasu",
+    "japaneseRanges": [
+      [
+        0,
+        12
+      ],
+      [
+        20,
+        32
+      ]
+    ],
+    "englishRanges": [
+      [
+        12,
+        20
+      ]
+    ]
+  },
+  {
+    "id": "finalV6-v6-final-046",
+    "raw": "sononewlinehaLFdesu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        11,
+        13
+      ],
+      [
+        15,
+        19
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        11
+      ],
+      [
+        13,
+        15
+      ]
+    ]
+  },
+  {
+    "id": "finalV6-v6-final-047",
+    "raw": "konousernotimezonehaUTCdesu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        18,
+        20
+      ],
+      [
+        23,
+        27
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        8
+      ],
+      [
+        10,
+        18
+      ],
+      [
+        20,
+        23
+      ]
+    ]
+  },
+  {
+    "id": "finalV6-v6-final-048",
+    "raw": "ashitaChromededownloadwotameshimasu",
+    "japaneseRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        12,
+        14
+      ],
+      [
+        22,
+        35
+      ]
+    ],
+    "englishRanges": [
+      [
+        6,
+        12
+      ],
+      [
+        14,
+        22
+      ]
+    ]
+  },
+  {
+    "id": "finalV7-v7-final-001",
+    "raw": "senshuunouchiawasedekimetadeadlinewokakuninshitaidesu",
+    "japaneseRanges": [
+      [
+        0,
+        26
+      ],
+      [
+        34,
+        53
+      ]
+    ],
+    "englishRanges": [
+      [
+        26,
+        34
+      ]
+    ]
+  },
+  {
+    "id": "finalV7-v7-final-002",
+    "raw": "gamennomigishitaniarucheckboxwohazushitekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        21
+      ],
+      [
+        29,
+        47
+      ]
+    ],
+    "englishRanges": [
+      [
+        21,
+        29
+      ]
+    ]
+  },
+  {
+    "id": "finalV7-v7-final-003",
+    "raw": "yomikakenokijinobookmarkwoseirishimashita",
+    "japaneseRanges": [
+      [
+        0,
+        16
+      ],
+      [
+        24,
+        41
+      ]
+    ],
+    "englishRanges": [
+      [
+        16,
+        24
+      ]
+    ]
+  },
+  {
+    "id": "finalV7-v7-final-004",
+    "raw": "kinoukarashirabeteiruregressionnoriyuugawakarimashita",
+    "japaneseRanges": [
+      [
+        0,
+        21
+      ],
+      [
+        31,
+        53
+      ]
+    ],
+    "englishRanges": [
+      [
+        21,
+        31
+      ]
+    ]
+  },
+  {
+    "id": "finalV7-v7-final-005",
+    "raw": "kaiginomaeniokuttaattachmentgahirakemasenn",
+    "japaneseRanges": [
+      [
+        0,
+        18
+      ],
+      [
+        28,
+        42
+      ]
+    ],
+    "englishRanges": [
+      [
+        18,
+        28
+      ]
+    ]
+  },
+  {
+    "id": "finalV7-v7-final-006",
+    "raw": "shuunohajimenitsukuttachecklistwominaoshimashou",
+    "japaneseRanges": [
+      [
+        0,
+        22
+      ],
+      [
+        31,
+        47
+      ]
+    ],
+    "englishRanges": [
+      [
+        22,
+        31
+      ]
+    ]
+  },
+  {
+    "id": "finalV7-v7-final-007",
+    "raw": "konoshashinnohaikeiniaruwatermarkgakininarimasu",
+    "japaneseRanges": [
+      [
+        0,
+        24
+      ],
+      [
+        33,
+        47
+      ]
+    ],
+    "englishRanges": [
+      [
+        24,
+        33
+      ]
+    ]
+  },
+  {
+    "id": "finalV7-v7-final-008",
+    "raw": "minnadehanashiattekimetamilestonewokaemashita",
+    "japaneseRanges": [
+      [
+        0,
+        24
+      ],
+      [
+        33,
+        45
+      ]
+    ],
+    "englishRanges": [
+      [
+        24,
+        33
+      ]
+    ]
+  },
+  {
+    "id": "finalV7-v7-final-009",
+    "raw": "shoriganagabikutokinotimeoutwonobashitaidesu",
+    "japaneseRanges": [
+      [
+        0,
+        21
+      ],
+      [
+        28,
+        44
+      ]
+    ],
+    "englishRanges": [
+      [
+        21,
+        28
+      ]
+    ]
+  },
+  {
+    "id": "finalV7-v7-final-010",
+    "raw": "atarashiipasokonnniutsushitaworkspacegamitsukarimasenn",
+    "japaneseRanges": [
+      [
+        0,
+        28
+      ],
+      [
+        37,
+        54
+      ]
+    ],
+    "englishRanges": [
+      [
+        28,
+        37
+      ]
+    ]
+  },
+  {
+    "id": "finalV7-v7-final-011",
+    "raw": "hozonshitaonseinosaishonotimestampwooshietekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        25
+      ],
+      [
+        34,
+        50
+      ]
+    ],
+    "englishRanges": [
+      [
+        25,
+        34
+      ]
+    ]
+  },
+  {
+    "id": "finalV7-v7-final-012",
+    "raw": "kaerumaenikakuninshitainvoicenikingakugahaitteimasenn",
+    "japaneseRanges": [
+      [
+        0,
+        22
+      ],
+      [
+        29,
+        53
+      ]
+    ],
+    "englishRanges": [
+      [
+        22,
+        29
+      ]
+    ]
+  },
+  {
+    "id": "finalV7-v7-final-013",
+    "raw": "saigonominaoshidekizuitatypowonaoshimashita",
+    "japaneseRanges": [
+      [
+        0,
+        24
+      ],
+      [
+        28,
+        43
+      ]
+    ],
+    "englishRanges": [
+      [
+        24,
+        28
+      ]
+    ]
+  },
+  {
+    "id": "finalV7-v7-final-014",
+    "raw": "tsuginojikkennitsukaudatasetwoyouishimasu",
+    "japaneseRanges": [
+      [
+        0,
+        21
+      ],
+      [
+        28,
+        41
+      ]
+    ],
+    "englishRanges": [
+      [
+        21,
+        28
+      ]
+    ]
+  },
+  {
+    "id": "finalV7-v7-final-015",
+    "raw": "hitotsumaenogamennimodorushortcutwooboetaidesu",
+    "japaneseRanges": [
+      [
+        0,
+        25
+      ],
+      [
+        33,
+        46
+      ]
+    ],
+    "englishRanges": [
+      [
+        25,
+        33
+      ]
+    ]
+  },
+  {
+    "id": "finalV7-v7-final-016",
+    "raw": "konohonndetokinikiniittachapterwoyomikaeshiteimasu",
+    "japaneseRanges": [
+      [
+        0,
+        24
+      ],
+      [
+        31,
+        50
+      ]
+    ],
+    "englishRanges": [
+      [
+        24,
+        31
+      ]
+    ]
+  },
+  {
+    "id": "finalV7-v7-final-017",
+    "raw": "kinounoZoomnorecordingwoDrivenihozonshita",
+    "japaneseRanges": [
+      [
+        0,
+        7
+      ],
+      [
+        11,
+        13
+      ],
+      [
+        22,
+        24
+      ],
+      [
+        29,
+        41
+      ]
+    ],
+    "englishRanges": [
+      [
+        7,
+        11
+      ],
+      [
+        13,
+        22
+      ],
+      [
+        24,
+        29
+      ]
+    ]
+  },
+  {
+    "id": "finalV7-v7-final-018",
+    "raw": "konoshashinwocropshitekarathumbnailnishimasu",
+    "japaneseRanges": [
+      [
+        0,
+        13
+      ],
+      [
+        17,
+        26
+      ],
+      [
+        35,
+        44
+      ]
+    ],
+    "englishRanges": [
+      [
+        13,
+        17
+      ],
+      [
+        26,
+        35
+      ]
+    ]
+  },
+  {
+    "id": "finalV7-v7-final-019",
+    "raw": "asaichideinboxwokakuninshitenewsletterwoyomimashita",
+    "japaneseRanges": [
+      [
+        0,
+        9
+      ],
+      [
+        14,
+        28
+      ],
+      [
+        38,
+        51
+      ]
+    ],
+    "englishRanges": [
+      [
+        9,
+        14
+      ],
+      [
+        28,
+        38
+      ]
+    ]
+  },
+  {
+    "id": "finalV7-v7-final-020",
+    "raw": "sonokijiwobookmarkshitetagwotsuketekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        10
+      ],
+      [
+        18,
+        23
+      ],
+      [
+        26,
+        42
+      ]
+    ],
+    "englishRanges": [
+      [
+        10,
+        18
+      ],
+      [
+        23,
+        26
+      ]
+    ]
+  },
+  {
+    "id": "finalV7-v7-final-021",
+    "raw": "atarashiibranchdehotfixwocommitshimashita",
+    "japaneseRanges": [
+      [
+        0,
+        9
+      ],
+      [
+        15,
+        17
+      ],
+      [
+        23,
+        25
+      ],
+      [
+        31,
+        41
+      ]
+    ],
+    "englishRanges": [
+      [
+        9,
+        15
+      ],
+      [
+        17,
+        23
+      ],
+      [
+        25,
+        31
+      ]
+    ]
+  },
+  {
+    "id": "finalV7-v7-final-022",
+    "raw": "sakkinoanimationnodurationwosukoshinagakushita",
+    "japaneseRanges": [
+      [
+        0,
+        7
+      ],
+      [
+        16,
+        18
+      ],
+      [
+        26,
+        46
+      ]
+    ],
+    "englishRanges": [
+      [
+        7,
+        16
+      ],
+      [
+        18,
+        26
+      ]
+    ]
+  },
+  {
+    "id": "finalV7-v7-final-023",
+    "raw": "konotsuuchihamobiledakemutenishitaidesu",
+    "japaneseRanges": [
+      [
+        0,
+        13
+      ],
+      [
+        19,
+        23
+      ],
+      [
+        27,
+        39
+      ]
+    ],
+    "englishRanges": [
+      [
+        13,
+        19
+      ],
+      [
+        23,
+        27
+      ]
+    ]
+  },
+  {
+    "id": "finalV7-v7-final-024",
+    "raw": "konogamennoheadertofooterdefontgachigaimasu",
+    "japaneseRanges": [
+      [
+        0,
+        11
+      ],
+      [
+        17,
+        19
+      ],
+      [
+        25,
+        27
+      ],
+      [
+        31,
+        43
+      ]
+    ],
+    "englishRanges": [
+      [
+        11,
+        17
+      ],
+      [
+        19,
+        25
+      ],
+      [
+        27,
+        31
+      ]
+    ]
+  },
+  {
+    "id": "finalV7-v7-final-025",
+    "raw": "kesaokuttaproposalnofeedbackwomoraemashitaka",
+    "japaneseRanges": [
+      [
+        0,
+        10
+      ],
+      [
+        18,
+        20
+      ],
+      [
+        28,
+        44
+      ]
+    ],
+    "englishRanges": [
+      [
+        10,
+        18
+      ],
+      [
+        20,
+        28
+      ]
+    ]
+  },
+  {
+    "id": "finalV7-v7-final-026",
+    "raw": "konotsuushinharetryshitemostatusgakawarimasenn",
+    "japaneseRanges": [
+      [
+        0,
+        14
+      ],
+      [
+        19,
+        26
+      ],
+      [
+        32,
+        46
+      ]
+    ],
+    "englishRanges": [
+      [
+        14,
+        19
+      ],
+      [
+        26,
+        32
+      ]
+    ]
+  },
+  {
+    "id": "finalV7-v7-final-027",
+    "raw": "koukaimaenirelease noteswoyominaoshimashou",
+    "japaneseRanges": [
+      [
+        0,
+        11
+      ],
+      [
+        24,
+        42
+      ]
+    ],
+    "englishRanges": [
+      [
+        11,
+        24
+      ]
+    ]
+  },
+  {
+    "id": "finalV7-v7-final-028",
+    "raw": "shuumatsumadenipull requestwomatometekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        15
+      ],
+      [
+        27,
+        44
+      ]
+    ],
+    "englishRanges": [
+      [
+        15,
+        27
+      ]
+    ]
+  },
+  {
+    "id": "finalV7-v7-final-029",
+    "raw": "yorumadetsukautokidakedark modenikirikaetaidesu",
+    "japaneseRanges": [
+      [
+        0,
+        22
+      ],
+      [
+        31,
+        47
+      ]
+    ],
+    "englishRanges": [
+      [
+        22,
+        31
+      ]
+    ]
+  },
+  {
+    "id": "finalV7-v7-final-030",
+    "raw": "shippaishitatokinoerror messagewosonomamaokuttekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        18
+      ],
+      [
+        31,
+        54
+      ]
+    ],
+    "englishRanges": [
+      [
+        18,
+        31
+      ]
+    ]
+  },
+  {
+    "id": "finalV7-v7-final-031",
+    "raw": "kaishanosourcenohozonbashohaprivate repositorydesu",
+    "japaneseRanges": [
+      [
+        0,
+        8
+      ],
+      [
+        14,
+        28
+      ],
+      [
+        46,
+        50
+      ]
+    ],
+    "englishRanges": [
+      [
+        8,
+        14
+      ],
+      [
+        28,
+        46
+      ]
+    ]
+  },
+  {
+    "id": "finalV7-v7-final-032",
+    "raw": "gamenzentainotouitsukannwodasutamenidesign systemwotsukurimasu",
+    "japaneseRanges": [
+      [
+        0,
+        36
+      ],
+      [
+        49,
+        62
+      ]
+    ],
+    "englishRanges": [
+      [
+        36,
+        49
+      ]
+    ]
+  },
+  {
+    "id": "finalV7-v7-final-033",
+    "raw": "konoinsatsuyounoshiryouhaPDFdeokuttekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        25
+      ],
+      [
+        28,
+        43
+      ]
+    ],
+    "englishRanges": [
+      [
+        25,
+        28
+      ]
+    ]
+  },
+  {
+    "id": "finalV7-v7-final-034",
+    "raw": "kakidashitasetteinohoushikihaYAMLdesu",
+    "japaneseRanges": [
+      [
+        0,
+        29
+      ],
+      [
+        33,
+        37
+      ]
+    ],
+    "englishRanges": [
+      [
+        29,
+        33
+      ]
+    ]
+  },
+  {
+    "id": "finalV7-v7-final-035",
+    "raw": "konokeisannwoGPUdehayakushitaidesu",
+    "japaneseRanges": [
+      [
+        0,
+        13
+      ],
+      [
+        16,
+        34
+      ]
+    ],
+    "englishRanges": [
+      [
+        13,
+        16
+      ]
+    ]
+  },
+  {
+    "id": "finalV7-v7-final-036",
+    "raw": "shorinishiyoushitaCPUnojikannwokeisokushita",
+    "japaneseRanges": [
+      [
+        0,
+        18
+      ],
+      [
+        21,
+        43
+      ]
+    ],
+    "englishRanges": [
+      [
+        18,
+        21
+      ]
+    ]
+  },
+  {
+    "id": "finalV7-v7-final-037",
+    "raw": "konotsuushinohoushikihaHTTPSnishitekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        23
+      ],
+      [
+        28,
+        42
+      ]
+    ],
+    "englishRanges": [
+      [
+        23,
+        28
+      ]
+    ]
+  },
+  {
+    "id": "finalV7-v7-final-038",
+    "raw": "jitakunodougasouchinoHDMIgasasatteimasenn",
+    "japaneseRanges": [
+      [
+        0,
+        21
+      ],
+      [
+        25,
+        41
+      ]
+    ],
+    "englishRanges": [
+      [
+        21,
+        25
+      ]
+    ]
+  },
+  {
+    "id": "finalV7-v7-final-039",
+    "raw": "ashitahayakuokirunodekyouhamouyasumimasu",
+    "japaneseRanges": [
+      [
+        0,
+        40
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "finalV7-v7-final-040",
+    "raw": "shigotonokaeriniekinomaedekaemonowoshimasu",
+    "japaneseRanges": [
+      [
+        0,
+        42
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "finalV7-v7-final-041",
+    "raw": "maeniyondahonnonamaegadoushitemoomoidasemasenn",
+    "japaneseRanges": [
+      [
+        0,
+        46
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "finalV7-v7-final-042",
+    "raw": "Please send the original image before tomorrow.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        47
+      ]
+    ]
+  },
+  {
+    "id": "finalV7-v7-final-043",
+    "raw": "We need more time to review the proposed changes.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        49
+      ]
+    ]
+  },
+  {
+    "id": "finalV7-v7-final-044",
+    "raw": "The download finished but the file is still missing.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        52
+      ]
+    ]
+  },
+  {
+    "id": "finalV7-v7-final-045",
+    "raw": "futatsunoatainoheikinwo\\frac{x+y}{2}dearawashimasu",
+    "japaneseRanges": [
+      [
+        0,
+        23
+      ],
+      [
+        36,
+        50
+      ]
+    ],
+    "englishRanges": [
+      [
+        23,
+        36
+      ]
+    ]
+  },
+  {
+    "id": "finalV7-v7-final-046",
+    "raw": "konoshikinojoukenha$x>0$desu",
+    "japaneseRanges": [
+      [
+        0,
+        19
+      ],
+      [
+        24,
+        28
+      ]
+    ],
+    "englishRanges": [
+      [
+        19,
+        24
+      ]
+    ]
+  },
+  {
+    "id": "finalV7-v7-final-047",
+    "raw": "tsuikashitasetteiha`cache_max_age`desu",
+    "japaneseRanges": [
+      [
+        0,
+        19
+      ],
+      [
+        34,
+        38
+      ]
+    ],
+    "englishRanges": [
+      [
+        19,
+        34
+      ]
+    ]
+  },
+  {
+    "id": "finalV7-v7-final-048",
+    "raw": "tsuzukihahttps://example.org/guide/setup",
+    "japaneseRanges": [
+      [
+        0,
+        9
+      ]
+    ],
+    "englishRanges": [
+      [
+        9,
+        40
+      ]
+    ]
+  },
+  {
+    "id": "finalV8-v8-final-001",
+    "raw": "asayoyakushitaticketwokakuninshimasu",
+    "japaneseRanges": [
+      [
+        0,
+        14
+      ],
+      [
+        20,
+        36
+      ]
+    ],
+    "englishRanges": [
+      [
+        14,
+        20
+      ]
+    ]
+  },
+  {
+    "id": "finalV8-v8-final-002",
+    "raw": "tomodachikaratodoitainvitationwohiraitekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        20
+      ],
+      [
+        30,
+        46
+      ]
+    ],
+    "englishRanges": [
+      [
+        20,
+        30
+      ]
+    ]
+  },
+  {
+    "id": "finalV8-v8-final-003",
+    "raw": "ryokoumaenitsukuttaitinerarywokazokuniokurimashita",
+    "japaneseRanges": [
+      [
+        0,
+        19
+      ],
+      [
+        28,
+        50
+      ]
+    ],
+    "englishRanges": [
+      [
+        19,
+        28
+      ]
+    ]
+  },
+  {
+    "id": "finalV8-v8-final-004",
+    "raw": "tsukuenioitearuadapterwomottekitekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        15
+      ],
+      [
+        22,
+        40
+      ]
+    ],
+    "englishRanges": [
+      [
+        15,
+        22
+      ]
+    ]
+  },
+  {
+    "id": "finalV8-v8-final-005",
+    "raw": "gozennchuuninaoshitalayoutgakuzureteimasu",
+    "japaneseRanges": [
+      [
+        0,
+        20
+      ],
+      [
+        26,
+        41
+      ]
+    ],
+    "englishRanges": [
+      [
+        20,
+        26
+      ]
+    ]
+  },
+  {
+    "id": "finalV8-v8-final-006",
+    "raw": "ashitanokaigidemiseruprototypewoyouishimashita",
+    "japaneseRanges": [
+      [
+        0,
+        21
+      ],
+      [
+        30,
+        46
+      ]
+    ],
+    "englishRanges": [
+      [
+        21,
+        30
+      ]
+    ]
+  },
+  {
+    "id": "finalV8-v8-final-007",
+    "raw": "kinoukoushinshitaprofilenishashinwotsuikashitaidesu",
+    "japaneseRanges": [
+      [
+        0,
+        17
+      ],
+      [
+        24,
+        51
+      ]
+    ],
+    "englishRanges": [
+      [
+        17,
+        24
+      ]
+    ]
+  },
+  {
+    "id": "finalV8-v8-final-008",
+    "raw": "satsueinomaenikakuninshitaexposurewosukoshisagemasu",
+    "japaneseRanges": [
+      [
+        0,
+        26
+      ],
+      [
+        34,
+        51
+      ]
+    ],
+    "englishRanges": [
+      [
+        26,
+        34
+      ]
+    ]
+  },
+  {
+    "id": "finalV8-v8-final-009",
+    "raw": "mitaieigawomatometawatchlistwokyouyuushimasu",
+    "japaneseRanges": [
+      [
+        0,
+        19
+      ],
+      [
+        28,
+        44
+      ]
+    ],
+    "englishRanges": [
+      [
+        19,
+        28
+      ]
+    ]
+  },
+  {
+    "id": "finalV8-v8-final-010",
+    "raw": "hikkoshitaatonihenkoushitaaddressgahanneisaremasenn",
+    "japaneseRanges": [
+      [
+        0,
+        26
+      ],
+      [
+        33,
+        51
+      ]
+    ],
+    "englishRanges": [
+      [
+        26,
+        33
+      ]
+    ]
+  },
+  {
+    "id": "finalV8-v8-final-011",
+    "raw": "shucchoudetsukauvoucherwoinsatsushiteokimasu",
+    "japaneseRanges": [
+      [
+        0,
+        16
+      ],
+      [
+        23,
+        44
+      ]
+    ],
+    "englishRanges": [
+      [
+        16,
+        23
+      ]
+    ]
+  },
+  {
+    "id": "finalV8-v8-final-012",
+    "raw": "minnadekaitaretrospectivewoyomikaeshimashita",
+    "japaneseRanges": [
+      [
+        0,
+        12
+      ],
+      [
+        25,
+        44
+      ]
+    ],
+    "englishRanges": [
+      [
+        12,
+        25
+      ]
+    ]
+  },
+  {
+    "id": "finalV8-v8-final-013",
+    "raw": "kuukounitsukumaeniboarding passwohozonshitekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        18
+      ],
+      [
+        31,
+        50
+      ]
+    ],
+    "englishRanges": [
+      [
+        18,
+        31
+      ]
+    ]
+  },
+  {
+    "id": "finalV8-v8-final-014",
+    "raw": "kyounogogohameeting roomwoyoyakushiteimasu",
+    "japaneseRanges": [
+      [
+        0,
+        12
+      ],
+      [
+        24,
+        42
+      ]
+    ],
+    "englishRanges": [
+      [
+        12,
+        24
+      ]
+    ]
+  },
+  {
+    "id": "finalV8-v8-final-015",
+    "raw": "setsumeiwohajimerumaeniscreen sharingwoyuukounishimasu",
+    "japaneseRanges": [
+      [
+        0,
+        23
+      ],
+      [
+        37,
+        54
+      ]
+    ],
+    "englishRanges": [
+      [
+        23,
+        37
+      ]
+    ]
+  },
+  {
+    "id": "finalV8-v8-final-016",
+    "raw": "henkinnnitsuitecustomer supportnisoudanshimashita",
+    "japaneseRanges": [
+      [
+        0,
+        15
+      ],
+      [
+        31,
+        49
+      ]
+    ],
+    "englishRanges": [
+      [
+        15,
+        31
+      ]
+    ]
+  },
+  {
+    "id": "finalV8-v8-final-017",
+    "raw": "atarashiitanmatsunimopassword managerwoiretekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        21
+      ],
+      [
+        37,
+        51
+      ]
+    ],
+    "englishRanges": [
+      [
+        21,
+        37
+      ]
+    ]
+  },
+  {
+    "id": "finalV8-v8-final-018",
+    "raw": "shigotonishuuchuushitaitokihafocus modewotsukaimasu",
+    "japaneseRanges": [
+      [
+        0,
+        29
+      ],
+      [
+        39,
+        51
+      ]
+    ],
+    "englishRanges": [
+      [
+        29,
+        39
+      ]
+    ]
+  },
+  {
+    "id": "finalV8-v8-final-019",
+    "raw": "okurumaenifile namewowakariyasukushitekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        10
+      ],
+      [
+        19,
+        45
+      ]
+    ],
+    "englishRanges": [
+      [
+        10,
+        19
+      ]
+    ]
+  },
+  {
+    "id": "finalV8-v8-final-020",
+    "raw": "konodouganobackground musicnoonryouwosukoshisagemasu",
+    "japaneseRanges": [
+      [
+        0,
+        11
+      ],
+      [
+        27,
+        52
+      ]
+    ],
+    "englishRanges": [
+      [
+        11,
+        27
+      ]
+    ]
+  },
+  {
+    "id": "finalV8-v8-final-021",
+    "raw": "sakihodotodoitavoice messagewomouichidokikitaidesu",
+    "japaneseRanges": [
+      [
+        0,
+        15
+      ],
+      [
+        28,
+        50
+      ]
+    ],
+    "englishRanges": [
+      [
+        15,
+        28
+      ]
+    ]
+  },
+  {
+    "id": "finalV8-v8-final-022",
+    "raw": "kyouyuusurumaenisearch historywokeshiteokimasu",
+    "japaneseRanges": [
+      [
+        0,
+        16
+      ],
+      [
+        30,
+        46
+      ]
+    ],
+    "englishRanges": [
+      [
+        16,
+        30
+      ]
+    ]
+  },
+  {
+    "id": "finalV8-v8-final-023",
+    "raw": "kaerinikaumonowoshopping listnitsuikashimashita",
+    "japaneseRanges": [
+      [
+        0,
+        16
+      ],
+      [
+        29,
+        47
+      ]
+    ],
+    "englishRanges": [
+      [
+        16,
+        29
+      ]
+    ]
+  },
+  {
+    "id": "finalV8-v8-final-024",
+    "raw": "kininattakijiworeading listniireteimasu",
+    "japaneseRanges": [
+      [
+        0,
+        15
+      ],
+      [
+        27,
+        39
+      ]
+    ],
+    "englishRanges": [
+      [
+        15,
+        27
+      ]
+    ]
+  },
+  {
+    "id": "finalV8-v8-final-025",
+    "raw": "ChromenotabwotojitekaraSafaridehirakinaoshimashita",
+    "japaneseRanges": [
+      [
+        6,
+        8
+      ],
+      [
+        11,
+        23
+      ],
+      [
+        29,
+        50
+      ]
+    ],
+    "englishRanges": [
+      [
+        0,
+        6
+      ],
+      [
+        8,
+        11
+      ],
+      [
+        23,
+        29
+      ]
+    ]
+  },
+  {
+    "id": "finalV8-v8-final-026",
+    "raw": "konoformnoemailranniaddresswonyuuryokushitekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        15,
+        20
+      ],
+      [
+        27,
+        50
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        8
+      ],
+      [
+        10,
+        15
+      ],
+      [
+        20,
+        27
+      ]
+    ]
+  },
+  {
+    "id": "finalV8-v8-final-027",
+    "raw": "onseiworecordshitekaranoisewoherashimasu",
+    "japaneseRanges": [
+      [
+        0,
+        7
+      ],
+      [
+        13,
+        22
+      ],
+      [
+        27,
+        40
+      ]
+    ],
+    "englishRanges": [
+      [
+        7,
+        13
+      ],
+      [
+        22,
+        27
+      ]
+    ]
+  },
+  {
+    "id": "finalV8-v8-final-028",
+    "raw": "konofoldernoarchivewocloudniutsushimashita",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        10,
+        12
+      ],
+      [
+        19,
+        21
+      ],
+      [
+        26,
+        42
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        10
+      ],
+      [
+        12,
+        19
+      ],
+      [
+        21,
+        26
+      ]
+    ]
+  },
+  {
+    "id": "finalV8-v8-final-029",
+    "raw": "kinounomeetingnosummarywoSlackniokurimashita",
+    "japaneseRanges": [
+      [
+        0,
+        7
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        23,
+        25
+      ],
+      [
+        30,
+        44
+      ]
+    ],
+    "englishRanges": [
+      [
+        7,
+        14
+      ],
+      [
+        16,
+        23
+      ],
+      [
+        25,
+        30
+      ]
+    ]
+  },
+  {
+    "id": "finalV8-v8-final-030",
+    "raw": "konobuttonwoclicksurutodialoggahirakimasu",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        10,
+        12
+      ],
+      [
+        17,
+        23
+      ],
+      [
+        29,
+        41
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        10
+      ],
+      [
+        12,
+        17
+      ],
+      [
+        23,
+        29
+      ]
+    ]
+  },
+  {
+    "id": "finalV8-v8-final-031",
+    "raw": "tsuginoslidenotitletosubtitlewoirekaemasu",
+    "japaneseRanges": [
+      [
+        0,
+        7
+      ],
+      [
+        12,
+        14
+      ],
+      [
+        19,
+        21
+      ],
+      [
+        29,
+        41
+      ]
+    ],
+    "englishRanges": [
+      [
+        7,
+        12
+      ],
+      [
+        14,
+        19
+      ],
+      [
+        21,
+        29
+      ]
+    ]
+  },
+  {
+    "id": "finalV8-v8-final-032",
+    "raw": "konocameranobatterytostoragewokakuninshitekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        10,
+        12
+      ],
+      [
+        19,
+        21
+      ],
+      [
+        28,
+        49
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        10
+      ],
+      [
+        12,
+        19
+      ],
+      [
+        21,
+        28
+      ]
+    ]
+  },
+  {
+    "id": "finalV8-v8-final-033",
+    "raw": "kounyuushitaitemnotrackingwoappdekakuninshimashita",
+    "japaneseRanges": [
+      [
+        0,
+        12
+      ],
+      [
+        16,
+        18
+      ],
+      [
+        26,
+        28
+      ],
+      [
+        31,
+        50
+      ]
+    ],
+    "englishRanges": [
+      [
+        12,
+        16
+      ],
+      [
+        18,
+        26
+      ],
+      [
+        28,
+        31
+      ]
+    ]
+  },
+  {
+    "id": "finalV8-v8-final-034",
+    "raw": "anoplaylistwodownloadshiteofflinedekikitaidesu",
+    "japaneseRanges": [
+      [
+        0,
+        3
+      ],
+      [
+        11,
+        13
+      ],
+      [
+        21,
+        26
+      ],
+      [
+        33,
+        46
+      ]
+    ],
+    "englishRanges": [
+      [
+        3,
+        11
+      ],
+      [
+        13,
+        21
+      ],
+      [
+        26,
+        33
+      ]
+    ]
+  },
+  {
+    "id": "finalV8-v8-final-035",
+    "raw": "konodocumentnocommentnireplywotsuikashimashita",
+    "japaneseRanges": [
+      [
+        0,
+        4
+      ],
+      [
+        12,
+        14
+      ],
+      [
+        21,
+        23
+      ],
+      [
+        28,
+        46
+      ]
+    ],
+    "englishRanges": [
+      [
+        4,
+        12
+      ],
+      [
+        14,
+        21
+      ],
+      [
+        23,
+        28
+      ]
+    ]
+  },
+  {
+    "id": "finalV8-v8-final-036",
+    "raw": "gazouworesizeshitekaraattachmenttoshiteokurinaoshimasu",
+    "japaneseRanges": [
+      [
+        0,
+        7
+      ],
+      [
+        13,
+        22
+      ],
+      [
+        32,
+        54
+      ]
+    ],
+    "englishRanges": [
+      [
+        7,
+        13
+      ],
+      [
+        22,
+        32
+      ]
+    ]
+  },
+  {
+    "id": "finalV8-v8-final-037",
+    "raw": "hiruyasuminichikakunokouenwosanposhimasu",
+    "japaneseRanges": [
+      [
+        0,
+        40
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "finalV8-v8-final-038",
+    "raw": "tsuginodenshagakurumadekokodemachimasu",
+    "japaneseRanges": [
+      [
+        0,
+        38
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "finalV8-v8-final-039",
+    "raw": "reizoukoninokotteiruyasaideyuuhanwotsukurimasu",
+    "japaneseRanges": [
+      [
+        0,
+        46
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "finalV8-v8-final-040",
+    "raw": "Could you leave the package by the front door?",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        46
+      ]
+    ]
+  },
+  {
+    "id": "finalV8-v8-final-041",
+    "raw": "The meeting starts after lunch, so we still have time.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        54
+      ]
+    ]
+  },
+  {
+    "id": "finalV8-v8-final-042",
+    "raw": "I saved a copy before making any changes.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        41
+      ]
+    ]
+  },
+  {
+    "id": "finalV8-v8-final-043",
+    "raw": "kyoriha\\sqrt{x^2+y^2}dearawasemasu",
+    "japaneseRanges": [
+      [
+        0,
+        7
+      ],
+      [
+        21,
+        34
+      ]
+    ],
+    "englishRanges": [
+      [
+        7,
+        21
+      ]
+    ]
+  },
+  {
+    "id": "finalV8-v8-final-044",
+    "raw": "konohanteideha$p < 0.05$womeyasunishimasu",
+    "japaneseRanges": [
+      [
+        0,
+        14
+      ],
+      [
+        24,
+        41
+      ]
+    ],
+    "englishRanges": [
+      [
+        14,
+        24
+      ]
+    ]
+  },
+  {
+    "id": "finalV8-v8-final-045",
+    "raw": "joutaiha`git status --short`dekakuninshitekudasai",
+    "japaneseRanges": [
+      [
+        0,
+        8
+      ],
+      [
+        28,
+        49
+      ]
+    ],
+    "englishRanges": [
+      [
+        8,
+        28
+      ]
+    ]
+  },
+  {
+    "id": "finalV8-v8-final-046",
+    "raw": "konokoumokunonamaewo`theme_color`nikaemashita",
+    "japaneseRanges": [
+      [
+        0,
+        20
+      ],
+      [
+        33,
+        45
+      ]
+    ],
+    "englishRanges": [
+      [
+        20,
+        33
+      ]
+    ]
+  },
+  {
+    "id": "finalV8-v8-final-047",
+    "raw": "setsuzokusakihahttps://api.example.org/v1/items",
+    "japaneseRanges": [
+      [
+        0,
+        15
+      ]
+    ],
+    "englishRanges": [
+      [
+        15,
+        47
+      ]
+    ]
+  },
+  {
+    "id": "finalV8-v8-final-048",
+    "raw": "moushikomihouhouhakochirahttps://example.net/events/signup",
+    "japaneseRanges": [
+      [
+        0,
+        25
+      ]
+    ],
+    "englishRanges": [
+      [
+        25,
+        58
+      ]
+    ]
+  }
+]

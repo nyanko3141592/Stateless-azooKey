@@ -1,0 +1,366 @@
+[
+  {
+    "id": "v9-final-001",
+    "raw": "calendarniashitanoyoteiwoiretekudasai",
+    "japaneseRanges": [
+      [
+        8,
+        37
+      ]
+    ],
+    "englishRanges": [
+      [
+        0,
+        8
+      ]
+    ]
+  },
+  {
+    "id": "v9-final-002",
+    "raw": "headphonewokabanniireta",
+    "japaneseRanges": [
+      [
+        9,
+        23
+      ]
+    ],
+    "englishRanges": [
+      [
+        0,
+        9
+      ]
+    ]
+  },
+  {
+    "id": "v9-final-003",
+    "raw": "backupgaowattarakonopasokonwokesu",
+    "japaneseRanges": [
+      [
+        6,
+        33
+      ]
+    ],
+    "englishRanges": [
+      [
+        0,
+        6
+      ]
+    ]
+  },
+  {
+    "id": "v9-final-004",
+    "raw": "screen sharingwohajimerumaenimadowotojiteokou",
+    "japaneseRanges": [
+      [
+        14,
+        45
+      ]
+    ],
+    "englishRanges": [
+      [
+        0,
+        14
+      ]
+    ]
+  },
+  {
+    "id": "v9-final-005",
+    "raw": "meeting roomnisaifuwowasuretekita",
+    "japaneseRanges": [
+      [
+        12,
+        33
+      ]
+    ],
+    "englishRanges": [
+      [
+        0,
+        12
+      ]
+    ]
+  },
+  {
+    "id": "v9-final-006",
+    "raw": "Spotifydekinounokyokuwomouichidokikitai",
+    "japaneseRanges": [
+      [
+        7,
+        39
+      ]
+    ],
+    "englishRanges": [
+      [
+        0,
+        7
+      ]
+    ]
+  },
+  {
+    "id": "v9-final-007",
+    "raw": "Firefoxwotojitemoongakuganatteiru",
+    "japaneseRanges": [
+      [
+        7,
+        33
+      ]
+    ],
+    "englishRanges": [
+      [
+        0,
+        7
+      ]
+    ]
+  },
+  {
+    "id": "v9-final-008",
+    "raw": "Dropboxnikazokunoshashinwomatometeoita",
+    "japaneseRanges": [
+      [
+        7,
+        38
+      ]
+    ],
+    "englishRanges": [
+      [
+        0,
+        7
+      ]
+    ]
+  },
+  {
+    "id": "v9-final-009",
+    "raw": "Google Mapsdeekimadenomichiwoshirabeta",
+    "japaneseRanges": [
+      [
+        11,
+        38
+      ]
+    ],
+    "englishRanges": [
+      [
+        0,
+        11
+      ]
+    ]
+  },
+  {
+    "id": "v9-final-010",
+    "raw": "Apple Musicnokinoutsukuttarisutowokikitai",
+    "japaneseRanges": [
+      [
+        11,
+        41
+      ]
+    ],
+    "englishRanges": [
+      [
+        0,
+        11
+      ]
+    ]
+  },
+  {
+    "id": "v9-final-011",
+    "raw": "PDFwobetsunoforudanikopiishitekudasai",
+    "japaneseRanges": [
+      [
+        3,
+        37
+      ]
+    ],
+    "englishRanges": [
+      [
+        0,
+        3
+      ]
+    ]
+  },
+  {
+    "id": "v9-final-012",
+    "raw": "USBgasasattamamaninatteiru",
+    "japaneseRanges": [
+      [
+        3,
+        26
+      ]
+    ],
+    "englishRanges": [
+      [
+        0,
+        3
+      ]
+    ]
+  },
+  {
+    "id": "v9-final-013",
+    "raw": "DNSnosetteiwomotonimodoshita",
+    "japaneseRanges": [
+      [
+        3,
+        28
+      ]
+    ],
+    "englishRanges": [
+      [
+        0,
+        3
+      ]
+    ]
+  },
+  {
+    "id": "v9-final-014",
+    "raw": "HDMInokeeburugamijikasugita",
+    "japaneseRanges": [
+      [
+        4,
+        27
+      ]
+    ],
+    "englishRanges": [
+      [
+        0,
+        4
+      ]
+    ]
+  },
+  {
+    "id": "v9-final-015",
+    "raw": "CPU fannootogakinouyoriookii",
+    "japaneseRanges": [
+      [
+        7,
+        28
+      ]
+    ],
+    "englishRanges": [
+      [
+        0,
+        7
+      ]
+    ]
+  },
+  {
+    "id": "v9-final-016",
+    "raw": "paperlessnishitakuteatarashiisukyannawokatta",
+    "japaneseRanges": [
+      [
+        9,
+        44
+      ]
+    ],
+    "englishRanges": [
+      [
+        0,
+        9
+      ]
+    ]
+  },
+  {
+    "id": "v9-final-017",
+    "raw": "microblognimaiasashashinwoageteiru",
+    "japaneseRanges": [
+      [
+        9,
+        34
+      ]
+    ],
+    "englishRanges": [
+      [
+        0,
+        9
+      ]
+    ]
+  },
+  {
+    "id": "v9-final-018",
+    "raw": "Readwisenikinounomemowonokoshiteoita",
+    "japaneseRanges": [
+      [
+        8,
+        36
+      ]
+    ],
+    "englishRanges": [
+      [
+        0,
+        8
+      ]
+    ]
+  },
+  {
+    "id": "v9-final-019",
+    "raw": "Obsidian Syncgasumumadekonomamahouchishiteokou",
+    "japaneseRanges": [
+      [
+        13,
+        46
+      ]
+    ],
+    "englishRanges": [
+      [
+        0,
+        13
+      ]
+    ]
+  },
+  {
+    "id": "v9-final-020",
+    "raw": "deskmatwosentakushitakedomadakawakanai",
+    "japaneseRanges": [
+      [
+        7,
+        38
+      ]
+    ],
+    "englishRanges": [
+      [
+        0,
+        7
+      ]
+    ]
+  },
+  {
+    "id": "v9-final-021",
+    "raw": "Please send the meeting notes before lunch.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        43
+      ]
+    ]
+  },
+  {
+    "id": "v9-final-022",
+    "raw": "The new keyboard feels much quieter.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        36
+      ]
+    ]
+  },
+  {
+    "id": "v9-final-023",
+    "raw": "I saved a copy in the shared folder.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        36
+      ]
+    ]
+  },
+  {
+    "id": "v9-final-024",
+    "raw": "Can you turn off the kitchen light?",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        35
+      ]
+    ]
+  }
+]

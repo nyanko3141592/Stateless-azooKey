@@ -1,0 +1,393 @@
+[
+  {
+    "f": "accuracy-v2/fresh-evaluation.json",
+    "total": 80,
+    "structurallyUnchanged": 59,
+    "fullyPrefixChecked": 21,
+    "stats": [
+      {
+        "exact": 21,
+        "damage": 0,
+        "reversals": 0
+      },
+      {
+        "exact": 21,
+        "damage": 0,
+        "reversals": 0
+      }
+    ],
+    "changes": []
+  },
+  {
+    "f": "multiswitch-evaluation.json",
+    "total": 36,
+    "structurallyUnchanged": 29,
+    "fullyPrefixChecked": 7,
+    "stats": [
+      {
+        "exact": 7,
+        "damage": 0,
+        "reversals": 16
+      },
+      {
+        "exact": 7,
+        "damage": 0,
+        "reversals": 16
+      }
+    ],
+    "changes": []
+  },
+  {
+    "f": "release-holdout.json",
+    "total": 24,
+    "structurallyUnchanged": 19,
+    "fullyPrefixChecked": 5,
+    "stats": [
+      {
+        "exact": 5,
+        "damage": 0,
+        "reversals": 0
+      },
+      {
+        "exact": 5,
+        "damage": 0,
+        "reversals": 0
+      }
+    ],
+    "changes": []
+  },
+  {
+    "f": "accuracy-v3/fresh-evaluation.json",
+    "total": 48,
+    "structurallyUnchanged": 36,
+    "fullyPrefixChecked": 12,
+    "stats": [
+      {
+        "exact": 12,
+        "damage": 0,
+        "reversals": 0
+      },
+      {
+        "exact": 12,
+        "damage": 0,
+        "reversals": 0
+      }
+    ],
+    "changes": []
+  },
+  {
+    "f": "accuracy-v3/final-unseen.json",
+    "total": 24,
+    "structurallyUnchanged": 24,
+    "fullyPrefixChecked": 0,
+    "stats": [
+      {
+        "exact": 0,
+        "damage": 0,
+        "reversals": 0
+      },
+      {
+        "exact": 0,
+        "damage": 0,
+        "reversals": 0
+      }
+    ],
+    "changes": []
+  },
+  {
+    "f": "accuracy-v4/development.json",
+    "total": 48,
+    "structurallyUnchanged": 46,
+    "fullyPrefixChecked": 2,
+    "stats": [
+      {
+        "exact": 2,
+        "damage": 0,
+        "reversals": 0
+      },
+      {
+        "exact": 2,
+        "damage": 0,
+        "reversals": 0
+      }
+    ],
+    "changes": []
+  },
+  {
+    "f": "accuracy-v4/final-evaluation.json",
+    "total": 40,
+    "structurallyUnchanged": 38,
+    "fullyPrefixChecked": 2,
+    "stats": [
+      {
+        "exact": 2,
+        "damage": 0,
+        "reversals": 0
+      },
+      {
+        "exact": 2,
+        "damage": 0,
+        "reversals": 0
+      }
+    ],
+    "changes": []
+  },
+  {
+    "f": "accuracy-v5/fresh-evaluation.json",
+    "total": 48,
+    "structurallyUnchanged": 47,
+    "fullyPrefixChecked": 1,
+    "stats": [
+      {
+        "exact": 1,
+        "damage": 0,
+        "reversals": 0
+      },
+      {
+        "exact": 1,
+        "damage": 0,
+        "reversals": 0
+      }
+    ],
+    "changes": []
+  },
+  {
+    "f": "accuracy-v6/fresh-evaluation.json",
+    "total": 48,
+    "structurallyUnchanged": 44,
+    "fullyPrefixChecked": 4,
+    "stats": [
+      {
+        "exact": 4,
+        "damage": 0,
+        "reversals": 0
+      },
+      {
+        "exact": 4,
+        "damage": 0,
+        "reversals": 0
+      }
+    ],
+    "changes": []
+  },
+  {
+    "f": "accuracy-v6/final-evaluation.json",
+    "total": 48,
+    "structurallyUnchanged": 48,
+    "fullyPrefixChecked": 0,
+    "stats": [
+      {
+        "exact": 0,
+        "damage": 0,
+        "reversals": 0
+      },
+      {
+        "exact": 0,
+        "damage": 0,
+        "reversals": 0
+      }
+    ],
+    "changes": []
+  },
+  {
+    "f": "accuracy-v7/final-evaluation-corrected.json",
+    "total": 48,
+    "structurallyUnchanged": 47,
+    "fullyPrefixChecked": 1,
+    "stats": [
+      {
+        "exact": 1,
+        "damage": 0,
+        "reversals": 0
+      },
+      {
+        "exact": 1,
+        "damage": 0,
+        "reversals": 0
+      }
+    ],
+    "changes": []
+  },
+  {
+    "f": "accuracy-v8/final-evaluation.json",
+    "total": 48,
+    "structurallyUnchanged": 46,
+    "fullyPrefixChecked": 2,
+    "stats": [
+      {
+        "exact": 1,
+        "damage": 0,
+        "reversals": 3
+      },
+      {
+        "exact": 1,
+        "damage": 0,
+        "reversals": 3
+      }
+    ],
+    "changes": []
+  },
+  {
+    "f": "evaluation.json",
+    "total": 96,
+    "structurallyUnchanged": 81,
+    "fullyPrefixChecked": 15,
+    "stats": [
+      {
+        "exact": 15,
+        "damage": 0,
+        "reversals": 18
+      },
+      {
+        "exact": 15,
+        "damage": 0,
+        "reversals": 18
+      }
+    ],
+    "changes": []
+  },
+  {
+    "f": "diagnosis-leading-english/development28.json",
+    "total": 28,
+    "structurallyUnchanged": 5,
+    "fullyPrefixChecked": 23,
+    "stats": [
+      {
+        "exact": 20,
+        "damage": 43,
+        "reversals": 95
+      },
+      {
+        "exact": 21,
+        "damage": 6,
+        "reversals": 53
+      }
+    ],
+    "changes": [
+      {
+        "raw": "filenonamaewooshietekudasai",
+        "stats": [
+          {
+            "exact": 1,
+            "damage": 4,
+            "reversals": 9
+          },
+          {
+            "exact": 1,
+            "damage": 0,
+            "reversals": 5
+          }
+        ]
+      },
+      {
+        "raw": "messagewoatodeyomimasu",
+        "stats": [
+          {
+            "exact": 1,
+            "damage": 1,
+            "reversals": 4
+          },
+          {
+            "exact": 1,
+            "damage": 0,
+            "reversals": 3
+          }
+        ]
+      },
+      {
+        "raw": "downloadgatochuudetomarimashita",
+        "stats": [
+          {
+            "exact": 1,
+            "damage": 7,
+            "reversals": 18
+          },
+          {
+            "exact": 1,
+            "damage": 1,
+            "reversals": 2
+          }
+        ]
+      },
+      {
+        "raw": "branchwomotonimodoshimasu",
+        "stats": [
+          {
+            "exact": 1,
+            "damage": 1,
+            "reversals": 5
+          },
+          {
+            "exact": 1,
+            "damage": 0,
+            "reversals": 1
+          }
+        ]
+      },
+      {
+        "raw": "modewokirikaetekudasai",
+        "stats": [
+          {
+            "exact": 0,
+            "damage": 17,
+            "reversals": 3
+          },
+          {
+            "exact": 1,
+            "damage": 2,
+            "reversals": 4
+          }
+        ]
+      },
+      {
+        "raw": "codewominaoshimashita",
+        "stats": [
+          {
+            "exact": 1,
+            "damage": 4,
+            "reversals": 9
+          },
+          {
+            "exact": 1,
+            "damage": 0,
+            "reversals": 2
+          }
+        ]
+      },
+      {
+        "raw": "calendarnoyoteiwotsuikashimasu",
+        "stats": [
+          {
+            "exact": 1,
+            "damage": 6,
+            "reversals": 12
+          },
+          {
+            "exact": 1,
+            "damage": 0,
+            "reversals": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "f": "diagnosis-leading-english/safety18.json",
+    "total": 18,
+    "structurallyUnchanged": 8,
+    "fullyPrefixChecked": 10,
+    "stats": [
+      {
+        "exact": 10,
+        "damage": 0,
+        "reversals": 0
+      },
+      {
+        "exact": 10,
+        "damage": 0,
+        "reversals": 0
+      }
+    ],
+    "changes": []
+  }
+]

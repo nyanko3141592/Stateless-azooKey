@@ -1,7 +1,9 @@
+// Frozen 055b8a4 inference; test target only.
+@testable import Core
 import Foundation
 
 /// A trained logistic language classifier. Inference is pure Swift and never opens a socket.
-public final class LocalLanguageRouter: @unchecked Sendable {
+final class AccuracyV9BaselineRouter: @unchecked Sendable {
     private struct Model: Decodable { let version: Int; let weights: [String:Double]; let ambiguous: [String]; let boundaryWeights: [Double]; let knownEnglish: [String]; let knownJapanese: [String] }
     private let weights: [String:Double]
     let ambiguous: Set<String>
@@ -9,11 +11,11 @@ public final class LocalLanguageRouter: @unchecked Sendable {
     let knownEnglish: Set<String>
     let knownJapanese: Set<String>
     let englishPrefixes: Set<String>
-    public static let shared: LocalLanguageRouter = {
-        do { return try LocalLanguageRouter() }
+    static let shared: AccuracyV9BaselineRouter = {
+        do { return try AccuracyV9BaselineRouter() }
         catch { fatalError("Bundled local language model is missing or invalid: \(error)") }
     }()
-    public init() throws {
+    init() throws {
         guard let url = Bundle.module.url(forResource:"LocalLanguageModel",withExtension:"json") else {
             throw CocoaError(.fileNoSuchFile)
         }
@@ -34,7 +36,7 @@ public final class LocalLanguageRouter: @unchecked Sendable {
     }
     func isRomaji(_ word: String) -> Bool { Self.matches(Self.completeRomaji,word.lowercased()) }
     func isRomajiPrefix(_ word: String) -> Bool { Self.matches(Self.partialRomaji,word.lowercased()) }
-    public func japaneseProbability(_ word: String, context: Bool = false, left: String = "", right: String = "", englishNeighbors: Bool = false) -> Double {
+    func japaneseProbability(_ word: String, context: Bool = false, left: String = "", right: String = "", englishNeighbors: Bool = false) -> Double {
         let w = word.lowercased(); let chars = Array(w)
         var features: Set<String> = ["bias","w:" + w,"len:" + String(min(chars.count / 3,6))]
         features.insert(isRomaji(w) ? "romaji-complete" : Self.matches(Self.partialRomaji,w) ? "romaji-prefix" : "romaji-invalid")
@@ -53,17 +55,15 @@ public final class LocalLanguageRouter: @unchecked Sendable {
         let value = features.reduce(0.0) { $0 + (weights[$1] ?? 0) }
         return 1 / (1 + exp(-max(-50,min(50,value))))
     }
-    public func classify(_ raw: String) -> JevMixedDecision {
+    func classify(_ raw: String) -> JevMixedDecision {
         let start = Date()
         var spans: [JevInputSpan] = []
         var segmented: [Int:Int] = [:]
         for span in JevMixedLexer.spans(raw) {
-            // The first word can itself be English; no earlier English word is required.
-            // A word after Japanese whitespace keeps the existing conservative behavior.
-            let englishPhrase = spans.isEmpty || (spans.count >= 2 && spans.last!.protected
+            let englishPhrase = spans.count >= 2 && spans.last!.protected
                 && spans.last!.text.allSatisfy(\.isWhitespace)
                 && knownEnglish.contains(spans[spans.count-2].text.lowercased())
-                && !ambiguous.contains(spans[spans.count-2].text.lowercased()))
+                && !ambiguous.contains(spans[spans.count-2].text.lowercased())
             if !span.protected, let pieces = mixedSegments(span.text,englishPhrase:englishPhrase) {
                 // Preserve the established single-span English-prefix representation
                 // when refinement contains exactly one English/Japanese boundary.

@@ -1,0 +1,450 @@
+[
+  {
+    "id": "leading-01",
+    "raw": "Slackdetomodachinirenrakushimasu",
+    "japaneseRanges": [
+      [
+        5,
+        32
+      ]
+    ],
+    "englishRanges": [
+      [
+        0,
+        5
+      ]
+    ]
+  },
+  {
+    "id": "leading-02",
+    "raw": "GitHubnoshiryouwohirakimashita",
+    "japaneseRanges": [
+      [
+        6,
+        30
+      ]
+    ],
+    "englishRanges": [
+      [
+        0,
+        6
+      ]
+    ]
+  },
+  {
+    "id": "leading-03",
+    "raw": "Chromededougawomitaidesu",
+    "japaneseRanges": [
+      [
+        6,
+        24
+      ]
+    ],
+    "englishRanges": [
+      [
+        0,
+        6
+      ]
+    ]
+  },
+  {
+    "id": "leading-04",
+    "raw": "Safarinootogakiemasenn",
+    "japaneseRanges": [
+      [
+        6,
+        22
+      ]
+    ],
+    "englishRanges": [
+      [
+        0,
+        6
+      ]
+    ]
+  },
+  {
+    "id": "leading-05",
+    "raw": "Notionnokaiginomemowominaoshimasu",
+    "japaneseRanges": [
+      [
+        6,
+        33
+      ]
+    ],
+    "englishRanges": [
+      [
+        0,
+        6
+      ]
+    ]
+  },
+  {
+    "id": "leading-06",
+    "raw": "Zoomdeashitanouchiawasewoshimasu",
+    "japaneseRanges": [
+      [
+        4,
+        32
+      ]
+    ],
+    "englishRanges": [
+      [
+        0,
+        4
+      ]
+    ]
+  },
+  {
+    "id": "leading-07",
+    "raw": "Pythondekeisannshiteimasu",
+    "japaneseRanges": [
+      [
+        6,
+        25
+      ]
+    ],
+    "englishRanges": [
+      [
+        0,
+        6
+      ]
+    ]
+  },
+  {
+    "id": "leading-08",
+    "raw": "Dockernosetteiwonaoshimashita",
+    "japaneseRanges": [
+      [
+        6,
+        29
+      ]
+    ],
+    "englishRanges": [
+      [
+        0,
+        6
+      ]
+    ]
+  },
+  {
+    "id": "leading-09",
+    "raw": "meetingnojikannwokaemashou",
+    "japaneseRanges": [
+      [
+        7,
+        26
+      ]
+    ],
+    "englishRanges": [
+      [
+        0,
+        7
+      ]
+    ]
+  },
+  {
+    "id": "leading-10",
+    "raw": "filenonamaewooshietekudasai",
+    "japaneseRanges": [
+      [
+        4,
+        27
+      ]
+    ],
+    "englishRanges": [
+      [
+        0,
+        4
+      ]
+    ]
+  },
+  {
+    "id": "leading-11",
+    "raw": "messagewoatodeyomimasu",
+    "japaneseRanges": [
+      [
+        7,
+        22
+      ]
+    ],
+    "englishRanges": [
+      [
+        0,
+        7
+      ]
+    ]
+  },
+  {
+    "id": "leading-12",
+    "raw": "downloadgatochuudetomarimashita",
+    "japaneseRanges": [
+      [
+        8,
+        31
+      ]
+    ],
+    "englishRanges": [
+      [
+        0,
+        8
+      ]
+    ]
+  },
+  {
+    "id": "leading-13",
+    "raw": "branchwomotonimodoshimasu",
+    "japaneseRanges": [
+      [
+        6,
+        25
+      ]
+    ],
+    "englishRanges": [
+      [
+        0,
+        6
+      ]
+    ]
+  },
+  {
+    "id": "leading-14",
+    "raw": "modewokirikaetekudasai",
+    "japaneseRanges": [
+      [
+        4,
+        22
+      ]
+    ],
+    "englishRanges": [
+      [
+        0,
+        4
+      ]
+    ]
+  },
+  {
+    "id": "leading-15",
+    "raw": "codewominaoshimashita",
+    "japaneseRanges": [
+      [
+        4,
+        21
+      ]
+    ],
+    "englishRanges": [
+      [
+        0,
+        4
+      ]
+    ]
+  },
+  {
+    "id": "leading-16",
+    "raw": "servernooutougaarimasenn",
+    "japaneseRanges": [
+      [
+        6,
+        24
+      ]
+    ],
+    "englishRanges": [
+      [
+        0,
+        6
+      ]
+    ]
+  },
+  {
+    "id": "leading-17",
+    "raw": "invoicewokyouokurimasu",
+    "japaneseRanges": [
+      [
+        7,
+        22
+      ]
+    ],
+    "englishRanges": [
+      [
+        0,
+        7
+      ]
+    ]
+  },
+  {
+    "id": "leading-18",
+    "raw": "deadlinewaashitadesu",
+    "japaneseRanges": [
+      [
+        8,
+        20
+      ]
+    ],
+    "englishRanges": [
+      [
+        0,
+        8
+      ]
+    ]
+  },
+  {
+    "id": "leading-19",
+    "raw": "calendarnoyoteiwotsuikashimasu",
+    "japaneseRanges": [
+      [
+        8,
+        30
+      ]
+    ],
+    "englishRanges": [
+      [
+        0,
+        8
+      ]
+    ]
+  },
+  {
+    "id": "leading-20",
+    "raw": "playlistwonagashitekudasai",
+    "japaneseRanges": [
+      [
+        8,
+        26
+      ]
+    ],
+    "englishRanges": [
+      [
+        0,
+        8
+      ]
+    ]
+  },
+  {
+    "id": "leading-21",
+    "raw": "dark modewotsukaimasu",
+    "japaneseRanges": [
+      [
+        9,
+        21
+      ]
+    ],
+    "englishRanges": [
+      [
+        0,
+        9
+      ]
+    ]
+  },
+  {
+    "id": "leading-22",
+    "raw": "error messagegahyoujisaremasu",
+    "japaneseRanges": [
+      [
+        13,
+        29
+      ]
+    ],
+    "englishRanges": [
+      [
+        0,
+        13
+      ]
+    ]
+  },
+  {
+    "id": "leading-23",
+    "raw": "release noteswoyomimashita",
+    "japaneseRanges": [
+      [
+        13,
+        26
+      ]
+    ],
+    "englishRanges": [
+      [
+        0,
+        13
+      ]
+    ]
+  },
+  {
+    "id": "leading-24",
+    "raw": "pull requestnitsuiteshitsumongaarimasu",
+    "japaneseRanges": [
+      [
+        12,
+        38
+      ]
+    ],
+    "englishRanges": [
+      [
+        0,
+        12
+      ]
+    ]
+  },
+  {
+    "id": "leading-25",
+    "raw": "PDFdehozonshitekudasai",
+    "japaneseRanges": [
+      [
+        3,
+        22
+      ]
+    ],
+    "englishRanges": [
+      [
+        0,
+        3
+      ]
+    ]
+  },
+  {
+    "id": "leading-26",
+    "raw": "CSVwohirakimashita",
+    "japaneseRanges": [
+      [
+        3,
+        18
+      ]
+    ],
+    "englishRanges": [
+      [
+        0,
+        3
+      ]
+    ]
+  },
+  {
+    "id": "leading-27",
+    "raw": "APInohenjiwomachimasu",
+    "japaneseRanges": [
+      [
+        3,
+        21
+      ]
+    ],
+    "englishRanges": [
+      [
+        0,
+        3
+      ]
+    ]
+  },
+  {
+    "id": "leading-28",
+    "raw": "READMEwosaishoniyondekudasai",
+    "japaneseRanges": [
+      [
+        6,
+        28
+      ]
+    ],
+    "englishRanges": [
+      [
+        0,
+        6
+      ]
+    ]
+  }
+]

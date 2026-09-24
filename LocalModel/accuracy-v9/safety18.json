@@ -1,0 +1,200 @@
+[
+  {
+    "id": "safety-01",
+    "raw": "Please send me the file tomorrow.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        33
+      ]
+    ]
+  },
+  {
+    "id": "safety-02",
+    "raw": "We need to download the latest version.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        39
+      ]
+    ]
+  },
+  {
+    "id": "safety-03",
+    "raw": "Read the release notes before updating.",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        39
+      ]
+    ]
+  },
+  {
+    "id": "safety-04",
+    "raw": "dark mode looks better at night",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        31
+      ]
+    ]
+  },
+  {
+    "id": "safety-05",
+    "raw": "error messages should be clear",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        30
+      ]
+    ]
+  },
+  {
+    "id": "safety-06",
+    "raw": "pull requests need review",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        25
+      ]
+    ]
+  },
+  {
+    "id": "safety-07",
+    "raw": "noteworthy",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        10
+      ]
+    ]
+  },
+  {
+    "id": "safety-08",
+    "raw": "downloadable",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        12
+      ]
+    ]
+  },
+  {
+    "id": "safety-09",
+    "raw": "metadata",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        8
+      ]
+    ]
+  },
+  {
+    "id": "safety-10",
+    "raw": "notification",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        12
+      ]
+    ]
+  },
+  {
+    "id": "safety-11",
+    "raw": "node",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        4
+      ]
+    ]
+  },
+  {
+    "id": "safety-12",
+    "raw": "mode",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        4
+      ]
+    ]
+  },
+  {
+    "id": "safety-13",
+    "raw": "no more changes",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        15
+      ]
+    ]
+  },
+  {
+    "id": "safety-14",
+    "raw": "to do",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        5
+      ]
+    ]
+  },
+  {
+    "id": "safety-15",
+    "raw": "made in Japan",
+    "japaneseRanges": [],
+    "englishRanges": [
+      [
+        0,
+        13
+      ]
+    ]
+  },
+  {
+    "id": "safety-16",
+    "raw": "mataashita",
+    "japaneseRanges": [
+      [
+        0,
+        10
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "safety-17",
+    "raw": "sonomamademondaiarimasenn",
+    "japaneseRanges": [
+      [
+        0,
+        25
+      ]
+    ],
+    "englishRanges": []
+  },
+  {
+    "id": "safety-18",
+    "raw": "konohenkouhamadafukakuteidesu",
+    "japaneseRanges": [
+      [
+        0,
+        29
+      ]
+    ],
+    "englishRanges": []
+  }
+]
