@@ -1,0 +1,162 @@
+[
+  {
+    "f": "accuracy-v2/fresh-evaluation.json",
+    "stats": [
+      {
+        "exact": 80,
+        "damage": 50,
+        "reversals": 173
+      },
+      {
+        "exact": 80,
+        "damage": 50,
+        "reversals": 173
+      }
+    ],
+    "changes": []
+  },
+  {
+    "f": "multiswitch-evaluation.json",
+    "stats": [
+      {
+        "exact": 35,
+        "damage": 18,
+        "reversals": 102
+      },
+      {
+        "exact": 35,
+        "damage": 18,
+        "reversals": 102
+      }
+    ],
+    "changes": []
+  },
+  {
+    "f": "release-holdout.json",
+    "stats": [
+      {
+        "exact": 23,
+        "damage": 6,
+        "reversals": 75
+      },
+      {
+        "exact": 23,
+        "damage": 6,
+        "reversals": 75
+      }
+    ],
+    "changes": []
+  },
+  {
+    "f": "accuracy-v3/fresh-evaluation.json",
+    "stats": [
+      {
+        "exact": 47,
+        "damage": 32,
+        "reversals": 160
+      },
+      {
+        "exact": 47,
+        "damage": 32,
+        "reversals": 160
+      }
+    ],
+    "changes": []
+  },
+  {
+    "f": "accuracy-v3/final-unseen.json",
+    "stats": [
+      {
+        "exact": 24,
+        "damage": 7,
+        "reversals": 124
+      },
+      {
+        "exact": 24,
+        "damage": 7,
+        "reversals": 124
+      }
+    ],
+    "changes": []
+  },
+  {
+    "f": "accuracy-v4/development.json",
+    "stats": [
+      {
+        "exact": 48,
+        "damage": 20,
+        "reversals": 182
+      },
+      {
+        "exact": 48,
+        "damage": 20,
+        "reversals": 182
+      }
+    ],
+    "changes": []
+  },
+  {
+    "f": "accuracy-v4/final-evaluation.json",
+    "stats": [
+      {
+        "exact": 40,
+        "damage": 14,
+        "reversals": 131
+      },
+      {
+        "exact": 40,
+        "damage": 14,
+        "reversals": 131
+      }
+    ],
+    "changes": []
+  },
+  {
+    "f": "accuracy-v5/fresh-evaluation.json",
+    "stats": [
+      {
+        "exact": 45,
+        "damage": 59,
+        "reversals": 171
+      },
+      {
+        "exact": 45,
+        "damage": 59,
+        "reversals": 171
+      }
+    ],
+    "changes": []
+  },
+  {
+    "f": "accuracy-v6/fresh-evaluation.json",
+    "stats": [
+      {
+        "exact": 46,
+        "damage": 52,
+        "reversals": 152
+      },
+      {
+        "exact": 46,
+        "damage": 52,
+        "reversals": 152
+      }
+    ],
+    "changes": []
+  },
+  {
+    "f": "accuracy-v6/final-evaluation.json",
+    "stats": [
+      {
+        "exact": 37,
+        "damage": 117,
+        "reversals": 195
+      },
+      {
+        "exact": 37,
+        "damage": 117,
+        "reversals": 195
+      }
+    ],
+    "changes": []
+  }
+]

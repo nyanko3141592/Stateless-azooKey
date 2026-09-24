@@ -1,7 +1,9 @@
+// Frozen 45e8da8 inference; test target only.
+@testable import Core
 import Foundation
 
 /// A trained logistic language classifier. Inference is pure Swift and never opens a socket.
-public final class LocalLanguageRouter: @unchecked Sendable {
+public final class AccuracyV8BaselineRouter: @unchecked Sendable {
     private struct Model: Decodable { let version: Int; let weights: [String:Double]; let ambiguous: [String]; let boundaryWeights: [Double]; let knownEnglish: [String]; let knownJapanese: [String] }
     private let weights: [String:Double]
     let ambiguous: Set<String>
@@ -9,8 +11,8 @@ public final class LocalLanguageRouter: @unchecked Sendable {
     let knownEnglish: Set<String>
     let knownJapanese: Set<String>
     let englishPrefixes: Set<String>
-    public static let shared: LocalLanguageRouter = {
-        do { return try LocalLanguageRouter() }
+    public static let shared: AccuracyV8BaselineRouter = {
+        do { return try AccuracyV8BaselineRouter() }
         catch { fatalError("Bundled local language model is missing or invalid: \(error)") }
     }()
     public init() throws {
@@ -58,11 +60,7 @@ public final class LocalLanguageRouter: @unchecked Sendable {
         var spans: [JevInputSpan] = []
         var segmented: [Int:Int] = [:]
         for span in JevMixedLexer.spans(raw) {
-            let englishPhrase = spans.count >= 2 && spans.last!.protected
-                && spans.last!.text.allSatisfy(\.isWhitespace)
-                && knownEnglish.contains(spans[spans.count-2].text.lowercased())
-                && !ambiguous.contains(spans[spans.count-2].text.lowercased())
-            if !span.protected, let pieces = mixedSegments(span.text,englishPhrase:englishPhrase) {
+            if !span.protected, let pieces = mixedSegments(span.text) {
                 // Preserve the established single-span English-prefix representation
                 // when refinement contains exactly one English/Japanese boundary.
                 if pieces.count == 2 && !pieces[0].japanese && pieces[1].japanese {

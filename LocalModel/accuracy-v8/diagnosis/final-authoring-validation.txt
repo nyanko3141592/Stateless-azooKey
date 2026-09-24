@@ -1,0 +1,60 @@
+{
+  "count": 48,
+  "categoryCounts": {
+    "verb_modifier": 12,
+    "english_phrase": 12,
+    "multiple_switches": 12,
+    "single_language": 6,
+    "protected_syntax": 6
+  },
+  "oldDistinctRawsChecked": 602,
+  "sha256": "a3c55b06c6db618096784fb5d69e2510fa75251649c38988f6cca52aad7718a5"
+}
+v8-final-001 朝予約したticketを確認します。 J= ['asayoyakushita', 'wokakuninshimasu'] E= ['ticket']
+v8-final-002 友達から届いたinvitationを開いてください。 J= ['tomodachikaratodoita', 'wohiraitekudasai'] E= ['invitation']
+v8-final-003 旅行前に作ったitineraryを家族に送りました。 J= ['ryokoumaenitsukutta', 'wokazokuniokurimashita'] E= ['itinerary']
+v8-final-004 机に置いてあるadapterを持ってきてください。 J= ['tsukuenioitearu', 'womottekitekudasai'] E= ['adapter']
+v8-final-005 午前中に直したlayoutが崩れています。 J= ['gozennchuuninaoshita', 'gakuzureteimasu'] E= ['layout']
+v8-final-006 明日の会議で見せるprototypeを用意しました。 J= ['ashitanokaigidemiseru', 'woyouishimashita'] E= ['prototype']
+v8-final-007 昨日更新したprofileに写真を追加したいです。 J= ['kinoukoushinshita', 'nishashinwotsuikashitaidesu'] E= ['profile']
+v8-final-008 撮影の前に確認したexposureを少し下げます。 J= ['satsueinomaenikakuninshita', 'wosukoshisagemasu'] E= ['exposure']
+v8-final-009 見たい映画をまとめたwatchlistを共有します。 J= ['mitaieigawomatometa', 'wokyouyuushimasu'] E= ['watchlist']
+v8-final-010 引っ越したあとに変更したaddressが反映されません。 J= ['hikkoshitaatonihenkoushita', 'gahanneisaremasenn'] E= ['address']
+v8-final-011 出張で使うvoucherを印刷しておきます。 J= ['shucchoudetsukau', 'woinsatsushiteokimasu'] E= ['voucher']
+v8-final-012 皆で書いたretrospectiveを読み返しました。 J= ['minnadekaita', 'woyomikaeshimashita'] E= ['retrospective']
+v8-final-013 空港に着く前にboarding passを保存してください。 J= ['kuukounitsukumaeni', 'wohozonshitekudasai'] E= ['boarding pass']
+v8-final-014 今日の午後はmeeting roomを予約しています。 J= ['kyounogogoha', 'woyoyakushiteimasu'] E= ['meeting room']
+v8-final-015 説明を始める前にscreen sharingを有効にします。 J= ['setsumeiwohajimerumaeni', 'woyuukounishimasu'] E= ['screen sharing']
+v8-final-016 返金についてcustomer supportに相談しました。 J= ['henkinnnitsuite', 'nisoudanshimashita'] E= ['customer support']
+v8-final-017 新しい端末にもpassword managerを入れてください。 J= ['atarashiitanmatsunimo', 'woiretekudasai'] E= ['password manager']
+v8-final-018 仕事に集中したいときはfocus modeを使います。 J= ['shigotonishuuchuushitaitokiha', 'wotsukaimasu'] E= ['focus mode']
+v8-final-019 送る前にfile nameを分かりやすくしてください。 J= ['okurumaeni', 'wowakariyasukushitekudasai'] E= ['file name']
+v8-final-020 この動画のbackground musicの音量を少し下げます。 J= ['konodougano', 'noonryouwosukoshisagemasu'] E= ['background music']
+v8-final-021 先ほど届いたvoice messageをもう一度聞きたいです。 J= ['sakihodotodoita', 'womouichidokikitaidesu'] E= ['voice message']
+v8-final-022 共有する前にsearch historyを消しておきます。 J= ['kyouyuusurumaeni', 'wokeshiteokimasu'] E= ['search history']
+v8-final-023 帰りに買うものをshopping listに追加しました。 J= ['kaerinikaumonowo', 'nitsuikashimashita'] E= ['shopping list']
+v8-final-024 気になった記事をreading listに入れています。 J= ['kininattakijiwo', 'niireteimasu'] E= ['reading list']
+v8-final-025 Chromeのtabを閉じてからSafariで開き直しました。 J= ['no', 'wotojitekara', 'dehirakinaoshimashita'] E= ['Chrome', 'tab', 'Safari']
+v8-final-026 このformのemail欄にaddressを入力してください。 J= ['kono', 'no', 'ranni', 'wonyuuryokushitekudasai'] E= ['form', 'email', 'address']
+v8-final-027 音声をrecordしてからnoiseを減らします。 J= ['onseiwo', 'shitekara', 'woherashimasu'] E= ['record', 'noise']
+v8-final-028 このfolderのarchiveをcloudに移しました。 J= ['kono', 'no', 'wo', 'niutsushimashita'] E= ['folder', 'archive', 'cloud']
+v8-final-029 昨日のmeetingのsummaryをSlackに送りました。 J= ['kinouno', 'no', 'wo', 'niokurimashita'] E= ['meeting', 'summary', 'Slack']
+v8-final-030 このbuttonをclickするとdialogが開きます。 J= ['kono', 'wo', 'suruto', 'gahirakimasu'] E= ['button', 'click', 'dialog']
+v8-final-031 次のslideのtitleとsubtitleを入れ替えます。 J= ['tsugino', 'no', 'to', 'woirekaemasu'] E= ['slide', 'title', 'subtitle']
+v8-final-032 このcameraのbatteryとstorageを確認してください。 J= ['kono', 'no', 'to', 'wokakuninshitekudasai'] E= ['camera', 'battery', 'storage']
+v8-final-033 購入したitemのtrackingをappで確認しました。 J= ['kounyuushita', 'no', 'wo', 'dekakuninshimashita'] E= ['item', 'tracking', 'app']
+v8-final-034 あのplaylistをdownloadしてofflineで聴きたいです。 J= ['ano', 'wo', 'shite', 'dekikitaidesu'] E= ['playlist', 'download', 'offline']
+v8-final-035 このdocumentのcommentにreplyを追加しました。 J= ['kono', 'no', 'ni', 'wotsuikashimashita'] E= ['document', 'comment', 'reply']
+v8-final-036 画像をresizeしてからattachmentとして送り直します。 J= ['gazouwo', 'shitekara', 'toshiteokurinaoshimasu'] E= ['resize', 'attachment']
+v8-final-037 昼休みに近くの公園を散歩します。 J= ['hiruyasuminichikakunokouenwosanposhimasu'] E= []
+v8-final-038 次の電車が来るまでここで待ちます。 J= ['tsuginodenshagakurumadekokodemachimasu'] E= []
+v8-final-039 冷蔵庫に残っている野菜で夕飯を作ります。 J= ['reizoukoninokotteiruyasaideyuuhanwotsukurimasu'] E= []
+v8-final-040 Could you leave the package by the front door? J= [] E= ['Could you leave the package by the front door?']
+v8-final-041 The meeting starts after lunch, so we still have time. J= [] E= ['The meeting starts after lunch, so we still have time.']
+v8-final-042 I saved a copy before making any changes. J= [] E= ['I saved a copy before making any changes.']
+v8-final-043 距離は\sqrt{x^2+y^2}で表せます。 J= ['kyoriha', 'dearawasemasu'] E= ['\\sqrt{x^2+y^2}']
+v8-final-044 この判定では$p < 0.05$を目安にします。 J= ['konohanteideha', 'womeyasunishimasu'] E= ['$p < 0.05$']
+v8-final-045 状態は`git status --short`で確認してください。 J= ['joutaiha', 'dekakuninshitekudasai'] E= ['`git status --short`']
+v8-final-046 この項目の名前を`theme_color`に変えました。 J= ['konokoumokunonamaewo', 'nikaemashita'] E= ['`theme_color`']
+v8-final-047 接続先はhttps://api.example.org/v1/items J= ['setsuzokusakiha'] E= ['https://api.example.org/v1/items']
+v8-final-048 申込方法はこちらhttps://example.net/events/signup J= ['moushikomihouhouhakochira'] E= ['https://example.net/events/signup']

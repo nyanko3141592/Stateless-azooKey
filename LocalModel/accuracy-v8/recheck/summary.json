@@ -1,0 +1,170 @@
+{
+  "prior80": {
+    "45e8da8": {
+      "exact": 80,
+      "count": 80,
+      "damage": 50,
+      "reversals": 173
+    },
+    "current": {
+      "exact": 80,
+      "count": 80,
+      "damage": 50,
+      "reversals": 173
+    }
+  },
+  "multi": {
+    "45e8da8": {
+      "exact": 35,
+      "count": 36,
+      "damage": 18,
+      "reversals": 102
+    },
+    "current": {
+      "exact": 35,
+      "count": 36,
+      "damage": 18,
+      "reversals": 102
+    }
+  },
+  "prior24": {
+    "45e8da8": {
+      "exact": 23,
+      "count": 24,
+      "damage": 6,
+      "reversals": 75
+    },
+    "current": {
+      "exact": 23,
+      "count": 24,
+      "damage": 6,
+      "reversals": 75
+    }
+  },
+  "prior48": {
+    "45e8da8": {
+      "exact": 47,
+      "count": 48,
+      "damage": 32,
+      "reversals": 160
+    },
+    "current": {
+      "exact": 47,
+      "count": 48,
+      "damage": 32,
+      "reversals": 160
+    }
+  },
+  "priorfinal24": {
+    "45e8da8": {
+      "exact": 24,
+      "count": 24,
+      "damage": 7,
+      "reversals": 124
+    },
+    "current": {
+      "exact": 24,
+      "count": 24,
+      "damage": 7,
+      "reversals": 124
+    }
+  },
+  "development48": {
+    "45e8da8": {
+      "exact": 48,
+      "count": 48,
+      "damage": 20,
+      "reversals": 182
+    },
+    "current": {
+      "exact": 48,
+      "count": 48,
+      "damage": 20,
+      "reversals": 182
+    }
+  },
+  "final40": {
+    "45e8da8": {
+      "exact": 40,
+      "count": 40,
+      "damage": 14,
+      "reversals": 131
+    },
+    "current": {
+      "exact": 40,
+      "count": 40,
+      "damage": 14,
+      "reversals": 131
+    }
+  },
+  "fresh48": {
+    "45e8da8": {
+      "exact": 45,
+      "count": 48,
+      "damage": 59,
+      "reversals": 171
+    },
+    "current": {
+      "exact": 45,
+      "count": 48,
+      "damage": 59,
+      "reversals": 171
+    }
+  },
+  "developmentV6": {
+    "45e8da8": {
+      "exact": 46,
+      "count": 48,
+      "damage": 52,
+      "reversals": 152
+    },
+    "current": {
+      "exact": 46,
+      "count": 48,
+      "damage": 52,
+      "reversals": 152
+    }
+  },
+  "finalV6": {
+    "45e8da8": {
+      "exact": 37,
+      "count": 48,
+      "damage": 117,
+      "reversals": 195
+    },
+    "current": {
+      "exact": 37,
+      "count": 48,
+      "damage": 117,
+      "reversals": 195
+    }
+  },
+  "finalV7": {
+    "45e8da8": {
+      "exact": 32,
+      "count": 48,
+      "damage": 203,
+      "reversals": 243
+    },
+    "current": {
+      "exact": 39,
+      "count": 48,
+      "damage": 115,
+      "reversals": 215
+    }
+  },
+  "finalV8": {
+    "45e8da8": {
+      "exact": 22,
+      "damage": 333,
+      "reversals": 213,
+      "count": 48
+    },
+    "current": {
+      "exact": 27,
+      "damage": 302,
+      "reversals": 182,
+      "count": 48
+    }
+  }
+}

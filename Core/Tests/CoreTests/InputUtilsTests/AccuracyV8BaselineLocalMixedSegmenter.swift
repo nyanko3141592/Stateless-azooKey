@@ -1,9 +1,11 @@
+// Frozen 45e8da8 inference; test target only.
+@testable import Core
 import Foundation
 
-extension LocalLanguageRouter {
+extension AccuracyV8BaselineRouter {
     /// Refine a lexer word only when alternating literal words and plausible romaji explain it.
     /// Source characters are sliced verbatim; no generated text or persistent language state.
-    func mixedSegments(_ word: String, englishPhrase: Bool = false) -> [(text: String, japanese: Bool)]? {
+    func mixedSegments(_ word: String) -> [(text: String, japanese: Bool)]? {
         let characters = Array(word)
         guard characters.count >= 7, characters.count <= 160,
               characters.allSatisfy({ $0.isASCII && $0.isLetter }),
@@ -55,16 +57,6 @@ extension LocalLanguageRouter {
             var hasEnglish: Bool
             var hasJapanese: Bool
         }
-        // A lexical word followed by whitespace in this same composition supplies
-        // English-phrase context. A Japanese suffix may still have a trailing consonant
-        // while typing; requiring complete romaji would flip the boundary every key.
-        func strongJapaneseTail(after end: Int) -> Bool {
-            guard englishPhrase else { return false }
-            let suffix = String(characters.dropFirst(end))
-            return suffix.count >= 4 && !knownEnglish.contains(suffix.lowercased())
-                && ["no","ni","de","wo","ha","ga","to","mo","kara","made","shite","shita","shimas","sare","suru"].contains(where:suffix.hasPrefix)
-                && (isRomaji(suffix) || isRomajiPrefix(suffix)) && probability(suffix,context:true) >= 0.88
-        }
         // Use lexical words, trailing lexical prefixes, and unknown words supported by both boundaries.
         var anchors: [Int:[(end: Int,text: String)]] = [:]
         for start in 0..<characters.count {
@@ -77,10 +69,8 @@ extension LocalLanguageRouter {
                       !knownJapanese.contains(candidate.lowercased()),
                       !isRomaji(candidate) || candidate.first?.isUppercase == true || (lexical && candidate.count >= 5)
                         || (candidate.count >= 5 && probability(candidate) < 0.1)
-                        || (lexical && candidate.count == 4
-                            && ((start > 0 && probability(candidate) < 0.12
-                                && ["no","ni","de","wo","ha","ga","to","mo","kara","made"].contains(where:String(characters.prefix(start)).hasSuffix))
-                                || (start == 0 && strongJapaneseTail(after:end+1)))) else { continue }
+                        || (lexical && candidate.count == 4 && start > 0 && probability(candidate) < 0.12
+                            && ["no","ni","de","wo","ha","ga","to","mo","kara","made"].contains(where:String(characters.prefix(start)).hasSuffix)) else { continue }
                 let tail = String(characters.dropFirst(end+1))
                 let beforeJapanese = ["no","ni","de","wo","ha","ga","to","kara","shite","shita","shimas","sare","suru"].contains(where:tail.hasPrefix)
                     || ["n","d","w","h","g","t","k","sh","shi","sa","sar"].contains(tail)
@@ -146,8 +136,7 @@ extension LocalLanguageRouter {
                     }
             }
             let leadingEnglish = anchors[0]?.contains { anchor in
-                knownEnglish.contains(anchor.text.lowercased())
-                    && (anchor.text.first?.isUppercase == true || (anchor.text.count >= 4 && strongJapaneseTail(after:anchor.end)))
+                anchor.text.first?.isUppercase == true && knownEnglish.contains(anchor.text.lowercased())
             } == true
             guard completedEnglish || leadingEnglish else { return nil }
         }
@@ -167,7 +156,7 @@ extension LocalLanguageRouter {
                 }
             }
             var supported = !knownBoundary && text.count >= 6
-                && particles.union(["ta","ru","te","nai"]).contains { text.hasSuffix($0) && isRomaji(String(text.dropLast($0.count))) }
+                && particles.contains { text.hasSuffix($0) && isRomaji(String(text.dropLast($0.count))) }
                 && probability(text,context:true) >= 0.995
             if supported {
                 // Do not gain Japanese evidence by swallowing an English word,
@@ -240,7 +229,7 @@ extension LocalLanguageRouter {
                             let prefix = path.pieces.last?.japanese == true ? path.pieces.last!.text : ""
                             let boundary = particles.contains(prefix) || knownJapanese.contains(prefix)
                                 || particles.contains { prefix.hasSuffix($0) && knownJapanese.contains(String(prefix.dropLast($0.count))) }
-                            if !boundary && !(start == 0 && strongJapaneseTail(after:anchor.end)) { continue }
+                            if !boundary { continue }
                         }
                         // A very short unknown can only follow an already established
                         // English + particle run, not peel a fragment off a longer word.
@@ -249,12 +238,11 @@ extension LocalLanguageRouter {
                                 && particles.contains(path.pieces.last!.text)) { continue }
                         let preceding = String(characters.prefix(start))
                         let afterParticle = ["no","ni","de","wo","ha","ga","to","mo","kara","made"].contains(where:preceding.hasSuffix)
-                        let japanesePrefix = path.pieces.last?.japanese == true ? path.pieces.last!.text : ""
                         let score = lexical ? 3 + Double(anchor.text.count)*0.2
-                            : (afterParticle || strongJapanesePhrase(japanesePrefix,endingAt:start))
-                                ? 1.5 + Double(anchor.text.count)*0.12 : 1 - Double(anchor.text.count)*0.06
+                            : afterParticle ? 1.5 + Double(anchor.text.count)*0.12 : 1 - Double(anchor.text.count)*0.06
                         // Strong Japanese morphology helps locate an uncertain English word,
                         // but must not bias Japanese suffixes after an already identified word.
+                        let japanesePrefix = path.pieces.last?.japanese == true ? path.pieces.last!.text : ""
                         var boundaryEvidence = 0.0
                         if lexical && japanesePrefix.count >= 3 && !knownJapanese.contains(japanesePrefix)
                             && !particles.contains(where:japanesePrefix.hasSuffix) {
@@ -295,9 +283,8 @@ extension LocalLanguageRouter {
             }
         }
         guard let best = paths[characters.count]?.values.filter({ $0.hasEnglish && $0.hasJapanese && ($0.pieces.count >= 3 || $0.pieces.first?.japanese == true
-                || (knownEnglish.contains($0.pieces.first!.text.lowercased())
-                    && ($0.pieces.first?.text.first?.isUppercase == true
-                        || ($0.pieces.first!.text.count >= 4 && strongJapaneseTail(after:$0.pieces.first!.text.count))))) }).max(by: { a,b in
+                || ($0.pieces.first?.text.first?.isUppercase == true
+                    && knownEnglish.contains($0.pieces.first!.text.lowercased()))) }).max(by: { a,b in
             if a.score != b.score { return a.score < b.score }
             return a.pieces.map { $0.text }.joined(separator:"|") < b.pieces.map { $0.text }.joined(separator:"|")
         }), best.score > 0 else { return nil }

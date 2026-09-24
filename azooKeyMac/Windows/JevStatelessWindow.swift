@@ -206,7 +206,14 @@ import Core
     "konobangounochecksumgachigaimasu",
     "konotablehaCSVdesu",
     "sononewlinehaLFdesu",
-    "konousernotimezonehaUTCdesu"
+    "konousernotimezonehaUTCdesu",
+    "yorumadetsukautokidakedark modenikirikaetaidesu",
+    "shippaishitatokinoerror messagewosonomamaokuttekudasai",
+    "gamennomigishitaniarucheckboxwohazushitekudasai",
+    "kinoukarashirabeteiruregressionnoriyuugawakarimashita",
+    "minnadehanashiattekimetamilestonewokaemashita",
+    "atarashiipasokonnniutsushitaworkspacegamitsukarimasenn",
+    "asaichideinboxwokakuninshitenewsletterwoyomimashita"
 ]
         for raw in samples {
             session.reset(); var times: [Double] = []

@@ -1,0 +1,601 @@
+[
+  {
+    "id": "v8-final-001",
+    "category": "verb_modifier",
+    "intendedText": "朝予約したticketを確認します。",
+    "japanese": [
+      "asayoyakushita",
+      "wokakuninshimasu"
+    ],
+    "english": [
+      "ticket"
+    ]
+  },
+  {
+    "id": "v8-final-002",
+    "category": "verb_modifier",
+    "intendedText": "友達から届いたinvitationを開いてください。",
+    "japanese": [
+      "tomodachikaratodoita",
+      "wohiraitekudasai"
+    ],
+    "english": [
+      "invitation"
+    ]
+  },
+  {
+    "id": "v8-final-003",
+    "category": "verb_modifier",
+    "intendedText": "旅行前に作ったitineraryを家族に送りました。",
+    "japanese": [
+      "ryokoumaenitsukutta",
+      "wokazokuniokurimashita"
+    ],
+    "english": [
+      "itinerary"
+    ]
+  },
+  {
+    "id": "v8-final-004",
+    "category": "verb_modifier",
+    "intendedText": "机に置いてあるadapterを持ってきてください。",
+    "japanese": [
+      "tsukuenioitearu",
+      "womottekitekudasai"
+    ],
+    "english": [
+      "adapter"
+    ]
+  },
+  {
+    "id": "v8-final-005",
+    "category": "verb_modifier",
+    "intendedText": "午前中に直したlayoutが崩れています。",
+    "japanese": [
+      "gozennchuuninaoshita",
+      "gakuzureteimasu"
+    ],
+    "english": [
+      "layout"
+    ]
+  },
+  {
+    "id": "v8-final-006",
+    "category": "verb_modifier",
+    "intendedText": "明日の会議で見せるprototypeを用意しました。",
+    "japanese": [
+      "ashitanokaigidemiseru",
+      "woyouishimashita"
+    ],
+    "english": [
+      "prototype"
+    ]
+  },
+  {
+    "id": "v8-final-007",
+    "category": "verb_modifier",
+    "intendedText": "昨日更新したprofileに写真を追加したいです。",
+    "japanese": [
+      "kinoukoushinshita",
+      "nishashinwotsuikashitaidesu"
+    ],
+    "english": [
+      "profile"
+    ]
+  },
+  {
+    "id": "v8-final-008",
+    "category": "verb_modifier",
+    "intendedText": "撮影の前に確認したexposureを少し下げます。",
+    "japanese": [
+      "satsueinomaenikakuninshita",
+      "wosukoshisagemasu"
+    ],
+    "english": [
+      "exposure"
+    ]
+  },
+  {
+    "id": "v8-final-009",
+    "category": "verb_modifier",
+    "intendedText": "見たい映画をまとめたwatchlistを共有します。",
+    "japanese": [
+      "mitaieigawomatometa",
+      "wokyouyuushimasu"
+    ],
+    "english": [
+      "watchlist"
+    ]
+  },
+  {
+    "id": "v8-final-010",
+    "category": "verb_modifier",
+    "intendedText": "引っ越したあとに変更したaddressが反映されません。",
+    "japanese": [
+      "hikkoshitaatonihenkoushita",
+      "gahanneisaremasenn"
+    ],
+    "english": [
+      "address"
+    ]
+  },
+  {
+    "id": "v8-final-011",
+    "category": "verb_modifier",
+    "intendedText": "出張で使うvoucherを印刷しておきます。",
+    "japanese": [
+      "shucchoudetsukau",
+      "woinsatsushiteokimasu"
+    ],
+    "english": [
+      "voucher"
+    ]
+  },
+  {
+    "id": "v8-final-012",
+    "category": "verb_modifier",
+    "intendedText": "皆で書いたretrospectiveを読み返しました。",
+    "japanese": [
+      "minnadekaita",
+      "woyomikaeshimashita"
+    ],
+    "english": [
+      "retrospective"
+    ]
+  },
+  {
+    "id": "v8-final-013",
+    "category": "english_phrase",
+    "intendedText": "空港に着く前にboarding passを保存してください。",
+    "japanese": [
+      "kuukounitsukumaeni",
+      "wohozonshitekudasai"
+    ],
+    "english": [
+      "boarding pass"
+    ]
+  },
+  {
+    "id": "v8-final-014",
+    "category": "english_phrase",
+    "intendedText": "今日の午後はmeeting roomを予約しています。",
+    "japanese": [
+      "kyounogogoha",
+      "woyoyakushiteimasu"
+    ],
+    "english": [
+      "meeting room"
+    ]
+  },
+  {
+    "id": "v8-final-015",
+    "category": "english_phrase",
+    "intendedText": "説明を始める前にscreen sharingを有効にします。",
+    "japanese": [
+      "setsumeiwohajimerumaeni",
+      "woyuukounishimasu"
+    ],
+    "english": [
+      "screen sharing"
+    ]
+  },
+  {
+    "id": "v8-final-016",
+    "category": "english_phrase",
+    "intendedText": "返金についてcustomer supportに相談しました。",
+    "japanese": [
+      "henkinnnitsuite",
+      "nisoudanshimashita"
+    ],
+    "english": [
+      "customer support"
+    ]
+  },
+  {
+    "id": "v8-final-017",
+    "category": "english_phrase",
+    "intendedText": "新しい端末にもpassword managerを入れてください。",
+    "japanese": [
+      "atarashiitanmatsunimo",
+      "woiretekudasai"
+    ],
+    "english": [
+      "password manager"
+    ]
+  },
+  {
+    "id": "v8-final-018",
+    "category": "english_phrase",
+    "intendedText": "仕事に集中したいときはfocus modeを使います。",
+    "japanese": [
+      "shigotonishuuchuushitaitokiha",
+      "wotsukaimasu"
+    ],
+    "english": [
+      "focus mode"
+    ]
+  },
+  {
+    "id": "v8-final-019",
+    "category": "english_phrase",
+    "intendedText": "送る前にfile nameを分かりやすくしてください。",
+    "japanese": [
+      "okurumaeni",
+      "wowakariyasukushitekudasai"
+    ],
+    "english": [
+      "file name"
+    ]
+  },
+  {
+    "id": "v8-final-020",
+    "category": "english_phrase",
+    "intendedText": "この動画のbackground musicの音量を少し下げます。",
+    "japanese": [
+      "konodougano",
+      "noonryouwosukoshisagemasu"
+    ],
+    "english": [
+      "background music"
+    ]
+  },
+  {
+    "id": "v8-final-021",
+    "category": "english_phrase",
+    "intendedText": "先ほど届いたvoice messageをもう一度聞きたいです。",
+    "japanese": [
+      "sakihodotodoita",
+      "womouichidokikitaidesu"
+    ],
+    "english": [
+      "voice message"
+    ]
+  },
+  {
+    "id": "v8-final-022",
+    "category": "english_phrase",
+    "intendedText": "共有する前にsearch historyを消しておきます。",
+    "japanese": [
+      "kyouyuusurumaeni",
+      "wokeshiteokimasu"
+    ],
+    "english": [
+      "search history"
+    ]
+  },
+  {
+    "id": "v8-final-023",
+    "category": "english_phrase",
+    "intendedText": "帰りに買うものをshopping listに追加しました。",
+    "japanese": [
+      "kaerinikaumonowo",
+      "nitsuikashimashita"
+    ],
+    "english": [
+      "shopping list"
+    ]
+  },
+  {
+    "id": "v8-final-024",
+    "category": "english_phrase",
+    "intendedText": "気になった記事をreading listに入れています。",
+    "japanese": [
+      "kininattakijiwo",
+      "niireteimasu"
+    ],
+    "english": [
+      "reading list"
+    ]
+  },
+  {
+    "id": "v8-final-025",
+    "category": "multiple_switches",
+    "intendedText": "Chromeのtabを閉じてからSafariで開き直しました。",
+    "japanese": [
+      "no",
+      "wotojitekara",
+      "dehirakinaoshimashita"
+    ],
+    "english": [
+      "Chrome",
+      "tab",
+      "Safari"
+    ]
+  },
+  {
+    "id": "v8-final-026",
+    "category": "multiple_switches",
+    "intendedText": "このformのemail欄にaddressを入力してください。",
+    "japanese": [
+      "kono",
+      "no",
+      "ranni",
+      "wonyuuryokushitekudasai"
+    ],
+    "english": [
+      "form",
+      "email",
+      "address"
+    ]
+  },
+  {
+    "id": "v8-final-027",
+    "category": "multiple_switches",
+    "intendedText": "音声をrecordしてからnoiseを減らします。",
+    "japanese": [
+      "onseiwo",
+      "shitekara",
+      "woherashimasu"
+    ],
+    "english": [
+      "record",
+      "noise"
+    ]
+  },
+  {
+    "id": "v8-final-028",
+    "category": "multiple_switches",
+    "intendedText": "このfolderのarchiveをcloudに移しました。",
+    "japanese": [
+      "kono",
+      "no",
+      "wo",
+      "niutsushimashita"
+    ],
+    "english": [
+      "folder",
+      "archive",
+      "cloud"
+    ]
+  },
+  {
+    "id": "v8-final-029",
+    "category": "multiple_switches",
+    "intendedText": "昨日のmeetingのsummaryをSlackに送りました。",
+    "japanese": [
+      "kinouno",
+      "no",
+      "wo",
+      "niokurimashita"
+    ],
+    "english": [
+      "meeting",
+      "summary",
+      "Slack"
+    ]
+  },
+  {
+    "id": "v8-final-030",
+    "category": "multiple_switches",
+    "intendedText": "このbuttonをclickするとdialogが開きます。",
+    "japanese": [
+      "kono",
+      "wo",
+      "suruto",
+      "gahirakimasu"
+    ],
+    "english": [
+      "button",
+      "click",
+      "dialog"
+    ]
+  },
+  {
+    "id": "v8-final-031",
+    "category": "multiple_switches",
+    "intendedText": "次のslideのtitleとsubtitleを入れ替えます。",
+    "japanese": [
+      "tsugino",
+      "no",
+      "to",
+      "woirekaemasu"
+    ],
+    "english": [
+      "slide",
+      "title",
+      "subtitle"
+    ]
+  },
+  {
+    "id": "v8-final-032",
+    "category": "multiple_switches",
+    "intendedText": "このcameraのbatteryとstorageを確認してください。",
+    "japanese": [
+      "kono",
+      "no",
+      "to",
+      "wokakuninshitekudasai"
+    ],
+    "english": [
+      "camera",
+      "battery",
+      "storage"
+    ]
+  },
+  {
+    "id": "v8-final-033",
+    "category": "multiple_switches",
+    "intendedText": "購入したitemのtrackingをappで確認しました。",
+    "japanese": [
+      "kounyuushita",
+      "no",
+      "wo",
+      "dekakuninshimashita"
+    ],
+    "english": [
+      "item",
+      "tracking",
+      "app"
+    ]
+  },
+  {
+    "id": "v8-final-034",
+    "category": "multiple_switches",
+    "intendedText": "あのplaylistをdownloadしてofflineで聴きたいです。",
+    "japanese": [
+      "ano",
+      "wo",
+      "shite",
+      "dekikitaidesu"
+    ],
+    "english": [
+      "playlist",
+      "download",
+      "offline"
+    ]
+  },
+  {
+    "id": "v8-final-035",
+    "category": "multiple_switches",
+    "intendedText": "このdocumentのcommentにreplyを追加しました。",
+    "japanese": [
+      "kono",
+      "no",
+      "ni",
+      "wotsuikashimashita"
+    ],
+    "english": [
+      "document",
+      "comment",
+      "reply"
+    ]
+  },
+  {
+    "id": "v8-final-036",
+    "category": "multiple_switches",
+    "intendedText": "画像をresizeしてからattachmentとして送り直します。",
+    "japanese": [
+      "gazouwo",
+      "shitekara",
+      "toshiteokurinaoshimasu"
+    ],
+    "english": [
+      "resize",
+      "attachment"
+    ]
+  },
+  {
+    "id": "v8-final-037",
+    "category": "single_language",
+    "intendedText": "昼休みに近くの公園を散歩します。",
+    "japanese": [
+      "hiruyasuminichikakunokouenwosanposhimasu"
+    ],
+    "english": []
+  },
+  {
+    "id": "v8-final-038",
+    "category": "single_language",
+    "intendedText": "次の電車が来るまでここで待ちます。",
+    "japanese": [
+      "tsuginodenshagakurumadekokodemachimasu"
+    ],
+    "english": []
+  },
+  {
+    "id": "v8-final-039",
+    "category": "single_language",
+    "intendedText": "冷蔵庫に残っている野菜で夕飯を作ります。",
+    "japanese": [
+      "reizoukoninokotteiruyasaideyuuhanwotsukurimasu"
+    ],
+    "english": []
+  },
+  {
+    "id": "v8-final-040",
+    "category": "single_language",
+    "intendedText": "Could you leave the package by the front door?",
+    "japanese": [],
+    "english": [
+      "Could you leave the package by the front door?"
+    ]
+  },
+  {
+    "id": "v8-final-041",
+    "category": "single_language",
+    "intendedText": "The meeting starts after lunch, so we still have time.",
+    "japanese": [],
+    "english": [
+      "The meeting starts after lunch, so we still have time."
+    ]
+  },
+  {
+    "id": "v8-final-042",
+    "category": "single_language",
+    "intendedText": "I saved a copy before making any changes.",
+    "japanese": [],
+    "english": [
+      "I saved a copy before making any changes."
+    ]
+  },
+  {
+    "id": "v8-final-043",
+    "category": "protected_syntax",
+    "intendedText": "距離は\\sqrt{x^2+y^2}で表せます。",
+    "japanese": [
+      "kyoriha",
+      "dearawasemasu"
+    ],
+    "english": [
+      "\\sqrt{x^2+y^2}"
+    ]
+  },
+  {
+    "id": "v8-final-044",
+    "category": "protected_syntax",
+    "intendedText": "この判定では$p < 0.05$を目安にします。",
+    "japanese": [
+      "konohanteideha",
+      "womeyasunishimasu"
+    ],
+    "english": [
+      "$p < 0.05$"
+    ]
+  },
+  {
+    "id": "v8-final-045",
+    "category": "protected_syntax",
+    "intendedText": "状態は`git status --short`で確認してください。",
+    "japanese": [
+      "joutaiha",
+      "dekakuninshitekudasai"
+    ],
+    "english": [
+      "`git status --short`"
+    ]
+  },
+  {
+    "id": "v8-final-046",
+    "category": "protected_syntax",
+    "intendedText": "この項目の名前を`theme_color`に変えました。",
+    "japanese": [
+      "konokoumokunonamaewo",
+      "nikaemashita"
+    ],
+    "english": [
+      "`theme_color`"
+    ]
+  },
+  {
+    "id": "v8-final-047",
+    "category": "protected_syntax",
+    "intendedText": "接続先はhttps://api.example.org/v1/items",
+    "japanese": [
+      "setsuzokusakiha"
+    ],
+    "english": [
+      "https://api.example.org/v1/items"
+    ]
+  },
+  {
+    "id": "v8-final-048",
+    "category": "protected_syntax",
+    "intendedText": "申込方法はこちらhttps://example.net/events/signup",
+    "japanese": [
+      "moushikomihouhouhakochira"
+    ],
+    "english": [
+      "https://example.net/events/signup"
+    ]
+  }
+]

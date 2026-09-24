@@ -1,0 +1,139 @@
+[
+  {
+    "f": "accuracy-v7/final-evaluation-corrected.json",
+    "stats": [
+      {
+        "exact": 32,
+        "damage": 203,
+        "reversals": 243
+      },
+      {
+        "exact": 37,
+        "damage": 145,
+        "reversals": 236
+      }
+    ],
+    "changes": [
+      {
+        "raw": "gamennomigishitaniarucheckboxwohazushitekudasai",
+        "stats": [
+          {
+            "exact": 0,
+            "damage": 0,
+            "reversals": 5
+          },
+          {
+            "exact": 1,
+            "damage": 0,
+            "reversals": 5
+          }
+        ]
+      },
+      {
+        "raw": "kinoukarashirabeteiruregressionnoriyuugawakarimashita",
+        "stats": [
+          {
+            "exact": 0,
+            "damage": 23,
+            "reversals": 5
+          },
+          {
+            "exact": 1,
+            "damage": 2,
+            "reversals": 4
+          }
+        ]
+      },
+      {
+        "raw": "minnadehanashiattekimetamilestonewokaemashita",
+        "stats": [
+          {
+            "exact": 0,
+            "damage": 11,
+            "reversals": 8
+          },
+          {
+            "exact": 1,
+            "damage": 2,
+            "reversals": 7
+          }
+        ]
+      },
+      {
+        "raw": "atarashiipasokonnniutsushitaworkspacegamitsukarimasenn",
+        "stats": [
+          {
+            "exact": 0,
+            "damage": 16,
+            "reversals": 3
+          },
+          {
+            "exact": 1,
+            "damage": 0,
+            "reversals": 2
+          }
+        ]
+      },
+      {
+        "raw": "kaerumaenikakuninshitainvoicenikingakugahaitteimasenn",
+        "stats": [
+          {
+            "exact": 1,
+            "damage": 0,
+            "reversals": 3
+          },
+          {
+            "exact": 1,
+            "damage": 0,
+            "reversals": 2
+          }
+        ]
+      },
+      {
+        "raw": "saigonominaoshidekizuitatypowonaoshimashita",
+        "stats": [
+          {
+            "exact": 1,
+            "damage": 2,
+            "reversals": 5
+          },
+          {
+            "exact": 1,
+            "damage": 2,
+            "reversals": 4
+          }
+        ]
+      },
+      {
+        "raw": "hitotsumaenogamennimodorushortcutwooboetaidesu",
+        "stats": [
+          {
+            "exact": 0,
+            "damage": 0,
+            "reversals": 3
+          },
+          {
+            "exact": 0,
+            "damage": 0,
+            "reversals": 4
+          }
+        ]
+      },
+      {
+        "raw": "asaichideinboxwokakuninshitenewsletterwoyomimashita",
+        "stats": [
+          {
+            "exact": 0,
+            "damage": 22,
+            "reversals": 7
+          },
+          {
+            "exact": 1,
+            "damage": 10,
+            "reversals": 4
+          }
+        ]
+      }
+    ]
+  }
+]
