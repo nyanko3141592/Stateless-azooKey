@@ -3,7 +3,7 @@ import Core
 
 @MainActor enum JevLocalConfig {
     static var directory: URL {
-        FileManager.default.urls(for: .applicationSupportDirectory, in: .userDomainMask)[0].appendingPathComponent("azooKeyLocal")
+        FileManager.default.urls(for: .applicationSupportDirectory, in: .userDomainMask)[0].appendingPathComponent("Stateless-azooKey")
     }
     static func apiKey() throws -> String {
         let key = (try? String(contentsOf: directory.appendingPathComponent("gateway.key"), encoding: .utf8))?.trimmingCharacters(in: .whitespacesAndNewlines) ?? ""

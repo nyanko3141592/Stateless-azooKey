@@ -56,7 +56,7 @@ import Core
         root.addSubview(recordButton)
         if videoMode {
             window.setContentSize(NSSize(width:1200,height:675))
-            window.title = "azooKey Local — 区間判定"
+            window.title = "Stateless-azooKey — 区間判定"
             let canvas = SegmentationVideoView(frame:NSRect(x:0,y:0,width:1200,height:675))
             window.contentView = canvas; videoCanvas = canvas
             recordButton.frame = NSRect(x:1010,y:644,width:148,height:26)

@@ -50,7 +50,7 @@ import Core
     }
     override func draw(_ dirtyRect: NSRect) {
         NSColor(calibratedRed:0.035,green:0.046,blue:0.075,alpha:1).setFill(); bounds.fill()
-        text("azooKey Local",x:54,y:31,size:21,color:ink,weight:.semibold)
+        text("Stateless-azooKey",x:54,y:31,size:21,color:ink,weight:.semibold)
         text("モード切替なし",x:237,y:35,size:14,color:muted)
         text(String(format:"%02d / 04",example),x:1061,y:35,size:14,color:muted,mono:true)
         panel(NSRect(x:42,y:93,width:1116,height:128))

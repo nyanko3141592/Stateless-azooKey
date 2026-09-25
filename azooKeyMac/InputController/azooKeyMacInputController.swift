@@ -6,7 +6,7 @@ import KanaKanjiConverterModuleWithDefaultDictionary
 @objc(azooKeyMacInputController)
 class azooKeyMacInputController: IMKInputController, NSMenuItemValidation { // swiftlint:disable:this type_name
     @MainActor lazy var statelessSession = JevStatelessSession()
-    var statelessEnabled = Bundle.main.bundleIdentifier == "dev.naoki.inputmethod.azooKeyLocal"
+    var statelessEnabled = Bundle.main.bundleIdentifier == "dev.naoki.inputmethod.StatelessAzooKey"
     var jevTask: Task<Void, Never>?
     var jevRequestGeneration: UInt64 = 0
     var segmentsManager: SegmentsManager
@@ -592,10 +592,10 @@ class azooKeyMacInputController: IMKInputController, NSMenuItemValidation { // s
         client.overrideKeyboard(withKeyboardNamed: Config.KeyboardLayout().value.layoutIdentifier)
         switch language {
         case .english:
-            client.selectMode("dev.ensan.inputmethod.azooKeyMac.Roman")
+            client.selectMode("dev.naoki.inputmethod.StatelessAzooKey.Roman")
             self.segmentsManager.stopJapaneseInput()
         case .japanese:
-            client.selectMode("dev.ensan.inputmethod.azooKeyMac.Japanese")
+            client.selectMode("dev.naoki.inputmethod.StatelessAzooKey.Japanese")
         }
     }
 

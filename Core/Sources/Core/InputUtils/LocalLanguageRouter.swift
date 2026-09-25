@@ -26,7 +26,7 @@ public final class LocalLanguageRouter: @unchecked Sendable {
         englishPrefixes = Set(model.knownEnglish.flatMap { w in (1...w.count).map { String(w.prefix($0)) } })
     }
     // The same phonotactic features as train.py, compiled once rather than per key.
-    private static let syllable = #"(?:[aeiou]|n|(?:[kgsztdnhbpmrwyfvj]|sh|ch|ts|ky|gy|ny|hy|by|py|my|ry|jy|sy|ty|dy|kw|gw|xt|lt)[aeiou]|([kstpbgdz])\1?[aeiou])"#
+    private static let syllable = #"(?:[aeiou]|n|(?:[kgsztdnhbpmrwyfvj]|cch|sh|ch|ts|ky|gy|ny|hy|by|py|my|ry|jy|sy|ty|dy|kw|gw|xt|lt)[aeiou]|([kstpbgdz])\1?[aeiou])"#
     private static let completeRomaji = try! NSRegularExpression(pattern: "^(?:" + syllable + #"|([kstpbgdz])(?=[kstpbgdz]))+$"#)
     private static let partialRomaji = try! NSRegularExpression(pattern: "^(?:" + syllable + #"|([kstpbgdz])(?=[kstpbgdz]))*(?:[kgsztdnhbpmrwyfvj]|sh|ch|ts|ky|gy|ny|hy|by|py|my|ry|jy|sy|ty|dy)?$"#)
     private static func matches(_ regex: NSRegularExpression, _ word: String) -> Bool {
@@ -62,7 +62,11 @@ public final class LocalLanguageRouter: @unchecked Sendable {
             // A word after Japanese whitespace keeps the existing conservative behavior.
             let englishPhrase = spans.isEmpty || (spans.count >= 2 && spans.last!.protected
                 && spans.last!.text.allSatisfy(\.isWhitespace)
-                && knownEnglish.contains(spans[spans.count-2].text.lowercased())
+                && (knownEnglish.contains(spans[spans.count-2].text.lowercased())
+                    || (!isRomaji(spans[spans.count-2].text) && japaneseProbability(spans[spans.count-2].text) < 0.02)
+                    || (!isRomaji(spans[spans.count-2].text)
+                        && spans[spans.count-2].text.lowercased().hasSuffix("ing")
+                        && japaneseProbability(spans[spans.count-2].text) < 0.4))
                 && !ambiguous.contains(spans[spans.count-2].text.lowercased()))
             if !span.protected, let pieces = mixedSegments(span.text,englishPhrase:englishPhrase) {
                 // Preserve the established single-span English-prefix representation
@@ -91,7 +95,7 @@ public final class LocalLanguageRouter: @unchecked Sendable {
             return knownJapanese.contains(w) && !ambiguous.contains(w)
                 || (w.count >= 8 && isRomaji(w) && ["masu","masen","masenn","mashita","desu","deshita","kudasai","shite","shita","nai","natta","tai","masuka","desuka","mashou"].contains(where:w.hasSuffix))
         }
-        let englishSentence = englishCount >= 2 && japaneseAnchors.isEmpty
+        let englishSentence = englishCount >= 2 && japaneseAnchors.isEmpty && !segmented.values.contains { $0 >= 0 }
         var decisions: [JevSpanDecision] = []
         for (position,index) in targets.enumerated() {
             let word = spans[index].text

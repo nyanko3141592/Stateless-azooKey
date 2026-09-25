@@ -6,7 +6,7 @@
   
 */
 
-CFBundleName = "azooKey Local";
+CFBundleName = "Stateless-azooKey";
 
-com.apple.inputmethod.Roman = "azooKey Local (English)";
-com.apple.inputmethod.Japanese = "azooKey Local (日本語)";
+com.apple.inputmethod.Roman = "Stateless-azooKey (English)";
+com.apple.inputmethod.Japanese = "Stateless-azooKey (日本語)";

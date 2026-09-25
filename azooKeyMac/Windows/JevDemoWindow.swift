@@ -109,7 +109,7 @@ struct JevRunRecord: Codable, Sendable {
         return record
     }
     func selectIME() {
-        let filter = [kTISPropertyInputSourceID as String: "dev.naoki.inputmethod.azooKeyJev.Japanese"] as CFDictionary
+        let filter = [kTISPropertyInputSourceID as String: "dev.naoki.inputmethod.StatelessAzooKey.Japanese"] as CFDictionary
         let sources = TISCreateInputSourceList(filter, true).takeRetainedValue() as! [TISInputSource]
         guard let source = sources.first else { status = "入力ソースがまだ登録されていません。"; return }
         let enabled = TISEnableInputSource(source)

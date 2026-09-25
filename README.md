@@ -1,10 +1,15 @@
-# azooKey Local — experimental fork
+# Stateless-azooKey
 
-日英モードを切り替えず、現在の未確定入力から区間を判定するローカル実験版です。軽量分類器＋辞書・ルールで日英を分け、日本語区間をZenzaiで変換します。上流azooKeyの公式リリースではありません。
+日英モードを切り替えず、現在の未確定入力から区間を判定するmacOS向けの実験的IMEです。軽量分類器＋辞書・ルールで日英を分け、日本語区間をZenzaiで変換します。
+
+> [!IMPORTANT]
+> これは高橋直樹が保守する**非公式フォーク**です。azooKey開発者・azooKeyプロジェクト・Zenzai作者による公式リリースではなく、承認や推奨を受けたものでもありません。フォーク固有部分の不具合・誤変換・問い合わせを上流へ送らないでください。
+
+このフォークは、三輪敬太氏およびコントリビューターによる[azooKey on macOS](https://github.com/azooKey/azooKey-Desktop)を基盤とし、同氏のニューラルかな漢字変換モデルZenzaiとAzooKeyKanaKanjiConverterを利用しています。本フォークが独自に追加したのは、ローカル日英区間推定、ステートレス入力経路、評価・デモ周辺です。詳細は[FORK_NOTICE.md](FORK_NOTICE.md)と[LICENSE](LICENSE)を参照してください。
 
 [最新の精度改善と評価](LocalModel/ACCURACY_V3.md) / [公開準備・既知の問題](LocalModel/RELEASE_READINESS.md) / [評価の再現](LocalModel/check-quality.sh) / [動画用表示](LocalModel/VIDEO_PRESENTATION.md)
 
-以下は上流の導入説明です。Local版のビルドは `sh LocalModel/build.sh`、別名インストールは `python3 LocalModel/install.py .build-macos/Build/Products/Release/azooKeyMac.app`。現時点では開発版で、公証済み配布物はありません。
+本プロジェクトはバイナリやインストーラを配布しません。各自のMac上でソースからビルドしてください。ビルドは `sh LocalModel/build.sh`、別名インストールは `python3 LocalModel/install.py .build-macos/Build/Products/Release/azooKeyMac.app` です。
 
 ## azooKey on macOS
 
@@ -16,28 +21,21 @@
 
 macOS 15で動作確認しています。macOS 14およびmacOS 26でも利用できますが、動作は検証していません。
 
-## リリース版インストール
-
-[Releases](https://github.com/ensan-hcl/azooKey-Desktop/releases)から`.pkg`ファイルをダウンロードして、インストールしてください。
-
-その後、以下の手順で利用できます。
-
-- macOSからログアウトし、再ログイン
-- 「設定」>「キーボード」>「入力ソース」を編集>「+」ボタン>「日本語」>azooKeyを追加>完了
-- メニューバーアイコンからazooKeyを選択
-
-### Install with Homebrew
-または、Homebrewを用いてインストールすることもできます。
+# 自分でビルドして使う
 
 ```bash
-brew install azooKey
+git lfs install
+git clone --recursive https://github.com/nyanko3141592/Stateless-azooKey.git
+cd Stateless-azooKey
+git -C azooKeyMac/Resources/gguf lfs pull
+git -C azooKeyMac/Resources/base_n5_lm lfs pull
+sh LocalModel/build.sh
+python3 LocalModel/install.py .build-macos/Build/Products/Release/azooKeyMac.app
 ```
-この場合も上記のログアウト・再ログイン後の設定は必要です。
-アップグレードは以下のコマンドで実行できますが、再起動が必要になることがあります。
 
-```bash
-brew upgrade azooKey
-```
+インストール後に一度ログアウトして再ログインし、「システム設定」→「キーボード」→「入力ソース」→「編集」→「＋」→「日本語」から `Stateless-azooKey` を追加します。既存の公式azooKeyとは別のBundle ID・入力ソースIDで共存します。
+
+更新時は同じ手順で再ビルド・再インストールし、必要に応じて `Stateless-azooKey` のプロセス終了または再ログインを行ってください。
 
 ## コミュニティ
 
@@ -84,8 +82,8 @@ submoduleにzenzのgguf重みと言語モデル（`.marisa`）が含まれるた
 
 ```bash
 git lfs install        # 未実行の場合のみ
-git clone https://github.com/azooKey/azooKey-Desktop --recursive
-cd azooKey-Desktop
+git clone https://github.com/nyanko3141592/Stateless-azooKey --recursive
+cd Stateless-azooKey
 ```
 
 既にcloneしていてsubmoduleやLFSが揃っていない場合は以下を実行してください。
@@ -102,40 +100,26 @@ git -C azooKeyMac/Resources/base_n5_lm lfs pull
 ls -lh azooKeyMac/Resources/gguf/ggml-model-Q5_K_M.gguf
 ```
 
-#### 2. 署名の設定（初回のみ）
-
-`install.sh` はアーカイブビルドを行うため、Xcode上で署名設定が通っている必要があります。Apple Developer Programに加入していない場合は、Personal Teamでの署名に切り替えてください。
-
-* `azooKeyMac.xcodeproj` を Xcode で開く
-* azooKeyMac ターゲット → Signing & Capabilities で Team を自身の Personal Team に変更
-* リポジトリ内のバンドルID（`dev.ensan.inputmethod.azooKeyMac` など）を、自身の所有するプレフィックスに一括置換（例: `dev.yourname.inputmethod.azooKeyMac`）
-
-#### 3. ビルド＆インストール
+#### 2. ビルド＆インストール
 
 ```bash
-./install.sh
+sh LocalModel/build.sh
+python3 LocalModel/install.py .build-macos/Build/Products/Release/azooKeyMac.app
 ```
 
-`.pkg`によるインストールと同等の状態になります。その後、上記の「リリース版インストール」の手順（ログアウト→入力ソース追加）を行ってください。
+この開発用手順はローカルでad-hoc署名し、`~/Library/Input Methods/Stateless-azooKey.app` へインストールします。第三者へ渡せる署名済みバイナリは生成しません。その後、ログアウト→再ログイン→入力ソース追加を行ってください。
 
 開発中はazooKeyのプロセスをkillすることで最新版を反映することが出来ます。また、必要に応じて入力ソースからazooKeyを削除して再度追加する、macOSからログアウトして再ログインするなど、リセットが必要になる場合があります。
 
 ### 開発時のトラブルシューティング
 
-`install.sh`でビルドが成功しない場合、以下をご確認ください。
+`LocalModel/build.sh`でビルドが成功しない場合、以下をご確認ください。
 
-* 署名エラーで失敗する場合は、上記「署名の設定」が完了しているかを確認してください（Team変更とバンドルID置換の両方が必要です）
 * 「Packages are not supported when using legacy build locations, but the current project has them enabled.」と表示される場合は[https://qiita.com/glassmonkey/items/3e8203900b516878ff2c](https://qiita.com/glassmonkey/items/3e8203900b516878ff2c)を参考に、Xcodeの設定をご確認ください
 * Xcode 26.0ではビルドできない可能性があります。Xcode 16系または26.1以降をご利用ください。
 
 変換精度がリリース版に比べて悪いと感じた場合、以下をご確認ください。
 * Git LFSが導入されていない環境では、重みファイルがローカル環境に落とせていない場合があります。`azooKeyMac/Resources/gguf/ggml-model-Q5_K_M.gguf` が数十MB以上あるかを確認し、ポインタのままであれば `git -C azooKeyMac/Resources/gguf lfs pull` を実行してください
-
-### pkgファイルの作成
-`pkgbuild.sh`によって配布用のdmgファイルを作成できます。`build/azooKeyMac.app` としてDeveloper IDで署名済みの.appを配置してください。
-
-### v1.0リリースに向けて
-[meta: v1.0のリリースに向けたロードマップ（#181）](https://github.com/azooKey/azooKey-Desktop/issues/181)をご覧ください．
 
 ## Community Forks
 

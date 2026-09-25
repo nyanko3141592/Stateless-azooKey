@@ -16,7 +16,20 @@ private func languageLabels(_ d: JevMixedDecision) -> [Bool] {
         [("Slack",false),("no",true),("screenshot",false),("wookuttekudasai",true)],
         [("GitHub",false),("no",true),("branch",false),("wokaetekudasai",true)],
         [("kono",true),("file",false),("wo",true),("Slack",false),("dekyouyuushitekudasai",true)],
-        [("ashitano",true),("meeting",false),("no",true),("link",false),("wooshietekudasai",true)]
+        [("ashitano",true),("meeting",false),("no",true),("link",false),("wooshietekudasai",true)],
+        [("ano",true),("playlist",false),("wo",true),("download",false),("shite",true),("offline",false),("dekikitaidesu",true)],
+        [("tsugino",true),("slide",false),("no",true),("title",false),("to",true),("subtitle",false),("woirekaemasu",true)],
+        [("playlist",false),("wonagashitekudasai",true)],
+        [("asayoyakushita",true),("ticket",false),("wokakuninshimasu",true)],
+        [("kuukounitsukumaeni",true),("boarding",false),(" ",false),("pass",false),("wohozonshitekudasai",true)],
+        [("shigotonishuuchuushitaitokiha",true),("focus",false),(" ",false),("mode",false),("wotsukaimasu",true)],
+        [("ashitanokaigidemiseru",true),("prototype",false),("woyouishimashita",true)],
+        [("shucchoudetsukau",true),("voucher",false),("woinsatsushiteokimasu",true)],
+        [("konodougano",true),("background",false),(" ",false),("music",false),("noonryouwosukoshisagemasu",true)],
+        [("kyouno",true),("notebook",false),("womisetekudasai",true)],
+        [("kinouno",true),("Zoom",false),("no",true),("recording",false),("wo",true),("Drive",false),("nihozonshita",true)],
+        [("onseiwo",true),("record",false),("shitekara",true),("noise",false),("woherashimasu",true)],
+        [("Docker",false),("nosetteiwonaoshimashita",true)],
     ]
     for pieces in cases {
         let raw = pieces.map(\.0).joined()
